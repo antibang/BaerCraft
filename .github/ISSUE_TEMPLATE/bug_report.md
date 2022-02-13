@@ -7,32 +7,33 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**RULES (READ FIRST)!**\
+
+If you have a general question or need something, join the Discord. Make sure I haven't already reported it. Consider these few things **BEFORE** reporting your bug:
+
+**1\.** Is your modpack up to date?
+
+**2\.** Do you have enough RAM allocated? (Which should be a minimum of 5GB, preferably 6GB)
+
+**3\.** Do you have TOO MUCH allocated? (Currently, too much would be more than 10GB, which can cause just as many problems as too little!!!)
+
+**4\.** Do you have OptiFine HD G8 installed? (This can help me further investigate if OptiFine might help with your issue, or if it's causing it)
+
+**5\.** Have you added additional mods, other than OptiFine, or changed configs/scripts? (I cannot help you if you don't specify what you've changed!/)
+
+**If you've made sure all of those things are correct then proceed to report the bug:**
+
+**Describe the Bug**
+Give as much detail about the bug as you can while being legible.
 
 **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+Steps to reproduce
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+Only add screenshots if they're needed
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Additional Information**
+Is there anything else I need to know about the bug?
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+**Crash Reports / Logs**
+Always provide logs and/or crash reports. For the love of god, **DO NOT** copy and paste the crash reports or logs. Instead use paste sites like Pastebin or Hastebin.
