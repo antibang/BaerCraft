@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "baers_additions:platinum_ingot"
+    },
+    "title": "You Found Platinum?",
+    "description": "Nice.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/exploration",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "baers_additions:platinum_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

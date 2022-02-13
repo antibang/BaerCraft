@@ -1,0 +1,15 @@
+{
+    "name": "Ore Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I sometimes like to paint my terrain with some ores because it can simulate distressed terrain or just to simply look like a mineral. If you download a resource pack called Ore Variants, it can look even better since this pack randomizes the ore textures so they don’t all look the same.$(br2)Another thing is that there are different stone block ores like terracotta, basalt,"
+        },
+        {
+            "type": "text",
+            "text": "sandstone and even ice (though it’s hard to see except coal kinda)! So ores have a little more diversity to play around with."
+        }
+    ]
+}

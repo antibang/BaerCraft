@@ -1,0 +1,30 @@
+{
+  "entity": "minecraft:cave_spider",
+  "name": "Arag the Lurker",
+  "visualscale": 1.5,
+  "experience": 300,
+  "effects": {
+    "minecraft:resistance": 1
+  },
+  "attributes": {
+    "generic.max_health": 60,
+    "generic.follow_range": 50,
+    "generic.attack_damage": 5,
+    "generic.knockback_resistance": 10
+  },
+  "customattributes": {
+  },
+  "gear": {
+  },
+  "ai-goals": {
+    "brutalbosses:spitcobweb": {
+      "projectile_interval": 200,
+      "projectile_distance": 20
+    },
+    "brutalbosses:aftercombatregen": {
+      "amount": 2
+    }
+  },
+  "spawnatchest": {
+  }
+}

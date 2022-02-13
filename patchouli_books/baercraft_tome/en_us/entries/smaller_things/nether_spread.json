@@ -1,0 +1,11 @@
+{
+    "name": "Nether Portal Spread",
+    "icon": "minecraft:crying_obsidian",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Once you activate your nether portal, you might notice a message at the bottom of your screen. If you read it, you know what's going on and how to stop it. Though, if you're unsure and can't remember: you must place 12 crying obsidian around the portal to stop the spread. Don't worry, though! It only spreads 30 blocks.$(br2)$(italics)$(strike)Or just break the portal, you goober."
+        }
+    ]
+}

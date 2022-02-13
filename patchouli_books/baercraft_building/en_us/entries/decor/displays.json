@@ -1,0 +1,11 @@
+{
+    "name": "Curios and Sword Displays",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I love the curios displays. Even though they’re small, they’re still pretty neat. The item that you place inside of it follows you around, so it’s a nice little touch! Sword displays are also a nice added decoration item because you can insert any sword like item; not just vanilla swords!"
+        }
+    ]
+}

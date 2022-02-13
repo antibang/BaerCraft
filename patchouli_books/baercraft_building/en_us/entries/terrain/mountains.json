@@ -1,0 +1,39 @@
+{
+    "name": "Mountains",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is singlehandedly the most time consuming thing you can do, at least if you’re making large mountains. If you're expecting to make mountain ranges up to build height, then you might want to look into World Painter… you'll be spending months on your mountains if you go with the WorldEdit route. But for standard sized mountains, WorldEdit is your friend. $(l:https://onedrive.live.com/redir?resid=B340CD9A401A76DA%21111&page=View&wd=target%28Terraforming%2FTerraforming%20Examples%2FMountains.one%7Ccf5b1e49-1723-4e4c-90a9-231deb254992%2FMini-Walkthrough%7C9efb13f7-29da-f04a-92d1-4fd6b40f462e%2F%29&wdorigin=703&wdpreservelink=1)$(#e2a3ff)Jump to here if you want a"
+        },
+        {
+            "type": "text",
+            "text": "$(l:https://onedrive.live.com/redir?resid=B340CD9A401A76DA%21111&page=View&wd=target%28Terraforming%2FTerraforming%20Examples%2FMountains.one%7Ccf5b1e49-1723-4e4c-90a9-231deb254992%2FMini-Walkthrough%7C9efb13f7-29da-f04a-92d1-4fd6b40f462e%2F%29&wdorigin=703&wdpreservelink=1)$(#e2a3ff)mini-walkthrough.$() Here are some of my tips:$(br2)Make the base layers stone and once you’ve reached about half of the height that you want, switch to sand because it will cascade and you won’t get as many air pockets and/or blocks hanging over the bottom layers. Here are some of the commands I use:$(br2)$(italics)' = start/end of command$(br2)- = a command that goes hand in hand with the other. Such"
+        },
+        {
+            "type": "text",
+            "text": "$(italics)as setting the brush’s mask.$()$(br2)'//brush sphere stone [size]' (I typically use 5-15 depending on the size of the mountain)$(br2)'//brush sphere sand [size]’ - '/mask air'$(br2)'//brush cyl sand [radius]' - ‘/mask air'$(br2)'//brush smooth [width] [height]' (Make sure to smooth before you change the sand! It makes everything so much easier)"
+        },
+        {
+            "type": "text",
+            "text": "I also enjoy using the deform command/brush WorldEdit offers, but I’m not very good at it yet!$(br2)The sand cylinder brush is useful for creating walls, tall edges or really just giving your mountain various heights. Once you’ve completed your mountain, it’s time to turn that sand into whatever block you want.$(br2)$(italics)Assuming you’ve already set position 1 and position 2 using '//pos1' and '//pos2'.$()"
+        },
+        {
+            "type": "text",
+            "text": "'//replace [x] [y]'$(br2)OR$(br2)'//naturalize' (This command makes it where each block will have a 3 block layer of dirt and a layer of grass on top of it, so it looks much more natural)$(br2)Then, after you have your preferred top layer painted, it’s time to go in and add variations of blocks. If you have a vanilla stone mountain, I’d suggest texturing it with"
+        },
+        {
+            "type": "text",
+            "text": "more stone types like andesite and cobblestone as it gives it way more depth. An example:$(br2)'//replace stone 70%stone,20%andesite,10%cobblestone'$(br2)To add even more texture, I’d suggest adding contrasting block types like granite, marble or whatever else you think might look good! Also, the new textures you add should be more like clusters much like they’d be on vanilla mountains or underground. I typically blend mine a little"
+        },
+        {
+            "type": "text",
+            "text": "bit towards the edges so they’re not blunt. You can either go in by hand and do this or using a WorldEdit brush. Example:$(br2)'//brush sphere granite 5' - ‘//mask stone,andesite,cobblestone'$(br2)To blend:$(br2)'//brush sphere 45%stone,10%andesite,5%cobblestone,40%granite' - ‘//mask stone,andesite,cobblestone,granite'"
+        },
+        {
+            "type": "text",
+            "text": "It can be any mountain you like! This is just a general example, so mix and match any blocks you want.$(br2)Patches, slabs, stairs, speleothems and chiseled rocks can add a bunch of texturing, too. I’d also suggest adding some caves on the outside of your mountain so it’s not as flat. Jump to the Cave section to learn how I typically make caves!"
+        }
+    ]
+}

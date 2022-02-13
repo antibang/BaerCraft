@@ -1,0 +1,35 @@
+
+[Client]
+	#Lifetime of physics particles in seconds. It automatically adds a random amount between 0 and 3 seconds to each spawned particle.
+	#Range: 0.1 ~ 10000.0
+	particleLifetime = 4.0
+	#Enable/Disable block physics.
+	blockPhysics = true
+	#Maximum number of active physics objects in the world. Higher numbers also result in better quality fractures being used when a lot of objects are active. This number literally decides if you want to kill your PC or not.
+	#Range: 10 ~ 10000
+	maxPhysicsObjects = 500
+	#Enable/Disable mob physics blood.
+	mobBlood = true
+	#Enable/Disable mob physics.
+	mobPhysics = true
+	#Enable/Disable whether killed mobs should fracture or drop in their individual blocky parts.
+	mobBlockyPhysics = false
+	#Range activation of physics measured in blocks. High numbers are not adviced because a lot of gravel will drop in freshly generated ocean biomes which cause a lot of physics and lag.
+	#Range: 10 ~ 250
+	physicsRange = 10
+	#Scales the size of the blocks (when they are blocking your view too much).
+	#Range: 0.05 ~ 4.0
+	blockPhysicsScale = 0.429999977350235
+
+[Server]
+	#Maximum number of collapsing block events that get caused by one update.
+	#Range: 1 ~ 5000
+	maxCollapseObjects = 1
+	#Collapsing speed in ticks. 0 means instant collapse.
+	#Range: 0 ~ 500
+	collapseSpeed = 373
+	#Enable/Disable collapsing blocks.
+	collapse = false
+	#Enable/Disable dropping blocks.
+	dropBlocks = true
+

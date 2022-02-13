@@ -1,0 +1,17 @@
+{
+    "name": "Attack Resistance",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/resist",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one attack resistance token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:resistance_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/resist"
+}

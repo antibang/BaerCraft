@@ -1,0 +1,11 @@
+{
+    "name": "Luminous Fungus",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I’ve never been good at lighting, especially large areas outside. There’s a mushroom like plant called luminous fungus. If you don’t like lighting the outside of your base with torches, these are a great alternative."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Create Items",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I’m a sucker for the Create mod. I know very little about Create (the literal putting together machines part), but the few contraptions I have going on add a bunch of character to my base. I have an automatic sorter using conveyer belts, tunnels, mechanical arms, funnels and windows. It’s pretty cool!"
+        }
+    ]
+}

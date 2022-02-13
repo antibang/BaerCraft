@@ -1,0 +1,11 @@
+{
+    "name": "Masking",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:worldedit",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Masking is something you use when using a brush. It’s basically saying ‘only affect this block’. Like if I was using a brush to paint grass block over existing terrain, but only wanted the grass to replace certain blocks, I’d use a mask: '/mask stone,cobblestone'"
+        }
+    ]
+}

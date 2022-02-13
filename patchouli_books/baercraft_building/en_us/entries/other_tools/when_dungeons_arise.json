@@ -1,0 +1,19 @@
+{
+    "name": "When Dungeons Arise",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:other_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "One thing I’ve enjoyed exploring is using When Dungeons Arise’s foundation blocks. Those foundations will generate the structure when placed on a block. They are really, really useful for adding diversity in builds around whatever you’re doing.$(br2)I typically remove the spawners so I don’t end up with countless amounts of hostile mobs around me."
+        },
+        {
+            "type": "text",
+            "text": "The random house is one of my favorites as it just looks like a house and it randomizes each time you use the foundation block!$(br2)As of BaerCraft version 0.3.8, the foundation blocks have been removed from the mod's side. Since this section impacts so little people, the update is more than worth it. So, disregard everything I've mentioned above and do this instead (I'm only keeping the portion above for those who haven't/don't want to update"
+        },
+        {
+            "type": "text",
+            "text": "their modpack):$(br2)Copying and pasting the structures is about all you can do. It can be annoying since you'll most likely have some cleaning up to do, but I suggest once you have done that to save your structure as a schematic, so that you can paste them whenever you want. The hard part is finding the structure you want."
+        }
+    ]
+}

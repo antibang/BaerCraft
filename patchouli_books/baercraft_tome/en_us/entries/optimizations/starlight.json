@@ -1,0 +1,19 @@
+{
+    "name": "Starlight",
+    "icon": "thermal:gold_coin"   ,
+    "category": "patchouli:optimization_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Client OR server sided ($(#e2a3ff)$(l:https://github.com/PaperMC/Starlight/releases/tag/1.0.0-RC2)Download$())$(br2)$(#e2a3ff)My recommonded usage:$()$(br)Download Starlight 1.0.0-RC2 from GitHub $(bold)(starlight-forge-1.0.0-RC2-1.16.5.jar)$(). Like any other mod, you just put it into the mods folder and run the game. $(br2)$(#ff0000)WARNINGS:$()$(br)Like RoadRunner, Starlight has an unknown incompatibility with"
+        },
+        {
+            "type": "text",
+            "text": "something about BaerCraft, so unfortunately, servers using my modpack will either have to wait until it works with existing worlds, or create a new one altogether.$(br2)$(#e2a3ff)Mod info:$()$(br)Starlight is a mod for rewriting the light engine to fix lighting performance and lighting errors. Minecraft’s lightning engine is ungodly slow, causing servers to suffer immense performance issues and severe TPS complications. Starlight's"
+        },
+        {
+            "type": "text",
+            "text": "algorithm reduces light gets by 7x and block reads by 6x – 42x (in theory I guess)"
+        }
+    ]
+}

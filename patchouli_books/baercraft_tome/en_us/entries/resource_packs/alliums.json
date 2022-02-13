@@ -1,0 +1,12 @@
+{
+    "name": "Colorful Alliums",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/colourful-alliums-by-dapperloosh)Colorful Alliums$()$(br2)This pack adds many different variations for alliums. There are 8 new textures, so it spices things up compared to the boring singular vanilla style."
+        }
+    ],
+    "sortnum": 3
+}

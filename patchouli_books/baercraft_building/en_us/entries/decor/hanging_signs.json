@@ -1,0 +1,11 @@
+{
+    "name": "Hanging Signs",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "These are neat little signs that look similar to a vanilla sign. They hang off of almost any solid block."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Mossy Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Again, an underrated building material. There are a ton of mossy blocks like dirt, stone, andesite and some others as well. Depending on the build, the more the better and others the less the better. Say you’re making a water feature of some sort, a cluster of mossy blocks might make a good addition. Moss really grows anywhere, so throw it in any terrain and it’ll look good."
+        }
+    ]
+}

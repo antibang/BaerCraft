@@ -1,0 +1,11 @@
+{
+    "name": "Speleothems",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "These are blocks that come in some vanilla textures. You can stack them on top of each other as much as you want. If you just place one, it kind of looks like a rock and if you continue to stack them, it’ll look pointy!"
+        }
+    ]
+}

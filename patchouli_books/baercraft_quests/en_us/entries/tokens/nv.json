@@ -1,0 +1,17 @@
+{
+    "name": "Night Vision",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/nv",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one night vision token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:night_vision_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/nv"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Crates",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are blocks called crates. There are a handful of different types: golden apples, apples, potatoes, carrots and beetroots. These can be cute additions to builds like a shop."
+        }
+    ]
+}

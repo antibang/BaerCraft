@@ -1,0 +1,27 @@
+{
+    "name": "Caves",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Caves are a huge part of this modpack. Everyone likes caves, so it’ll be very easy to find one that you like. Caves are something that are very unique, so there isn’t any specific way it should look at the end. I would suggest using a bit of WorldEdit while carving out caves and cleaning them up. Here are some I frequently use:$(br2)$(italics)' = start/end of command"
+        },
+        {
+            "type": "text",
+            "text": "$(italics)- = a command that goes hand in hand with the other. Such as setting the brush’s mask.$(br2)Assuming you’ve already set position 1 and position 2 using '//pos1' and '//pos2'.$()$(br2)'//replace subwild:[x]_patch air' (DO NOT use this command unless you’ve selected a region using the position commands or else this will replace every single patch around you)"
+        },
+        {
+            "type": "text",
+            "text": "'//replace subwild:[x]_speleothem air'$(br2)'//replace [x]_slab,[x]_stairs air$(br2)'//brush sphere air [size]' '//mask #solid'$(br2)'//brush sphere 65%stone,20%andesite,10%cobblestone,5%subwild:mossy_stone 5' - '//mask #solid'$(br2)To blend and texture your cave, I suggest consulting with the Blending Terrain section"
+        },
+        {
+            "type": "text",
+            "text": "previous to this one or my generic WorldEdit category as the same rules apply. Unfortunately, the WorldEdit smoothing tool does not work in anything that has a roof, so you’re going to have to smooth caves by hand.$(br2)Now that you’ve cleaned up the cave and have textured it, it’s time to add some depth to it! I personally enjoy the slabs, stairs and patches, but if it’s supposed to be a base or something I’m going to be in frequently, I tend to keep"
+        },
+        {
+            "type": "text",
+            "text": "everything toned down so it’s a lot easier to navigate. Try to use different slab and stair textures as it can really help with adding more depth to everything. I also enjoy using leaves to simulate underground foliage growth along with mushrooms and other plants that are placeable on stone types."
+        }
+    ]
+}

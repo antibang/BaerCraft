@@ -1,0 +1,12 @@
+{
+    "name": "Chubby Cheeks",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/chubby-cheeks)Chubby Cheeks$()$(br2)This resource pack retextures many different mobs, making them a bit more detailed, but still preserving their vanilla style. There are variants of certain mobs as well."
+        }
+    ],
+    "sortnum": 15
+}

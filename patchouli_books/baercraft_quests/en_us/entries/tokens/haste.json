@@ -1,0 +1,17 @@
+{
+    "name": "Haste",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/haste",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one haste token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_haste"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/haste"
+}

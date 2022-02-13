@@ -1,0 +1,11 @@
+{
+    "name": "Barley",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I love the barley fields in Biomes O’ Plenty, but I typically don’t enjoy playing with a whole bunch of new biomes. I love using barley in clusters as another plant to add to my base."
+        }
+    ]
+}

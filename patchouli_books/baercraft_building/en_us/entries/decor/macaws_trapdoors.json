@@ -1,0 +1,11 @@
+{
+    "name": "Macaw's Trapdoors",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This mod adds a bunch of new trapdoors, and existing trapdoors, in vanilla wood types. They really help expand the range of items to decorate your builds with."
+        }
+    ]
+}

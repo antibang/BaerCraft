@@ -1,0 +1,11 @@
+{
+    "name": "Dolomite",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Similar to marble, dolomite is also clean and simple. I like texturing my marble builds with a bit of dolomite."
+        }
+    ]
+}

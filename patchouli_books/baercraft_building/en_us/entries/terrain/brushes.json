@@ -1,0 +1,11 @@
+{
+    "name": "WorldEdit Brushes",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you don’t know how to use WorldEdit, I highly suggest learning how to use brushes if you enjoy terraforming. It makes the process so, so much less painful and can really help make your terrain look a lot cleaner. If you’re interested in what WorldEdit commands I use, go on over to that category because I mention these brushes often throughout this book."
+        }
+    ]
+}

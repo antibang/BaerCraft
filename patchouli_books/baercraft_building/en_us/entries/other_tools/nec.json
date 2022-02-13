@@ -1,0 +1,15 @@
+{
+    "name": "Not Enough Creativity",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:other_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "When you go to your inventory while in creative, there’s an arrow to the bottom right. If you click on it you’ll be redirected to a new GUI. On the top are a handful of helpful tools to aide you in building such as super speed, free flight, long reach, no clip, night vision, pick swap, no break delay, allow damage, instant kill and no item pickup."
+        },
+        {
+            "type": "text",
+            "text": "(The night vision option does not work with shaders on)"
+        }
+    ]
+}

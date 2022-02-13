@@ -1,0 +1,15 @@
+{
+    "name": "Commands & Command Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:other_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I like using the kill command to clear every dropped item on the ground. It can be oh so very useful when using sand to terraform because any block that has gravity will break if there’s certain things under it (like placing a torch under a dragon egg). So you can end up with thousands of items on the ground and can either cause your frames to plummet and/or create a bunch of lag. The command is:"
+        },
+        {
+            "type": "text",
+            "text": "$(br)‘/kill @e[type=minecraft:item]’$(br2)I enjoy using command blocks to act as a teleporter. It’s very useful and it saves me a bunch of time to either type in the command over and over or setting a waypoint to the location. I typically just place a button or pressure plate on top of it and it sends me off!"
+        }
+    ]
+}

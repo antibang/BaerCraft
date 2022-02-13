@@ -1,0 +1,19 @@
+{
+    "name": "Schematics",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:worldedit",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A schematic is a useful tool in WorldEdit that allows you to save buildings/structures/anything you can copy to use for later! I feel like this is obviously as to why this is handy and a very nice feature.$(br2)Also, you can move schematics between worlds and they'll be saved in the WorldEdit config (minecraft/config/worldedit/schematics)."
+        },
+        {
+            "type": "text",
+            "text": "If you wanted to relocate a certain one you created say to your multiplayer server, all you’d have to do is (preferably) copy that file and paste it into the server’s WorldEdit config folder.$(br2)How to create a schematic (make sure to copy your build first):$(br2)‘//schematic save [file name] -f to overwrite an existing file'$(br2)To load:"
+        },
+        {
+            "type": "text",
+            "text": "‘//schematic load [file name]’"
+        }
+    ]
+}

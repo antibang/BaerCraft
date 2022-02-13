@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "betteranimalsplus:deerhead_4",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:deerhead_3",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:deerhead_2",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:deerhead_1",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

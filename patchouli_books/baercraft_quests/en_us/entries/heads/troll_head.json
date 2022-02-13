@@ -1,0 +1,28 @@
+{
+    "name": "Troll",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/troll",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 skull from a troll. $(br2)$(6)$(bold)Where are they found?:$() Trolls are found in tundras, mountains and forests."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:troll{Variant: 1}",
+            "text": "Frost variant."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:troll{Variant: 2}",
+            "text": "Mountain variant."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:troll{Variant: 0}",
+            "text": "Forest variant."
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/troll"
+}

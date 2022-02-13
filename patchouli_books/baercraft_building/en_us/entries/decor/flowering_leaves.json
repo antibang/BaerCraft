@@ -1,0 +1,11 @@
+{
+    "name": "Flowering Oak Leaves",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I just think these leaves are so pretty! I love blending the flowering oak leaves with plain oak leaves."
+        }
+    ]
+}

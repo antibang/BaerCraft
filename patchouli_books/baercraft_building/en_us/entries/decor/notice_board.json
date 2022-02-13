@@ -1,0 +1,11 @@
+{
+    "name": "Notice Board",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Notice boards are another sign item that can be an alternative to other signs. You can place an item (to display it like an item frame), a map or a book with writing in it to display text. Note that you need to add spaces, and I mean a lot, under your text in the book to resize the font on the notice board. I usually use about 2-3 lines of spaces alone to resize the text where I want it."
+        }
+    ]
+}

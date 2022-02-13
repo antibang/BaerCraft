@@ -1,0 +1,27 @@
+{
+    "name": "Copying and Pasting",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:worldedit",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Copying and pasting is something people find a little difficult and confusing. I’m not great at explaining things but here I am.$(br2)Say you’re copying your base to move it somewhere. You should try to set position 1 and position 2 in the smallest radius possible so you don’t copy anything you don’t want included. This also limits the block counts, so if you're"
+        },
+        {
+            "type": "text",
+            "text": "copying a large build, you may be taking millions of air blocks with it! Aka, you might crash! To avoid this, use ‘//copy -a’.$(br2)Make sure to set position 1 or 2 at the shortest block and position 1 or 2 at the tallest block so that you copy EVERYTHING. The easiest way to copy is by standing in the middle or near the middle outside positions you just set (so you’re outside of the copy box). Say you’re standing 5 blocks away from the"
+        },
+        {
+            "type": "text",
+            "text": "area you’re copying; your build is going to paste 5 blocks in front of you wherever you’re pasting it.$(br2)Onto pasting more in depth - the most difficult part for most. Say you copied it like I said before, but you’re also standing north when you executed the copy command (the minimap is very useful for this instead of having to press F3). If you stand east and paste, you’re going to find that it’s to your left and not in front of you."
+        },
+        {
+            "type": "text",
+            "text": "To combat this, you can rotate your clipboard (the thing you copied). If you are still standing eastward and type in the command ‘//rotate 90’, you’ll find your build is in front of you again! I suggest only using measurements increasing by 90 or else your build will break when pasting (90, 180, 270 and 360 are the correct increments).$(br2)Oh no! Your build is destroying all the blocks around it in a cube like fashion? Solution: when pasting use the command,"
+        },
+        {
+            "type": "text",
+            "text": "‘//paste -a’ and it will ignore all the air blocks that you copied. This also helps if you’re trying to avoid blending your build in since everything around where it pasted will be undisturbed."
+        }
+    ]
+}

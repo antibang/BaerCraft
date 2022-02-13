@@ -1,0 +1,19 @@
+{
+    "name": "Dynamic Tree Removal",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Maybe I'm just dumb and didn’t know this command existed, 'dt purgetrees [location] [radius]'$(br2)The reason I find this important is I just learned that trees have a 'trunk shell' block that are meant to provide a collision box for a thick trunk, aka the trees you'd find in biomes like Giant Tree Taigas (and all the other mega trees)."
+        },
+        {
+            "type": "text",
+            "text": "While terraforming earlier, I had mass removed trees in a Giant Spruce Taiga using my usual,$(br2)'//brush sphere air [size]' - '/mask dynamictrees:spruce_branch,dynamictrees:spruce_leaves'.$(br2)Though I noticed I was left with these 'holes' when trying to smooth the terrain. So, I reported a bug on the Dynamic Trees GitHub, and I was told that this is basically the incorrect way of doing this lol"
+        },
+        {
+            "type": "text",
+            "text": "If you do the same thing I do (masking the branches and leaves), I'd suggest to start masking the trunk shell as well or you're going to have the same problem as me. Or you could simply use the tree purging command I mentioned at the beginning of this section and was recommended to use.$(br2)Personally, I'm still going to stick with my brushes, but adding the trunk shell block to my mask because it gives me way more control over what I'm removing!"
+        }
+    ]
+}

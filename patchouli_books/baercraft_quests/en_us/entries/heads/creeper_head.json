@@ -1,0 +1,17 @@
+{
+    "name": "Creeper",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/creeper",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 creeper head from a creeper. $(br2)$(6)$(bold)Where are they found?:$() Creepers are found everywhere in the overworld."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:creeper"
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/creeper"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Glass Item Frames",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Item frames can look a little weird sometimes, so I like using a glass item frame. Once you place an item in it, the glass behind it disappears! You can use these for a bunch of different things."
+        }
+    ]
+}

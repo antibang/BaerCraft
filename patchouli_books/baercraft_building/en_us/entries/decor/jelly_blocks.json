@@ -1,0 +1,11 @@
+{
+    "name": "Jelly Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I just like the jelly blocks idk they look funny."
+        }
+    ]
+}

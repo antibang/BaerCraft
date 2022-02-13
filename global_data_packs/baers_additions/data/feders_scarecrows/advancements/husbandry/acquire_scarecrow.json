@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "feders_scarecrows:scarecrow"
+    },
+    "title": "Brain Not Included!",
+    "description": "Acquire a scarecrow",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

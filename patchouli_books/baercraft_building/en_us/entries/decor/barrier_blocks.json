@@ -1,0 +1,11 @@
+{
+    "name": "Barrier Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "While you can only get barrier blocks through a command, they still make for very useful building blocks. You can place just about everything you could on a normal solid block on a barrier! I use them to stop saplings and bamboo from growing, sometimes as windows, and other things.$(br2)To get a barrier, use this command: ‘/give @p minecraft:barrier_block’"
+        }
+    ]
+}

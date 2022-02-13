@@ -1,0 +1,229 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = name_of_your_panorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-centered
+  x = 34
+  action = movebutton
+  y = 254
+}
+
+customization {
+  identifier = %id=604382%
+  width = 26
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/discord.png
+  backgroundnormal = config/fancymenu/buttons/discord.png
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = 0
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/hoptions.png
+  backgroundnormal = config/fancymenu/buttons/options.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = 102
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/hquit.png
+  backgroundnormal = config/fancymenu/buttons/quit.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-centered
+  x = -66
+  action = movebutton
+  y = 254
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/hosting.png
+  backgroundnormal = config/fancymenu/buttons/hosting.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = config/fancymenu/buttons/baercraft.png
+  orientation = element
+  orientation_element = vanillabtn:400298
+  x = 10
+  width = 179
+  action = addtexture
+  actionid = 40934703-6731-4842-b919-12280fa624431634999903585
+  y = -139
+  height = 124
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config/fancymenu/buttons/hbisect.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:400382
+  x = 0
+  width = 98
+  actionid = a87fb25f-8943-4b27-89fd-b3cc398f6f3a1635000007688
+  action = addbutton
+  y = 25
+  backgroundnormal = config/fancymenu/buttons/bisect.png
+  value = sponsor.menu
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/buttons/hdiscord.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:502382
+  x = 0
+  width = 98
+  actionid = d8d9374f-43ed-42c2-aace-df93eba5d8b91635000359934
+  action = addbutton
+  y = 25
+  backgroundnormal = config/fancymenu/buttons/discord.png
+  value = https://discord.gg/rA2j3nsNxt
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/hmultiplayer.png
+  backgroundnormal = config/fancymenu/buttons/multiplayer.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/hsingleplayer.png
+  backgroundnormal = config/fancymenu/buttons/singleplayer.png
+}
+

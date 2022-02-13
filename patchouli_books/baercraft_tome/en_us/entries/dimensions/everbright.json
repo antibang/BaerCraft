@@ -1,0 +1,11 @@
+{
+    "name": "The Everbright",
+    "icon": "blue_skies:star_flare",
+    "category": "patchouli:dimension_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "To get to the Everbright, you need turquoise stone bricks. You can only find them in the overworld at the gatekeeper’s house. It’s a fairly rare structure, but it’s around. He sells zeal lighters which you need to light the portal, too. You can just light the portal when you find it, or you can steal the bricks and construct them like a nether portal at your base!"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "So many dragons!",
+    "icon": "iceandfire:dragon_skull_lightning",
+    "category": "patchouli:questions_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(bold)Help! There are so many dragons underground!$()$(br2)Yes, I know there are $(italic)quite$() a few dragons underground. This is, in fact, intentional. It is part of the lore that I have yet to finish.$(br2)If you are not fond of this many dragons, you are more than welcome to edit the config yourself."
+        },
+        {
+            "type": "text",
+            "text": "How to locate the config:$(br2)$(bold)BaerCraft / configs / iceandfire-common.toml$()$(br2)On line 40, there’s the option to change how frequent dragon caves generate. The $(bold)lower the number$(), the $(bold)more common$() they are."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Jars and Chains",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can jar any mob in the game… unfortunately. This is in no doubt overpowered and I believe there may now be a way to blacklist mobs from the jars, but anyways. I love catching mobs in these jars just for display. I like pairing them up with a chain so it looks like they’re hanging down from the ceiling."
+        }
+    ]
+}

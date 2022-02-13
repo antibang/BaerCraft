@@ -1,0 +1,12 @@
+{
+  "dragon_type": "ice",
+  "input_left": {
+    "item": "powder_power:ingot_quadrilium"
+  },
+  "input_right": {
+    "item": "iceandfire:ice_dragon_blood"
+  },
+  "result": {
+    "item": "iceandfire:dragonsteel_ice_ingot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "General Tips",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I 100% recommend using references of real-life terrain or terraforming other players have done in their own game. It can help a lot, but it's always good practicing without them as well.$(br2)Take your time! This is something I struggle with. I typically rush through everything just to get the job done or because I just want the final product, but this is"
+        },
+        {
+            "type": "text",
+            "text": "a one way ticket to a sloppy result.$(br2)You can practice basic skills in a flat world, but I wouldn't waste your time too much there and use the terrain that's already there. Flat worlds are usually better for actual builds and not terraforming.$(br2)At the end of the day, it’s your build and there are no rules on how to do certain things or how they should look."
+        },
+        {
+            "type": "text",
+            "text": "Experiment with different mixtures of blocks and practice blending.$(br2)No matter how good you are with terraforming with WorldEdit, you’ll always have to go in and smooth certain parts with your hands.$(br2)Do not place more than 7 blocks in a straight line when rounding terrain.$(br2)Odd numbers tend to look better, excluding 2."
+        },
+        {
+            "type": "text",
+            "text": "Foliage, foliage, foliage! For gods sake, add some flowers, ferns or leaves to the ground!"
+        }
+    ]
+}

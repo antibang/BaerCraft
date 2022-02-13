@@ -1,0 +1,11 @@
+{
+    "name": "Best Armor",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:early_game_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The best early-game armor materials would $(italics)still$() be diamond unless you somehow obtain netherite quickly. There’s also materials like trilium and quadrilium, but folk typically have to grind for those."
+        }
+    ]
+}

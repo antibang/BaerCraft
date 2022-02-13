@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dragonsteel_ice_helmet"
+    },
+    "title": [
+      {
+        "text": "Made of Dragonsteel",
+        "color": "purple",
+        "bold": true
+      }
+    ],
+    "description": "Make a full set of dragonsteel armor. Good job.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/exploration",
+  "criteria": {
+    "fire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_fire_helmet"
+          },
+          {
+            "item": "iceandfire:dragonsteel_fire_chestplate"
+          },
+          {
+            "item": "iceandfire:dragonsteel_fire_leggings"
+          },
+          {
+            "item": "iceandfire:dragonsteel_fire_boots"
+          }
+        ]
+      }
+    },
+    "ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_ice_helmet"
+          },
+          {
+            "item": "iceandfire:dragonsteel_ice_chestplate"
+          },
+          {
+            "item": "iceandfire:dragonsteel_ice_leggings"
+          },
+          {
+            "item": "iceandfire:dragonsteel_ice_boots"
+          }
+        ]
+      }
+    },
+    "lightning": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_lightning_helmet"
+          },
+          {
+            "item": "iceandfire:dragonsteel_lightning_chestplate"
+          },
+          {
+            "item": "iceandfire:dragonsteel_lightning_leggings"
+          },
+          {
+            "item": "iceandfire:dragonsteel_lightning_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire",
+      "ice",
+      "lightning"
+    ]
+  ]
+}

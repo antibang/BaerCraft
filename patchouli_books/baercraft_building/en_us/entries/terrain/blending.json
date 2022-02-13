@@ -1,0 +1,23 @@
+{
+    "name": "Blending Terrain",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Blended terrain makes everything look so much better and is easier on the eyes. Various amounts of blending looks better for different things and also the size of the area you are blending. WorldEdit brushes are so useful for blending because you can insert certain percentages of blocks so you get a mixture.$(br2)$(#e2a3ff)$(l:https://onedrive.live.com/redir?resid=B340CD9A401A76DA%21111&authkey=%21AI9PlX2XkJHiyAA&page=View&wd=target%28Terraforming%2FTerraforming%20Examples%2FBlending.one%7C22b12a9b-f84d-3d45-b229-0905dc2f745d%2F%29&wdorigin=717)Here are some examples of the"
+        },
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://onedrive.live.com/redir?resid=B340CD9A401A76DA%21111&authkey=%21AI9PlX2XkJHiyAA&page=View&wd=target%28Terraforming%2FTerraforming%20Examples%2FBlending.one%7C22b12a9b-f84d-3d45-b229-0905dc2f745d%2F%29&wdorigin=717)terrain I’ve blended together using WorldEdit to give you a better idea of what I mean$(). You can mix any amount or type of blocks together as long as it ends up equaling 100%. If you don’t specify a percent, it’ll randomize it for you:$(br2)For the brush commands to work, you must be using a tool of some sort. If you don’t want to use a brush, you can always use '//replace [x] [y]' or '//replacenear [radius] [x] [y]', though I suggest using brushes as they are much easier to"
+        },
+        {
+            "type": "text",
+            "text": "to use while blending or painting terrain.$(br2)$(italics)' = start/end of command.$(br2)- = a command that goes hand in hand with the other. Such as setting the brush’s mask.$()$(br2)‘//brush sphere 65%stone,20%andesite,10%cobblestone,5%subwild:mossy_stone 5’ - ‘/mask stone,andesite,cobblestone,subwild:mossy_stone'$(br2)'//brush sphere 60%grass_block,35%podzol,"
+        },
+        {
+            "type": "text",
+            "text": "5%coarse_dirt 5’ - '/mask grass_block,podzol,coarse_dirt,dirt'$(br2)Please... no stone on top of dirt. It looks weird."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Bamboo",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Bamboo can honestly be great for any biome as bamboo will grow nearly anywhere in the world (aside from cold climates)! I enjoy letting the bamboo grow anywhere from 2-5 blocks tall then placing a barrier block above it so it can no longer grow."
+        }
+    ]
+}

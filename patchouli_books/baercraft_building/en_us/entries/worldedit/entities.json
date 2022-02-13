@@ -1,0 +1,11 @@
+{
+    "name": "Entities",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:worldedit",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you’re wanting to copy and paste entities (including armor stands, item frames, etc), you’re going to have to use the following commands:$(br2)'//copy -e'$(br2)'//paste -e'"
+        }
+    ]
+}

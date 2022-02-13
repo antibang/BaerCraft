@@ -1,0 +1,43 @@
+
+# Ignore List
+[Ignore]
+	# Whether the block is one of the instance of the class in following list.
+	"Ignore Class" = ["net.minecraft.block.ContainerBlock", "net.minecraft.block.HorizontalBlock", "net.minecraft.block.AbstractCoralPlantBlock", "net.minecraft.block.AbstractBannerBlock", "net.minecraft.block.DoorBlock"]
+	# Mod will get a "Material list" according to following list.
+	# Then, check whether the block's material is in "Material list".
+	# WARN: you shouldn't remove "minecraft:air" from the list.
+	#     i.e. "minecraft:air"            -> Material.AIR
+	#          "minecraft:powered_rail"   -> Material.DECORATION
+	#          /* #Plants Start */
+	#          "minecraft:oak_leaves"     -> Material.LEAVES
+	#          "minecraft:oak_sapling"    -> Material.PLANT
+	#          "minecraft:kelp"           -> Material.WATER_PLANT
+	#          "minecraft:grass"          -> Material.REPLACEABLE_PLANT
+	#          "minecraft:warped_roots"   -> Material.REPLACEABLE_FIREPROOF_PLANT
+	#          "minecraft:seagrass"       -> Material.REPLACEABLE_WATER_PLANT
+	#          "minecraft:pumpkin"        -> Material.VEGETABLE
+	#          "minecraft:cactus"         -> Material.CACTUS
+	#          /* #Plants End */
+	#          "minecraft:fire"           -> Material.FIRE
+	#          "minecraft:glass"          -> Material.GLASS
+	#          "minecraft:nether_portal"  -> Material.PORTAL
+	#          "minecraft:anvil"          -> Material.HEAVY_METAL
+	#          "minecraft:sponge"         -> Material.SPONGE
+	#          "minecraft:tnt"            -> Material.EXPLOSIVE
+	"Ignore Material" = ["minecraft:air", "minecraft:powered_rail", "minecraft:oak_leaves", "minecraft:oak_sapling", "minecraft:kelp", "minecraft:grass", "minecraft:warped_roots", "minecraft:seagrass", "minecraft:pumpkin", "minecraft:cactus", "minecraft:fire", "minecraft:glass", "minecraft:nether_portal", "minecraft:anvil", "minecraft:sponge", "minecraft:tnt"]
+	# Whether the block is in following list.
+	"Ignore ResourceLocation" = ["minecraft:chain", "minecraft:barrier", "minecraft:iron_bars", "minecraft:bamboo_sapling", "minecraft:lantern", "minecraft:soul_lantern", "minecraft:cauldron", "minecraft:cake", "minecraft:stonecutter", "minecraft:jigsaw", "minecraft:composter", "minecraft:smithing_table", "minecraft:fletching_table", "minecraft:cartography_table", "minecraft:crafting_table", "minecraft:cobweb", "minecraft:redstone_lamp", "minecraft:spawner"]
+
+# Replace List
+[Replace]
+	# Give a mapping list to override.
+	"Replace BlockState" = [["minecraft:furnace", "minecraft:cobblestone"], ["minecraft:dispenser", "minecraft:cobblestone"], ["minecraft:piston", "minecraft:cobblestone"], ["minecraft:sticky_piston", "minecraft:cobblestone"], ["minecraft:piston_head", "minecraft:oak_planks"], ["minecraft:dropper", "minecraft:cobblestone"], ["minecraft:observer", "minecraft:cobblestone"], ["minecraft:coal_ore", "minecraft:stone"], ["minecraft:diamond_ore", "minecraft:stone"], ["minecraft:emerald_ore", "minecraft:stone"], ["minecraft:gold_ore", "minecraft:stone"], ["minecraft:iron_ore", "minecraft:stone"], ["minecraft:lapis_ore", "minecraft:stone"], ["minecraft:redstone_ore", "minecraft:stone"], ["minecraft:nether_gold_ore", "minecraft:netherrack"], ["minecraft:nether_quartz_ore", "minecraft:netherrack"], ["minecraft:lectern", "minecraft:oak_planks"], ["minecraft:bookshelf", "minecraft:oak_planks"], ["minecraft:end_portal_frame", "minecraft:end_stone"], ["minecraft:enchanting_table", "minecraft:obsidian"], ["minecraft:respawn_anchor", "minecraft:crying_obsidian"]]
+	# This mod picks block's texture from BlockModelShapes in runtime,
+	# and usually choose the side of block. Sometimes, it's not what we want.
+	# So, the following list will replace the pattern in actual got TexturePath.
+	#     i.e. ["minecraft:crimson_nylium", "minecraft:block/crimson_nylium"] means:
+	#          for "Block{minecraft:crimson_nylium}"
+	#          get "block/crimson_nylium_side.png" in "minecraft/" from BlockModelShapes
+	#          change it to block/crimson_nylium.png in "minecraft/"
+	"Replace TexturePath" = [["minecraft:crimson_nylium", "minecraft:block/crimson_nylium"], ["minecraft:warped_nylium", "minecraft:block/warped_nylium"], ["minecraft:grass_block", "minecraft:block/grass_block_top"], ["minecraft:grass_path", "minecraft:block/grass_path_top"], ["minecraft:podzol", "minecraft:block/podzol_top"], ["minecraft:mycelium", "minecraft:block/mycelium_top"]]
+

@@ -1,0 +1,11 @@
+{
+    "name": "Macaw's Doors",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This mod adds a bunch of different doors in all wood types plus some other types. I personally love the stable doors for my animal enclosures."
+        }
+    ]
+}

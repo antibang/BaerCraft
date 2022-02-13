@@ -1,0 +1,17 @@
+{
+    "name": "Dragon",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/dragon",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one dragon token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:token_dragon_egg"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/dragon"
+}

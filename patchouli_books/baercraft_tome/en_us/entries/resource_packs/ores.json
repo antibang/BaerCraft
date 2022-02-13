@@ -1,0 +1,12 @@
+{
+    "name": "Ore Variants",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/ore-variants)Ore Variants$()$(br2)While the new ore textures in 1.17 are a hit or miss for many people, a miss for myself at one point, I genuinely enjoy this pack. It adds many variations of the ores, so not every block is going to be the same as the one next to it."
+        }
+    ],
+    "sortnum": 5
+}

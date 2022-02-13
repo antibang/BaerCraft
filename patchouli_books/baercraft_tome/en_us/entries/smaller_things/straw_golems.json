@@ -1,0 +1,17 @@
+{
+    "name": "Straw Golems",
+    "icon": "minecraft:wheat",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Have you ever found farming to be annoying? Well, you can craft yourself something called a Straw Golem. You place one stack of hay, then a carved pumpkin on top and boom! They harvest and replant crops for you. They'll even throw them in a chest. Make sure the chest isn't too far though. Their little legs can't walk super far! P.S. - Don't make them carry heavy things..."
+        },
+        {
+            "type": "entity",
+            "entity": "strawgolem:strawgolem",
+            "scale": 0.9,
+            "offset": 0.1
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Charm Bookcases",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Charm bookcases are only available through creative since Quark’s cancels them out. I like these because you can actually place books in them and it displays the amount, so you can have a little more variation!"
+        }
+    ]
+}

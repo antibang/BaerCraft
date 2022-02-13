@@ -1,0 +1,43 @@
+{
+    "name": "Amphithere",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/amphithere",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 amphithere skull from an amphithere. $(br2)$(6)$(bold)Where are they found?:$() Amphitheres are found in jungles."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:amphithere{Variant: 0}",
+            "text": "Blue variant.",
+            "scale": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:amphithere{Variant: 1}",
+            "text": "Green variant.",
+            "scale": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:amphithere{Variant: 2}",
+            "text": "Olive variant.",
+            "scale": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:amphithere{Variant: 3}",
+            "text": "Red variant.",
+            "scale": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:amphithere{Variant: 4}",
+            "text": "Yellow variant.",
+            "scale": 0.3
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/amphithere"
+}

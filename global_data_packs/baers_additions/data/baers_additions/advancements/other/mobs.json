@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "jellyfishing:jellyfish"
+    },
+    "title": {
+      "text": "Mobs & Entities",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Everything mob related.",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

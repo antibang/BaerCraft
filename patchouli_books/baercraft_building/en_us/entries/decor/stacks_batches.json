@@ -1,0 +1,11 @@
+{
+    "name": "Stacks and Batches",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are blocks called stacks and batches. They’re mainly for bundling items to make more room in your storage, but I like using them sometimes as added decoration blocks throughout certain build types."
+        }
+    ]
+}

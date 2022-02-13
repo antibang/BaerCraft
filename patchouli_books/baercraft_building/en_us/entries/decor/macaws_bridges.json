@@ -1,0 +1,11 @@
+{
+    "name": "Macaw's Bridges",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This mod adds a bunch of different types of bridges. They look the nicest in shorter lengths in my opinion since they can’t connect on their sides, so really long bridges can look very narrow."
+        }
+    ]
+}

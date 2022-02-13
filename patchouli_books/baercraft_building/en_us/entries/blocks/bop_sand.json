@@ -1,0 +1,11 @@
+{
+    "name": "Biomes O' Plenty Sands",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This mod adds a few new sand types. They can be used as an alternative to vanilla sands. There’s white, orange and black sand which can make for really neat terrain."
+        }
+    ]
+}

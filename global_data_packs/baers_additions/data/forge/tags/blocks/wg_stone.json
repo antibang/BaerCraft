@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:granite",
+    "minecraft:andesite",
+    "minecraft:stone",
+    "minecraft:diorite",
+    "create:limestone",
+    "create:dolomite",
+    "create:weathered_limestone",
+    "quark:marble",
+    "create:limestone_cobblestone",
+    "minecraft:cobblestone",
+    "create:dolomite_cobblestone",
+    "create:gabbro",
+    "create:gabbro_cobblestone",
+    "create:andesite_cobblestone",
+    "subwild:mossy_andesite"
+  ]
+}

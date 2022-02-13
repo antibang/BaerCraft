@@ -1,0 +1,19 @@
+{
+    "name": "Frames & Shaders",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:misc",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Maybe a helpful tip you didn’t know is that playing in full screen actually improves your frames by quite a bit. And no, I don’t mean the “maximize” button. It’s an option under the video settings (video settings/other/fullscreen if you’re using OptiFine, which you should be!!!) Maybe this is all just common knowledge, but it really helped me out when I didn't have the best GPU :)"
+        },
+        {
+            "type": "text",
+            "text": "The higher resolution you go though causes a performance impact regardless if it’s in fullscreen or not. Even though I have a 5k monitor, I typically use 2880x1620 when I’m just playing normally/in the process of building and I use 5120x2880 when taking pictures!$(br2)I know most people don’t like playing in fullscreen, but it’s quite helpful for capturing your builds with shaders! I highly suggest using $(l:https://sildurs-shaders.github.io/)$(#e2a3ff)Sildur’s Vibrant Shaders$() if you don’t own a NVIDIA graphics card,"
+        },
+        {
+            "type": "text",
+            "text": "but if you do, I suggest trying out $(l:https://www.sonicether.com/seus/)$(#e2a3ff)SEUS PTGI shaders.$()$(br2)$(italic)A comparison of when I'm using shaders not in fullscreen and when I am:$()$(br2)Shaders on and not in fullscreen = Average FPS 40-50$(br2)Shaders on and in fullscreen = Average FPS 60-80+"
+        }
+    ]
+}

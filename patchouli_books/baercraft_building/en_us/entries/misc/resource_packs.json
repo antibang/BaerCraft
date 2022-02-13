@@ -1,0 +1,23 @@
+{
+    "name": "Resource Packs",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:misc",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Resource packs are a good way to enhance certain aspects about the game. If you use the packs, load them in this order for the best results (top goes first and the bottom goes last). Here are some of my favorites:$(br2)$(l:https://www.curseforge.com/minecraft/texture-packs/ore-variants)$(#e2a3ff)Ore Variants$() - Even though tons and tons of people HATE the new ore textures for 1.17 (myself once included), I genuinely enjoy this pack.It’s a bunch of variations of the"
+        },
+        {
+            "type": "text",
+            "text": "new ores, so they’re not the same each block. If you’re going to be terraforming and using ores for painting, this may give your terrain a bit more life!$(br2)$(l:https://www.curseforge.com/minecraft/texture-packs/motschens-better-leaves)$(#e2a3ff)Better Leaves$() - Everyone knows this resource pack. It makes all the leaves (including modded ones) fluffy! It makes the foliage look so much better! If you use this texture pack, make sure you have the trees set to “smart” under the video settings so your FPS doesn’t suffer."
+        },
+        {
+            "type": "text",
+            "text": "$(l:https://www.curseforge.com/minecraft/texture-packs/spring-flowers)$(#e2a3ff)Spring Flowers$() - This is one of my favorite packs out there! It gives variations to all of the vanilla flowers. Some are taller, some are shorter, and some just have a slightly different texture. It actually makes such a big difference to your builds if you’re going to be adding a bunch of flowers.$(br2)$(l:https://www.curseforge.com/minecraft/texture-packs/colourful-alliums-1-16)$(#e2a3ff)Colourful Alliums$() - Alliums are kind of boring. They’re always the same color! This pack makes it where the alliums come in a whole spectrum of colors and makes"
+        },
+        {
+            "type": "text",
+            "text": "a field of them so beautiful.$(br2)$(l:https://www.curseforge.com/minecraft/texture-packs/supa-lilies)$(#e2a3ff)Supa Lilies$() - This pack is similar to the previous one. It makes lily pads slightly more realistic and they come in a diverse range so not every single one looks the same! Swamps are much more immersive."
+        }
+    ]
+}

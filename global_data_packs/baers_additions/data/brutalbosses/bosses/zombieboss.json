@@ -1,0 +1,38 @@
+{
+  "entity": "minecraft:zombie",
+  "name": "Corvin the Rotten",
+  "visualscale": 1.2,
+  "experience": 300,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 100,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.attack_damage": 10
+  },
+  "customattributes": {
+    "dropgear": 1
+  },
+  "gear": {
+    "mainhand": "{id: \"minecraft:netherite_hoe\", Count: 1b, tag: {Damage: 0}}",
+    "chestplate": "{id: \"minecraft:netherite_chestplate\", Count: 1b, tag: {Damage: 0}}",
+    "helmet": "{id: \"minecraft:netherite_helmet\", Count: 1b, tag: {Damage: 0}}",
+    "leggings": "{id: \"minecraft:netherite_leggings\", Count: 1b, tag: {Damage: 0}}",
+    "feet": "{id: \"minecraft:netherite_boots\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:aftercombatregen": {
+      "amount": 1
+    },
+    "brutalbosses:whirldwind": {
+      "potiononhit": "minecraft:wither",
+      "potionduration": 200,
+      "knockback": 4,
+      "cooldown": 200
+    },
+    "brutalbosses:charge": {}
+  },
+  "spawnatchest": {
+  }
+}

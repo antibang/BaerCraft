@@ -1,0 +1,11 @@
+{
+    "name": "Hedges",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hedges are similar to leaves, but they’re a bit smaller and look a little bit cleaner in some cases."
+        }
+    ]
+}

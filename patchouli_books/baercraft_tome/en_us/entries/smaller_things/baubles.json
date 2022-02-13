@@ -1,0 +1,11 @@
+{
+    "name": "Baubles!",
+    "icon": "bountifulbaubles:obsidian_skull",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There are unique items called baubles. They give you special abilites. You can craft some, but others you have to find in structures like nether fortresses. Some of them come from certain mobs like the Ender Dragon. These must be placed inside of a curios slot (the bauble should tell you which one it goes in)."
+        }
+    ]
+}

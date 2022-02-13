@@ -1,0 +1,7 @@
+{
+    "name": "Anti's Building Guide",
+    "landing_text": "While I'm no expert builder, I thought since a main focus of my modpack is building and creativity I should show you some things like my favorite building blocks, decor and even tips for building!$(br2)All content of my building guide will be uploaded to my OneNote plus pictures. $(#e2a3ff)$(l:https://1drv.ms/u/s!Atp2GkCazUCzb49PlX2XkJHiyAA)Here's the link",
+    "version": 1,
+    "model": "baers_additions:pr_tome",
+    "book_texture": "patchouli:textures/gui/book_green.png"
+}

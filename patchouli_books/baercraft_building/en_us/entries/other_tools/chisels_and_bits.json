@@ -1,0 +1,15 @@
+{
+    "name": "Chisels and Bits",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:other_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Some people hate this mod and some love it. I personally love it, but I don’t use it all that often. When I do use it, I typically use it to make rocks, small decorations or to add a bit a variation and depth in blocks.$(br2)It’s fairly easy to use. If you’re in creative, just locate the Chisels and Bits tab and grab yourself a chisel. If you’re in survival you can craft one. I’d"
+        },
+        {
+            "type": "text",
+            "text": "also craft a bit pouch to hold all of your bits if you’re in survival.  There are a handful of keybinds as well to switch bit sizes, connected textures and rotation and so on. When in doubt, consult YouTube."
+        }
+    ]
+}

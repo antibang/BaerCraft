@@ -1,0 +1,181 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dragonegg_black"
+    },
+    "title": [
+      {
+        "text": "Mommy of Dragons",
+        "color": "purple",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "description": "Aquire one of each type of fire, ice and lightning dragon egg.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/collecting",
+  "criteria": {
+    "red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_red"
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_green"
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_gray"
+          }
+        ]
+      }
+    },
+    "bronze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_bronze"
+          }
+        ]
+      }
+    },
+    "white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_white"
+          }
+        ]
+      }
+    },
+    "silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_silver"
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_blue"
+          }
+        ]
+      }
+    },
+    "sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_sapphire"
+          }
+        ]
+      }
+    },
+    "electric": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_electric"
+          }
+        ]
+      }
+    },
+    "amythest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_amythest"
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_black"
+          }
+        ]
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonegg_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red"
+    ],
+    [
+      "emerald"
+    ],
+    [
+      "gray"
+    ],
+    [
+      "bronze"
+    ],
+    [
+      "white"
+    ],
+    [
+      "silver"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "sapphire"
+    ],
+    [
+      "electric"
+    ],
+    [
+      "amythest"
+    ],
+    [
+      "black"
+    ],
+    [
+      "copper"
+    ]
+  ]
+}

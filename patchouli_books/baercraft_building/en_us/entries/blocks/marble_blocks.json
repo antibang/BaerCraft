@@ -1,0 +1,11 @@
+{
+    "name": "Marble Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I like marble blocks a lot. They just look clean and simple. There’s marble bricks and polished marble blocks as well plus a few other marble blocks. There are also marble and marble brick walls, slabs and stairs."
+        }
+    ]
+}

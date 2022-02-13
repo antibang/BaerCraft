@@ -1,0 +1,11 @@
+{
+    "name": "Molten Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Molten blocks look like magma blocks. They aren’t used a whole lot, but there are a few types of molten blocks that you can play around with. I typically use molten blocks while making caves. The new molten blocks are stone, granite, diorite, andesite, sandstone, smooth sandstone, red sandstone, smooth red sandstone, obsidian, blackstone and basalt."
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Feral Wolf",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/feralwolf",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect all 6 head variants from a feral wolf. $(br2)$(6)$(bold)Where are they found?:$() Feral wolves can be found in forest, taiga, mountain and jungle edge biomes."
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:feralwolf{VariantId: 'timber'}",
+            "text": "Timber variant.",
+            "scale": 0.7,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:feralwolf{VariantId: 'arctic'}",
+            "text": "Arctic variant.",
+            "scale": 0.7,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:feralwolf{VariantId: 'black'}",
+            "text": "Black variant.",
+            "scale": 0.7,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:feralwolf{VariantId: 'snowy'}",
+            "text": "Snowy variant.",
+            "scale": 0.7,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:feralwolf{VariantId: 'brown'}",
+            "text": "Brown variant.",
+            "scale": 0.7,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:feralwolf{VariantId: 'red'}",
+            "text": "Red variant.",
+            "scale": 0.7,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/feralwolf"
+}

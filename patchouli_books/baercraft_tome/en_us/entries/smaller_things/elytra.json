@@ -1,0 +1,11 @@
+{
+    "name": "Customize Your Elytra",
+    "icon": "minecraft:elytra",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can now customize your elytra! You can use dye or a banner (some banners do not work) and even change it in the future."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Dolphin",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/dolphin",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one dolphin token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dolphin_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/dolphin"
+}

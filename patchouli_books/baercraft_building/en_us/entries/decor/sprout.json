@@ -1,0 +1,11 @@
+{
+    "name": "Sprout",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a plant that you can place on your typical blocks and on top of stone! It’s really cool to place in caves to brighten the area up a little bit."
+        }
+    ]
+}

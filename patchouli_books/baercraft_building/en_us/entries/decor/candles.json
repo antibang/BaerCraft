@@ -1,0 +1,11 @@
+{
+    "name": "Candles",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Candles are nice little decorations to add to your base or any build, especially the interior, but can be pretty cool in other scenarios. They come in a range of colors."
+        }
+    ]
+}

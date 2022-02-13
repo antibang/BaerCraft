@@ -1,0 +1,19 @@
+{
+    "name": "Mutant Wither Skeleton",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/mutantskeleton",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 mutant wither skeleton skull. $(br2)$(6)$(bold)Where are they found?:$() Mutant skeletons typically spawn in the overworld and the nether."
+        },
+        {
+            "type": "entity",
+            "entity": "mutantmore:mutant_wither_skeleton",
+            "scale": 0.95,
+            "offset": 0.4
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/mutantskeleton"
+}

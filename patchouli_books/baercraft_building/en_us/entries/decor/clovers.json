@@ -1,0 +1,11 @@
+{
+    "name": "Clovers",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Clovers just add some variation in foliage! They come in different heights."
+        }
+    ]
+}

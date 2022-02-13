@@ -1,0 +1,29 @@
+{
+  "entity": "minecraft:pillager",
+  "name": "Pelgrim the Sharpshooter",
+  "visualscale": 1.1,
+  "experience": 300,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 70,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 2,
+    "projectile_damage_bonus": 4
+  },
+  "gear": {
+    "mainhand": "{id: \"minecraft:crossbow\", Count: 1b, tag: {ChargedProjectiles: [], RepairCost: 7, Damage: 0, Charged: 0b, Enchantments: [{lvl: 4s, id: \"minecraft:piercing\"}, {lvl: 3s, id: \"minecraft:quick_charge\"}, {lvl: 5s, id: \"minecraft:power\"}]}}",
+    "offhand": "{id: \"minecraft:tipped_arrow\", Count: 64b, tag: {Potion: \"minecraft:strong_poison\"}}",
+    "helmet": "{id: \"minecraft:netherite_helmet\", Count: 1b, tag: {Damage: 0}}",
+    "chestplate": "{id: \"minecraft:netherite_chestplate\", Count: 1b, tag: {Damage: 0}}",
+    "feet": "{id: \"minecraft:netherite_boots\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "minecraft:crossbow": {}
+  },
+  "spawnatchest": {
+  }
+}

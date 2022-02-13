@@ -1,0 +1,11 @@
+{
+    "name": "Glowing Flowers",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I’m awful at lighting up exterior of builds, so I thought of a pretty neat idea to make glowing versions of most of vanilla’s foliage. They emit as much light as glowstone. There are also other lights called invisible lights that are, you guessed it, invisible."
+        }
+    ]
+}

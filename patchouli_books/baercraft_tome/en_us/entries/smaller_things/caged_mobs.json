@@ -1,0 +1,15 @@
+{
+    "name": "Caged Mobs",
+    "icon": "supplementaries:cage",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I think we can both agree that there are a ton of mobs in the game! I'm sure you've wanted to bring one home, but it was either too far away, too violent or too big. Well, you can craft a cage and you're able to capture any mob in the game... you just right click and then you got it caged. If you shift-right click, you'll place the mob in the cage, but if you simply just right click, then you'll set it free."
+        },
+        {
+            "type": "text",
+            "text": "$(italics)For the love of god, don't use a jar to catch them..."
+        }
+    ]
+}

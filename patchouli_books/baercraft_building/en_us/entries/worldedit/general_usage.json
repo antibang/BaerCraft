@@ -1,0 +1,15 @@
+{
+    "name": "WorldEdit Extended",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:worldedit",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Something fun I enjoy doing is playing around with the limits of WorldEdit. Something I figured out a while ago, even though it’s technically a well know fact, you can copy and paste dragon skeletons (because they’re entities). I have an archeology site looking thing at my server’s spawn. Something I recommend is doing the same thing; play around with what you can and cannot do with WorldEdit."
+        },
+        {
+            "type": "text",
+            "text": "Maybe you’ll find something fun to mess around with like I did!$(br2)I will list *most* of the commands I use while either building or terraforming. I think I would go insane if I listed them all in this book, so please refer to the external document I’ve created for the commands and a more in-depth description:$(br2)$(#e2a3ff)$(l:https://www.dropbox.com/sh/jmwyu4oxbbguuly/AADNvCL2GzVp_neIE5Xs2Wrda?dl=0)Anti's WorldEdit Commands Extended"
+        }
+    ]
+}

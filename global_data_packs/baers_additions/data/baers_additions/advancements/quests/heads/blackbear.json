@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "betteranimalsplus:blackbearhead_kermode",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:blackbearhead_black",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

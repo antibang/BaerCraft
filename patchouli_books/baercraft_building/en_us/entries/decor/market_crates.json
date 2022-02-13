@@ -1,0 +1,11 @@
+{
+    "name": "Market Crates",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Market crates are a cute item that you can place items in! You can insert 6 different types and they’ll be displayed in the crate. You can get a stick to right click the crate with and it’ll it prop up so it’s at an angle!"
+        }
+    ]
+}

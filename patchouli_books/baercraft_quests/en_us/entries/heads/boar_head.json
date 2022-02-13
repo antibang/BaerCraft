@@ -1,0 +1,34 @@
+{
+    "name": "Boar",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/boar",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect all 3 head variants from a boar. $(br2)$(6)$(bold)Where are they found?:$() Boars are found in forests, taigas, jungles, savannas and plains."
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:boar{VariantId: 'light_brown'}",
+            "text": "Light brown variant",
+            "scale": 0.4,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:boar{VariantId: 'gray'}",
+            "text": "Gray variant",
+            "scale": 0.4,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:boar{VariantId: 'dark_brown'}",
+            "text": "Dark brown variant",
+            "scale": 0.4,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/boar"
+}

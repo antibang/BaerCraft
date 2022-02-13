@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "baers_additions:bc_quests"
+    },
+    "title": {
+      "text": "Collecting",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Keeping track of all of your collections.",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

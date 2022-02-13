@@ -1,0 +1,11 @@
+{
+    "name": "Hourglass",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hourglasses are like the hourglasses we have in real life! You can place any sand inside of it."
+        }
+    ]
+}

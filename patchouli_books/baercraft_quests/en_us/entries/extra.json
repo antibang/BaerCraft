@@ -1,0 +1,15 @@
+{
+    "name": "Dragon Skulls",
+    "icon": "minecraft:nether_star",
+    "category": "patchouli:about",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hopefully you're reading this beforehand, but as of right now, the side quests that involve you collecting fire, ice and lightning dragon skulls are still to be done manually. I'm unable to find a way that makes them easily triggered by an advancement, but until then, you'll have to mark them complete yourself if you've chosen to do them.$(br2)Don't worry - you'll still get"
+        },
+        {
+            "type": "text",
+            "text": "the 'Sweaty Try-Hard' advancement if you've collected at least one of each!"
+        }
+    ]
+}

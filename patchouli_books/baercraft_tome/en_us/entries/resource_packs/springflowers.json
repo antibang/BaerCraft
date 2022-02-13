@@ -1,0 +1,12 @@
+{
+    "name": "Spring Flowers",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/spring-flowers)Spring Flowers$()$(br2)Singlehandedly one of my favorite resource packs. It adds 5 additional variants for each small flower, 6 historical, 5 additional variants for tall flowers and 11 additional variants for the sunflower."
+        }
+    ],
+    "sortnum": 4
+}

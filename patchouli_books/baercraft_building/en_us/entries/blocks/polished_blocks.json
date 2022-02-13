@@ -1,0 +1,11 @@
+{
+    "name": "Polished Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Maybe I love polished blocks because I use shaders so they’re shiny, but I think they can still look good without shaders. They can just add a little bit more texture to the corresponding block."
+        }
+    ]
+}

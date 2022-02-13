@@ -1,0 +1,11 @@
+{
+    "name": "Brush Types",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:semi_advanced_we",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

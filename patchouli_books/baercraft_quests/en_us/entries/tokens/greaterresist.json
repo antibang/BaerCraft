@@ -1,0 +1,17 @@
+{
+    "name": "Greater Attack Resistance",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/greaterresist",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one greater attack resistance token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_greater_resistance"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/greaterresist"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Greater Healing",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/greaterhealing",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one greater healing token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_greater_healing"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/greaterhealing"
+}

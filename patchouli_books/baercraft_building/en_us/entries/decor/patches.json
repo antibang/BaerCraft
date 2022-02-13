@@ -1,0 +1,11 @@
+{
+    "name": "Patches",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Patches are extremely nice for terraforming, so they can be a small addition to your base. You can’t craft them (I may make a recipe), but if you’re in creative I recommend playing around with these patches. They stack in multiple heights, so they can add a bunch of depth to the surrounding land."
+        }
+    ]
+}

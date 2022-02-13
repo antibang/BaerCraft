@@ -1,0 +1,15 @@
+{
+    "name": "Patches",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "One of my absolute favorite building blocks/decorations are called patches. There’s dirt, mossy dirt, podzol, gravel, sand, red sand, snow and ice.$(br2)You probably know what I’m talking about if you’ve been inside the caves! You can stack it in thin layers all the way up as tall as you want; even though slightly redundant. Aside from making the general"
+        },
+        {
+            "type": "text",
+            "text": "terrain a little more realistic and ridged, I personally use them as slabs sometimes! You know, if you wanted a gravel slab you could just stack is until it’s as tall as a normal one. Same with all the other types!"
+        }
+    ]
+}

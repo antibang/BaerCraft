@@ -1,0 +1,117 @@
+{
+  "name":"rhino",
+  "breeding":"EARLY_SUMMER",
+  "growing":12,
+  "offspring":1,
+  "activityType":"cathemeral",
+  "favourite_food":"minecraft:melon_slice",
+  "sounds":{
+    "ambient":"minecraft:entity.cow.ambient",
+    "hurt":"minecraft:entity.cow.hurt",
+    "death":"minecraft:entity.cow.death"
+  },
+  "species":[
+    {
+      "name":"black",
+      "variant":0,
+      "scale":1.1,
+      "rarity":5,
+      "attack":8,
+      "health":50,
+      "flags": {
+        "groupCount": 3
+      },
+      "spawnBiomes":[
+        [
+          "category|savanna"
+        ]
+      ]
+    },
+    {
+      "name":"indian",
+      "variant":1,
+      "scale":1.25,
+      "rarity":4,
+      "attack":8,
+      "health":60,
+      "flags": {
+        "groupCount": 3
+      },
+      "spawnBiomes":[
+        [
+          "category|jungle"
+        ],
+        [
+          "category|extreme_hills"
+        ]
+      ]
+    },
+    {
+      "name":"javan",
+      "variant":2,
+      "scale":1.15,
+      "rarity":1,
+      "attack":6,
+      "health":45,
+      "flags": {
+        "groupCount": 2
+      },
+      "spawnBiomes":[
+        [
+          "category|jungle"
+        ]
+      ]
+    },
+    {
+      "name":"sumatran",
+      "variant":3,
+      "scale":0.75,
+      "rarity":1,
+      "attack":5,
+      "health":40,
+      "flags": {
+        "groupCount": 3
+      },
+      "spawnBiomes":[
+        [
+          "category|jungle"
+        ]
+      ]
+    },
+    {
+      "name":"white",
+      "variant":4,
+      "scale":1.6,
+      "rarity":2,
+      "attack":10,
+      "health":60,
+      "flags": {
+        "groupCount": 4
+      },
+      "spawnBiomes":[
+        [
+          "category|savanna"
+        ]
+      ]
+    },
+    {
+      "name":"wooly",
+      "variant":5,
+      "scale":1.4,
+      "rarity":1,
+      "attack":10,
+      "health":60,
+      "flags": {
+        "groupCount": 3
+      },
+      "spawnBiomes":[
+        [
+          "category|icy"
+        ],
+        [
+          "category|taiga"
+        ]
+      ]
+    }
+  ]
+}

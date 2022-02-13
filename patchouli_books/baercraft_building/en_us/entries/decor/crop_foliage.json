@@ -1,0 +1,11 @@
+{
+    "name": "Crops as Foliage",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There aren’t many mods that add a good amount of nice looking foliage, so a good alternative is using our many crops as foliage. Although you will have to deal with the farmland underneath it, obviously. If you play around with WorldEdit, you can try cheesing the system by getting crops to grow on any block, but they can occasionally break while growing or if you break any block around it."
+        }
+    ]
+}

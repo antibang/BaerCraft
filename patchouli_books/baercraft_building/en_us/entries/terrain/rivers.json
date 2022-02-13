@@ -1,0 +1,55 @@
+{
+    "name": "Rivers",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:terrain",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Rivers in real life rarely have sand at the bottom! This has always been a pet peeve of mine because I’ve never seen a river with sand. Then again, I do live in a very mountainous area, so it may be more often than I think. But for the most part, rivers have various stone and sediment, aka gravel, at the bottom. I like using a mix of podzol, coarse dirt, gravel, grass and stone types on the edges of"
+        },
+        {
+            "type": "text",
+            "text": "rivers as it can simulate more natural textures. I throw in some mossy blocks too, concentrating them towards the inside edges. I enjoy chiseling out mossy blocks to place on top of the water because I don’t know if you’ve ever seen a river or creek, but the rocks around or above the river then to be fairly mossy.$(br2)Pre-existing rivers can be a pain to terraform even with WorldEdit because it doesn’t go through water as it’s a block. So, if you’re going to be"
+        },
+        {
+            "type": "text",
+            "text": "terraforming large portions of rivers then here are some helpful WorldEdit tips:$(br2)$(italics)' = start/end of command$()$(br2)'//replacenear [radius] seagrass air'$(br2)(If there are any stairs or slabs in your way) '//replacenear [radius] ##minecraft:stairs/slabs'$(br2)'//replacenear [radius] water air' (Don’t worry, it’s easy to fix water) or use '//drain"
+        },
+        {
+            "type": "text",
+            "text": "[radius]'$(br2)Tip: If you're using a brush to paint or smooth your river, use the mask '/mask #solid' so your brush will go through the water!$(br2)These commands should make it much easier to terraform and paint rivers. Once you’re done, use the command '//fixwater [radius]'. Make sure you’re standing at the same level the river water is and that you’re in the water or else this command won’t work!"
+        },
+        {
+            "type": "text",
+            "text": "A few tips for creating new rivers:$(br2)I haven't made too many rivers from scratch, but much like all forms of terrain, they're all unique so in the end, it doesn't matter too much on how it looks; as long as you're happy with it.$(br2)Personally, I like to map out my rivers first before diving straight into it. I typically like to survey the area to get an idea of the terrain and how I want my river to look. If I'm"
+        },
+        {
+            "type": "text",
+            "text": "creating a new river, I don't really try to make it all one level, but that can be pretty hard to make look natural because it doesn't make sense for there to be higher points in the middle. But it's Minecraft, so it doesn't matter!$(br2)$(italics)An example of how I map out my rivers:$()$(br2)'//brush sphere light_blue_concrete 3' - '/mask air'$(br2)I also will sometimes go in and"
+        },
+        {
+            "type": "text",
+            "text": "just outline the river by hand creating 2-3 block tall walls, so I can easily see where it's going to go. Personally, I find that it can get annoying to do it this way because unless you're just going to do EVERYTHING by hand (at least the removal of pre-existing blocks) then it's not going to perfectly fit the outline.$(br2)After I'm happy with the general direction and shape of the outline, it's time for me to go in and erase it all! I use a bigger brush size than I went"
+        },
+        {
+            "type": "text",
+            "text": "in with since I want to get rid of the initial concrete plus the land. I also suggest to do this in parts. It makes it much easier and I find myself staying motivated when I don't have a super long river to worry about. So for that I'd use:$(br2)'//brush sphere air 5' - '/mask #solid'$(br2)I then will go in and smooth all of it out. I use the smoothing brush and I also go in by hand a lot. The middle"
+        },
+        {
+            "type": "text",
+            "text": "and bottom of the river should be mostly flat with occasional variations in heights.$(br2)'//brush smooth 4 3'$(br2)Fast forward to when I'm done smoothing it all out and am happy with how it looks. Now it's time to paint and texture it. Depending on the biome you're in, this will be different, but I typically stick to mountains, taigas, giant tree taigas, meadows, groves, etc. I usually use the same materials for these biomes, but I"
+        },
+        {
+            "type": "text",
+            "text": "sometimes mix it up.$(br2)I start with the base material of the river. I usually just use stone, andesite, cobblestone and mossy blocks for the base.$(br2)'//brush sphere 60%stone,20%andesite,10%cobblestone,10%subwild:mossy_stone' - '/mask #solid'$(br2)Once I'm happy with that, I might go in and add a few more blocks where I think they should go by hand. It's usually"
+        },
+        {
+            "type": "text",
+            "text": "mossy blocks since it's mossy around rivers. Something to note is that polished blocks can also look really nice in certain settings, but it's usually only with shaders since they're shiny. I tend to replace them with normal stone once I'm finished taking photos.$(br2)Time to add the water. There are several ways to do this. For the most part, I just use the fill command, or for certain parts I'll use a brush.$(br2)'//fill water [radius] [height]'"
+        },
+        {
+            "type": "text",
+            "text": "or $(br2)'//brush cyl water [radius] [height]'$(br2)If any if the water looks funky (which 100% of the time it will) I go in and use the fix water command which I referenced above."
+        }
+    ]
+}

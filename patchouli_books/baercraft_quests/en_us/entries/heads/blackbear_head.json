@@ -1,0 +1,27 @@
+{
+    "name": "Black Bear",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/blackbear",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect both head variants from a black bear. $(br2)$(6)$(bold)Where are they found?:$() Black bears are found in forests, taigas and mountains."
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:blackbear{VariantId: 'black'}",
+            "text": "Black variant.",
+            "scale": 0.9,
+            "offset": -0.2
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:blackbear{VariantId: 'kermode'}",
+            "text": "Kermode variant.",
+            "scale": 0.9,
+            "offset": -0.2
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/blackbear"
+}

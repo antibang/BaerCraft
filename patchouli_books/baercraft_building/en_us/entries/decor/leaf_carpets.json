@@ -1,0 +1,11 @@
+{
+    "name": "Leaf Carpets",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Leaf carpets are nice to place under trees because they can look like leaves that had fallen from said tree. They even change colors depending on the season to match the tree leaf colors."
+        }
+    ]
+}

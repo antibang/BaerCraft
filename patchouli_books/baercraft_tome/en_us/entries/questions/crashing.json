@@ -1,0 +1,15 @@
+{
+    "name": "Crashing",
+    "icon": "appliedenergistics2:certus_quartz_wrench",
+    "category": "patchouli:questions_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(bold)Help! Why goes my game keep crashing?$()$(br2)Again, various reasons. Your game is bound to crash regardless of how stable it is. I can experience a wide variety of crashing myself. Most of the time, it’s just a one time occurrence, but there are a few frequent types of crashes I’m aware about. Unfortunately, they are usually"
+        },
+        {
+            "type": "text",
+            "text": "out of my control. I’m going to list all of the types of reoccurring crashes on our $(#e2a3ff)$(l:https://discord.gg/cGxnWKQhpU)Discord in the bugs channel$(/l)$() if I haven’t already."
+        }
+    ]
+}

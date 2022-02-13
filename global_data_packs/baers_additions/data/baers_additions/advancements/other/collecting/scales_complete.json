@@ -1,0 +1,181 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dragonscales_blue"
+    },
+    "title": [
+      {
+        "text": "Skinning Dragons",
+        "color": "purple",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "description": "Aquire each type of fire, ice and lightning dragon scale. Collect all the skins!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/collecting",
+  "criteria": {
+    "red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_red"
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_green"
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_gray"
+          }
+        ]
+      }
+    },
+    "bronze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_bronze"
+          }
+        ]
+      }
+    },
+    "white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_white"
+          }
+        ]
+      }
+    },
+    "silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_silver"
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_blue"
+          }
+        ]
+      }
+    },
+    "sapphire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_sapphire"
+          }
+        ]
+      }
+    },
+    "electric": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_electric"
+          }
+        ]
+      }
+    },
+    "amythest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_amythest"
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_black"
+          }
+        ]
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonscales_copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red"
+    ],
+    [
+      "emerald"
+    ],
+    [
+      "gray"
+    ],
+    [
+      "bronze"
+    ],
+    [
+      "white"
+    ],
+    [
+      "silver"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "sapphire"
+    ],
+    [
+      "electric"
+    ],
+    [
+      "amythest"
+    ],
+    [
+      "black"
+    ],
+    [
+      "copper"
+    ]
+  ]
+}

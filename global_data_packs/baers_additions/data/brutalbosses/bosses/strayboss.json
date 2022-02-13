@@ -1,0 +1,40 @@
+{
+  "entity": "minecraft:stray",
+  "name": "Ewart the Cold",
+  "visualscale": 1.2,
+  "experience": 400,
+  "effects": {
+    "minecraft:slowness": 2,
+    "minecraft:resistance": 2,
+    "minecraft:fire_resistance": 1
+  },
+  "attributes": {
+    "generic.max_health": 80,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 2
+  },
+  "customattributes": {
+    "projectile_damage_bonus": 4,
+    "dropgear": 6
+  },
+  "gear": {
+    "mainhand": "{id:\"minecraft:bow\",Count:1b,tag:{Damage:0, Enchantments:[{lvl:1s,id:\"minecraft:infinity\"},{lvl:4s,id:\"minecraft:power\"}]}}",
+    "helmet": "{id: \"minecraft:turtle_helmet\", Count: 1b, tag: {Damage: 0}}",
+    "offhand": "{id: \"minecraft:tipped_arrow\", Count: 64b, tag: {Potion: \"minecraft:long_turtle_master\"}}"
+  },
+  "ai-goals": {
+    "brutalbosses:aftercombatregen": {
+      "amount": 1
+    },
+    "brutalbosses:itemshootgoal": {
+      "item": "{id: \"minecraft:fire_charge\", Count: 1b}",
+      "projectile_count": 4,
+      "lightning": true,
+      "projectile_interval": 200,
+      "projectile_aoe": true,
+      "projectile_distance": 40
+    }
+  },
+  "spawnatchest": {
+  }
+}

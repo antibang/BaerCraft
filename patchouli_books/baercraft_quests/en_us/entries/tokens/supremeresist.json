@@ -1,0 +1,17 @@
+{
+    "name": "Supreme Attack Resistance",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/supremeresist",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one supreme attack resistance token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_supreme_resistance"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/supremeresist"
+}

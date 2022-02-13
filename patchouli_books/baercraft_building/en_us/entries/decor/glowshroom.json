@@ -1,0 +1,11 @@
+{
+    "name": "Glowshroom",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a sapling, but for a mushroom. I don't like it when it’s fully grown, so I place a barrier block above it to stop it from growing."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Podzol",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Podzol is simliar-ish to mulch in real life, but natural. So, I typically enjoy using it to emulate terrain that would be mainly mulch/sediment. Clusters of podzol is better than an entire biome full like Giant Tree biomes."
+        }
+    ]
+}

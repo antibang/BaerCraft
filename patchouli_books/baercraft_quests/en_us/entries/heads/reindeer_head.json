@@ -1,0 +1,41 @@
+{
+    "name": "Reindeer",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/reindeer",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect all 4 head variants from a reindeer. $(br2)$(6)$(bold)Where are they found?:$() Reindeer are found in tundras, snowy taigas and wooded mountains."
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:reindeer{VariantId: '1'}",
+            "text": "Variant 1.",
+            "scale": 0.6,
+            "offset": 0.5
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:reindeer{VariantId: '2'}",
+            "text": "Variant 2.",
+            "scale": 0.6,
+            "offset": 0.5
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:reindeer{VariantId: '3'}",
+            "text": "Variant 3.",
+            "scale": 0.6,
+            "offset": 0.5
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:reindeer{VariantId: '4'}",
+            "text": "Variant 4.",
+            "scale": 0.6,
+            "offset": 0.5
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/reindeer"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Heart & Power Crystals",
+    "icon": "scalinghealth:heart_dust",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can increase your health and your damage. You just need to create or obtain a heart or power crystal. You right click on either crystal type and it'll increase whichever one you used.$(br2)You can double your health (two rows of hearts) and reach up to 30 power levels (that's 30x more than vanilla!) Each heart crystal requires 5 experience levels and grants"
+        },
+        {
+            "type": "text",
+            "text": "you 1 heart. Each power crystal requires 3 experience points, but only grants you 0.5 of a power level."
+        }
+    ]
+}

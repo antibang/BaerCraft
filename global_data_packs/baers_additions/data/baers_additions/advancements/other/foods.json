@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "thermal:strawberry"
+    },
+    "title": {
+      "text": "Yummy Things",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Eating all the foods.",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "baers_additions:other/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

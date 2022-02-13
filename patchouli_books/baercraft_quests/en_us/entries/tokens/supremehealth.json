@@ -1,0 +1,17 @@
+{
+    "name": "Supreme Health",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/supremehealth",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one supreme health token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_supreme_health"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/supremehealth"
+}

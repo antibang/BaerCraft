@@ -1,0 +1,11 @@
+{
+    "name": "Tree Staff",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:other_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It takes forever for a dynamic tree to grow; even with bonemeal. If you’re in creative, navigate to the Dynamic Trees tab and there you’ll find a staff. You can right click any dynamic tree and paste it by also right clicking! Very helpful and much faster."
+        }
+    ]
+}

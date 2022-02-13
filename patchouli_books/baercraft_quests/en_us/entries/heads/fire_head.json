@@ -1,0 +1,39 @@
+{
+    "name": "Fire Dragon",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 fire dragon skull PER level. $(br2)$(6)$(bold)Where are they found?:$() Fire dragons are found in forests, plains and deserts.$(br2)Tip: You should have five skulls in total ranging from level 1-5."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:fire_dragon{AgeTicks: 3000000, Variant: 0}",
+            "text": "Red variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:fire_dragon{AgeTicks: 3000000, Variant: 1}",
+            "text": "Green variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:fire_dragon{AgeTicks: 3000000, Variant: 2}",
+            "text": "Bronze variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:fire_dragon{AgeTicks: 3000000, Variant: 3}",
+            "text": "Gray variant.",
+            "scale": 0.04,
+            "offset": 5
+        }
+    ]
+}

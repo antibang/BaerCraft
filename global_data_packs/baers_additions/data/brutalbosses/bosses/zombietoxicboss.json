@@ -1,0 +1,38 @@
+{
+  "entity": "minecraft:zombie",
+  "name": "Yomach the Toxic",
+  "visualscale": 0.9,
+  "experience": 200,
+  "effects": {
+  },
+  "attributes": {
+    "generic.max_health": 60,
+    "generic.follow_range": 50,
+    "generic.knockback_resistance": 10,
+    "generic.attack_damage": 3
+  },
+  "customattributes": {
+    "dropgear": 1
+  },
+  "gear": {
+    "mainhand": "{id: \"minecraft:crimson_fungus\", Count: 32b}",
+    "chestplate": "{id: \"minecraft:leather_chestplate\", Count: 1b, tag: {Damage: 0}}",
+    "helmet": "{id: \"minecraft:turtle_helmet\", Count: 1b, tag: {Damage: 0}}",
+    "feet": "{id: \"minecraft:leather_boots\", Count: 1b, tag: {Damage: 0}}"
+  },
+  "ai-goals": {
+    "brutalbosses:aftercombatregen": {
+      "amount": 1
+    },
+    "brutalbosses:meleehit": {
+      "potiononhit": "minecraft:poison",
+      "potionduration": 80,
+      "potionlevel": 6,
+      "knockback": 4
+    },
+    "brutalbosses:charge": {},
+    "brutalbosses:chasetarget": {}
+  },
+  "spawnatchest": {
+  }
+}

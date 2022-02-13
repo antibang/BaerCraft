@@ -1,0 +1,11 @@
+{
+    "name": "Biomes O' Plenty Wood",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Along with the sand, this mod adds a heaping amount of new wood! I personally love the cherry, mahogany and jacaranda wood types."
+        }
+    ]
+}

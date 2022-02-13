@@ -1,0 +1,11 @@
+{
+    "name": "Images",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There’s an item called a camera that you can take pictures with! You can craft that along with a picture frame to display it. You can resize the picture frame as well."
+        }
+    ]
+}

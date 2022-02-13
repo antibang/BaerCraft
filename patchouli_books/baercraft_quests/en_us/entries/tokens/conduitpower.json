@@ -1,0 +1,17 @@
+{
+    "name": "Conduit Power",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/conduitpower",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one conduit power token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_conduit_power"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/conduitpower"
+}

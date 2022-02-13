@@ -1,0 +1,15 @@
+{
+    "name": "Corundum",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Singlehandedly one of my favorite blocks/decorations is the corundum and corundum cluster. There are a bunch of colors. The block emits a beautiful particle texture. I like to use the block under floors so you can see the particles coming through the bottom, but not the block itself. It’d suggest not replacing the entire layer below the floor as the particles might be a little too much, so just play"
+        },
+        {
+            "type": "text",
+            "text": "around with the amount if you’re going to try it out!$(br2)The clusters look like crystals. Those don’t emit any particles. Both the clusters and blocks are found underground in caves."
+        }
+    ]
+}

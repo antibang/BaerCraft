@@ -1,0 +1,11 @@
+{
+    "name": "Coarse Dirt",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I dislike coarse dirt in clusters. I only like using it to either texture dirt or podzol a bit more or in/around rivers."
+        }
+    ]
+}

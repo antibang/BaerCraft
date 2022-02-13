@@ -1,0 +1,11 @@
+{
+    "name": "Ropes",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:decor",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ropes are nice for two reasons I can think of: they can be used as a ladder and they can look pretty cool in caves paired with foliage."
+        }
+    ]
+}

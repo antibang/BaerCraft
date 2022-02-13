@@ -1,0 +1,17 @@
+{
+    "name": "No Fall Damage",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/nofall",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one no fall damage token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:no_fall_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/nofall"
+}

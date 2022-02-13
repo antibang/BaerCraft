@@ -1,0 +1,11 @@
+{
+    "name": "Basalt Blocks",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I like basalt on its own, but I feel like there’s not a whole lot I do with it. I use it to texture certain caves typically. There’s basalt stairs, slabs and walls too so there’s a lot more to work with! Other basalt blocks are smooth basalt, basalt tiles, polished basalt bricks and basalt cobblestone. Most come with their own set of stairs, slabs and walls."
+        }
+    ]
+}

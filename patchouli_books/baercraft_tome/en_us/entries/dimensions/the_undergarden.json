@@ -1,0 +1,15 @@
+{
+    "name": "The Undergarden",
+    "icon": "undergarden:catalyst",
+    "category": "patchouli:dimension_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Much like the Deep Dark, the Undergarden is a dark, subterranean dimension located deep below the bedrock of the overworld. You will come across many mobs and many biomes. There's even a boss. You have plenty of exploring to do in this dimension.$(br2)In order to travel to the Undergarden, you must craft a Catalyst then create a frame in the shape of a nether"
+        },
+        {
+            "type": "text",
+            "text": "portal using stone bricks. Right click on the bricks like you would a flint and steel on obsidian."
+        }
+    ]
+}

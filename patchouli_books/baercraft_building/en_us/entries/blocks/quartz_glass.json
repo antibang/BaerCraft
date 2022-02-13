@@ -1,0 +1,11 @@
+{
+    "name": "Vibrant Quartz Glass",
+    "icon": "fins:spindly_pearl",
+    "category": "patchouli:blocks",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It’s glass, but it sparkles. Don’t know what else to say."
+        }
+    ]
+}
