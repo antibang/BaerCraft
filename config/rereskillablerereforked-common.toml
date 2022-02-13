@@ -1,0 +1,35 @@
+#Disable wool drops to force the player to get shears.
+disableWoolDrops = false
+#Use skill fragments as the way of leveling up skills instead of XP levels.
+useSkillFragments = false
+#This makes it so that when you level up from a higher level, no more XP points will be consumed than when levelling up from a lower level
+useXpPoints = false
+#The minimum amount of skill levels lost on death.
+#Range: 0 ~ 100
+deathLevelLossMin = 0
+#The maximum amount of skill levels lost on death.
+#Range: 0 ~ 100
+deathLevelLossMax = 0
+#Amount of skill fragments obtained by completing task advancements.
+#Range: 0 ~ 64
+skillFragmentsFromTasks = 0
+#Amount of skill fragments obtained by completing goal advancements.
+#Range: 0 ~ 64
+skillFragmentsFromGoals = 0
+#Amount of skill fragments obtained by completing challenge advancements.
+#Range: 0 ~ 64
+skillFragmentsFromChallenges = 0
+#Starting cost of upgrading to level 2, in levels.
+#Range: 0 ~ 10
+startingCost = 3
+#Amount of levels added to the cost with each upgrade (use 0 for constant cost).
+#Range: 0 ~ 10
+costIncrease = 1
+#Maximum level each skill can be upgraded to.
+#Range: 2 ~ 100
+maximumLevel = 64
+#List of item and block skill requirements.
+#Format: mod:id skill:level
+#Valid skills: attack, defence/defense, mining, gathering, farming, building, agility, magic
+skillLocks = []
+
