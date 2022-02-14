@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "subwild:mossy_sandstone",
+    "subwild:mossy_andesite",
+    "subwild:mossy_diorite",
+    "subwild:mossy_granite",
+    "subwild:mossy_stone",
+    "subwild:mossy_gravel",
+    "subwild:mossy_red_sand",
+    "subwild:mossy_sand",
+    "subwild:mossy_dirt",
+    "minecraft:mossy_cobblestone_wall",
+    "minecraft:mossy_stone_brick_wall>",
+    "minecraft:mossy_stone_brick_stairs",
+    "minecraft:mossy_cobblestone_stairs",
+    "minecraft:mossy_stone_brick_slab",
+    "minecraft:mossy_cobblestone_slab",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:infested_mossy_stone_bricks",
+    "minecraft:mossy_cobblestone",
+    "subwild:mossy_basalt",
+    "subwild:mossy_blackstone",
+    "subwild:mossy_obsidian",
+    "subwild:mossy_smooth_red_sandstone",
+    "subwild:mossy_red_sandstone",
+    "subwild:mossy_smooth_sandstone"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "subwild:dirt_patch",
+    "subwild:mossy_dirt_patch",
+    "subwild:podzol_patch",
+    "subwild:gravel_patch",
+    "subwild:sand_patch",
+    "subwild:red_sand_patch",
+    "subwild:snow_patch",
+    "subwild:ice_patch",
+    "subwild:water_puddle"
+  ]
+}

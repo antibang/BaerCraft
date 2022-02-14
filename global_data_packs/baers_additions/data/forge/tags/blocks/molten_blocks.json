@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "subwild:molten_stone",
+    "subwild:molten_granite",
+    "subwild:molten_diorite",
+    "subwild:molten_andesite",
+    "subwild:molten_sandstone",
+    "subwild:molten_smooth_sandstone",
+    "subwild:molten_red_sandstone",
+    "subwild:molten_smooth_red_sandstone",
+    "subwild:molten_obsidian",
+    "subwild:molten_blackstone",
+    "subwild:molten_basalt",
+    "minecraft:magma_block"
+  ]
+}
