@@ -1,0 +1,30 @@
+# Can't Put Mods From CurseForge
+mods
+
+# Other minecraft files that are unneeded
+
+manifest.json
+minecraftinstance.json
+
+# Client-side Stuff #
+
+xaerominimap_entities.json
+xaerominimap.txt
+xaeropatreon.txt
+xaeroworldmap.txt
+
+patchouli_data.json
+
+smoothboot.json
+
+options.txt
+optionsof.txt
+
+# Dev Stuff #
+
+configured-client.toml
+
+### DIRECTORIES (AKA Files) ###
+
+logs
+config\drippyloadingscreen\locals
