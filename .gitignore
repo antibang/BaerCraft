@@ -1,2 +1,7 @@
 # Can't Put Mods From CurseForge
 *.jar
+
+# Other minecraft files that are unneeded
+
+manifest.json
+minecraftinstance.json
