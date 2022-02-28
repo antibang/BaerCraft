@@ -3,7 +3,6 @@ mods
 
 # Other minecraft files that are unneeded
 
-manifest.json
 minecraftinstance.json
 
 # Client-side Stuff #
@@ -20,6 +19,14 @@ smoothboot.json
 options.txt
 optionsof.txt
 
+servers.dat
+servers.dat_old
+
+usercache.json
+usernamecache.json
+
+WailaErrorOutput.txt
+
 # Dev Stuff #
 
 configured-client.toml
@@ -27,4 +34,3 @@ configured-client.toml
 ### DIRECTORIES (AKA Files) ###
 
 logs
-config\drippyloadingscreen\locals
