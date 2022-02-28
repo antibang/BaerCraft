@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "BaerCraft",
-  "version": "0.7.0.4",
+  "version": "0.7.0.5",
   "author": "",
   "files": [
     {
@@ -127,6 +127,11 @@
     {
       "projectID": 341503,
       "fileID": 3400309,
+      "required": true
+    },
+    {
+      "projectID": 548711,
+      "fileID": 3647254,
       "required": true
     },
     {
@@ -252,6 +257,11 @@
     {
       "projectID": 242998,
       "fileID": 3235738,
+      "required": true
+    },
+    {
+      "projectID": 225738,
+      "fileID": 3473005,
       "required": true
     },
     {
@@ -747,11 +757,6 @@
     {
       "projectID": 312918,
       "fileID": 3411324,
-      "required": true
-    },
-    {
-      "projectID": 557999,
-      "fileID": 3639467,
       "required": true
     },
     {
