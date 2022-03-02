@@ -27,6 +27,8 @@ usernamecache.json
 
 WailaErrorOutput.txt
 
+.curseclient
+
 # Dev Stuff #
 
 configured-client.toml
@@ -34,3 +36,7 @@ configured-client.toml
 ### DIRECTORIES (AKA Files) ###
 
 logs
+saves
+XaeroWaypoints
+XaeroWorldMap
+XaeroWaypoints_BACKUP032021
