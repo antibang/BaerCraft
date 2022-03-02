@@ -1,5 +1,5 @@
 # Can't Put Mods From CurseForge
-mods
+mods/*.jar
 
 # Other minecraft files that are unneeded
 
@@ -12,9 +12,7 @@ xaerominimap.txt
 xaeropatreon.txt
 xaeroworldmap.txt
 
-patchouli_data.json
-
-smoothboot.json
+config/smoothboot.json
 
 options.txt
 optionsof.txt
@@ -29,6 +27,8 @@ WailaErrorOutput.txt
 
 .curseclient
 
+config/worldedit/worldedit.properties
+
 # Dev Stuff #
 
 configured-client.toml
@@ -40,3 +40,5 @@ saves
 XaeroWaypoints
 XaeroWorldMap
 XaeroWaypoints_BACKUP032021
+screenshots
+config/worldedit
