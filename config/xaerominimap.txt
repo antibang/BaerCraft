@@ -7,7 +7,7 @@ debugEntityIcons:false
 debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
-minimap:false
+minimap:true
 caveMaps:2
 caveZoom:1
 showWaypoints:false

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:cockatrice_skull"
+    },
+    "title": [
+      [
+        {
+          "text": "Cock Army",
+          "color": "gold",
+          "bold": true
+        }
+      ]
+    ],
+    "description": [
+      [
+        {
+          "text": "Long live the cock army.",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/mobs",
+  "criteria": {
+    "cockatrice": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:cockatrice"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cockatrice"
+    ]
+  ]
+}
