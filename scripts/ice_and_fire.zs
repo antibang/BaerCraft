@@ -17,4 +17,4 @@ mods.iceandfire.DragonForge.addRecipe("fire", <item:iceandfire:dragonsteel_fire_
 mods.iceandfire.DragonForge.addRecipe("ice", <item:iceandfire:dragonsteel_ice_ingot>, <item:powder_power:ingot_quadrilium>, <item:iceandfire:ice_dragon_blood>);
 mods.iceandfire.DragonForge.addRecipe("lightning", <item:iceandfire:dragonsteel_lightning_ingot>, <item:powder_power:ingot_quadrilium>, <item:iceandfire:lightning_dragon_blood>);
 
-// xoxo sub
+// xoxo sub <3
