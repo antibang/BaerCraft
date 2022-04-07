@@ -39,9 +39,11 @@ launcher_gamer_pics_microsoft_store.json
 launcher_log.txt
 launcher_msa_credentials_microsoft_store.bin
 launcher_profiles.json
+launcher_profiles.json.bak
 launcher_settings.json
 launcher_skins.json
 launcher_ui_state_microsoft_store.json
+NewWorldBiomeIdFixer.json
 oauthprofiles.json
 options.txt
 optionsof.txt
