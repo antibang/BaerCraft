@@ -77,6 +77,8 @@ config/PregenConfig.toml
 config/untamedwilds-common.toml
 config/musicdr-client.toml
 config/skinlayers.json
+config/worldedit/worldedit.properties
+config/xaerominimap_entities.json
 
 #Datapacks
 global_data_packs/baers_additions/data/untamedwilds
