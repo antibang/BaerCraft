@@ -1,0 +1,41 @@
+{
+    "name": "Deer",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/deer",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect all 4 head variants from a deer. $(br2)$(6)$(bold)Where are they found?:$() Deer are most commonly found in forest, taiga and mountain biomes."
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:deer{VariantId: '1'}",
+            "text": "Variant 1",
+            "scale": 0.75,
+            "offset": 0.22
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:deer{VariantId: '2'}",
+            "text": "Variant 2",
+            "scale": 0.75,
+            "offset": 0.22
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:deer{VariantId: '3'}",
+            "text": "Variant 3",
+            "scale": 0.75,
+            "offset": 0.22
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:deer{VariantId: '4'}",
+            "text": "Variant 4",
+            "scale": 0.75,
+            "offset": 0.22
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/deer"
+}

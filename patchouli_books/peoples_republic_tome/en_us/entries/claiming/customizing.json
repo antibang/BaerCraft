@@ -1,0 +1,12 @@
+{
+    "name": "Customizing Permissions",
+    "icon": "powder_power:hoe_redium",
+    "category": "patchouli:claiming",
+    "pages": [
+        {
+            "type": "text",
+            "text": "With your newly created claim your belongings should now be safe from other players. But there is a lot more to it than just that. Standing in a claim and typing /flan menu a gui will open with following options:$(br2)-Edit Global Permissions$(br)-Edit Permissiongroups."
+        }
+    ],
+    "sortnum": 3
+}

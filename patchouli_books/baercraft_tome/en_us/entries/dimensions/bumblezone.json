@@ -1,0 +1,15 @@
+{
+    "name": "The Bumblezone",
+    "icon": "the_bumblezone:honey_crystal_shards",
+    "category": "patchouli:dimension_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "May be a surprise, but the Bumblezone is all about the bees. Ever wanted to know what goes on inside a beehive? Well, now you're able to see for yourself. There isn't much to this dimension, but it adds a bunch of fun stuff and gives you a new place to exlpore.$(br2)By default, traveling a block in this dimension is the same as traveling 10 block in the Overworld. In order to travel"
+        },
+        {
+            "type": "text",
+            "text": "to the dimension, all you need to do is simply throw an Enderpearl at any bee nest or beehive. To teleport out of the dimension, you can either dig down and fall below y = 0 or climb your way to above y = 256."
+        }
+    ]
+}

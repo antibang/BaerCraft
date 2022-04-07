@@ -1,0 +1,15 @@
+{
+    "name": "Leveling Your Skills",
+    "icon": "gobber2:gobber2_sword_nether",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There's now a skill leveling system. If you open your inventory, there's a new button on the left side where your skills are at! There's also a keybind you can use to navigate to the skill menu. The default key is 'G'.$(br2)No need to fear; the pack is not going to become completely locked behind this new system. This is mainly to give me even more control over the"
+        },
+        {
+            "type": "text",
+            "text": "progression rate of the pack, so the only items I'll most likely be adding is more powerful ones or end-game type things."
+        }
+    ]
+}

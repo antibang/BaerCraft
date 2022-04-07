@@ -1,0 +1,17 @@
+{
+    "name": "Greater Absorption",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/greaterabsorb",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one greater absorption token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_greater_absorption"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/greaterabsorb"
+}

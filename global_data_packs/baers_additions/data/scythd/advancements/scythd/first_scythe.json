@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:wooden_scythe"
+    },
+    "title": {
+      "translate": "advancement.scythd.first_scythe.title"
+    },
+    "description": {
+      "translate": "advancement.scythd.first_scythe.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "task"
+  },
+  "parent": "scythd:scythd/root",
+  "criteria": {
+    "has_scythe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "tags": [
+          {
+            "tag": "scythd:items/scythes"
+          }
+        ]
+      }
+    }
+  }
+}

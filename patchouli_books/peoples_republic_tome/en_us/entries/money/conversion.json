@@ -1,0 +1,15 @@
+{
+    "name": "Conversion Rates",
+    "icon": "thermal:netherite_coin",
+    "category": "patchouli:money",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The conversion rates between coins may change in the future depending on a few factors, and this is also a new system since people have been begging for a currency for ages now."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)$(#a74016)64 bronze coins$() = $(bold)$(#758392)1 silver coin$()$(br2)$(bold)$(#758392)64 silver coins$() = $(bold)$(#fce640)1 gold coin$()$(br2)$(bold)$(#fce640)64 gold coins$() = $(bold)$(#4b4448)1 netherite coin$()$(br2)$(bold)$(#4b4448)64 netherite coins$() = $(bold)$(#1d7e8c)1 enderium coin$()$(br2)"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Brown Bear",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/brownbear",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 brown bear head from a brown bear. $(br2)$(6)$(bold)Where are they found?:$() Brown bears are found in forests, taigas and mountains."
+        },
+        {
+            "type": "entity",
+            "entity": "betteranimalsplus:brownbear",
+            "scale": 0.7,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/brownbear"
+}

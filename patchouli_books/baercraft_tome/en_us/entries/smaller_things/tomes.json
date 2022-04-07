@@ -1,0 +1,15 @@
+{
+    "name": "Better Enchants",
+    "icon": "quark:ancient_tome",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You can increase the highest level of enchantment with any of the enchantments (as long as they have a tier). You must have an ancient tome, which are usually found in dungeons or strongholds. You combine that with the corresponding enchantment book in an anvil and you'll increased that book by one level.$(br2)You can only increase enchantmentments past their"
+        },
+        {
+            "type": "text",
+            "text": "highest tier by a max of one level as well.$(br2)(Example: an ancient tome plus Sharpness III will give you Sharpness IV. An ancient tome plus Sharpness V will give you Sharpness VI, but nothing higher)"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Absorption",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/absorb",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one absorption token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:absorption_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/absorb"
+}

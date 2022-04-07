@@ -1,0 +1,3 @@
+identifier = sponsor.menu
+title = 
+allowesc = true

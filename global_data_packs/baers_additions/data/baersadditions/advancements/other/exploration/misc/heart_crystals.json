@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "scalinghealth:heart_crystal"
+    },
+    "title": "Ace of Hearts",
+    "description": "Find or craft the max amount of heart crystals.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration",
+  "criteria": {
+    "heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "scalinghealth:heart_crystal",
+            "count": 10
+          }
+        ]
+      }
+    }
+  }
+}

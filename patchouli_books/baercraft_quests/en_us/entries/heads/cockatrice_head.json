@@ -1,0 +1,27 @@
+{
+    "name": "Cockatrice",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/cockatrice",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 cockatrice skull from a cockatrice. $(br2)$(6)$(bold)Where are they found?:$() Cockatrices spawn in savannas."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:cockatrice{Variant: 0}",
+            "text": "Male variant.",
+            "scale": 0.3,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:cockatrice{Hen: 1b}",
+            "text": "Female variant.",
+            "scale": 0.3,
+            "offset": 0.3
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/cockatrice"
+}

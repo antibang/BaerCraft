@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "betteranimalsplus:moosehead_4",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:moosehead_3",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:moosehead_2",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:moosehead_1",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

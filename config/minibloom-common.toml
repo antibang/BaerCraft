@@ -1,0 +1,27 @@
+
+#Mob Configuration
+[mob_configuration]
+	#How long in seconds a minibloom waits before attempting to fertilize again [default:300]
+	#Range: > 0
+	minibloomFertilizeCooldown = 300
+	#Chance for a minibloom to spawn a honey sprout beneath it every 1/20th of a second (every tick) [default:0.01]
+	#Range: 0.0 ~ 1.0
+	minibloomHoneySproutChance = 0.01
+	#Spawn weight for miniblooms, determines how likely they are to spawn compared to other mobs in the biome [default:8]
+	#Range: 1 ~ 100
+	minibloomSpawnWeight = 8
+	#Maximum spawn group size for miniblooms [default:4]
+	#Range: 1 ~ 100
+	minibloomMaxSpawnGroupSize = 4
+	#Chance for a minibloom to fertilize the area beneath it every 1/20th of a second (every tick) [default:0.01]
+	#Range: 0.0 ~ 1.0
+	minibloomFertilizeChance = 0.01
+	#The biomes in which a minibloom can spawn [default: minecraft:flower_forest, minecraft:sunflower_plains]
+	minibloomBiomes = ["minecraft:flower_forest", "minecraft:sunflower_plains"]
+	#How long in seconds a minibloom waits before attempting to spawn a honey sprout again [default:300]
+	#Range: > 0
+	minibloomHoneySproutCooldown = 300
+	#Minimum spawn group size for miniblooms [default:4]
+	#Range: 1 ~ 100
+	minibloomMinSpawnGroupSize = 4
+

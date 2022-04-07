@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "scalinghealth:power_crystal"
+    },
+    "title": "Fully Powered",
+    "description": "Find or craft the max amount of power crystals.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration",
+  "criteria": {
+    "power": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "scalinghealth:power_crystal",
+            "count": 60
+          }
+        ]
+      }
+    }
+  }
+}

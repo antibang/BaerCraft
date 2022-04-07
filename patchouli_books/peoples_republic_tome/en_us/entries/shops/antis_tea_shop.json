@@ -1,0 +1,11 @@
+{
+    "name": "Anti's Tea & Café",
+    "icon": "thermal:tea",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "."
+        }
+    ]
+}

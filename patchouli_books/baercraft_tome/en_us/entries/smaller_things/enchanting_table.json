@@ -1,0 +1,19 @@
+{
+    "name": "The Enchanting Table",
+    "icon": "minecraft:enchanting_table",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "There have been some small improvements to the enchanting table! You can now just leave items in the table, so you don't have to lug them back and forth each time! Hoppers can be used to input and output items in the following way:$(br2)$(bold)Top:$() Input for enchantable items.$(br)$(bold)Sides:$() Input for lapis lazuli.$(br)$(bold)Bottom:$() Output for enchanted items."
+        },
+        {
+            "type": "text",
+            "text": "Comparators work, too! They will output a signal strength of 0, 1, 2 or 3 depending on the amount of lapis lazuli items placed in the table.$(br2)You can also re-roll enchantments. Simply place your item in the slot then remove it! There will be different enchantments than before. Alongside that, you can now see the complete outcome of the enchanting process.$(br2)One thing to note is that you need 22 bookshelves to"
+        },
+        {
+            "type": "text",
+            "text": "reach the highest enchantment level possible."
+        }
+    ]
+}

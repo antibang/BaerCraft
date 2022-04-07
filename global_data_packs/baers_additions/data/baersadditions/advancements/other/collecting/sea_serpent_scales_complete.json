@@ -1,0 +1,116 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:sea_serpent_scales_purple"
+    },
+    "title": [
+      {
+        "text": "Sea Serpent Slayer",
+        "color": "gold",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "description": "Aquire a scale of each type of sea serpent.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/collecting",
+  "criteria": {
+    "blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_blue"
+          }
+        ]
+      }
+    },
+    "bronze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_bronze"
+          }
+        ]
+      }
+    },
+    "deepblue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_deepblue"
+          }
+        ]
+      }
+    },
+    "green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_green"
+          }
+        ]
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_purple"
+          }
+        ]
+      }
+    },
+    "red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_red"
+          }
+        ]
+      }
+    },
+    "teal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_teal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blue"
+    ],
+    [
+      "bronze"
+    ],
+    [
+      "deepblue"
+    ],
+    [
+      "green"
+    ],
+    [
+      "purple"
+    ],
+    [
+      "red"
+    ],
+    [
+      "teal"
+    ]
+  ]
+}

@@ -1,0 +1,96 @@
+[
+    {
+        "mob": "minecraft:rabbit",
+        "persecond": 0.5,
+        "attemps": 20,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "maxthis": 6
+        }
+    },
+    {
+        "mob": "minecraft:ghast",
+        "persecond": 0.1,
+        "attemps": 1,
+        "ammount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "inair": true,
+            "maxthis": 2
+        }
+    },
+    {
+        "mob": "bettas:betta_fish",
+        "persecond": 1,
+        "attempts": 80,
+        "amount": {
+            "minimum": 2,
+            "maximum": 5
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "maxthis": 5
+        }
+    },
+    {
+        "mob": "minecraft:panda",
+        "persecond": 1,
+        "attemps": 100,
+        "ammount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "undergarden:forgotten_guardian",
+        "persecond": 0.7,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 5
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "maxthis": 8
+        }
+    },
+    {
+        "mob": "mutantmore:mutant_wither_skeleton",
+        "persecond": 0.6,
+        "attempts": 10,
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "maxthis": 5
+        }
+    },
+    {
+        "mob": "creatures:shrimp",
+        "persecond": 0.6,
+        "attempts": 20,
+        "amount": {
+            "minimum": 4,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "maxthis": 12
+        }
+    }
+]

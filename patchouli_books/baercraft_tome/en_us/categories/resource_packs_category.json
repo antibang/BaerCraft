@@ -1,0 +1,6 @@
+{
+    "name": "Resource Packs",
+    "description": "These are some of my favorite resource packs that I use while playing my pack. Please note if you decide to use them, or even just some, in order for certain textures to take over others, they must go in the order listed here starting with Unity Dark edition.$(br2)$(bold)$(#e2a3ff)!!! Some of these packs require OptiFine to work !!!",
+    "icon": "minecraft:enchanted_golden_apple",
+    "sortnum": 5
+}

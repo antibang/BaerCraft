@@ -1,0 +1,37 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+  scale = 3
+  backgroundcolor = #c8a995
+}
+
+customization {
+  textcolor = 38220f
+  action = editforgememoryinfo
+}
+
+customization {
+  x = 13
+  textcolor = 634832
+  action = editforgestatustext
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+  barcolor = 634832
+}
+
+customization {
+  orientation = bottom-centered
+  x = 2
+  width = 587
+  y = -60
+  action = addcustomprogressbar
+  height = 18
+  direction = right
+  barcolor = #765742
+  backgroundcolor = #ece0d1
+}
+

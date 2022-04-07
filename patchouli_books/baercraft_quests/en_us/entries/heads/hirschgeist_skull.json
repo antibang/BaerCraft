@@ -1,0 +1,19 @@
+{
+    "name": "Hirschgeist",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/hirschgeist",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 Hirschgeist skull from a Hirschgeist. $(br2)$(6)$(bold)Where are they found?:$() Hirschgeists are found in forest, taiga, mountain and jungle edge biomes."
+        },
+        {
+            "type": "entity",
+            "entity": "whisperwoods:hirschgeist",
+            "scale": 0.6,
+            "offset": 1.2
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/hirschgeist"
+}

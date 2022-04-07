@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "scythd:sample_scythe"
+    },
+    "title": {
+      "text": "Reapers of Time",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "Craft your first scythe.",
+      "color": "white",
+      "bold": false,
+      "italic": true
+    },
+    "background": "minecraft:textures/block/blackstone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

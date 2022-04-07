@@ -1,0 +1,12 @@
+{
+    "name": "I&F Dragonsteel Arsenal",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/ice-fire-dragonsteel-weaponry)I&F Dragonsteel Arsenal$()$(br2)DE4THR4SH’s personal retexture for dragonsteel weaponry, weapons and armor. It even adds glowing eyes to the eyes on the armor, but if you don’t like that kind of thing, there is a non-glowing version."
+        }
+    ],
+    "sortnum": 7
+}

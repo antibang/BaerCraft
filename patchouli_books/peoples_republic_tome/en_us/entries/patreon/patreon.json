@@ -1,0 +1,17 @@
+{
+    "name": "Patreon",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:patreon",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Consider supporting me on Patreon!$(br2)This is completely optional. Any amount helps me tons, and whether you support me on Patreon or not, any support of any kind means a lot!"
+        },
+        {
+            "type": "spotlight",
+            "title": "Become a Patron",
+            "item": "curios:crown",
+            "text": "$(#e2a3ff)$(l:https://www.patreon.com/antibang)      Link to my Patreon"
+        }
+    ]
+}

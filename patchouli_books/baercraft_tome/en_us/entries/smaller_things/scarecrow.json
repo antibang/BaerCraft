@@ -1,0 +1,17 @@
+{
+    "name": "Scarecrows",
+    "icon": "dummmmmmy:target_dummy_placer",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Target dummies and scarecrows are an easy way to scare off hostile entities early game. The scarecrows even have upgrades to do more specific things like to scare off only creepers!$(br2)$(italic)No need to rush to craft those expensive powered lanterns."
+        },
+        {
+            "type": "entity",
+            "entity": "dummmmmmy:target_dummy",
+            "scale": 0.9,
+            "offset": 0.1
+        }
+    ]
+}

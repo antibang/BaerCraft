@@ -1,0 +1,12 @@
+{
+    "name": "Supa Lilies",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/supa-lilies)Supa Lilies$()$(br2)Supa lilies retextures the lily pads and makes them a bit more realistic, but still keeping it vanilla. It has 13 variations and 3 colors of flowers."
+        }
+    ],
+    "sortnum": 2
+}

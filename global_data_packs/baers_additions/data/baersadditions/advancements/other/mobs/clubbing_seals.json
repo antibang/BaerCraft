@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:club_studded"
+    },
+    "title": [
+      {
+        "text": "Clubbin' Seals!",
+        "color": "blue",
+        "italic": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Whack a seal with a club. What kind of monster are you?",
+        "color": "white"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/mobs",
+  "criteria": {
+    "hurt_seal": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "spartanweaponry:club_wood"
+            }
+          }
+        },
+        "entity": {
+          "type": "alexsmobs:seal"
+        }
+      }
+    },
+    "hurt_seal_studded": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "spartanweaponry:club_studded"
+            }
+          }
+        },
+        "entity": {
+          "type": "alexsmobs:seal"
+        }
+      }
+    },
+    "hurt_seal_iron": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "atum:iron_club"
+            }
+          }
+        },
+        "entity": {
+          "type": "alexsmobs:seal"
+        }
+      }
+    },
+    "hurt_seal_stone": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "atum:stoneguard_club"
+            }
+          }
+        },
+        "entity": {
+          "type": "alexsmobs:seal"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt_seal",
+      "hurt_seal_studded",
+      "hurt_seal_iron",
+      "hurt_seal_stone"
+    ]
+  ]
+}

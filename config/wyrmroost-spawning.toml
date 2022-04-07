@@ -1,0 +1,181 @@
+
+[alpine]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
+	biomes = ["byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:snowy_maple_forest", "biomesoplenty:tundra_bog", "biomesoplenty:coniferous_forest", "biomesoplenty:lavender_field", "biomesoplenty:grassland", "biomesoplenty:mystic_grove", "biomesoplenty:redwood_forest", "biomesoplenty:flower_meadow", "biomesoplenty:golden_prairie", "biomesoplenty:mystic_plains", "biomesoplenty:ominous_mire", "biomesoplenty:grove"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 1
+	#Range: > 0
+	weight = 14
+	#Minimum group size
+	#Default: 1
+	#Range: > 0
+	min = 1
+	#Maximum group size
+	#Default: 4
+	#Range: > 0
+	max = 5
+
+[butterfly_leviathan]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+	biomes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 1
+	#Range: > 0
+	weight = 1
+	#Minimum group size
+	#Default: 1
+	#Range: > 0
+	min = 1
+	#Maximum group size
+	#Default: 1
+	#Range: > 0
+	max = 1
+
+[canari_wyvern]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:swamp", "minecraft:swamp_hills"]
+	biomes = ["byg:glowshroom_bayou", "byg:mangrove_marshes", "byg:bluff_steeps", "byg:bluff_peaks", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:bayou", "biomesoplenty:fungal_jungle", "biomesoplenty:grove", "biomesoplenty:mystic_grove", "biomesoplenty:ominous_woods", "biomesoplenty:fungal_field", "biomesoplenty:ominous_mire", "biomesoplenty:tropics", "biomesoplenty:grassland_clover_patch"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 9
+	#Range: > 0
+	weight = 15
+	#Minimum group size
+	#Default: 2
+	#Range: > 0
+	min = 2
+	#Maximum group size
+	#Default: 5
+	#Range: > 0
+	max = 5
+
+[dragonfruit_drake]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:jungle_edge", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills"]
+	biomes = ["minecraft:jungle_edge", "minecraft:jungle", "minecraft:jungle_hills", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:modified_jungle", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:rainforest_floodplain", "biomesoplenty:tropics", "biomesoplenty:fungal_field", "biomesoplenty:fungal_jungle"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 23
+	#Range: > 0
+	weight = 23
+	#Minimum group size
+	#Default: 4
+	#Range: > 0
+	min = 4
+	#Maximum group size
+	#Default: 5
+	#Range: > 0
+	max = 6
+
+[lesser_desertwyrm]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:desert", "minecraft:desert_hills"]
+	biomes = ["byg:red_desert", "byg:lush_red_desert", "byg:red_desert_dunes", "minecraft:desert", "minecraft:desert_hills", "biomesoplenty:lush_desert"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 11
+	#Range: > 0
+	weight = 6
+	#Minimum group size
+	#Default: 1
+	#Range: > 0
+	min = 1
+	#Maximum group size
+	#Default: 3
+	#Range: > 0
+	max = 3
+
+[overworld_drake]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:plains", "minecraft:flower_plains", "minecraft:savanna", "minecraft:savanna_plateau"]
+	biomes = ["byg:araucaria_savanna", "byg:araucaria_forest", "byg:baobab_savanna", "minecraft:plains", "minecraft:flower_plains", "minecraft:savanna", "minecraft:savanna_plateau", "biomesoplenty:prairie", "biomesoplenty:scrubland", "biomesoplenty:shrubland", "biomesoplenty:lush_savanna"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 8
+	#Range: > 0
+	weight = 7
+	#Minimum group size
+	#Default: 1
+	#Range: > 0
+	min = 1
+	#Maximum group size
+	#Default: 3
+	#Range: > 0
+	max = 3
+
+[roost_stalker]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:plains", "minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
+	biomes = ["byg:seasonal_forest", "byg:ebony_woods", "byg:ebony_hills", "byg:red_oak_forest", "byg:red_oak_forest_hills", "byg:boreal_forest", "byg:deciduous_forest", "byg:deciduous_forest_hills", "byg:cika_woods", "byg:cika_mountains", "byg:orchard", "byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "byg:the_black_forest", "byg:black_forest_hills", "byg:bluff_steeps", "byg:bluff_peaks", "minecraft:plains", "minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:grove", "biomesoplenty:lavender_field", "biomesoplenty:meadow", "biomesoplenty:ominous_woods", "biomesoplenty:prairie", "biomesoplenty:seasonal_forest", "biomesoplenty:dry_boneyard", "biomesoplenty:flower_meadow", "biomesoplenty:lush_savanna", "biomesoplenty:lavender_forest", "biomesoplenty:meadow_forest", "biomesoplenty:golden_prairie", "biomesoplenty:tropics"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 7
+	#Range: > 0
+	weight = 7
+	#Minimum group size
+	#Default: 2
+	#Range: > 0
+	min = 4
+	#Maximum group size
+	#Default: 9
+	#Range: > 0
+	max = 9
+
+[royal_red]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
+	biomes = ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:lush_desert", "biomesoplenty:lush_savanna"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 1
+	#Range: > 0
+	weight = 1
+	#Minimum group size
+	#Default: 1
+	#Range: > 0
+	min = 1
+	#Maximum group size
+	#Default: 1
+	#Range: > 0
+	max = 1
+
+[silver_glider]
+	#List of biomes in whitelist/blacklist
+	#Default: ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:beach", "minecraft:snowy_beach"]
+	biomes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:beach", "minecraft:snowy_beach", "biomesoplenty:tropics"]
+	#Set this to true to make the biomes list act as a blacklist
+	#Default: false
+	blacklist = false
+	#Mob spawning weight (higher numbers will spawn more often)
+	#Default: 10
+	#Range: > 0
+	weight = 10
+	#Minimum group size
+	#Default: 1
+	#Range: > 0
+	min = 1
+	#Maximum group size
+	#Default: 4
+	#Range: > 0
+	max = 4
+

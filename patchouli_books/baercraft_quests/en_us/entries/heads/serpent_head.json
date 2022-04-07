@@ -1,0 +1,62 @@
+{
+    "name": "Sea Serpent",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/seaserpent",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 sea serpent skull from a sea serpent. $(br2)$(6)$(bold)Where are they found?:$() Sea serpents are found in oceans."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 0}",
+            "text": "Blue variant.",
+            "scale": 0.2,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 1}",
+            "text": "Bronze variant.",
+            "scale": 0.2,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 2}",
+            "text": "Deep blue variant.",
+            "scale": 0.2,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 3}",
+            "text": "Green variant.",
+            "scale": 0.2,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 4}",
+            "text": "Purple variant.",
+            "scale": 0.2,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 5}",
+            "text": "Red variant.",
+            "scale": 0.2,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:sea_serpent{Scale: 1, Variant: 6}",
+            "text": "Teal variant.",
+            "scale": 0.2,
+            "offset": 0
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/seaserpent"
+}

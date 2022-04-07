@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:zombie_head",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

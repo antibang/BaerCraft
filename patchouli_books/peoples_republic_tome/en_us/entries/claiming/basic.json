@@ -1,0 +1,16 @@
+{
+    "name": "The Basics",
+    "icon": "minecraft:golden_hoe",
+    "category": "patchouli:claiming",
+    "pages": [
+        {
+            "type": "text",
+            "text": "To get started the first thing you need is a golden hoe. This will be your tool to create land claims. Holding the tool will display your current claim blocks and the amount you used (this number is usually $(bold)incorrect$())$(br2)To create a claim right click on one block to select a corner and on another block to set the other corner. If it was successful you will get a"
+        },
+        {
+            "type": "text",
+            "text": "message that a claim was created, else it will tell you why the creation failed."
+        }
+    ],
+    "sortnum": 1
+}

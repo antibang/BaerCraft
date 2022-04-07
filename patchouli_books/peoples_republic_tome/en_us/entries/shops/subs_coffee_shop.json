@@ -1,0 +1,11 @@
+{
+    "name": "Subthy's Coffee* Shop",
+    "icon": "pamhc2foodextended:chaiteaitem",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "."
+        }
+    ]
+}

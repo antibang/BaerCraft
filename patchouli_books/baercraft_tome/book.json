@@ -1,0 +1,9 @@
+{
+    "name": "BAERCRAFT TOME",
+    "landing_text": "$(bold)Greetings! Glad to see you here, $(6)$(playername) $()$(br2)Welcome to BaerCraft. I'll be adding some tips and information to this tome as time progresses. I'm always forgetting something, so there's much more to know than what is included here.",
+    "version": 0,
+    "subtitle":  "Containing knowledge.",
+    "creative_tab":  "mod_tab",
+    "model": "baersadditions:baercraft_tome",
+    "book_texture": "patchouli:textures/gui/book_blue.png"
+}

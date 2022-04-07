@@ -1,0 +1,11 @@
+type = slideshow
+
+slideshow-meta {
+   name = sponsor_slideshow
+   width = 4096
+   height = 2304
+   x = 0
+   y = 0
+   duration = 5.0
+   fadespeed = 3.0
+}

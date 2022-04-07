@@ -1,0 +1,288 @@
+
+#Mob Configuration
+[mob_configuration]
+	#Enable the default ability of Wraiths to summon Wraith Fire around the player as an attack. 
+	#If you prefer a less griefy attack using Soul Fireballs akin to the Blaze, disable this feature. [true / false]
+	enableWraithFireSummon = true
+	#Add mobs (preferably undead) that the Necromancer can summon. 
+	#To do so, enter the namespace ID of the mob, like "minecraft:zombie".
+	#If this list is empty, zombies will be summoned instead.
+	#If a mob chosen from this list cannot be spawned, a zombie will be summoned instead.
+	necromancerMobSummons = ["minecraft:zombie", "minecraft:skeleton", "dungeons_mobs:armored_zombie", "dungeons_mobs:armored_skeleton", "dungeons_mobs:wraith"]
+
+#Spawn Configuration
+[spawn_configuration]
+	#Spawn weight of Geomancers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	geomancerSpawnWeight = 5
+	#Add biome types that the Whisperer can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	whispererBiomeTypes = ["JUNGLE", "!MUSHROOM", "!NETHER", "!END"]
+	#Maximum spawn group size of Windcallers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	windcallerMaxGroupSize = 1
+	#Spawn weight of Vindicators in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	vindicatorSpawnWeight = 5
+	#Enable Frozen Zombies replacing 80% of  Zombie spawns in ICY biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableFrozenZombieReplacesZombie = true
+	#Add biome types that the Iceologer can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	iceologerBiomeTypes = ["SNOWY", "!MUSHROOM", "!NETHER", "!END"]
+	#Spawn weight of Leapleafs in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	leapleafSpawnWeight = 5
+	#Maximum spawn group size of Iceologers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	iceologerMaxGroupSize = 1
+	#Spawn weight of Illusioners in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 1024
+	illusionerSpawnWeight = 1
+	#Minimum spawn group size of Mountaineers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 32
+	mountaineerMinGroupSize = 1
+	#Minimum spawn group size of Necromancers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	necromancerMinGroupSize = 1
+	#Maximum spawn group size of Pillagers in the biomes they can spawn in. [default:4]
+	#Range: 0 ~ 128
+	pillagerMaxGroupSize = 4
+	#Minimum spawn group size of Leapleafs in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	leapleafMinGroupSize = 1
+	#Minimum spawn group size of Iceologers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	iceologerMinGroupSize = 1
+	#Add biome types that the Skeleton Vanguard can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	skeletonVanguardBiomeTypes = ["SANDY", "!MUSHROOM", "!NETHER", "!END"]
+	#Add biome types that the Wraith can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	wraithBiomeTypes = ["OVERWORLD", "!MUSHROOM", "!NETHER", "!END"]
+	#Add biome types that the Skeleton Horseman can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	skeletonHorsemanBiomeTypes = ["OVERWORLD", "!MUSHROOM", "!NETHER", "!END"]
+	#Minimum spawn group size of Geomancers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	geomancerMinGroupSize = 1
+	#Add biome types that the Geomancer can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	geomancerBiomeTypes = ["SAVANNA", "!MUSHROOM", "!NETHER", "!END"]
+	#Add biome types that the Vindicator can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	vindicatorBiomeTypes = ["SPOOKY", "!MUSHROOM", "!NETHER", "!END"]
+	#Spawn weight of Whisperers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	whispererSpawnWeight = 5
+	#Maximum spawn group size of Whisperers in the biomes they can spawn in. [default:4]
+	#Range: 0 ~ 128
+	whispererMaxGroupSize = 3
+	#Maximum spawn group size of Wraiths in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	wraithMaxGroupSize = 1
+	#Minimum spawn group size of Windcallers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	windcallerMinGroupSize = 1
+	#Maximum spawn group size of Geomancers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	geomancerMaxGroupSize = 1
+	#Minimum spawn group size of Whisperers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	whispererMinGroupSize = 1
+	#Minimum spawn group size of Pillagers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	pillagerMinGroupSize = 1
+	#Maximum spawn group size of Skeleton Horsemen in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 32
+	skeletonHorsemanMaxGroupSize = 1
+	#Maximum spawn group size of Mountaineers in the biomes they can spawn in. [default:4]
+	#Range: 0 ~ 32
+	mountaineerMaxGroupSize = 4
+	#Spawn weight of Mountaineers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	mountaineerSpawnWeight = 5
+	#Minimum spawn group size of Poison-Quill Vines in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	poisonQuillVineMinGroupSize = 1
+	#Enable Icy Creepers replacing 80% of Creeper spawns in ICY biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableIcyCreeperReplacesCreeper = true
+	#Add biome types that the Pillager can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	pillagerBiomeTypes = ["SPOOKY", "!MUSHROOM", "!NETHER", "!END"]
+	#Spawn weight of Skeleton Vanguards in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	skeletonVanguardSpawnWeight = 5
+	#Minimum spawn group size of Evokers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	evokerMinGroupSize = 1
+	#Spawn weight of Wraiths in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	wraithSpawnWeight = 3
+	#Spawn weight of Quick-Growing Vines in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	quickGrowingVineSpawnWeight = 5
+	#Add biome types that the Necromancer can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	necromancerBiomeTypes = ["SANDY", "!MUSHROOM", "!NETHER", "!END"]
+	#Maximum spawn group size of Poison-Quill Vines in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	poisonQuillVineMaxGroupSize = 1
+	#Minimum spawn group size of Wraiths in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	wraithMinGroupSize = 1
+	#Maximum spawn group size of Evokers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	evokerMaxGroupSize = 1
+	#Spawn weight of Evokers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 1024
+	evokerSpawnWeight = 1
+	#Add biome types that the Illusioner can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	illusionerBiomeTypes = ["SNOWY", "MOUNTAIN", "!SANDY", "!JUNGLE", "!FOREST", "!HOT", "!MUSHROOM", "!NETHER", "!END"]
+	#Maximum spawn group size of Vindicators in the biomes they can spawn in. [default:4]
+	#Range: 0 ~ 128
+	vindicatorMaxGroupSize = 4
+	#Spawn weight of Iceologers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	iceologerSpawnWeight = 5
+	#Maximum spawn group size of Quick-Growing Vines in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	quickGrowingVineMaxGroupSize = 1
+	#Spawn weight of Windcallers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	windcallerSpawnWeight = 5
+	#Add biome types that the Quick-Growing Vines can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	quickGrowingVineBiomeTypes = ["JUNGLE", "!MUSHROOM", "!NETHER", "!END"]
+	#Minimum spawn group size of Skeleton Horsemen in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 32
+	skeletonHorsemanMinGroupSize = 1
+	#Add biome types that the Poison-Quill Vines can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	poisonQuillVineBiomeTypes = ["JUNGLE", "!MUSHROOM", "!NETHER", "!END"]
+	#Enable Armored Vindicators replacing 10% of Vindicator spawns in the biomes they can spawn in. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableArmoredVindicatorReplacesVindicator = true
+	#Add biome types that the Mountaineer can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	mountaineerBiomeTypes = ["MOUNTAIN", "!SANDY", "!JUNGLE", "!FOREST", "!MUSHROOM", "!HOT", "!NETHER", "!END"]
+	#Enable Armored Pillagers replacing 10% of Pillager spawns in the biomes they can spawn in. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableArmoredPillagerReplacesPillager = true
+	#Maximum spawn group size of Illusioners in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	illusionerMaxGroupSize = 1
+	#Minimum spawn group size of Skeleton Vanguards in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	skeletonVanguardMinGroupSize = 1
+	#Spawn weight of Pillagers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	pillagerSpawnWeight = 5
+	#Spawn weight of Necromancers in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	necromancerSpawnWeight = 5
+	#Maximum spawn group size of Necromancers in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	necromancerMaxGroupSize = 1
+	#Minimum spawn group size of Vindicators in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	vindicatorMinGroupSize = 1
+	#Minimum spawn group size of Illusioners in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	illusionerMinGroupSize = 1
+	#Enable Armored Zombies replacing 10% of Zombie spawns in the biomes they can spawn in. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableArmoredZombieReplacesZombie = true
+	#Enable Mossy Skeletons  80% of Skeleton spawns in JUNGLE biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableMossySkeletonReplacesSkeleton = true
+	#Add biome types that the Evoker can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	evokerBiomeTypes = ["SPOOKY", "!MUSHROOM", "!NETHER", "!END"]
+	#Spawn weight of Poison-Quill Vines in the biomes they can spawn in. [default:5]
+	#Range: 0 ~ 1024
+	poisonQuillVineSpawnWeight = 5
+	#Enable Armored Mountaineers replacing 10% of Mountaineer spawns in the biomes they can spawn in. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableArmoredMountaineerReplacesMountaineer = true
+	#Add biome types that the Windcaller can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	windcallerBiomeTypes = ["MOUNTAIN", "!SANDY", "!JUNGLE", "!FOREST", "!MUSHROOM", "!HOT", "!NETHER", "!END"]
+	#Minimum spawn group size of Quick-Growing Vines in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	quickGrowingVineMinGroupSize = 1
+	#Enable Armored Skeletons replacing 10% of Skeleton spawns in the biomes they can spawn in. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableArmoredSkeletonReplacesSkeleton = true
+	#Maximum spawn group size of Skeleton Vanguards in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 128
+	skeletonVanguardMaxGroupSize = 1
+	#Spawn weight of Skeleton Horsemen in the biomes they can spawn in. [default:1]
+	#Range: 0 ~ 1024
+	skeletonHorsemanSpawnWeight = 1
+	#Maximum spawn group size of Leapleafs in the biomes they can spawn in. [default:4]
+	#Range: 0 ~ 128
+	leapleafMaxGroupSize = 4
+	#Enable Jungle Zombies replacing 80% of Zombie spawns in JUNGLE biomes. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableJungleZombieReplacesZombie = true
+	#Add biome types that the Leapleaf can spawn in. 
+	#Put a "!" before the type to prevent spawning in that biome type. 
+	#Leave this blank if you don't want them to spawn at all.
+	leapleafBiomeTypes = ["JUNGLE", "!MUSHROOM", "!NETHER", "!END"]
+
+#Raid Configuration
+[raid_configuration]
+	#Enable the addition of Windcallers to raids. [true / false]
+	enableWindcallersInRaids = false
+	#Enable the addition of Vindicator Chefs to raids. [true / false]
+	enableVindicatorChefsInRaids = false
+	#Enable the addition of Mountaineers to raids. [true / false]
+	enableMountaineersInRaids = false
+	#Enable the addition of Armored Pillagers to raids. [true / false]
+	enableArmoredPillagersInRaids = true
+	#Add biome types that the Squall Golem can spawn in (if biome-specific raiding is enabled). 
+	#Put a "!" before the type to prevent spawning (in biome-specific raids) in that biome type. 
+	#Leave this blank if you don't want them to spawn (in biome-specific raids) at all.
+	squallGolemBiomeTypes = ["MOUNTAIN", "!SANDY", "!JUNGLE", "!FOREST", "!MUSHROOM", "!HOT", "!MUSHROOM", "!NETHER", "!END"]
+	#Enable the addition of Armored Vindicators to raids. [true / false]
+	enableArmoredVindicatorsInRaids = true
+	#Enable the addition of Armored Mountaineers to raids. [true / false]
+	enableArmoredMountaineersInRaids = false
+	#Enable the addition of Redstone Golems to raids. [true / false]
+	enableRedstoneGolemsInRaids = true
+	#Enable the addition of Illusioners to raids. [true / false]
+	enableIllusionersInRaids = false
+	#Enable the addition of Royal Guards to raids. [true / false]
+	enableRoyalGuardsInRaids = false
+	#Enable the addition of Iceologers to raids. [true / false]
+	enableIceologersInRaids = false
+	#Enables logic for only allowing certain raiders to spawn as a part of raids in certain biome types.  
+	#This will make the Mountaineers, Windcaller, Iceologer and Squall Golem only spawn as raiders in their allowed biomes. 
+	#If they are not allowed to spawn as part of a raid in a given biome, 
+	#another equivalent Illager type (Vindicator, Evoker, Ravager) will spawn instead. 
+	#If they are not configured to be added to raids, 
+	#they will replace their equivalent Illager type (Vindicator, Evoker, Ravager) in raids taking place in their allowed biomes. [true / false]
+	enableBiomeSpecificRaiders = false
+	#Enable the addition of Geomancers to raids. [true / false]
+	enableGeomancersInRaids = true
+	#Enable the addition of Squall Golems to raids. [true / false]
+	enableSquallGolemsInRaids = true
+

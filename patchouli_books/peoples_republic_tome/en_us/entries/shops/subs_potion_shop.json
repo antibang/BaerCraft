@@ -1,0 +1,11 @@
+{
+    "name": "Subthy's Potion Shop",
+    "icon": "dynamictrees:dendro_potion{potion_index: 6}",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "."
+        }
+    ]
+}

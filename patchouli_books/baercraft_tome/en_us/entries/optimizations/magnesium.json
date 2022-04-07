@@ -1,0 +1,15 @@
+{
+    "name": "Magnesium",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:optimization_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Client sided ONLY ($(#e2a3ff)$(l:https://www.curseforge.com/minecraft/mc-mods/sodium-reforged)Download$())$(br2)$(#e2a3ff)My recommonded usage:$()$(br)Download $(bold)the most recent version for 1.16.5$() from CurseForge. This is an alternative to OptiFine, and even offers better FPS. I would also download $(#e2a3ff)$(l:https://www.curseforge.com/minecraft/mc-mods/magnesium-extras)Magnesium Extras.$() $(br2)$(#ff0000)WARNINGS:$()$(br)Magnesium is NOT compatible with OptiFine. The only"
+        },
+        {
+            "type": "text",
+            "text": "downside is that shaders are currently not supported."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "subwild:light_brown_roots",
+    "subwild:brown_roots",
+    "subwild:white_roots",
+    "subwild:light_orange_roots",
+    "subwild:dark_brown_roots",
+    "subwild:orange_roots"
+  ]
+}

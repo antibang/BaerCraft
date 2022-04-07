@@ -1,0 +1,17 @@
+{
+    "name": "Unseen",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/unseen",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one unseen token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_unseen"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/unseen"
+}

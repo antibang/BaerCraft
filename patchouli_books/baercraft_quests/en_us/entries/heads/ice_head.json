@@ -1,0 +1,39 @@
+{
+    "name": "Ice Dragon",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 ice dragon skull PER level. $(br2)$(6)$(bold)Where are they found?:$() ice dragons are found in tundras and taigas.$(br2)Tip: You should have five skulls in total ranging from level 1-5."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:ice_dragon{AgeTicks: 3000000, Variant: 0}",
+            "text": "Light blue variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:ice_dragon{AgeTicks: 3000000, Variant: 1}",
+            "text": "White variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:ice_dragon{AgeTicks: 3000000, Variant: 2}",
+            "text": "Sapphire variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:ice_dragon{AgeTicks: 3000000, Variant: 3}",
+            "text": "Silver variant.",
+            "scale": 0.04,
+            "offset": 5
+        }
+    ]
+}

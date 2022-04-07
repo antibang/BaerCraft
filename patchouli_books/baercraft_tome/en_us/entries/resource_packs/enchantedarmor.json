@@ -1,0 +1,12 @@
+{
+    "name": "Enchanted Armor",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/enchanted-armors)Enchanted Armor$()$(br2)From their project page, “Give unique RPG-style designs for each enchantment for all armors.”"
+        }
+    ],
+    "sortnum": 14
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Better Leaves",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/motschens-better-leaves)Better Leaves$()$(br2)This is a very well known pack. It’s simple, but it makes all leaves, included many modded ones, more bushy."
+        }
+    ],
+    "sortnum": 16
+}

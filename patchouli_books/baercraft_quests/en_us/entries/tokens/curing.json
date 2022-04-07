@@ -1,0 +1,17 @@
+{
+    "name": "Curing",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/curing",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one curing token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:curing_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/curing"
+}

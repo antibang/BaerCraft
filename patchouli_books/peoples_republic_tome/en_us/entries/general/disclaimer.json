@@ -1,0 +1,12 @@
+{
+    "name": "Disclaimer",
+    "icon": "alexsmobs:void_worm_eye",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Keep in mind that BaerCraft was not originally created to run on servers. I started this modpack to be a modpack. Not a server thing, but over time it slowly became that for me because I realized how many people enjoyed playing on the servers. BaerCraft may not run smoothly on servers because it is $(bold)not intended or developed specifically for servers."
+        }
+    ],
+    "sortnum": 1
+}

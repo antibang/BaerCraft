@@ -1,0 +1,11 @@
+{
+    "name": "Anti's Koi & Betta Shop",
+    "icon": "creatures:raw_koi",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "."
+        }
+    ]
+}

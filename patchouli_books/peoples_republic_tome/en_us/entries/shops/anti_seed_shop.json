@@ -1,0 +1,11 @@
+{
+    "name": "Anti's Seed Shop",
+    "icon": "thermal:strawberry",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "."
+        }
+    ]
+}

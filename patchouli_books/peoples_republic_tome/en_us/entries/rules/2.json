@@ -1,0 +1,13 @@
+{
+    "name": "2.",
+    "icon": "minecraft:netherite_pickaxe",
+    "category": "patchouli:rules",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "2.",
+            "item": "minecraft:netherite_pickaxe",
+            "text": "Do not grief player bases, shops or spawn just for fun. This will most likely result in a ban."
+        }
+    ]
+}

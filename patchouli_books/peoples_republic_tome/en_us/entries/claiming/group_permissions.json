@@ -1,0 +1,16 @@
+{
+    "name": "Permission Groups",
+    "icon": "powder_power:hoe_lapium",
+    "category": "patchouli:claiming",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You assign players to a group that have custom permissions. Group permissions override the global perms so you can make certain players e.g. able to open chests while the rest can't.$(br2)A newly created claim already contains 2 predefined groups: Co-Op and Visitors. Check out their permissions to see what they allow and what not. Those groups contain no players. You"
+        },
+        {
+            "type": "text",
+            "text": "can create a group by simply clicking on the anvil in the Flan GUI.$(br2)To add players to a group left click on the group while right clicking opens up the permission gui of that group."
+        }
+    ],
+    "sortnum": 4
+}

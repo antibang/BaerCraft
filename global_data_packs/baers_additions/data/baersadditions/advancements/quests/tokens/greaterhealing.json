@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "powder_power:token_greater_healing",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

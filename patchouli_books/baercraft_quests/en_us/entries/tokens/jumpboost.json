@@ -1,0 +1,17 @@
+{
+    "name": "Jump Boost",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/jumpboost",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one jump boost token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_jump_boost"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/jumpboost"
+}

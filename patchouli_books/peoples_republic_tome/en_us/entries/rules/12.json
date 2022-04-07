@@ -1,0 +1,14 @@
+{
+    "name": "12.",
+    "icon": "minecraft:name_tag",
+    "category": "patchouli:rules",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "12.",
+            "item": "minecraft:name_tag",
+            "text": "This isn’t required, but we’d like that you nickname yourself as your Minecraft username so that it’s clear who is who. We know at all times, but it makes it easier on us."
+        }
+    ],
+    "sortnum": 12
+}

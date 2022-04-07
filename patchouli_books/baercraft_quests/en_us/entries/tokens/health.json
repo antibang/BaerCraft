@@ -1,0 +1,17 @@
+{
+    "name": "Greater Health",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/health",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one greater health token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:health_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/health"
+}

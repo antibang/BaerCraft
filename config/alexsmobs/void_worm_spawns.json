@@ -1,0 +1,16 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "end"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "void"
+      }
+    ]
+  ]
+}

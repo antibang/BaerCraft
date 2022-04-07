@@ -1,0 +1,16 @@
+{
+    "name": "Subclaiming",
+    "icon": "powder_power:hoe_quadrilium",
+    "category": "patchouli:claiming",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A subclaim is a claim inside a claim. Subclaims have their own permission and group sets that override the parent claim they are in (no you cannot create a subclaim inside a subclaim). Subclaim permissions have an additional value 'default' instead of just true and false which simply redirects that permission back to the parent claim. To create a subclaim switch to subclaim mode via /flan switchMode."
+        },
+        {
+            "type": "text",
+            "text": "Then use your claiming tool the same way you create a normal claim. Opening the subclaim menu and editing subclaim permissions requires you to be in subclaim mode too."
+        }
+    ],
+    "sortnum": 5
+}

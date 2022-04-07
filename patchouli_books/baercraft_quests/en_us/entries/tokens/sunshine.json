@@ -1,0 +1,17 @@
+{
+    "name": "Sunshine",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/sunshine",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one sunshine token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_sunshine"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/sunshine"
+}

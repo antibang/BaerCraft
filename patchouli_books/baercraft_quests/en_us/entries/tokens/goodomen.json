@@ -1,0 +1,17 @@
+{
+    "name": "Good Omen",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/goodomen",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one good omen token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_good_omen"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/goodomen"
+}

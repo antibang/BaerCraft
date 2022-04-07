@@ -1,0 +1,17 @@
+{
+    "name": "Affliction",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/affliction",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one affliction token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:affliction_token"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/affliction"
+}

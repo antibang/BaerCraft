@@ -1,0 +1,17 @@
+{
+    "name": "Experience",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:tokens_category",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/tokens/exp",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft one experience token."
+        },
+        {
+            "type": "crafting",
+            "recipe": "powder_power:token_exp"
+        }
+    ],
+    "turnin": "baers_additions:quests/tokens/exp"
+}

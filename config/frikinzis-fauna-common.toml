@@ -1,0 +1,473 @@
+
+[Koi]
+	#Spawn weight for koi
+	"Koi Spawn Weight" = 10
+	#Max group for koi
+	"Koi Max Group" = 2
+	#Min group for koi
+	"Koi Min Group" = 1
+	#Enable/disable koi spawns
+	"Koi Spawns" = true
+
+[Lovebird]
+	#Min group for lovebirds
+	"Lovebird Min Group" = 3
+	#Enable/disable lovebird spawns
+	"Lovebird Spawns" = true
+	#Max group for lovebirds
+	"Lovebird Max Group" = 6
+	#Spawn weight for lovebirds
+	"Lovebird Spawn Weight" = 20
+
+[Dottyback]
+	#Spawn weight for dottybacks
+	"Dottyback Spawn Weight" = 20
+	#Max group for dottybacks
+	"Dottyback Max Group" = 3
+	#Min group for dottybacks
+	"Dottyback Min Group" = 2
+	#Enable/disable dottyback spawns
+	"Dottyback Spawns" = true
+
+[Pike]
+	#Spawn weight for pikes
+	"Pike Spawn Weight" = 8
+	#Max group for pikes
+	"Pike Max Group" = 1
+	#Min group for pikes
+	"Pike Min Group" = 1
+	#Enable/disable pike spawns
+	"Pike Spawns" = true
+
+[Guppy]
+	#Enable/disable guppy spawns
+	"Guppy Spawns" = true
+	#Spawn weight for guppies
+	"Guppy Spawn Weight" = 10
+	#Max group for guppies
+	"Guppy Max Group" = 8
+	#Min group for guppies
+	"Guppy Min Group" = 3
+
+[Shrimp]
+	#Spawn weight for shrimp
+	"Shrimp Spawn Weight" = 6
+	#Min group for shrimp
+	"Shrimp Min Group" = 4
+	#Max group for shrimp
+	"Shrimp Max Group" = 10
+	#Enable/disable shrimp spawns
+	"Shrimp Spawns" = true
+
+[Gourami]
+	#Spawn weight for gourami
+	"Gourami Spawn Weight" = 10
+	#Min group for gourami
+	"Gourami Min Group" = 1
+	#Max group for gourami
+	"Gourami Max Group" = 1
+	#Enable/disable gourami spawns
+	"Gourami Spawns" = true
+
+[Arowana]
+	#Max group for arowana
+	"Arowana Max Group" = 1
+	#Enable/disable arowana spawns
+	"Arowana Spawns" = true
+	#Min group for arowana
+	"Arowana Min Group" = 1
+	#Spawn weight for arowana
+	"Arowana Spawn Weight" = 5
+
+["Ghost Crab"]
+	#Min group for ghost crab
+	"Ghost Crab Min Group" = 2
+	#Spawn weight for ghost crab
+	"Ghost Crab Spawn Weight" = 20
+	#Enable/disable ghost crab spawns
+	"Ghost Crab Spawns" = true
+	#Max group for ghost crab
+	"Ghost Crab Max Group" = 5
+
+[Lorikeet]
+	#Max group for lorikeet
+	"Lorikeet Max Group" = 5
+	#Enable/disable lorikeet spawns
+	"Lorikeet Spawns" = true
+	#Spawn weight for lorikeet
+	"Lorikeet Spawn Weight" = 20
+	#Min group for lorikeet
+	"Lorikeet Min Group" = 2
+
+[Conure]
+	#Max group for conure
+	"Conure Max Group" = 5
+	#Spawn weight for conure
+	"Conure Spawn Weight" = 20
+	#Enable/disable conure spawns
+	"Conure Spawns" = true
+	#Min group for conure
+	"Conure Min Group" = 3
+
+[Spoonbill]
+	#Max group for spoonbill
+	"Spoonbill Max Group" = 2
+	#Enable/disable spoonbill spawns
+	"Spoonbill Spawns" = true
+	#Spawn weight for spoonbill
+	"Spoonbill Spawn Weight" = 15
+	#Min group for spoonbill
+	"Spoonbill Min Group" = 1
+
+[Dove]
+	#Min group for dove
+	"Dove Min Group" = 2
+	#Enable/disable dove spawns
+	"Dove Spawns" = true
+	#Spawn weight for dove
+	"Dove Spawn Weight" = 20
+	#Max group for dove
+	"Dove Max Group" = 5
+
+["Mandarin Duck"]
+	#Min group for mandarin duck
+	"Mandarin Duck Min Group" = 2
+	#Spawn weight for mandarin duck
+	"Mandarin Duck Spawn Weight" = 20
+	#Max group for mandarin duck
+	"Mandarin Duck Max Group" = 3
+	#Enable/disable mandarin duck spawns
+	"Mandarin Duck Spawns" = true
+
+[Kakapo]
+	#Min group for kakapo
+	"Kakapo Min Group" = 1
+	#Max group for kakapo
+	"Kakapo Max Group" = 2
+	#Spawn weight for kakapo
+	"Kakapo Spawn Weight" = 60
+	#Enable/disable kakapo spawns
+	"Kakapo Spawns" = true
+
+[Raven]
+	#Enable/disable raven spawns
+	"Raven Spawns" = true
+	#Spawn weight for raven
+	"Raven Spawn Weight" = 25
+	#Min group for raven
+	"Raven Min Group" = 1
+	#Max group for raven
+	"Raven Max Group" = 3
+
+[Fairywren]
+	#Max group for fairywren
+	"Fairywren Max Group" = 6
+	#Spawn weight for fairywren
+	"Fairywren Spawn Weight" = 30
+	#Enable/disable fairywren spawns
+	"Fairywren Spawns" = true
+	#Min group for fairywren
+	"Fairywren Min Group" = 3
+
+["Golden Eagle"]
+	#Max group for golden eagle
+	"Golden Eagle Max Group" = 2
+	#Spawn weight for golden eagle
+	"Golden Eagle Spawn Weight" = 5
+	#Min group for golden eagle
+	"Golden Eagle Min Group" = 1
+	#Enable/disable golden eagle spawns
+	"Golden Eagle Spawns" = true
+
+[Gyrfalcon]
+	#Enable/disable gyrfalcon spawns
+	"Gyrfalcon Spawns" = true
+	#Spawn weight for gyrfalcon
+	"Gyrfalcon Spawn Weight" = 5
+	#Max group for gyrfalcon
+	"Gyrfalcon Max Group" = 2
+	#Min group for gyrfalcon
+	"Gyrfalcon Min Group" = 1
+
+["Red Kite"]
+	#Min group for red kite
+	"Red Kite Min Group" = 1
+	#Max group for red kite
+	"Red Kite Max Group" = 2
+	#Enable/disable red kite spawns
+	"Red Kite Spawns" = true
+	#Spawn weight for red kite
+	"Red Kite Spawn Weight" = 5
+
+["Steller's Sea Eagle"]
+	#Enable/disable stellers sea eagle spawns
+	"Stellers Sea Eagle Spawns" = true
+	#Min group for stellers sea eagle
+	"Stellers Sea Eagle Min Group" = 1
+	#Spawn weight for stellers sea eagle
+	"Stellers Sea Eagle Spawn Weight" = 3
+	#Max group for stellers sea eagle
+	"Stellers Sea Eagle Max Group" = 2
+
+["Pygmy Falcon"]
+	#Enable/disable pygmy falcon spawns
+	"Pygmy Falcon Spawns" = true
+	#Min group for pygmy falcon
+	"Pygmy Falcon Min Group" = 1
+	#Spawn weight for pygmy falcon
+	"Pygmy Falcon Spawn Weight" = 5
+	#Max group for pygmy falcon
+	"Pygmy Falcon Max Group" = 2
+
+["Barn Owl"]
+	#Enable/disable barn owl spawns
+	"Barn Owl Spawns" = true
+	#Min group for barn owl
+	"Barn Owl Min Group" = 1
+	#Max group for barn owl
+	"Barn Owl Max Group" = 2
+	#Spawn weight for barn owl
+	"Barn Owl Spawn Weight" = 15
+
+[Goldfish]
+	#Max group for goldfish
+	"Goldfish Max Group" = 5
+	#Enable/disable goldfish spawns
+	"Goldfish Spawns" = true
+	#Spawn weight for goldfish
+	"Goldfish Spawn Weight" = 6
+	#Min group for goldfish
+	"Goldfish Min Group" = 2
+
+[Ranchu]
+	#Spawn weight for ranchu
+	"Ranchu Spawn Weight" = 4
+	#Min group for ranchu
+	"Ranchu Min Group" = 1
+	#Max group for ranchu
+	"Ranchu Max Group" = 2
+	#Enable/disable ranchu spawns
+	"Ranchu Spawns" = true
+
+["Wild Duck"]
+	#Enable/disable wild duck spawns
+	"Wild Duck Spawns" = true
+	#Min group for wild duck
+	"Wild Duck Min Group" = 1
+	#Max group for wild duck
+	"Wild Duck Max Group" = 2
+	#Spawn weight for wild duck
+	"Wild Duck Spawn Weight" = 20
+
+[Roller]
+	#Max group for roller
+	"Roller Max Group" = 2
+	#Enable/disable roller spawns
+	"Roller Spawns" = true
+	#Spawn weight for roller
+	"Roller Spawn Weight" = 20
+	#Min group for roller
+	"Roller Min Group" = 1
+
+[Chickadee]
+	#Min group for chickadee
+	"Chickadee Min Group" = 2
+	#Enable/disable chickadee spawns
+	"Chickadee Spawns" = true
+	#Max group for chickadee
+	"Chickadee Max Group" = 3
+	#Spawn weight for chickadee
+	"Chickadee Spawn Weight" = 25
+
+["Pygmy Goose"]
+	#Spawn weight for pygmy goose
+	"Pygmy Goose Spawn Weight" = 25
+	#Max group for pygmy goose
+	"Pygmy Goose Max Group" = 2
+	#Min group for pygmy goose
+	"Pygmy Goose Min Group" = 1
+	#Enable/disable pygmy goose spawns
+	"Pygmy Goose Spawns" = true
+
+[Swallow]
+	#Min group for swallow
+	"Swallow Min Group" = 3
+	#Enable/disable swallow spawns
+	"Swallow Spawns" = true
+	#Spawn weight for swallow
+	"Swallow Spawn Weight" = 25
+	#Max group for swallow
+	"Swallow Max Group" = 5
+
+["Fire Goby"]
+	#Min group for fire goby
+	"Fire Goby Min Group" = 1
+	#Spawn weight for fire goby
+	"Fire Goby Spawn Weight" = 20
+	#Enable/disable fire goby spawns
+	"Fire Goby Spawns" = true
+	#Max group for fire goby
+	"Fire Goby Max Group" = 1
+
+["Blue Tang"]
+	#Min group for blue tang
+	"Blue Tang Min Group" = 1
+	#Enable/disable blue tang spawns
+	"Blue Tang Spawns" = true
+	#Spawn weight for blue tang
+	"Blue Tang Spawn Weight" = 20
+	#Max group for blue tang
+	"Blue Tang Max Group" = 1
+
+["Flame Angelfish"]
+	#Enable/disable flame angelfish spawns
+	"Flame Angelfish Spawns" = true
+	#Min group for flame angelfish
+	"Flame Angelfish Min Group" = 1
+	#Spawn weight for flame angelfish
+	"Flame Angelfish Spawn Weight" = 20
+	#Max group for flame angelfish
+	"Flame Angelfish Max Group" = 1
+
+[Trout]
+	#Enable/disable trout spawns
+	"Trout Spawns" = true
+	#Min group for trout
+	"Trout Min Group" = 1
+	#Max group for trout
+	"Trout Max Group" = 1
+	#Spawn weight for trout
+	"Trout Spawn Weight" = 10
+
+["Fiddler Crab"]
+	#Min group for fiddler crab
+	"Fiddler Crab Min Group" = 2
+	#Spawn weight for fiddler crab
+	"Fiddler Crab Spawn Weight" = 20
+	#Enable/disable fiddler crab spawns
+	"Fiddler Crab Spawns" = true
+	#Max group for fiddler crab
+	"Fiddler Crab Max Group" = 4
+
+[Ibis]
+	#Min group for ibis
+	"Ibis Min Group" = 2
+	#Enable/disable ibis spawns
+	"Ibis Spawns" = true
+	#Spawn weight for ibis
+	"Ibis Spawn Weight" = 20
+	#Max group for ibis
+	"Ibis Max Group" = 4
+
+["Red Snapper"]
+	#Min group for red snapper
+	"Red Snapper Min Group" = 3
+	#Enable/disable red snapper spawns
+	"Red Snapper Spawns" = true
+	#Spawn weight for red snapper
+	"Red Snapper Spawn Weight" = 6
+	#Max group for red snapper
+	"Red Snapper Max Group" = 7
+
+["Wood Duck"]
+	#Enable/disable wood duck spawns
+	"Wood Duck Spawns" = true
+	#Max group for wood duck
+	"Wood Duck Max Group" = 3
+	#Spawn weight for wood duck
+	"Wood Duck Spawn Weight" = 20
+	#Min group for wood duck
+	"Wood Duck Min Group" = 2
+
+[Gameplay]
+	#Gameplay: Enable/disable breed-only variants
+	"Breed-Only Variants" = true
+	#Gameplay: Enable/disable biome-specific variants
+	"Biome-Specific Variants" = true
+	#Gameplay: Enable/disable raptors throwing targets into air
+	"Raptors Throw" = true
+	#Gameplay: Enable/disable raptors attacking prey
+	"Raptor Attacks" = true
+	#Gameplay: Enable/disable tamed birds following the player
+	Following = true
+	#Gameplay: Enable/disable tamed birds teleporting to the player while following
+	Teleportation = true
+	#Gameplay: Distance at which a following bird will teleport to you (higher value = greater distance)
+	"Teleporting distance" = 3.0
+	#Rarity of mutation lovebirds from breeding
+	"Lovebird Mutation Rarity" = 5
+	#Rarity of mutation lorikeets from breeding
+	"Lorikeet Mutation Rarity" = 5
+	#Rarity of albino ravens (higher number = rarer)
+	"Albino Raven Rarity" = 500
+
+[Peafowl]
+	#Enable/disable peafowl spawns
+	"Peafowl Spawns" = true
+	#Spawn weight for peafowl
+	"Peafowl Spawn Weight" = 15
+	#Min group for peafowl
+	"Peafowl Min Group" = 1
+	#Max group for peafowl
+	"Peafowl Max Group" = 2
+
+[Sparrow]
+	#Enable/disable sparrow spawns
+	"Sparrow Spawns" = true
+	#Spawn weight for sparrows
+	"Sparrow Spawn Weight" = 30
+	#Min group for sparrows
+	"Sparrow Min Group" = 4
+	#Max group for sparrows
+	"Sparrow Max Group" = 7
+
+[Bushtit]
+	#Enable/disable bushtit spawns
+	"Bushtit Spawns" = true
+	#Spawn weight for bushtits
+	"Bushtit Spawn Weight" = 20
+	#Min group for bushtits
+	"Bushtit Min Group" = 3
+	#Max group for bushtits
+	"Bushtit Max Group" = 5
+
+[Laughingthrush]
+	#Enable/disable laughingthrush spawns
+	"Laughingthrush Spawns" = true
+	#Spawn weight for laughingthrushes
+	"Laughingthrush Spawn Weight" = 20
+	#Min group for laughingthrushes
+	"Laughingthrush Min Group" = 3
+	#Max group for laughingthrushes
+	"Laughingthrush Max Group" = 5
+
+["Eagle owl"]
+	#Enable/disable eagleowl spawns
+	"Eagle owl Spawns" = true
+	#Spawn weight for eagle owls
+	"Eagle owl Spawn Weight" = 10
+	#Min group for eagle owls
+	"Eagle owl Min Group" = 1
+	#Max group for eagle owls
+	"Eagle owl Max Group" = 2
+
+[Robin]
+	#Enable/disable robin spawns
+	"Robin Spawns" = true
+	#Spawn weight for robins
+	"Robin Spawn Weight" = 20
+	#Min group for robins
+	"Robin Min Group" = 3
+	#Max group for robins
+	"Robin Max Group" = 4
+
+[Magpie]
+	#Enable/disable magpie spawns
+	"Magpie Spawns" = true
+	#Spawn weight for magpies
+	"Magpie Spawn Weight" = 20
+	#Min group for magpies
+	"Magpie Min Group" = 3
+	#Max group for magpies
+	"Magpie Max Group" = 4
+

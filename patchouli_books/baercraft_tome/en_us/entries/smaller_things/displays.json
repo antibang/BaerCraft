@@ -1,0 +1,11 @@
+{
+    "name": "Displaying Your Things",
+    "icon": "atum:limestone_curio_display",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Have you wanted to display your items or weapons in something other than an item frame or armor stand? You can now!$(br2)There are sword displays which can hold anything similar to a sword, a pedestal which can hold items/weapons, and curio displays which can hold just about anything!"
+        }
+    ]
+}

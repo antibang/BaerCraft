@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "subwild:hot_andesite",
+    "subwild:hot_diorite",
+    "subwild:hot_granite",
+    "subwild:hot_stone",
+    "subwild:hot_sandstone",
+    "subwild:hot_smooth_sandstone",
+    "subwild:hot_red_sandstone",
+    "subwild:hot_smooth_red_sandstone",
+    "subwild:hot_obsidian",
+    "subwild:hot_blackstone",
+    "subwild:hot_basalt"
+  ]
+}

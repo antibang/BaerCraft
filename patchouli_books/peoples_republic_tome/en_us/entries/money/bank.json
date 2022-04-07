@@ -1,0 +1,11 @@
+{
+    "name": "Server Bank (WIP)",
+    "icon": "thermal:enderium_coin",
+    "category": "patchouli:money",
+    "pages": [
+        {
+            "type": "text",
+            "text": "."
+        }
+    ]
+}

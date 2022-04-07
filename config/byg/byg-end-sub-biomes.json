@@ -1,0 +1,26 @@
+{
+  "biomes": {
+    "byg:ethereal_clearing": {
+      "dictionary": [
+      ]
+    },
+    "byg:bulbis_gardens_edge": {
+      "dictionary": [
+      ]
+    },
+    "byg:imparius_clearing": {
+      "dictionary": [
+      ]
+    },
+    "byg:ethereal_forest": {
+      "dictionary": [
+      ]
+    }
+  },
+  "void-biomes": {
+    "byg:shattered_viscal_isles": {
+      "dictionary": [
+      ]
+    }
+  }
+}

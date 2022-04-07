@@ -1,0 +1,15 @@
+
+#General settings
+[general]
+	#The minimum flight time of rockets
+	#Range: 1 ~ 10
+	minHeight = 7
+	#The maximum /additional/ flight time of rockets (gets added on top of minHeight)
+	#Range: 0 ~ 10
+	maxHeight = 10
+	#Allow the flicker effect
+	allowFlicker = true
+	#Amount of times to try adding an /additional/ color to an explosion
+	#Range: 0 ~ 5
+	colorCount = 5
+

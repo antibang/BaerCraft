@@ -1,0 +1,15 @@
+{
+    "name": "Memory Leak",
+    "icon": "thermal:bronze_gear",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It has come to my attention BaerCraft has a memory leak.$(br2)A memory leak is a failure in a program to release discarded memory (RAM), causing impaired performance or failure.$(br2)This should not cause any issues, unless closing in and out of worlds frequently or staying in-game for long periods of time until your"
+        },
+        {
+            "type": "text",
+            "text": "memory usage starts to max out. However, there has been more lag in single-player in recent updates that I did not notice until recently.$(br2)Please bare with me while I work on this and if you’re having severe issues with your game, feel free to join our Discord and ask for some help making some potential optimizations!"
+        }
+    ]
+}

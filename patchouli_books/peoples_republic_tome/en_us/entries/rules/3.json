@@ -1,0 +1,13 @@
+{
+    "name": "3.",
+    "icon": "minecraft:totem_of_undying",
+    "category": "patchouli:rules",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "3.",
+            "item": "minecraft:totem_of_undying",
+            "text": "If you die by a PVP death and you happen to lose items and/or XP, there's little to nothing we can do about it. If you are a player who is killing others for fun and doing it often, you will most likely be kicked and unwhitelisted."
+        }
+    ]
+}

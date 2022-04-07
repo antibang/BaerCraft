@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "powder_power:token_curing",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,117 @@
+
+[VanillaTweaks]
+
+	#Do you want enchantments?
+	[VanillaTweaks.enchanting]
+		#Don't want the zombies stealing your items when you are mining?
+		enableSiphon = true
+		#Want more speed with an enchantment?
+		enableNimble = false
+		#Want more health with an enchant?
+		enableVigor = false
+		#Want all the experience in the nearby area?
+		enableVeteran = true
+		#Want to smelt things when you mine them?
+		enableBlazing = false
+		#Want to jump more than a block high with an enchantment?
+		enableHops = false
+		#Don't want to aim but love shooting arrows?
+		enableHoming = true
+
+	#Dynamic changes in the world
+	[VanillaTweaks.world]
+		#Want seeds to auto-plant themselves when broken?
+		selfPlanting = false
+		#How long a plant item should take to despawn (and attempt to plant) Default Minecraft is 6000.
+		#Range: > 0
+		despawnTime = 6000
+		#Percentage chance to plant
+		#Range: 0 ~ 100
+		chanceToPlant = 100
+		#Don't want that that pesky lava pockets in nether to kill you?
+		disableLavaPocketGen = true
+		#Is realistic predator/prey relationships activated?
+		realisticRelationship = true
+
+	#Modification of vanilla_recipes recipes and addition of new recipes regarding vanilla_recipes
+	[VanillaTweaks.crafting]
+		#Have wool but need string?
+		string = true
+		#Cobblestone used in stone tools doesn't make sense?
+		betterStoneTools = false
+		#Want an easier way to craft repeater?
+		betterRepeater = true
+		#Wanna easier recipe for trapped chest?
+		betterTrappedChestRecipe = true
+		#Tired of not having a nametag?
+		nametag = true
+		#Wanna craft multiple chests at one go?
+		betterChest = false
+		#Want 8 stairs rather than 4 in stairs recipe?
+		betterStairs = false
+
+	#Tweaks
+	[VanillaTweaks.tweaks]
+		#Want to see the no of bees or the honey level of an beehive?
+		enableBeehiveTooltips = true
+		#Want a way to change text in signs without breaking them?
+		enableSignEditing = true
+		#Want to shear nametag of named entities?
+		shearOffNameTag = true
+		#Want to shift click item frame to rotate in the reverse direction?
+		itemFrameRotateBackwards = true
+		#Want to disable shift in GUI due to potions?
+		disablePotionShift = true
+		#Want hoe to act like a sickle?
+		hoeActsAsSickle = true
+		#Want baby zombies to burn by the light of the day?
+		babyZombieBurnInDaylight = true
+		#Want command block to appear in redstone tab?
+		commandBlockInRedstone = false
+		#Want an way to swap armor with armor stand?
+		enableArmorStandSwapping = false
+		#Want the fire arrows to set fire on block it landed?
+		arrowsSetBlockOnFire = false
+		#Do you want to neglect fall damage and get water spilled when you fall on a wet sponge?
+		squishySponge = true
+		#Want creeper's to burn in daylight?
+		creeperBurnInDaylight = false
+		#Want TNT to ignite when next to lava or magma block?
+		tntIgnition = true
+		#Want the ability to move spawners with silk touch?
+		enableSilkSpawner = false
+		#Want dragon egg to appear in decorations tab?
+		dragonEggInDecorations = false
+
+	#Mob Drops
+	[VanillaTweaks.loot]
+		#No comment
+		#Range: 0.0 ~ 10.0
+		batLeatherDropChance = 1.0
+		#Does a nametag drop when named mob dies?
+		namedMobsDropNameTag = true
+
+	#New items, blocks VanillaTweaks adds.
+	[VanillaTweaks.content]
+		#Want a food which can be obtained with eggs and heals 2.5 hunger?
+		enableFriedEgg = false
+		#Explosion power for dynamite. TNT has 4, Ender Crystal has 6
+		#Range: 0 ~ 10
+		dynamiteExplosionPower = 3
+		#Want to showcase your treasure but item frame doesn't satisfy you?
+		enablePedestal = true
+		#Cooldown for the dynamite in ticks
+		#Range: > 0
+		dynamiteCooldown = 20
+		#Want block forms of flint, charcoal and sugar?
+		enableStorageBlocks = true
+		#Do you want a portable crafting table?
+		enablePad = false
+		#How much do you want the binoculars to zoom? ( 0 = disabled)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		binocularZoomAmount = 4.0
+		#Want to identity slime chunks in-game?
+		enableSlimeBucket = true
+		#Want a less effective but throwable TNT?
+		enableDynamite = true
+

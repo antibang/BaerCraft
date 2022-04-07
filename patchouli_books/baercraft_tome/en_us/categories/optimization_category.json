@@ -1,0 +1,6 @@
+{
+    "name": "Optimization Options",
+    "description": "If you want non-mod options, consult to the link in the 'Non-mod Options' entry. If you're noticing performance issues, some of these options may help.$(br2)Each entry will address the 3 following topics: my recommendations on how to use it, any warnings you should know about, and the mod's general purpose.",
+    "icon": "thermal:upgrade_augment_1",
+    "sortnum": 8
+}

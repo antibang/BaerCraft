@@ -1,0 +1,318 @@
+[
+    {
+        "mob": "betteranimalsplus:deer",
+        "speedmultiply": 2,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "healthadd": 5,
+        "biome": ["minecraft:taiga", "minecraft:taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:flower_forest", "minecraft:snowy_tundra", "minecraft:snowy_mountains"],
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "bettas:betta_fish",
+        "biome": ["minecraft:flower_forest", "minecraft:forest", "minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:bamboo_jungle_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:river"],
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "bettas:betta_fish",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:wither",
+        "healthadd": 100,
+        "damageadd": 2,
+        "potion": ["minecraft:absorption,1000000,1", "minecraft:glowing,1000000,1", "minecraft:speed,1000000,10"],
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "mutantbeasts:mutant_zombie",
+        "minheight": 66,
+        "seesky": true,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "mutantbeasts:mutant_zombie",
+        "result": "deny"
+    },
+    {
+        "mob": "blue_skies:summoner",
+        "healthadd": 150,
+        "damageadd": 4,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "blue_skies:artificial_golem",
+        "healthadd": 60,
+        "damageadd": 4
+    },
+    {
+        "mob": "mutantbeasts:mutant_enderman",
+        "dimension": "minecraft:the_end",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:panda",
+        "biome": ["minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:jungle", "minecraft:jungle_hills"],
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:panda",
+        "result": "deny"
+    },
+    {
+        "mob": "undergarden:forgotten_guardian",
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:foundry",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "undergarden:forgotten_guardian",
+        "dimension": "minecraft:overworld",
+        "result": "deny"
+    },
+    {
+        "mob": "dungeons_mobs:armored_skeleton",
+        "block": "minecraft:grass_block",
+        "mintime": 0,
+        "maxtime": 12000,
+        "minheight": 62,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "dungeons_mobs:armored_zombie",
+        "block": "minecraft:grass_block",
+        "mintime": 0,
+        "maxtime": 12000,
+        "minheight": 62,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "block": "minecraft:grass_block",
+        "mintime": 0,
+        "maxtime": 12000,
+        "minheight": 62,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "block": "minecraft:grass_block",
+        "mintime": 0,
+        "maxtime": 12000,
+        "minheight": 62,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "block": "minecraft:grass_block",
+        "mintime": 0,
+        "maxtime": 12000,
+        "minheight": 62,
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "dungeons_mobs:armored_skeleton",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "dungeons_mobs:armored_zombie",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:creeper",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:stray",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "iceandfire:troll",
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "mutantmore:mutant_wither_skeleton",
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:foundry",
+        "maxheight": 20,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "mutantmore:mutant_wither_skeleton",
+        "dimension": "minecraft:overworld",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:atlantic_cod",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:blackfish",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:pacific_halibut",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:atlantic_herring",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:atlantic_halibut",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:pink_salmon",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:pollock",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:rainbow_trout",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:bayad",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:boulti",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:capitaine",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:synodontis",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:smallmouth_bass",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:bluegill",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:brown_trout",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:carp",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:catfish",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:gar",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:minnow",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:muskellunge",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:perch",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:arapaima",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:piranha",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:tambaqui",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:brown_shrooma",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:red_shrooma",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:jellyfish",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:red_grouper",
+        "result": "deny"
+    },
+    {
+        "mob": "aquaculture:tuna",
+        "result": "deny"
+    },
+    {
+        "mob": "creatures:shrimp",
+        "biome": ["minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean", "minecraft:frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:ocean", "minecraft:warm_ocean"],
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "creatures:shrimp",
+        "biome": ["minecraft:river", "minecraft:frozen_river"],
+        "onjoin": true,
+        "result": "deny"
+    }
+]

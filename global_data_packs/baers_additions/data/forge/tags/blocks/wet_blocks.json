@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "subwild:wet_obsidian",
+      "subwild:wet_andesite",
+      "subwild:wet_diorite",
+      "subwild:wet_granite",
+      "subwild:wet_stone"
+    ]
+}

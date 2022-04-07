@@ -1,0 +1,34 @@
+{
+    "name": "Hydra",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/hydra",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 hydra skull from a hydra. $(br2)$(6)$(bold)Where are they found?:$() Hydras are found in swamps."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hydra{Variant: 0, HeadCount: 3}",
+            "text": "Green variant.",
+            "scale": 0.4,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hydra{Variant: 1, HeadCount: 3}",
+            "text": "Teal variant.",
+            "scale": 0.4,
+            "offset": 0.1
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hydra{Variant: 2, HeadCount: 3}",
+            "text": "Red variant.",
+            "scale": 0.4,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/hydra"
+}

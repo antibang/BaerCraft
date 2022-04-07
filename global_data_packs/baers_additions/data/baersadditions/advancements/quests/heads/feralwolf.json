@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "betteranimalsplus:feralwolfhead_red",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:feralwolfhead_snowy",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:feralwolfhead_timber",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:feralwolfhead_brown",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:feralwolfhead_arctic",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:feralwolfhead_black",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

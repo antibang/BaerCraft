@@ -1,0 +1,56 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = config/drippyloadingscreen/forge_loading.jpg
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  action = editlogo
+  y = 3
+}
+
+customization {
+  x = 46
+  textcolor = ffffff
+  action = editforgestatustext
+  y = -41
+  scale = 0.7
+}
+
+customization {
+  orientation = bottom-left
+  x = 46
+  textcolor = ffffff
+  action = editforgememoryinfo
+  y = -30
+  scale = 0.7
+}
+
+customization {
+  visible = false
+  x = 5
+  action = editprogressbar
+  y = -40
+  barcolor = ece0d1
+}
+
+customization {
+  orientation = bottom-centered
+  x = 0
+  width = 231
+  actionid = 95e3e762-7164-4677-bce4-1c94680fbd311647706235099
+  y = -78
+  action = addcustomprogressbar
+  height = 11
+  direction = right
+  barcolor = #ece0d1
+  backgroundcolor = #
+}
+

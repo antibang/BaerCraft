@@ -1,0 +1,11 @@
+{
+    "name": "Transporting Mobs",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:early_game_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A very big suggestion of mine would to be to craft a handful of jars from Supplementaries. You can jar any mob in the game, so if you’re having a hard time herding up some cows, sheep, chickens, etc., then you’ll probably like this idea. They’re very easy to craft and don’t require a lot of resources!"
+        }
+    ]
+}

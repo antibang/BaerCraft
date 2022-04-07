@@ -1,0 +1,15 @@
+{
+    "name": "OptiFine",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:optimization_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Client sided ($(#e2a3ff)$(l:https://optifine.net/downloads)Download$())$(br2)$(#e2a3ff)My recommonded usage:$()$(br)OptiFine doesn’t $(italic)significantly$() improve my FPS or lag $(italic)until$() I optimize all of the settings for the particular modpack I’m using. I was surprised when I first realized that people thought it was a ‘one-size-fits-all’ type of deal, so I highly suggest you mess around with all of your video settings until you find"
+        },
+        {
+            "type": "text",
+            "text": "something that works for you and your PC.$(br2)$(#ff0000)WARNINGS:$()$(br)OptiFine is known for having a few small bugs there and there, but other than those few things, BaerCraft is 100% compatible with OptiFine.$(br2)$(#e2a3ff)Mod info:$()$(br)$(italic)Do I even need to explain what OptiFine is?"
+        }
+    ]
+}

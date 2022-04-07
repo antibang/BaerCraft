@@ -1,0 +1,16 @@
+{
+    "name": "Private Servers",
+    "icon": "thermal:lock",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Any of my current servers, unless stated otherwise, are my private servers. The reason I try to make this known is because it's irritating when people expect them to opperate like public servers.$(br2)My servers were started merely to have fun, then I started to develop my modpack after my friends enjoyed what I had put together at the time. I wanted $(italic)everyone$() to enjoy"
+        },
+        {
+            "type": "text",
+            "text": "playing my modpack, and not just those who play on the servers. I then decided to use my servers as testing servers, because it's hard to test new features in singleplayer alone.$(br2)This is also generally why the servers are laggy; BaerCraft is not developed or intended for servers."
+        }
+    ],
+    "sortnum": 2
+}

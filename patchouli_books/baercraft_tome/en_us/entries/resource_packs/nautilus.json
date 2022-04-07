@@ -1,0 +1,12 @@
+{
+    "name": "Nautilus3D",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://www.curseforge.com/minecraft/texture-packs/nautilus3d)Nautilus3D$()$(br2)From their project page, “Combining the classic look of Minecraft with simple, yet detailed 3D models, Nautilus 3D gives everyones favourite sandbox game a more defined and intricate look.” 3D may sound like too much, it adds just enough detail to everything to preserve the vanilla look and feel."
+        }
+    ],
+    "sortnum": 18
+}

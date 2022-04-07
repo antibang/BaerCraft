@@ -1,0 +1,15 @@
+{
+    "name": "Custom Images",
+    "icon": "camera:camera",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I’m so grateful for my server members because they find new features all the time that I never knew were a thing, much like custom images! $(strike)They wouldn’t tell me how they did it for the longest time lol$()$(br2)All you need is a camera, a spare piece of paper and an image frame to display it. While holding the camera in your hand, press shift and then right click. All you need"
+        },
+        {
+            "type": "text",
+            "text": "to do is click the ‘upload’ option, find the picture you want and boom! The image will be placed in your inventory.$(br2)You can also resize the image frame by holding shift and right clicking it."
+        }
+    ]
+}

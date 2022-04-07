@@ -1,0 +1,12 @@
+{
+    "name": "Resizing a Claim",
+    "icon": "minecraft:netherite_hoe",
+    "category": "patchouli:claiming",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Resizing claim is done by right clicking on one corner of a claim and then on another block to set the new corner. To check if a block is claimed you can use the inspect tool, which is a feather."
+        }
+    ],
+    "sortnum": 2
+}

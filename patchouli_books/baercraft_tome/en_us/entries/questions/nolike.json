@@ -1,0 +1,15 @@
+{
+    "name": "Don't Like Something?",
+    "icon": "create:chocolate_glazed_berries",
+    "category": "patchouli:questions_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(bold)I don't like the caves / frequencies of certain things / the balancing. Can you do something about 'x'?$()$(br2)Yes, I can. If you’re not rude about it, I’ll customize some of your settings to your liking so you can enjoy my modpack to its fullest potential. Though, I do plan on balancing tons of things in the future, so either feel free to ask for"
+        },
+        {
+            "type": "text",
+            "text": "some small changes to your game or be patient for updates!"
+        }
+    ]
+}

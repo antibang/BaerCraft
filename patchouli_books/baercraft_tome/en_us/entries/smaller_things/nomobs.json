@@ -1,0 +1,15 @@
+{
+    "name": "Preventing Hostile Mobs",
+    "icon": "immersiveengineering:electric_lantern",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Tired of hostile mobs spawning around you and your precious base? Well, no need to worry anymore! There’s a wonderful item called a powered lantern from Immersive Engineering. It prevents mob spawning up to 32 blocks! That’s quite a bit.$(br2)Though, you just can’t place it and it magically prevents spawning. You need to find a way to power it! Personally, I use windmills and flux"
+        },
+        {
+            "type": "text",
+            "text": "networks which is wireless power. I would describe how it all works, but… I’m not the best at words nor at tech, so I highly suggest researching Immersive Engineering and Flux Networks online to learn more about how they work. It's very easy and 100% worth it!"
+        }
+    ]
+}

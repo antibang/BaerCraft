@@ -1,0 +1,167 @@
+{
+  "biomes": {
+    "byg:bulbis_gardens": {
+      "weight": 5,
+      "dictionary": [
+        "END"
+      ],
+      "edge": "byg:bulbis_gardens_edge",
+      "hills": []
+    },
+    "minecraft:end_midlands": {
+      "weight": 5,
+      "dictionary": [
+        "END"
+      ],
+      "hills": []
+    },
+    "minecraft:end_highlands": {
+      "weight": 5,
+      "dictionary": [
+        "END"
+      ],
+      "hills": []
+    },
+    "byg:imparius_grove": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:bulbis_gardens_edge": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:cryptic_wastes": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:imparius_clearing": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:ethereal_islands": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "edge": "byg:ethereal_clearing",
+      "hills": [
+        {
+          "weight": 0,
+          "data": "byg:ethereal_forest"
+        },
+        {
+          "weight": 0,
+          "data": "byg:ethereal_clearing"
+        }
+      ]
+    },
+    "byg:viscal_isles": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:shattered_desert": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:ivis_fields": {
+      "weight": 5,
+      "dictionary": [
+        "END"
+      ],
+      "hills": []
+    },
+    "byg:purpur_peaks": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "minecraft:end_barrens": {
+      "weight": 5,
+      "dictionary": [
+        "END"
+      ],
+      "hills": []
+    },
+    "byg:shattered_viscal_isles": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "minecraft:the_end": {
+      "weight": 5,
+      "dictionary": [
+        "END"
+      ],
+      "hills": []
+    },
+    "byg:shulkren_forest": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:ethereal_clearing": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:nightshade_forest": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:shattered_desert_isles": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "byg:ethereal_forest": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    }
+  },
+  "void-biomes": {
+    "byg:viscal_isles": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": [
+        {
+          "weight": 0,
+          "data": "byg:shattered_viscal_isles"
+        }
+      ]
+    },
+    "byg:shattered_desert_isles": {
+      "weight": 0,
+      "dictionary": [
+      ],
+      "hills": []
+    },
+    "minecraft:small_end_islands": {
+      "weight": 5,
+      "dictionary": [
+        "VOID"
+      ],
+      "hills": []
+    }
+  }
+}

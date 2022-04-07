@@ -1,0 +1,15 @@
+{
+    "name": "The Atum",
+    "icon": "atum:scarab",
+    "category": "patchouli:dimension_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Atum is an endless desert dimension with so much to explore. You'll find many biomes, dungeons, ruins, many new mobs, new animals, 35+ unique artifacts for you to collect and a powerful pharaoh boss with 13 variants.$(br2)$(italic)How do you get to the Atum?$() You may be wondering. You must place sandstone 5 x 5 x 2, but the outer corners must be 4 blocks tall. Fill the inner"
+        },
+        {
+            "type": "text",
+            "text": "bottom layer with sandstone, then pour water in the inner top layer. Once the portal is built, all you need to do is throw a scarab into the water. You'll then be transported into the vast wasteland.$(br2)PLEASE NOTE: I HAVE YET TO BALANCE THIS MOD. THINGS MAY BE DIFFICULT OR EASY. THINGS ALSO MIGHT BREAK. BARE WITH ME."
+        }
+    ]
+}

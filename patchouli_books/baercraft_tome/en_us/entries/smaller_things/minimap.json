@@ -1,0 +1,15 @@
+{
+    "name": "That 'Minimap'",
+    "icon": "minecraft:compass",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I've heard from many people that the size of their minimap takes up about half of the screen when first loading in. Unfortunatly, it seems like there isn't much I can do to prevent this; it really depends on your GUI scale and screen resolution.$(br2)You can do something about it though if you haven't already! Just press 'y' on your keyboard and there will be a"
+        },
+        {
+            "type": "text",
+            "text": "bunch of settings for you including the scale."
+        }
+    ]
+}

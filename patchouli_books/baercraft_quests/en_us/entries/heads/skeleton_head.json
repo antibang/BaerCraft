@@ -1,0 +1,17 @@
+{
+    "name": "Skeleton",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/skeleton",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 skeleton skull. $(br2)$(6)$(bold)Where are they found?:$() Skeletons are found everywhere in the overworld and are most commonly found in the Soul Sand Valley biome in the Nether."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:skeleton"
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/skeleton"
+}

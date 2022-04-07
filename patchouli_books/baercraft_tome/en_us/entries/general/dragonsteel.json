@@ -1,0 +1,15 @@
+{
+    "name": "Progression Update",
+    "icon": "iceandfire:dragonsteel_ice_helmet",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Please note some of the recent changes in my modpack! I feel like these are pretty important and are easy to miss, so that’s why I felt the need to make an entry about them. These may not be permanent.$(br2)$(bold)1.$() Dragonsteel now needs a quadrilium ingot instead of an iron ingot.$(br2)$(bold)2.$() In order to smelt quadrilium blend into its ingot form, it"
+        },
+        {
+            "type": "text",
+            "text": "must be placed inside of a dragon forge with a trilium ingot (used to you’d just slap the blend into a furnace)"
+        }
+    ]
+}

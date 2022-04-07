@@ -1,0 +1,11 @@
+{
+    "name": "A Big Thank You",
+    "icon": "minecraft:diamond",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Just wanted to thank you for trying out my modpack; it means a lot. I hope you enjoy your journey and that you stick around.$(br2)Until next time ~$(br2)- Antibang"
+        }
+    ]
+}

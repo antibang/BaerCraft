@@ -1,0 +1,83 @@
+{
+    "name": "Hippogryph",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "trigger": "baers_additions:quests/heads/hippogryph",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 hippogryph skull from a hippogryph. $(br2)$(6)$(bold)Where are they found?:$() Hippogryphs are found in forests, taigas, mountains and savannas."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 0}",
+            "text": "The black (Bateleur Eagle) variant spawns in deserts.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 1}",
+            "text": "The brown (Golden Eagle) variant spawns in mountains.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 2}",
+            "text": "The grey (Goshawk) variant spawns in dark forests.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 3}",
+            "text": "The chestnut (Red Kite) variant spawns in birch forests.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 4}",
+            "text": "The creamy (Kestrel) variant spawns in savannas.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 5}",
+            "text": "The dark brown (Bald Eagle) variant spawns in taigas.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 6}",
+            "text": "The white (Gyrfalcon) variant spawns in snowy mountains.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 7}",
+            "text": "Frosty (Secretary) variant.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 8}",
+            "text": "Firey (Lammergeier) variant.",
+            "scale": 0.4,
+            "offset": 0.3
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:hippogryph{Variant: 9}",
+            "text": "Dodo variant.",
+            "scale": 0.4,
+            "offset": 0.3
+        }
+    ],
+    "turnin": "baers_additions:quests/heads/hippogryph"
+}

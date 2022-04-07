@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "betteranimalsplus:boarhead_gray",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:boarhead_light_brown",
+              "count": 1
+            },
+            {
+              "item": "betteranimalsplus:boarhead_dark_brown",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  }

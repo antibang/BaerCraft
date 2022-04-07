@@ -1,0 +1,39 @@
+{
+    "name": "Lightning Dragon",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:creature_trophies",
+    "pages": [
+        {
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 lightning dragon skull PER level. $(br2)$(6)$(bold)Where are they found?:$() Lightning dragons are found in jungles, savannas and badlands.$(br2)Tip: You should have five skulls in total ranging from level 1-5."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:lightning_dragon{AgeTicks: 3000000, Variant: 0}",
+            "text": "Electric Blue variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:lightning_dragon{AgeTicks: 3000000, Variant: 1}",
+            "text": "Amethyst variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:lightning_dragon{AgeTicks: 3000000, Variant: 2}",
+            "text": "Copper variant.",
+            "scale": 0.04,
+            "offset": 5
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:lightning_dragon{AgeTicks: 3000000, Variant: 3}",
+            "text": "Black variant.",
+            "scale": 0.04,
+            "offset": 5
+        }
+    ]
+}
