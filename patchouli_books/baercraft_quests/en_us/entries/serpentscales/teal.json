@@ -1,0 +1,17 @@
+{
+    "name": "Teal",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:serpentscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/serpentscales/teal",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a teal scale from a sea serpent."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:sea_serpent_scales_teal"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/serpentscales/teal"
+}

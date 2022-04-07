@@ -1,0 +1,17 @@
+{
+    "name": "Silver",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/silver",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a silver dragon scale from an ice dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_silver"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/silver"
+}

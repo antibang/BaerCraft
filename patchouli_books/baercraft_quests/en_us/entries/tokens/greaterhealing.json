@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/greaterhealing",
+            "trigger": "baersadditions:quests/collecting/tokens/greaterhealing",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one greater healing token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_greater_healing"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/greaterhealing"
+    "turnin": "baersadditions:quests/collecting/tokens/greaterhealing"
 }

@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/hippogryph",
+            "trigger": "baersadditions:quests/collecting/heads/hippogryph",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 hippogryph skull from a hippogryph. $(br2)$(6)$(bold)Where are they found?:$() Hippogryphs are found in forests, taigas, mountains and savannas."
         },
@@ -79,5 +79,5 @@
             "offset": 0.3
         }
     ],
-    "turnin": "baers_additions:quests/heads/hippogryph"
+    "turnin": "baersadditions:quests/collecting/heads/hippogryph"
 }

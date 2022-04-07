@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/stymphalian",
+            "trigger": "baersadditions:quests/collecting/heads/stymphalian",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 stymphalian bird skull from a stymphalian bird. $(br2)$(6)$(bold)Where are they found?:$() Stymphalian birds are found in swamps."
         },
@@ -14,5 +14,5 @@
             "scale": 0.7
         }
     ],
-    "turnin": "baers_additions:quests/heads/stymphalian"
+    "turnin": "baersadditions:quests/collecting/heads/stymphalian"
 }

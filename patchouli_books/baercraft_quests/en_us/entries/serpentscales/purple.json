@@ -1,0 +1,17 @@
+{
+    "name": "Purple",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:serpentscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/serpentscales/purple",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a purple scale from a sea serpent."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:sea_serpent_scales_purple"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/serpentscales/purple"
+}

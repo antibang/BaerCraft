@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/enderdragon",
+            "trigger": "baersadditions:quests/collecting/heads/enderdragon",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 Ender Dragon head. $(br2)$(6)$(bold)Where are they found?:$() Ender Dragon heads are found in End Cities in the End dimension."
         },
@@ -15,5 +15,5 @@
             "offset": -5
         }
     ],
-    "turnin": "baers_additions:quests/heads/enderdragon"
+    "turnin": "baersadditions:quests/collecting/heads/enderdragon"
 }

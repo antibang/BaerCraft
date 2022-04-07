@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/healing",
+            "trigger": "baersadditions:quests/collecting/tokens/healing",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one healing token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_healing"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/healing"
+    "turnin": "baersadditions:quests/collecting/tokens/healing"
 }

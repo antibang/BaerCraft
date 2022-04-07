@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/supremehealth",
+            "trigger": "baersadditions:quests/collecting/tokens/supremehealth",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one supreme health token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_supreme_health"
+            "recipe": "crafttweaker:supreme_health_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/supremehealth"
+    "turnin": "baersadditions:quests/collecting/tokens/supremehealth"
 }

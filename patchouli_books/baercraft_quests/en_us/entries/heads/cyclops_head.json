@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/cyclops",
+            "trigger": "baersadditions:quests/collecting/heads/cyclops",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 cyclops skull from a cyclops. $(br2)$(6)$(bold)Where are they found?:$() Cyclops are found in beach biomes and very rarely wander in plains and savannas."
         },
@@ -33,5 +33,5 @@
             "offset": 0.6
         }
     ],
-    "turnin": "baers_additions:quests/heads/cyclops"
+    "turnin": "baersadditions:quests/collecting/heads/cyclops"
 }

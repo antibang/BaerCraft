@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/supremeresist",
+            "trigger": "baersadditions:quests/collecting/tokens/supremeresist",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one supreme attack resistance token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_supreme_resistance"
+            "recipe": "crafttweaker:supreme_resistance_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/supremeresist"
+    "turnin": "baersadditions:quests/collecting/tokens/supremeresist"
 }

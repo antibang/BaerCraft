@@ -1,0 +1,17 @@
+{
+    "name": "Sapphire",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/sapphire",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a sapphire dragon scale from an ice dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_sapphire"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/sapphire"
+}

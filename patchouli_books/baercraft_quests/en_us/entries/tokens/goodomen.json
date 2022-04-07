@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/goodomen",
+            "trigger": "baersadditions:quests/collecting/tokens/goodomen",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one good omen token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_good_omen"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/goodomen"
+    "turnin": "baersadditions:quests/collecting/tokens/goodomen"
 }

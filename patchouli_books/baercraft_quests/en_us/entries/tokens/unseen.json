@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/unseen",
+            "trigger": "baersadditions:quests/collecting/tokens/unseen",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one unseen token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_unseen"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/unseen"
+    "turnin": "baersadditions:quests/collecting/tokens/unseen"
 }

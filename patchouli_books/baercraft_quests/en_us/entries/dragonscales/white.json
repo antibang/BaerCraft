@@ -1,0 +1,17 @@
+{
+    "name": "White",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/white",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a white dragon scale from an ice dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_white"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/white"
+}

@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/feralwolf",
+            "trigger": "baersadditions:quests/collecting/heads/feralwolf",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect all 6 head variants from a feral wolf. $(br2)$(6)$(bold)Where are they found?:$() Feral wolves can be found in forest, taiga, mountain and jungle edge biomes."
         },
@@ -51,5 +51,5 @@
             "offset": 0.1
         }
     ],
-    "turnin": "baers_additions:quests/heads/feralwolf"
+    "turnin": "baersadditions:quests/collecting/heads/feralwolf"
 }

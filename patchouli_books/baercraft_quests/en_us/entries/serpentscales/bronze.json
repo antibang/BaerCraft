@@ -1,0 +1,17 @@
+{
+    "name": "Bronze",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:serpentscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/serpentscales/bronze",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a bronze scale from a sea serpent."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:sea_serpent_scales_bronze"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/serpentscales/bronze"
+}

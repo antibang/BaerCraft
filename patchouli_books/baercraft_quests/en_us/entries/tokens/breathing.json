@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/breathing",
+            "trigger": "baersadditions:quests/collecting/tokens/breathing",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one breathing token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_breathing"
+            "recipe": "crafttweaker:water_breathing_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/breathing"
+    "turnin": "baersadditions:quests/collecting/tokens/breathing"
 }

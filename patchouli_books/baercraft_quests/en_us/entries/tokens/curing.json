@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/curing",
+            "trigger": "baersadditions:quests/collecting/tokens/curing",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one curing token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:curing_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/curing"
+    "turnin": "baersadditions:quests/collecting/tokens/curing"
 }

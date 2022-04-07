@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/resist",
+            "trigger": "baersadditions:quests/collecting/tokens/resist",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one attack resistance token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:resistance_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/resist"
+    "turnin": "baersadditions:quests/collecting/tokens/resist"
 }

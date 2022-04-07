@@ -1,0 +1,15 @@
+{
+    "name": "Advancements",
+    "icon": "minecraft:experience_bottle",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I really dislike how the advancements are loaded in Minecraft. I believe it shouldn't be a 'top-to-bottom' sort of deal, but there's not really anything I can do about it.$(br2)The BaerCraft quest book was quite empty ever since I lost interest in the lore. To make up for the piss-poor advancement loading order, I've decided to merge the"
+        },
+        {
+            "type": "text",
+            "text": "quest book and BaerCraft advancements (mainly just the collecting-type advancements, but others too), so you can easily keep track of your quests/advancements without having an occasional stroke."
+        }
+    ]
+}

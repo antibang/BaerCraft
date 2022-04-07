@@ -1,0 +1,19 @@
+{
+    "name": "Silver",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragoneggs_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragoneggs/silver",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 silver dragon egg from an ice dragon."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:dragon_egg{Color: 7}",
+            "scale": 1.2,
+            "offset": -0.1
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragoneggs/silver"
+}

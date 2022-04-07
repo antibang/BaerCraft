@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/trash",
+            "trigger": "baersadditions:quests/collecting/tokens/trash",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one trash token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_trash"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/trash"
+    "turnin": "baersadditions:quests/collecting/tokens/trash"
 }

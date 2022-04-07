@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/absorb",
+            "trigger": "baersadditions:quests/collecting/tokens/absorb",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one absorption token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:absorption_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/absorb"
+    "turnin": "baersadditions:quests/collecting/tokens/absorb"
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Copper",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/copper",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a copper dragon scale from a lightning dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_copper"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/copper"
+}

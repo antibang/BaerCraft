@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/boar",
+            "trigger": "baersadditions:quests/collecting/heads/boar",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect all 3 head variants from a boar. $(br2)$(6)$(bold)Where are they found?:$() Boars are found in forests, taigas, jungles, savannas and plains."
         },
@@ -30,5 +30,5 @@
             "offset": 0.1
         }
     ],
-    "turnin": "baers_additions:quests/heads/boar"
+    "turnin": "baersadditions:quests/collecting/heads/boar"
 }

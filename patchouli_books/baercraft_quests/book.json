@@ -1,6 +1,6 @@
 {
     "name": "BAERCRAFT QUESTS",
-    "landing_text": "Here you will find the quests to complete throughout your journey. As of right now, these quests are to be done manually and there is no reward for completing any of them, but that will change in the future. $(br2)There will be plenty more quests coming in the future. Happy questing!",
+    "landing_text": "Here you will find the quests to complete throughout your journey. These are not mandatory, and mainly there to keep better track of your quests than the advancement tab. $(br2)There will be plenty more coming in the future. Happy questing!",
     "version": 1,
     "creative_tab": "mod_tab",
     "model": "baersadditions:baercraft_quests",

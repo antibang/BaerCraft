@@ -1,0 +1,19 @@
+{
+    "name": "Amethyst",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragoneggs_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragoneggs/amythest",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect 1 amethyst dragon egg from a lightning dragon."
+        },
+        {
+            "type": "entity",
+            "entity": "iceandfire:dragon_egg{Color: 9}",
+            "scale": 1.2,
+            "offset": -0.1
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragoneggs/amythest"
+}

@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/moose",
+            "trigger": "baersadditions:quests/collecting/heads/moose",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect all 4 head variants from a moose. $(br2)$(6)$(bold)Where are they found?:$() Moose are found in swamps, giant tree taigas and wooded mountains."
         },
@@ -37,5 +37,5 @@
             "offset": 0.2
         }
     ],
-    "turnin": "baers_additions:quests/heads/moose"    
+    "turnin": "baersadditions:quests/collecting/heads/moose"    
 }

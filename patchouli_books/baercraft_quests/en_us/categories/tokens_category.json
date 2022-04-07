@@ -1,6 +1,5 @@
 {
     "name": "God Tier",
     "description": "Your goal is to craft every token in the game.",
-    "icon": "powder_power:token_supreme_strength",
-    "sortnum": 13
+    "icon": "powder_power:token_supreme_strength"
 }

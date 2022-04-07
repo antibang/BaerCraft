@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/greaterresist",
+            "trigger": "baersadditions:quests/collecting/tokens/greaterresist",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one greater attack resistance token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_greater_resistance"
+            "recipe": "crafttweaker:greater_resistance_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/greaterresist"
+    "turnin": "baersadditions:quests/collecting/tokens/greaterresist"
 }

@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/jumpboost",
+            "trigger": "baersadditions:quests/collecting/tokens/jumpboost",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one jump boost token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_jump_boost"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/jumpboost"
+    "turnin": "baersadditions:quests/collecting/tokens/jumpboost"
 }

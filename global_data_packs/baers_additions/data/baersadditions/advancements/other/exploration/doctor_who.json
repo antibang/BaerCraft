@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "item": "undergarden:cloggrum_battleaxe"
+    },
+    "title": [
+      {
+        "text": "Doctor Who",
+        "bold": true
+      }
+    ],
+    "description": "Explore every dimension.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:overworld"
+      }
+    },
+    "nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_nether"
+      }
+    },
+    "end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_end"
+      }
+    },
+    "spatialstorage": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "appliedenergistics2:spatial_storage"
+      }
+    },
+    "atum": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "atum:atum"
+      }
+    },
+    "everbright": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "blue_skies:everbright"
+      }
+    },
+    "everdawn": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "blue_skies:everdawn"
+      }
+    },
+    "bumblezone": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "the_bumblezone:the_bumblezone"
+      }
+    },
+    "undergarden": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "undergarden:undergarden"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "overworld"
+    ],
+    [
+      "nether"
+    ],
+    [
+      "end"
+    ],
+    [
+      "spatialstorage"
+    ],
+    [
+      "atum"
+    ],
+    [
+      "everbright"
+    ],
+    [
+      "everdawn"
+    ],
+    [
+      "bumblezone"
+    ],
+    [
+      "undergarden"
+    ]
+  ]
+}

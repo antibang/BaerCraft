@@ -1,0 +1,17 @@
+{
+    "name": "Gray",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/gray",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a gray dragon scale from a fire dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_gray"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/gray"
+}

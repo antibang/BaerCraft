@@ -1,0 +1,17 @@
+{
+    "name": "Blue",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:serpentscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/serpentscales/blue",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a blue scale from a sea serpent."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:sea_serpent_scales_blue"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/serpentscales/blue"
+}

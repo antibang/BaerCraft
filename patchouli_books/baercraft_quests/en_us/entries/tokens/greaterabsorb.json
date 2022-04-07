@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/greaterabsorb",
+            "trigger": "baersadditions:quests/collecting/tokens/greaterabsorb",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one greater absorption token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_greater_absorption"
+            "recipe": "crafttweaker:greater_absorption_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/greaterabsorb"
+    "turnin": "baersadditions:quests/collecting/tokens/greaterabsorb"
 }

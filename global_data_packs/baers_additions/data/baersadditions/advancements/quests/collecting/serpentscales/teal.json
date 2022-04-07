@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:sea_serpent_scales_teal",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

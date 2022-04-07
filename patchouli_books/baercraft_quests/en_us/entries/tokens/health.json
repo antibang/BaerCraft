@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/health",
+            "trigger": "baersadditions:quests/collecting/tokens/health",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one greater health token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:health_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/health"
+    "turnin": "baersadditions:quests/collecting/tokens/health"
 }

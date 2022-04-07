@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/exp",
+            "trigger": "baersadditions:quests/collecting/tokens/exp",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one experience token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_exp"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/exp"
+    "turnin": "baersadditions:quests/collecting/tokens/exp"
 }

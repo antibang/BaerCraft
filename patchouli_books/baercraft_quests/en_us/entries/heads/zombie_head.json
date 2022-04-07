@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/zombie",
+            "trigger": "baersadditions:quests/collecting/heads/zombie",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 zombie head from a zombie. $(br2)$(6)$(bold)Where are they found?:$() Zombies are found everywhere in the overworld."
         },
@@ -13,5 +13,5 @@
             "entity": "minecraft:zombie"
         }
     ],
-    "turnin": "baers_additions:quests/heads/zombie"
+    "turnin": "baersadditions:quests/collecting/heads/zombie"
 }

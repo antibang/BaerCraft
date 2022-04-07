@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/sunshine",
+            "trigger": "baersadditions:quests/collecting/tokens/sunshine",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one sunshine token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_sunshine"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/sunshine"
+    "turnin": "baersadditions:quests/collecting/tokens/sunshine"
 }

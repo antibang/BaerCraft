@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/reindeer",
+            "trigger": "baersadditions:quests/collecting/heads/reindeer",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect all 4 head variants from a reindeer. $(br2)$(6)$(bold)Where are they found?:$() Reindeer are found in tundras, snowy taigas and wooded mountains."
         },
@@ -37,5 +37,5 @@
             "offset": 0.5
         }
     ],
-    "turnin": "baers_additions:quests/heads/reindeer"
+    "turnin": "baersadditions:quests/collecting/heads/reindeer"
 }

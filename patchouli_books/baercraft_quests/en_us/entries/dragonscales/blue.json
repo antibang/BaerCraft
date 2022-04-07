@@ -1,0 +1,17 @@
+{
+    "name": "Blue",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/blue",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a blue dragon scale from an ice dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_blue"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/blue"
+}

@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/hydra",
+            "trigger": "baersadditions:quests/collecting/heads/hydra",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 hydra skull from a hydra. $(br2)$(6)$(bold)Where are they found?:$() Hydras are found in swamps."
         },
@@ -30,5 +30,5 @@
             "offset": 0.1
         }
     ],
-    "turnin": "baers_additions:quests/heads/hydra"
+    "turnin": "baersadditions:quests/collecting/heads/hydra"
 }

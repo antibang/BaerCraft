@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "item": "betteranimalsplus:brownbearhead_1"
+    },
+    "title": [
+      {
+        "text": "Bear Hug",
+        "bold": false
+      }
+    ],
+    "description": "Get attacked or killed by any type of bear.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/mobs",
+  "criteria": {
+    "brown": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "betteranimalsplus:brownbear"
+          }
+        }
+      }
+    },
+    "black": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "betteranimalsplus:blackbear"
+          }
+        }
+      }
+    },
+    "polar": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:polar_bear"
+          }
+        }
+      }
+    },
+    "dropbear": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "alexsmobs:dropbear"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brown",
+      "black",
+      "polar",
+      "dropbear"
+    ]
+  ]
+}

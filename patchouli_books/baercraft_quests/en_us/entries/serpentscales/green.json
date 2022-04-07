@@ -1,0 +1,17 @@
+{
+    "name": "Green",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:serpentscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/serpentscales/green",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a green scale from a sea serpent."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:sea_serpent_scales_green"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/serpentscales/green"
+}

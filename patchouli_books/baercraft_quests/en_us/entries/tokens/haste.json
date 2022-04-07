@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/haste",
+            "trigger": "baersadditions:quests/collecting/tokens/haste",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one haste token."
         },
@@ -13,5 +13,5 @@
             "recipe": "powder_power:token_haste"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/haste"
+    "turnin": "baersadditions:quests/collecting/tokens/haste"
 }

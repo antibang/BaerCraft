@@ -1,6 +1,5 @@
 {
     "name": "About the Quest Book",
     "description": "There's a few things you should know about the book and the quests, so consider looking over some of this information!",
-    "icon": "minecraft:nether_star",
-    "sortnum": 1
+    "icon": "thermal:gold_gear"
 }

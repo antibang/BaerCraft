@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/amphithere",
+            "trigger": "baersadditions:quests/collecting/heads/amphithere",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 amphithere skull from an amphithere. $(br2)$(6)$(bold)Where are they found?:$() Amphitheres are found in jungles."
         },
@@ -39,5 +39,5 @@
             "scale": 0.3
         }
     ],
-    "turnin": "baers_additions:quests/heads/amphithere"
+    "turnin": "baersadditions:quests/collecting/heads/amphithere"
 }

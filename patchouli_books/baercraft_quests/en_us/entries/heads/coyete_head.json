@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/coyote",
+            "trigger": "baersadditions:quests/collecting/heads/coyote",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 coyote head from a coyote. $(br2)$(6)$(bold)Where are they found?:$() Coyotes are found in plains, deserts, savannas and badlands."
         },
@@ -15,5 +15,5 @@
             "offset": 0.1
         }
     ],
-    "turnin": "baers_additions:quests/heads/coyote"
+    "turnin": "baersadditions:quests/collecting/heads/coyote"
 }

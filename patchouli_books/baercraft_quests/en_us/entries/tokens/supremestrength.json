@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/supremestrength",
+            "trigger": "baersadditions:quests/collecting/tokens/supremestrength",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one supreme strength token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_supreme_strength"
+            "recipe": "crafttweaker:supreme_strength_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/supremestrength"
+    "turnin": "baersadditions:quests/collecting/tokens/supremestrength"
 }

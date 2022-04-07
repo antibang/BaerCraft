@@ -1,0 +1,17 @@
+{
+    "name": "Black",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/black",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a black dragon scale from a lightning dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_black"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/black"
+}

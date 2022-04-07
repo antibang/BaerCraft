@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/strength",
+            "trigger": "baersadditions:quests/collecting/tokens/strength",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one strength token."
         },
@@ -14,5 +14,5 @@
             "recipe2": "crafttweaker:strength_token_diamond"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/strength"
+    "turnin": "baersadditions:quests/collecting/tokens/strength"
 }

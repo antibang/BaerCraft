@@ -1,0 +1,17 @@
+{
+    "name": "Electric Blue",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/electric",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect an electric blue dragon scale from a lightning dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_electric"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/electric"
+}

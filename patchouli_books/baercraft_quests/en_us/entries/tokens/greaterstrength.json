@@ -4,14 +4,14 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/greaterstrength",
+            "trigger": "baersadditions:quests/collecting/tokens/greaterstrength",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one greater strength token."
         },
         {
             "type": "crafting",
-            "recipe": "powder_power:token_greater_strength"
+            "recipe": "crafttweaker:greater_strength_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/greaterstrength"
+    "turnin": "baersadditions:quests/collecting/tokens/greaterstrength"
 }

@@ -1,0 +1,17 @@
+{
+    "name": "Green",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:dragonscales_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:quests/collecting/dragonscales/green",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Collect a green dragon scale from a fire dragon."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonscales_green"
+        }
+    ],
+    "turnin": "baersadditions:quests/collecting/dragonscales/green"
+}

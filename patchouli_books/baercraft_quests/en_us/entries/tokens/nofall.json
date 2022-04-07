@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/nofall",
+            "trigger": "baersadditions:quests/collecting/tokens/nofall",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one no fall damage token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:no_fall_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/nofall"
+    "turnin": "baersadditions:quests/collecting/tokens/nofall"
 }

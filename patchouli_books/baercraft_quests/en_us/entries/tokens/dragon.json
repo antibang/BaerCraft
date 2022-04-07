@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/dragon",
+            "trigger": "baersadditions:quests/collecting/tokens/dragon",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one dragon token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:token_dragon_egg"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/dragon"
+    "turnin": "baersadditions:quests/collecting/tokens/dragon"
 }

@@ -4,7 +4,7 @@
     "category": "patchouli:tokens_category",
     "pages": [
         {
-            "trigger": "baers_additions:quests/tokens/dolphin",
+            "trigger": "baersadditions:quests/collecting/tokens/dolphin",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Craft one dolphin token."
         },
@@ -13,5 +13,5 @@
             "recipe": "crafttweaker:dolphin_token"
         }
     ],
-    "turnin": "baers_additions:quests/tokens/dolphin"
+    "turnin": "baersadditions:quests/collecting/tokens/dolphin"
 }

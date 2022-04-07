@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/mutantskeleton",
+            "trigger": "baersadditions:quests/collecting/heads/mutantskeleton",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 mutant skeleton skull. $(br2)$(6)$(bold)Where are they found?:$() Mutant skeletons typically spawn in the overworld."
         },
@@ -13,5 +13,5 @@
             "entity": "mutantbeasts:mutant_skeleton"
         }
     ],
-    "turnin": "baers_additions:quests/heads/mutantskeleton"
+    "turnin": "baersadditions:quests/collecting/heads/mutantskeleton"
 }

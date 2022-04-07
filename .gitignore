@@ -62,6 +62,8 @@ WailaErrorOutput.txt
 config/roadrunner
 config/spark
 config/terraforged
+config/betteradvancements-client.toml
+config/betterpingdisplay-client.toml
 config/dynmus-client.toml
 config/fastsuite.cfg
 config/fml.toml

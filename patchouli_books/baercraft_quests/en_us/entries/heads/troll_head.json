@@ -4,7 +4,7 @@
     "category": "patchouli:creature_trophies",
     "pages": [
         {
-            "trigger": "baers_additions:quests/heads/troll",
+            "trigger": "baersadditions:quests/collecting/heads/troll",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Collect 1 skull from a troll. $(br2)$(6)$(bold)Where are they found?:$() Trolls are found in tundras, mountains and forests."
         },
@@ -24,5 +24,5 @@
             "text": "Forest variant."
         }
     ],
-    "turnin": "baers_additions:quests/heads/troll"
+    "turnin": "baersadditions:quests/collecting/heads/troll"
 }
