@@ -7,3 +7,5 @@ You *are* also able to find the files and mod list on the wiki. Please be aware 
 The modpack is also accessable on [CurseForge](https://www.curseforge.com/minecraft/modpacks/baercraft) and you are able to find it on [Discord](https://discord.gg/CKbbFyzrd9)!
 
 > Be sure to check the Wiki!!
+
+![tGUyIGc](https://user-images.githubusercontent.com/96709522/162312456-583915b5-aadb-4c98-8e2b-1099b57c1237.png)
