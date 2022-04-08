@@ -22,8 +22,6 @@ inter-dimensions-command:
     - 'blue_skies:everbright'
     - 'minecraft:the_nether'
     - 'atum:atum'
-    - 'the_bumblezone:the_bumblezone'
-    - 'appliedenergistics2:spatial_storage'
 
 inter-biomes-command:
   # Do you want to the command /rtpb be allowed? (This commands adds a inter-biome RTP) [default: true]

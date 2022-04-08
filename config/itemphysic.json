@@ -179,8 +179,6 @@
   "pickup": {
     "customPickup": false,
     "pickupWhenSneaking": true,
-    "maximumPickupRange": 5.0,
-    "pickupMinedImmediately": false,
-    "respectRangeWhenMined": false
+    "maximumPickupRange": 5.0
   }
 }
