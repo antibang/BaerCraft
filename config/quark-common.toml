@@ -503,7 +503,7 @@
 	"Big Dungeon" = true
 	Speleothems = true
 	"Elder Prismarine Underground Biome" = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Sandstone Underground Biome" = true
 	"Glowshroom Underground Biome" = true
 	"Permafrost Underground Biome" = true
