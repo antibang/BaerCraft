@@ -1,28 +1,28 @@
 
 [general]
-	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
-	"Use Piston Logic Replacement" = true
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
 	"'q' Button on the Right" = false
-	#Set to true if you need to find the class name for a screen that's causing problems
-	"Print Screen Classnames" = false
 	#Allowed values: (0,)
 	"Piston Push Limit" = 12
-	#Blocks that Quark should treat as Shulker Boxes.
-	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 	#Set to true to make the quark big worldgen features such as stone clusters or underground biomes generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
 	"Enable 'q' Button" = false
 	#A list of screens that don't play well with quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
 	"Ignored Screens" = ["blusunrize.immersiveengineering.client.gui.CraftingTableScreen", "com.tfar.craftingstation.client.CraftingStationScreen", "com.refinedmods.refinedstorage.screen.grid.GridScreen", "appeng.client.gui.implementations.CraftingTermScreen", "appeng.client.gui.implementations.PatternTermScreen", "com.blakebr0.extendedcrafting.client.screen.EliteTableScreen", "com.blakebr0.extendedcrafting.client.screen.EliteAutoTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateAutoTableScreen"]
 	"Use Anti Overlap" = true
+	#Enables quark network profiling features. Do not enable this unless requested to.
+	"Enable Network Profiling" = false
+	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
+	"Use Piston Logic Replacement" = true
+	#Set to true if you need to find the class name for a screen that's causing problems
+	"Print Screen Classnames" = false
+	#Blocks that Quark should treat as Shulker Boxes.
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 	#Set to true to enable a system that debugs quark's worldgen features. This should ONLY be used if you're asked to by a dev.
 	"Enable Worldgen Watchdog" = false
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
 	"Interpret Shulker Box Like Blocks" = true
-	#Enables quark network profiling features. Do not enable this unless requested to.
-	"Enable Network Profiling" = false
-	#Allowed values: (0,)
-	"Advancement Visibility Depth" = 2
 
 [categories]
 	Building = true
@@ -42,6 +42,7 @@
 	"Weather Sensor" = true
 	"Ender Watcher" = true
 	"Endermites Form Shulkers" = true
+	"Jukebox Automation" = true
 	"Chains Connect Blocks" = true
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
@@ -52,7 +53,6 @@
 	"Obsidian Plate" = true
 	"Pistons Move Tile Entities" = true
 	"Feeding Trough" = true
-	"Jukebox Automation" = true
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
@@ -73,10 +73,10 @@
 		Chance = 0.005
 
 	[automation.pistons_move_tile_entities]
+		"Enable Chests Moving Together" = true
 		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
 		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
-		"Enable Chests Moving Together" = true
 
 	[automation.color_slime]
 		"Change Name" = true
@@ -93,35 +93,19 @@
 		Range = 10.0
 
 [building]
-	"Duskbound Blocks" = true
-	"Bamboo Mat" = true
 	"Cobblestone Bricks" = true
-	"More Brick Types" = true
-	"Gold Bars" = true
-	"Soul Sandstone" = true
 	"Burn Vines" = true
 	"Quilted Wool" = true
-	"Compressed Blocks" = true
-	Stools = true
-	Thatch = true
+	"Celebratory Lamps" = true
 	"Variant Chests" = true
-	"Variant Ladders" = true
 	Hedges = true
 	"Vertical Slabs" = true
-	Shingles = false
 	"Nether Brick Fence Gate" = true
-	"Item Frames" = true
-	"Stained Planks" = true
-	"Wooden Posts" = true
-	"Leaf Carpet" = true
 	"Lit Lamp" = true
 	"Vertical Planks" = true
-	Midori = true
 	"Tie Leads To Fences" = true
 	"Shallow Dirt" = true
 	"More Stone Variants" = true
-	"Framed Glass" = true
-	"Tallow And Candles" = true
 	Turf = true
 	"Paper Decor" = true
 	Rope = true
@@ -130,7 +114,36 @@
 	"More Potted Plants" = true
 	Grate = true
 	"Variant Bookshelves" = true
-	"Celebratory Lamps" = true
+	"Duskbound Blocks" = true
+	"Bamboo Mat" = true
+	"More Brick Types" = true
+	"Gold Bars" = true
+	"Soul Sandstone" = true
+	"Compressed Blocks" = true
+	Stools = true
+	Thatch = true
+	"Variant Ladders" = true
+	Shingles = false
+	"Item Frames" = true
+	"Stained Planks" = true
+	"Wooden Posts" = true
+	"Leaf Carpet" = true
+	Midori = true
+	"Framed Glass" = true
+	"Tallow And Candles" = true
+
+	[building.thatch]
+		#Allowed values: [0,1]
+		"Fall Damage Multiplier" = 0.5
+
+	[building.item_frames]
+		"Glass Item Frames Update Maps" = true
+
+	[building.cobblestone_bricks]
+		"Enable Basalt Bricks" = true
+		"Enable Netherrack Bricks" = true
+		"Enable Dirt Bricks" = true
+		"Enable Blackstone Bricks" = true
 
 	[building.rope]
 		"Enable Dispenser Behavior" = true
@@ -143,10 +156,6 @@
 		"Enable Pillar" = true
 		"Enable Chiseled Bricks" = true
 		"Enable Pavement" = true
-
-	[building.thatch]
-		#Allowed values: [0,1]
-		"Fall Damage Multiplier" = 0.5
 
 	[building.variant_ladders]
 		"Change Names" = true
@@ -182,10 +191,13 @@
 		"Stick Block Fuel Time" = 900
 
 	[building.variant_chests]
+		"Enable Reverting Wooden Chests" = true
 		"Replace Worldgen Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest", "bettermineshafts:mineshaft=quark:oak_chest", "cobbler:shulker_factory=quark:purpur_chest", "conjurer_illager:theatre=quark:dark_oak_chest", "dungeoncrawl:dungeon=quark:oak_chest", "dungeons_plus:bigger_dungeon=quark:oak_chest", "dungeons_plus:end_ruins=quark:purpur_chest", "dungeons_plus:leviathan=quark:jungle_chest", "dungeons_plus:snowy_temple=quark:spruce_chest", "dungeons_plus:soul_prison=quark:warped_chest", "dungeons_plus:tower=quark:oak_chest", "dungeons_plus:warped_garden=quark:warped__chest", "hunterillager:hunterhouse=quark:oak_chest", "iceandfire:gorgon_temple=quark:jungle_chest", "pandoras_creatures:end_prison=quark:purpur_chest", "repurposed_structures:fortress_jungle=quark:jungle_chest", "repurposed_structures:igloo_grassy=quark:oak_chest", "repurposed_structures:igloo_stone=quark:spruce_chest", "repurposed_structures:mineshaft_birch=quark:birch_chest", "repurposed_structures:mineshaft_desert=quark:jungle_chest", "repurposed_structures:mineshaft_end=quark:purpur_chest", "repurposed_structures:mineshaft_icy=quark:spruce_chest", "repurposed_structures:mineshaft_jungle=quark:jungle_chest", "repurposed_structures:mineshaft_nether=quark:nether_brick_chest", "repurposed_structures:mineshaft_ocean=quark:prismarine_chest", "repurposed_structures:mineshaft_savanna=quark:acacia_chest", "repurposed_structures:mineshaft_stone=quark:spruce_chest", "repurposed_structures:mineshaft_swamp_or_dark_forest=quark:dark_oak_chest", "repurposed_structures:mineshaft_taiga=quark:spruce_chest", "repurposed_structures:outpost_badlands=quark:dark_oak_chest", "repurposed_structures:outpost_birch=quark:birch_chest", "repurposed_structures:outpost_crimson=quark:crimson_chest", "repurposed_structures:outpost_desert=quark:jungle_chest", "repurposed_structures:outpost_giant_tree_taiga=quark:spruce_chest", "repurposed_structures:outpost_icy=quark:spruce_chest", "repurposed_structures:outpost_jungle=quark:jungle_chest", "repurposed_structures:outpost_nether_brick=quark:nether_brick_chest", "repurposed_structures:outpost_snowy=quark:spruce_chest", "repurposed_structures:outpost_warped=quark:warped_chest", "repurposed_structures:pyramid_badlands=quark:dark_oak_chest", "repurposed_structures:pyramid_nether=quark:nether_brick_chest", "repurposed_structures:ruined_portal_end=quark:purpur_chest", "repurposed_structures:shipwreck_crimson=quark:crimson_chest", "repurposed_structures:shipwreck_end=quark:purpur_chest", "repurposed_structures:shipwreck_nether_bricks=quark:nether_brick_chest", "repurposed_structures:shipwreck_warped=quark:warped_chest", "repurposed_structures:stronghold_nether=quark:nether_brick_chest", "repurposed_structures:stronghold_stonebrick=quark:oak_chest", "repurposed_structures:temple_nether_basalt=quark:nether_brick_chest", "repurposed_structures:temple_nether_crimson=quark:crimson_chest", "repurposed_structures:temple_nether_soul=quark:warped_chest", "repurposed_structures:temple_nether_warped=quark:warped_chest", "repurposed_structures:temple_nether_wasteland=quark:nether_brick_chest", "repurposed_structures:village_badlands=quark:dark_oak_chest", "repurposed_structures:village_birch=quark:birch_chest", "repurposed_structures:village_crimson=quark:crimson_chest", "repurposed_structures:village_dark_oak=quark:dark_oak_chest", "repurposed_structures:village_giant_taiga=quark:spruce_chest", "repurposed_structures:village_jungle=quark:jungle_chest", "repurposed_structures:village_mountains=quark:spruce_chest", "repurposed_structures:village_oak=quark:oak_chest", "repurposed_structures:village_swamp=quark:oak_chest", "repurposed_structures:village_warped=quark:warped_chest", "valhelsia_structures:castle=quark:spruce_chest", "valhelsia_structures:castle_ruin=quark:oak_chest", "valhelsia_structures:desert_house=quark:spruce_chest", "valhelsia_structures:forge=quark:spruce_chest", "valhelsia_structures:player_house=quark:oak_chest", "valhelsia_structures:small_castle=quark:oak_chest", "valhelsia_structures:small_dungeon=quark:oak_chest", "valhelsia_structures:tower_ruin=quark:spruce_chest"]
-		"Enable Reverting Wooden Chests" = true
+
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
 
 	[building.more_brick_types]
 		"Enable Magma Bricks" = true
@@ -209,20 +221,11 @@
 		#Allowed values: [0,)
 		"Min Drop" = 1
 
-	[building.variant_bookshelves]
-		"Change Names" = true
-
-	[building.cobblestone_bricks]
-		"Enable Blackstone Bricks" = true
-		"Enable Dirt Bricks" = true
-		"Enable Netherrack Bricks" = true
-		"Enable Basalt Bricks" = true
-
 	[building.celebratory_lamps]
 		"Light Level" = 15
 
-	[building.item_frames]
-		"Glass Item Frames Update Maps" = true
+	[building.variant_bookshelves]
+		"Change Names" = true
 
 [management]
 	"Chests In Boats" = true
@@ -248,16 +251,20 @@
 
 [tools]
 	Pickarang = true
+	"Ambient Discs" = true
 	"Seed Pouch" = true
 	"Pathfinder Maps" = false
 	"Bottled Cloud" = true
 	"Color Runes" = true
+	"Endermosh Music Disc" = true
 	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
 	Trowel = true
 	Abacus = true
-	"Ambient Discs" = true
+
+	[tools.ambient_discs]
+		"Drop On Spider Kill" = true
 
 	[tools.trowel]
 		#Amount of blocks placed is this value + 1.
@@ -274,10 +281,12 @@
 		"Underwater Ruin Weight" = 0
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
+		"Normal Upgrade Cost" = 10
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20
 		"Item Quality" = 2
+		"Limit Break Upgrade Cost" = 30
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 60
 		#Set to 0 to not generate in Nether Fortresses
@@ -286,8 +295,6 @@
 		"Monster Box Weight" = 5
 		#Set to 0 to not generate in Bastions
 		"Bastion Weight" = 25
-		"Normal Upgrade Cost" = 10
-		"Limit Break Upgrade Cost" = 30
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
@@ -306,14 +313,20 @@
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF,Ice Mountains Pathfinder Map
 		Customs = []
-		"Xp From Trade" = 5
 		"Search Radius" = 6400
 		"Search Distance Increment" = 8
+		"Xp From Trade" = 5
 
 	[tools.seed_pouch]
 		"Show All Variants In Creative" = false
 		"Shift Range" = 5
 		"Max Items" = 640
+
+	[tools.endermosh_music_disc]
+		"Play Endermosh During Enderdragon Fight" = false
+		"Loot Quality" = 1
+		"Add To End City Loot" = true
+		"Loot Weight" = 5
 
 	[tools.color_runes]
 		"Jungle Temple Weight" = 3
@@ -340,9 +353,6 @@
 		"Netherite Durability" = 1040
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
 		"Never Use Heart Of Diamond" = false
-
-	[tools.ambient_discs]
-		"Drop On Spider Kill" = true
 
 [tweaks]
 	"Armed Armor Stands" = true
@@ -373,8 +383,8 @@
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
 	"Campfires Boost Elytra" = true
-	"Better Elytra Rocket" = true
 	"More Banner Layers" = true
+	"Better Elytra Rocket" = true
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -513,13 +523,13 @@
 	"Overgrown Underground Biome" = true
 	"Cave Roots" = false
 	"Spider Nest Underground Biome" = true
-	"Monster Box" = true
 	Deepslate = true
+	"Monster Box" = true
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.6
+		"Chance Per Chunk" = 0.4
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 30
@@ -535,17 +545,17 @@
 	[world.cave_crystal_underground_biome]
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 6
-		"Crystals Craft Runes" = false
 		#Allowed values: [0,1]
 		"Crystal Chance" = 0.3
 		#Allowed values: [0,1]
-		"Crystal Cluster Chance" = 0.8
-		#Allowed values: [0,1]
 		"Crystal Cluster On Sides Chance" = 0.4
 		#Allowed values: [0,1]
+		"Crystal Cluster Chance" = 0.8
+		#Allowed values: [0,1]
 		"Double Crystal Chance" = 0.5
-		"Enable Beacon Redirection" = true
 		"Enable Collateral Movement" = true
+		"Enable Beacon Redirection" = true
+		"Crystals Craft Runes" = false
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
@@ -564,13 +574,13 @@
 			"Vertical Variation" = 59
 
 			[world.cave_crystal_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = true
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["ocean"]
+				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -579,10 +589,10 @@
 	[world.speleothems]
 		"Tries Per Chunk In Nether" = 4
 		"Speleothems Per Chunk In Nether" = 12
+		"Small Speleothems Increase Fall Damage" = true
 		"Speleothems Per Chunk" = 3
 		"Max Ylevel" = 55
 		"Tries Per Chunk" = 20
-		"Small Speleothems Increase Fall Damage" = true
 
 		[world.speleothems.dimensions]
 			Dimensions = []
@@ -607,13 +617,13 @@
 			"Vertical Variation" = 6
 
 			[world.sandstone_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["sandy"]
+				"Is Blacklist" = false
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -697,13 +707,13 @@
 			"Vertical Variation" = 1
 
 			[world.crevices.spawn_settings.biomes]
-				"Is Blacklist" = true
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["ocean", "beach"]
+				"Is Blacklist" = true
 
 			[world.crevices.spawn_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -847,26 +857,32 @@
 			"Vertical Variation" = 6
 
 			[world.spider_nest_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["plains"]
+				"Is Blacklist" = false
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
+	[world.deepslate]
+		"Sheet Height Variance" = 5
+		"Sheet Y Start" = 0
+		"Sheet Height" = 7
+
+		[world.deepslate.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
+
 	[world.blossom_trees]
+		"Drop Leaf Particles" = false
 
 		[world.blossom_trees.orange]
 			Rarity = 100
-
-			[world.blossom_trees.orange.dimensions]
-				Dimensions = ["minecraft:overworld"]
-				"Is Blacklist" = false
 
 			[world.blossom_trees.orange.biome_config]
 
@@ -883,12 +899,12 @@
 					Biomes = []
 					"Is Blacklist" = true
 
-		[world.blossom_trees.red]
-			Rarity = 30
-
-			[world.blossom_trees.red.dimensions]
+			[world.blossom_trees.orange.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+		[world.blossom_trees.red]
+			Rarity = 30
 
 			[world.blossom_trees.red.biome_config]
 
@@ -905,12 +921,12 @@
 					Biomes = []
 					"Is Blacklist" = true
 
-		[world.blossom_trees.pink]
-			Rarity = 100
-
-			[world.blossom_trees.pink.dimensions]
+			[world.blossom_trees.red.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+		[world.blossom_trees.pink]
+			Rarity = 100
 
 			[world.blossom_trees.pink.biome_config]
 
@@ -927,12 +943,12 @@
 					Biomes = []
 					"Is Blacklist" = true
 
-		[world.blossom_trees.blue]
-			Rarity = 200
-
-			[world.blossom_trees.blue.dimensions]
+			[world.blossom_trees.pink.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+		[world.blossom_trees.blue]
+			Rarity = 200
 
 			[world.blossom_trees.blue.biome_config]
 
@@ -949,12 +965,12 @@
 					Biomes = []
 					"Is Blacklist" = true
 
-		[world.blossom_trees.yellow]
-			Rarity = 200
-
-			[world.blossom_trees.yellow.dimensions]
+			[world.blossom_trees.blue.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+		[world.blossom_trees.yellow]
+			Rarity = 200
 
 			[world.blossom_trees.yellow.biome_config]
 
@@ -971,12 +987,12 @@
 					Biomes = []
 					"Is Blacklist" = true
 
-		[world.blossom_trees.lavender]
-			Rarity = 100
-
-			[world.blossom_trees.lavender.dimensions]
+			[world.blossom_trees.yellow.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
+
+		[world.blossom_trees.lavender]
+			Rarity = 100
 
 			[world.blossom_trees.lavender.biome_config]
 
@@ -992,6 +1008,10 @@
 				[world.blossom_trees.lavender.biome_config.biomes]
 					Biomes = []
 					"Is Blacklist" = true
+
+			[world.blossom_trees.lavender.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
 
 	[world.mega_caves]
 
@@ -1012,13 +1032,13 @@
 			"Vertical Variation" = 10
 
 			[world.mega_caves.spawn_settings.biomes]
-				"Is Blacklist" = true
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["ocean", "beach"]
+				"Is Blacklist" = true
 
 			[world.mega_caves.spawn_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1051,13 +1071,13 @@
 			"Vertical Variation" = 6
 
 			[world.elder_prismarine_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["ocean"]
+				"Is Blacklist" = false
 
 			[world.elder_prismarine_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1088,13 +1108,13 @@
 			"Vertical Variation" = 6
 
 			[world.glowshroom_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["mountain", "mushroom", "jungle", "magical", "forest", "lush"]
+				"Is Blacklist" = false
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1449,13 +1469,13 @@
 			"Vertical Variation" = 50
 
 			[world.overgrown_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = true
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["ocean", "river", "beach", "nether", "end", "dead", "cold", "savanna", "mesa", "sandy", "snowy"]
+				"Is Blacklist" = true
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1480,13 +1500,13 @@
 			"Vertical Variation" = 6
 
 			[world.permafrost_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["snowy"]
+				"Is Blacklist" = false
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1511,13 +1531,13 @@
 			"Vertical Variation" = 50
 
 			[world.lush_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = true
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["ocean", "river", "beach", "nether", "end", "dead", "cold", "savanna", "mesa", "sandy", "snowy"]
+				"Is Blacklist" = true
 
 			[world.lush_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1542,13 +1562,13 @@
 			"Vertical Variation" = 6
 
 			[world.brimstone_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["mesa"]
+				"Is Blacklist" = false
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1631,26 +1651,17 @@
 			"Vertical Variation" = 6
 
 			[world.slime_underground_biome.biome_settings.biomes]
-				"Is Blacklist" = false
 				#Allowed values: [[hot, cold, sparse, dense, wet, dry, savanna, coniferous,
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
 				"Biome Types" = ["swamp"]
+				"Is Blacklist" = false
 
 			[world.slime_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
-
-	[world.deepslate]
-		"Sheet Height" = 7
-		"Sheet Height Variance" = 5
-		"Sheet Y Start" = 0
-
-		[world.deepslate.dimensions]
-			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
 
 [mobs]
 	Frogs = true
@@ -1663,6 +1674,12 @@
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["quark:root_item", "minecraft:cactus"]
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, or 0 to disable.
+		"Regrow Chance" = 3
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1807,7 +1824,7 @@
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 80
+			"Spawn Weight" = 40
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1893,6 +1910,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable L G B T Bees" = true
 		"Enable Cow" = true
+		"Enable Shiny Dolphin" = true
 
 	[client.improved_tooltips]
 		"Shulker Box Require Shift" = false
@@ -1922,8 +1940,8 @@
 
 		[client.greener_grass.color_matrix]
 			R = [0.89, 0.0, 0.0]
-			G = [0.0, 1.11, 0.0]
 			B = [0.0, 0.0, 0.89]
+			G = [0.0, 1.11, 0.0]
 
 [oddities]
 	"Totem Of Holding" = true
@@ -1936,6 +1954,7 @@
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
 		"Dark Souls Mode" = true
+		#Totem will always spawn if the player killer is himself.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
@@ -1974,6 +1993,8 @@
 		"Show Tooltip" = true
 		#Set to false to disable the ability to create Enchanted Books
 		"Allow Books" = true
+		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
+		"Automatically Convert" = true
 		#The higher this is, the better enchantments you'll get on books
 		"Book Enchantability" = 12
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
@@ -1992,8 +2013,6 @@
 		"Normalize Rarity" = true
 		#The max amount of candles that can influence a single enchantment
 		"Influence Max" = 4
-		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
-		"Automatically Convert" = true
 
 	[oddities.backpack]
 		"Enable Ravager Hide" = true
@@ -2001,6 +2020,7 @@
 		"Extra Chance Per Looting" = 0.5
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
+		"Items In Backpack Tick" = true
 
 	[oddities.crate]
 		"Max Items" = 640
@@ -2015,15 +2035,13 @@
 
 [experimental]
 	"Adjustable Chat" = false
-	"Narrator Readout" = false
-	"Overlay Shader" = false
 	"Custom Underground Biome" = false
 	"Game Nerfs" = false
+	Pallet = false
 	Shiba = false
-
-	[experimental.adjustable_chat]
-		"Horizontal Shift" = 0
-		"Vertical Shift" = 0
+	"Narrator Readout" = false
+	"Microcrafting Helper" = false
+	"Overlay Shader" = false
 
 	[experimental.custom_underground_biome]
 		#The format for these definitions is:
@@ -2031,6 +2049,10 @@
 		#That's a lot to take in, so here's an example. This would be for the default config of the Slime underground biome. (Spaces are allowed.)
 		#minecraft:overworld; false; SWAMP; false; 120; 10..40; 26,14; 14,6; minecraft:water@915, minecraft:slime_block@85; minecraft:green_terracotta@2, minecraft:lime_terracotta@3, minecraft:light_blue_terracotta@1; CEILING; false
 		"Biome Definitions" = []
+
+	[experimental.adjustable_chat]
+		"Horizontal Shift" = 0
+		"Vertical Shift" = 0
 
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
@@ -2044,12 +2066,6 @@
 		"Disable Ice Roads" = true
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
-
-	[experimental.overlay_shader]
-		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
-		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
-		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
-		Shader = "none"
 
 	[experimental.shiba]
 
@@ -2075,4 +2091,10 @@
 				[experimental.shiba.spawn_config.biomes.biomes]
 					Biomes = []
 					"Is Blacklist" = true
+
+	[experimental.overlay_shader]
+		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
+		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
+		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
+		Shader = "none"
 
