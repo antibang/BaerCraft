@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "If you decide to try out TerraForged, I also recommend downloading the presets I have made that I feel like suit my pack and its generation very well. You can find them $(#e2a3ff)here!$()$(br2)Please note, TerraForged is $(italic)very resource hungry$() and your computer might not like it on top of the modpack."
+            "text": "If you decide to try out TerraForged, I also recommend downloading the presets I have made that I feel like suit my pack and its generation very well. You can find them $(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/TerraForged-Presets-&-Guide)here!$()$(br2)Please note, TerraForged is $(italic)very resource hungry$() and your computer might not like it on top of the modpack."
         }
     ]
 }
