@@ -76,6 +76,7 @@ config/notes-client.toml
 config/PregenConfig.toml
 config/untamedwilds-common.toml
 config/musicdr-client.toml
+config/out_of_sight-client.toml
 config/skinlayers.json
 config/worldedit/worldedit.properties
 config/xaerominimap_entities.json
