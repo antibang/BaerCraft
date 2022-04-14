@@ -23,17 +23,17 @@
 	#If set to -1, the HUD is always visible
 	#Range: -1 ~ 600
 	visibleDurationTicks = 80
-	#The design to use to visualize the health
-	#Allowed Values: OFF, NUMBERS, HEARTS, PLAYER_MODEL, PLAYER_MODEL_4_COLORS, PLAYER_MODEL_OLD_COLORS, PLAYER_MODEL_OLD_4_COLORS
-	overlayMode = "PLAYER_MODEL_4_COLORS"
-	#If set to true, the overlay will flash for a short moment if the health changed. Only affects PLAYER_MODEL overlay
-	flash = true
 	#The mode how to show the mc vanilla health bar.
 	#NORMAL shows the vanilla health value that calculated the way vanillaHealthCalculation is specified (server config)
 	#HIGHLIGHT_CRITICAL_PATH show the vanilla health value and highlights the health value of the most damaged critical limb (by default head or body) using the hardcore-styled hearts for them and the normal hearts for the rest of the health. Only works if vanillaHealthCalculation is set to AVERAGE_ALL
 	#HIDE just doesn't display the vanilla health bar at all.
 	#Allowed Values: NORMAL, HIGHLIGHT_CRITICAL_PATH, HIDE
 	vanillaHealthBarMode = "NORMAL"
+	#The design to use to visualize the health
+	#Allowed Values: OFF, NUMBERS, HEARTS, PLAYER_MODEL, PLAYER_MODEL_4_COLORS, PLAYER_MODEL_OLD_COLORS, PLAYER_MODEL_OLD_4_COLORS
+	overlayMode = "PLAYER_MODEL_4_COLORS"
+	#If set to true, the overlay will flash for a short moment if the health changed. Only affects PLAYER_MODEL overlay
+	flash = true
 
 [Misc]
 	#Set to true to enable the debuff sounds. Only matters when debuffs are enabled
