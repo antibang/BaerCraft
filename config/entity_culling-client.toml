@@ -9,14 +9,14 @@ enabled = true
 skipHiddenEntityRendering = true
 #Entities with a width or height greater than this value will always get rendered.
 #Range: 0.0 ~ 128.0
-skipHiddenEntityRenderingSize = 3.0
+skipHiddenEntityRenderingSize = 128.0
 #Entities which will always be rendered. (Format: 'modid:entity_name')
 skipHiddenEntityRenderingBlacklist = []
 #Skip rendering of entities that are not visible (hidden behind blocks). This might cause issues where a tile entity is partly behind a block and thus does not get rendered but it's usually not really noticable.
 skipHiddenTileEntityRendering = true
 #Tile entities with a width or height greater than this value will always get rendered.
 #Range: 0.0 ~ 128.0
-skipHiddenTileEntityRenderingSize = 3.0
+skipHiddenTileEntityRenderingSize = 128.0
 #Tile entities which will always be rendered. (Format: 'modid:tile_entity_name')
 skipHiddenTileEntityRenderingBlacklist = []
 
@@ -25,7 +25,7 @@ skipHiddenTileEntityRenderingBlacklist = []
 	#No comment
 	entityShadowsCulling = true
 	#No comment
-	entityShadowsCullingLessAggressiveMode = true
+	entityShadowsCullingLessAggressiveMode = false
 	#No comment
 	#Range: 0.0 ~ 32.0
 	entityShadowsCullingLessAggressiveModeDiff = 2.0
@@ -49,7 +49,7 @@ skipHiddenTileEntityRenderingBlacklist = []
 	#No comment
 	tileEntityShadowsCulling = true
 	#No comment
-	tileEntityShadowsCullingLessAggressiveMode = true
+	tileEntityShadowsCullingLessAggressiveMode = false
 	#No comment
 	#Range: 0.0 ~ 32.0
 	tileEntityShadowsCullingLessAggressiveModeDiff = 2.0
