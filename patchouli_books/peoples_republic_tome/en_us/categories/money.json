@@ -2,5 +2,5 @@
     "name": "Currency",
     "description": "Information about our server's universal currency.$(br2)Keep in mind, you do not have to use this as currency if you're a shop owner, or any other scenario involving payments.",
     "icon": "thermal:netherite_coin",
-    "sortnum": 5
+    "sortnum": 6
 }

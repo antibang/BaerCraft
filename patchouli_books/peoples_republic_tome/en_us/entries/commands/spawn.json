@@ -1,0 +1,13 @@
+{
+    "name": "Spawn",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:commands",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "/spawn",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/spawn' to teleport to spawn!"
+        }
+    ]
+}

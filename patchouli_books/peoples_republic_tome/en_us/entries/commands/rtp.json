@@ -1,0 +1,13 @@
+{
+    "name": "RTP",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:commands",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "/rtp",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/rtp' to teleport to a random location!"
+        }
+    ]
+}

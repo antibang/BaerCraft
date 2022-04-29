@@ -1,0 +1,25 @@
+{
+    "name": "Teleports",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:commands",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "/tpa [username]",
+            "item": "thermal:iron_gear",
+            "text": "Use the  command '/tpa [username]' to request to teleport."
+        },
+        {
+            "type": "spotlight",
+            "title": "/tpahere [username]",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/tpahere [username]' to request someone to teleport to you."
+        },
+        {
+            "type": "spotlight",
+            "title": "/tpaaccept",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/tpaaccept' to accept teleport requests, or simply press 'Accept' or 'Decline' in chat."
+        }
+    ]
+}

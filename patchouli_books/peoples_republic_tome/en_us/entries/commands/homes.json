@@ -1,0 +1,19 @@
+{
+    "name": "Homes",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:commands",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "/sethome",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/sethome' to set your home!$(br2)$(italic)Players can have up to 3 homes in total."
+        },
+        {
+            "type": "spotlight",
+            "title": "/home",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/home' to teleport your home!"
+        }
+    ]
+}
