@@ -62,8 +62,10 @@ usernamecache.json
 WailaErrorOutput.txt
 
 #Configs
+config/defaultworldtype/client-config.toml
 config/roadrunner
 config/spark
+config/starterkit/starterkit.txt
 config/terraforged
 config/ambientsounds-client.json
 config/betteradvancements-client.toml
