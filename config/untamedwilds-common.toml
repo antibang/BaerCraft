@@ -69,10 +69,10 @@
 [gencontrol]
 	#Frequency of Reeds, 1 in N chunks will generate Reeds (0 to disable)
 	#Range: > 0
-	freqreeds = 12
+	freqreeds = 0
 	#Frequency of Flora, 1 in N chunks will generate random Flora (0 to disable)
 	#Range: > 0
-	freqflora = 8
+	freqflora = 6
 	#Controls whether to add Anemones and their associated items to oceans.
 	anemone = true
 	#Controls whether to spawn random Flora in the world

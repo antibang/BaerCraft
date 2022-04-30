@@ -16,12 +16,12 @@
     {
       "name":"anaconda",
       "variant":0,
-      "scale":2.5,
+      "scale":2.3,
       "rarity":1,
       "offspring":2,
       "activityType":"cathemeral",
       "favourite_food":"minecraft:beef",
-      "attack":4,
+      "attack":6,
       "health":30,
       "flags":{
         "parts":3
@@ -44,12 +44,12 @@
     {
       "name":"reticulated_python",
       "variant":1,
-      "scale":2.5,
+      "scale":2.3,
       "rarity":1,
       "offspring":4,
       "activityType":"cathemeral",
       "favourite_food":"minecraft:porkchop",
-      "attack":4,
+      "attack":6,
       "health":30,
       "flags":{
         "eggLayer":1,

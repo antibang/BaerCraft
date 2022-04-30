@@ -198,5 +198,18 @@
         "biome": ["minecraft:river", "minecraft:frozen_river"],
         "onjoin": true,
         "result": "deny"
+    },
+    {
+        "mob": ["untamedwilds:aardvark", "untamedwilds:bear", "untamedwilds:big_cat", "untamedwilds:bison", "untamedwilds:boar", "untamedwilds:camel", "untamedwilds:hippo", "untamedwilds:hyena", "untamedwilds:manatee", "untamedwilds:rhino"],
+        "healthadd": 10,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "untamedwilds:large_snake",
+        "healthadd": 20,
+        "speedmultiply": 1.5,
+        "onjoin": true,
+        "result": "allow"
     }
 ]
