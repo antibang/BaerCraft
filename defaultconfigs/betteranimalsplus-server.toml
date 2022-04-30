@@ -41,13 +41,13 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 20
+			spawn_weight = 10
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 3
+			maximum_group_size = 2
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["byg:fungal_patch", "minecraft:jungle_edge", "byg:tropical_fungal_rainforest_hills", "byg:jacaranda_forest_hills", "byg:crag_gardens", "biomesoplenty:fungal_field", "minecraft:badlands_plateau", "minecraft:wooded_badlands_plateau", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:modified_jungle", "byg:red_desert_dunes", "byg:mojave_desert", "byg:jacaranda_clearing", "byg:guiana_springs", "byg:tropical_rainforest", "byg:lush_red_desert", "biomesoplenty:tropics", "minecraft:bamboo_jungle_hills", "minecraft:badlands", "byg:oasis", "biomesoplenty:tropic_beach", "biomesoplenty:rainforest_cliffs", "byg:guiana_shield", "minecraft:desert", "byg:red_desert", "biomesoplenty:fungal_jungle", "byg:tropical_fungal_forest", "byg:tropical_rainforest_hills", "minecraft:bamboo_jungle", "biomesoplenty:rainforest", "byg:guiana_clearing", "byg:dunes", "biomesoplenty:lush_desert", "minecraft:jungle", "minecraft:jungle_hills", "biomesoplenty:dry_boneyard", "biomesoplenty:rainforest_floodplain", "minecraft:modified_jungle_edge"]
 			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)

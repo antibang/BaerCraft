@@ -81,8 +81,8 @@
     },
     {
         "mob": "creatures:shrimp",
-        "persecond": 0.6,
-        "attempts": 20,
+        "persecond": 0.4,
+        "attempts": 10,
         "amount": {
             "minimum": 4,
             "maximum": 6
