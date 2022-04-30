@@ -88,5 +88,4 @@ config/worldedit/worldedit.properties
 config/xaerominimap_entities.json
 
 #Datapacks
-global_data_packs/baers_additions/data/untamedwilds
 global_data_packs/baers_additions/data/ob_aquamirae

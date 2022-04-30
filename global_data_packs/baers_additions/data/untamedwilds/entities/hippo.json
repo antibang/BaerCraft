@@ -1,0 +1,37 @@
+{
+  "name":"hippo",
+  "breeding":"EARLY_SUMMER",
+  "growing":8,
+  "offspring":1,
+  "activityType":"cathemeral",
+  "favourite_food":"minecraft:melon_slice",
+  "sounds":{
+    "ambient":"untamedwilds:entity.hippo.ambient",
+    "hurt":"minecraft:entity.cow.hurt",
+    "death":"minecraft:entity.cow.death"
+  },
+  "species":[
+    {
+      "name":"common",
+      "variant":0,
+      "scale":2.2,
+      "rarity":1,
+      "skins":30,
+      "flags":{
+        "groupCount": 5
+      },
+      "spawnBiomes":[
+        [
+          "category|savanna",
+          "!resource|biomesoplenty:dry_boneyard"
+        ],
+        [
+          "category|swamp"
+        ],
+        [
+          "dictionary|SWAMP"
+        ]
+      ]
+    }
+  ]
+}
