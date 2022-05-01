@@ -160,8 +160,9 @@
       "favourite_food":"minecraft:beef",
       "attack":8,
       "health":40,
+      "skins":20,
       "flags":{
-        "dimorphism": 1,
+        "dimorphism":1,
         "groupCount":7
       },
       "spawnBiomes":[

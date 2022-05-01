@@ -40,6 +40,7 @@ mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantment
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "charm:tinted"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "ma-enchants:soft_fall"}]}));
 mods.jei.JEI.hideItem(<item:rereskillablerereforked:skill_fragment>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:sorter>);
 
 //
 
@@ -56,6 +57,7 @@ craftingTable.removeRecipe(<item:bountifulbaubles:broken_heart>);
 craftingTable.removeRecipe(<item:bountifulbaubles:lucky_horseshoe>);
 craftingTable.removeRecipe(<item:quark:flamerang>);
 craftingTable.removeRecipe(<item:quark:pickarang>);
+craftingTable.removeRecipe(<item:immersiveengineering:sorter>);
 
 //
 
