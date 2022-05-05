@@ -211,5 +211,12 @@
         "speedmultiply": 1.5,
         "onjoin": true,
         "result": "allow"
+    },
+    {
+        "mob": "whisperwoods:hirschgeist",
+        "healthadd": 350,
+        "damageadd": 10,
+        "onjoin": true,
+        "result": "allow"
     }
 ]
