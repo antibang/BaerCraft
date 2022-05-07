@@ -66,6 +66,7 @@ config/roadrunner
 config/spark
 config/starterkit/starterkit.txt
 config/terraforged
+config/advancements_tracker-client.toml
 config/ambientsounds-client.json
 config/betteradvancements-client.toml
 config/betterpingdisplay-client.toml
