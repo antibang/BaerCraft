@@ -84,6 +84,7 @@ config/out_of_sight-client.toml
 config/skinlayers.json
 config/worldedit/worldedit.properties
 config/xaerominimap_entities.json
+config/xaerominimap.txt
 
 #Datapacks
 global_data_packs/baers_additions/data/ob_aquamirae
