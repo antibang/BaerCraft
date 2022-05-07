@@ -1,0 +1,19 @@
+{
+    "name": "Alchemist",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/alchemist",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Alchemist boss.$(br2)$(6)$(bold)Where are they found?:$() The Alchemist can be found in the Everdawn dimension."
+        },
+        {
+            "type": "entity",
+            "entity": "blue_skies:alchemist",
+            "scale": 1.0,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/alchemist"
+}

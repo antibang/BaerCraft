@@ -92,5 +92,21 @@
             "inwater": true,
             "maxthis": 12
         }
+    },
+    {
+        "mob": "alexsmobs:void_worm",
+        "persecond": 0.03,
+        "attempts": 20,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_end",
+            "inair": true,
+            "minheight": 50,
+            "maxheight": 100,
+            "maxthis": 1
+        }
     }
 ]

@@ -56,6 +56,16 @@
           }
         }
       }
+    },
+    "untamedwildsbear": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "untamedwilds:bear"
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -63,7 +73,8 @@
       "brown",
       "black",
       "polar",
-      "dropbear"
+      "dropbear",
+      "untamedwildsbear"
     ]
   ]
 }

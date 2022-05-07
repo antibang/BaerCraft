@@ -1,0 +1,19 @@
+{
+    "name": "Pharaoh",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/pharaoh",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Pharaoh boss.$(br2)$(6)$(bold)Where are they found?:$() The Pharaoh can be found in the Atum dimension."
+        },
+        {
+            "type": "entity",
+            "entity": "atum:pharaoh",
+            "scale": 0.95,
+            "offset": 0.15
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/pharaoh"
+}

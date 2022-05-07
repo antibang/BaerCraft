@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "blue_skies:loot_bag_alchemist"
+    },
+    "title": [
+      {
+        "text": "Alchemist Slayer",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat the Alchemist boss.",
+        "color": "white",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/bosses",
+  "criteria": {
+    "alchemist": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blue_skies:alchemist"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alchemist"
+    ]
+  ]
+}

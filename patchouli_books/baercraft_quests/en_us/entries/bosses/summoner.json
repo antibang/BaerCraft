@@ -1,0 +1,19 @@
+{
+    "name": "Summoner",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/summoner",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Summoner boss.$(br2)$(6)$(bold)Where are they found?:$() The Summoner can be found in the Everbright dimension."
+        },
+        {
+            "type": "entity",
+            "entity": "blue_skies:summoner",
+            "scale": 1.0,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/summoner"
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "blue_skies:loot_bag_summoner"
+    },
+    "title": [
+      {
+        "text": "Summoner Slayer",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat the Summoner boss.",
+        "color": "white",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/bosses",
+  "criteria": {
+    "summoner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blue_skies:summoner"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "summoner"
+    ]
+  ]
+}

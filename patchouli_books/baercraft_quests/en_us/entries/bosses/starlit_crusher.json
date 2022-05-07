@@ -1,0 +1,19 @@
+{
+    "name": "Starlit Crusher",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/starlit_crusher",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Starlit Crusher boss.$(br2)$(6)$(bold)Where are they found?:$() The Starlit Crusher can be found in the Everbright dimension."
+        },
+        {
+            "type": "entity",
+            "entity": "blue_skies:starlit_crusher",
+            "scale": 0.7,
+            "offset": 0.6
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/starlit_crusher"
+}

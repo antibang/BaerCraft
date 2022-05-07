@@ -1,0 +1,19 @@
+{
+    "name": "Ender Dragon",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/enderdragon",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Ender Dragon."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:ender_dragon",
+            "scale": 1.1,
+            "offset": -5
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/enderdragon"
+}

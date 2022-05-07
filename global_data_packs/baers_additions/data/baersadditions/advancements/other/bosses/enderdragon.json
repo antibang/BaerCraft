@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "bountifulbaubles:black_dragon_scale"
+    },
+    "title": [
+      {
+        "text": "Ender Dragon Slayer",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat the Ender Dragon boss.",
+        "color": "white",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/bosses",
+  "criteria": {
+    "dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dragon"
+    ]
+  ]
+}

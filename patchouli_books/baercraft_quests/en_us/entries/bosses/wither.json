@@ -1,0 +1,19 @@
+{
+    "name": "Wither",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/wither",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Wither boss.$(br2)$(6)$(bold)Where are they found?:$() The Wither can be summoned anywhere."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:wither",
+            "scale": 1.0,
+            "offset": 0.3
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/wither"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Arachnarch",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:bosses_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/bosses/arachnarch",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Defeat the Arachnarch boss.$(br2)$(6)$(bold)Where are they found?:$() The Arachnarch can be found in the Everdawn dimension."
+        },
+        {
+            "type": "entity",
+            "entity": "blue_skies:arachnarch",
+            "scale": 0.55,
+            "offset": 0.1
+        }
+    ],
+    "turnin": "baersadditions:other/bosses/arachnarch"
+}

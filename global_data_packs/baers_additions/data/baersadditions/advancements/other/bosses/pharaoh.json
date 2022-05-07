@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "atum:relic_sapphire_ring"
+    },
+    "title": [
+      {
+        "text": "Pharaoh Slayer",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat the Pharaoh boss.",
+        "color": "white",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/bosses",
+  "criteria": {
+    "pharaoh": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "atum:pharaoh"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pharaoh"
+    ]
+  ]
+}

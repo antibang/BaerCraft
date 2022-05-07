@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:warped_mixture"
+    },
+    "title": [
+      {
+        "text": "Warped Mosco Slayer",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat the Wraped Mosco boss.",
+        "color": "white",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/bosses",
+  "criteria": {
+    "warped_mosco": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:warped_mosco"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warped_mosco"
+    ]
+  ]
+}
