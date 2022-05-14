@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/enderdragon",
+            "trigger": "baersadditions:quests/bosses/ender_dragon",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Ender Dragon."
         },
@@ -15,5 +15,5 @@
             "offset": -5
         }
     ],
-    "turnin": "baersadditions:other/bosses/enderdragon"
+    "turnin": "baersadditions:quests/bosses/ender_dragon"
 }

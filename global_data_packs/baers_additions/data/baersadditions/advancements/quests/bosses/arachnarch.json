@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "arachnarch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blue_skies:arachnarch"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arachnarch"
+    ]
+  ]
+}

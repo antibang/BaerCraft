@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "dynamictrees:oak_seed"
+    },
+    "title": [
+      {
+        "text": "Tree Hugger"
+      }
+    ],
+    "description": [
+      {
+        "text": "Get injured from a falling tree."
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration",
+  "criteria": {
+    "tree": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "dynamictrees:falling_tree"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tree"
+    ]
+  ]
+}

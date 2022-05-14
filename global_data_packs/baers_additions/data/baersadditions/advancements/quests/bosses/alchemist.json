@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "alchemist": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "blue_skies:alchemist"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "alchemist"
+    ]
+  ]
+}

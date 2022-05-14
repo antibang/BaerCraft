@@ -1,0 +1,12 @@
+{
+    "name": "Very Important!",
+    "icon": "minecraft:enchanted_golden_apple",
+    "category": "patchouli:about",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The BaerCraft quest book and BaerCraft advancements are currently undergoing a lot of changes.$(br2)While not affecting gameplay, you may lose some of your completed advancements/quests during this time."
+        }
+    ],
+    "sortnum": 0
+}

@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/hirschgeist",
+            "trigger": "baersadditions:quests/bosses/hirschgeist",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Hirschgeist boss.$(br2)$(6)$(bold)Where are they found?:$() The Hirschgeist can be found in the overworld."
         },
@@ -15,5 +15,5 @@
             "offset": 1.2
         }
     ],
-    "turnin": "baersadditions:other/bosses/hirschgeist"
+    "turnin": "baersadditions:quests/bosses/hirschgeist"
 }

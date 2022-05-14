@@ -24,7 +24,7 @@ skillFragmentsFromChallenges = 0
 startingCost = 2
 #Amount of levels added to the cost with each upgrade (use 0 for constant cost).
 #Range: 0 ~ 10
-costIncrease = 2
+costIncrease = 0
 #Maximum level each skill can be upgraded to.
 #Range: 2 ~ 100
 maximumLevel = 100

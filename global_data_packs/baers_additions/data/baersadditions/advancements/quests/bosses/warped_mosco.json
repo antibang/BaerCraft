@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "warped_mosco": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:warped_mosco"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warped_mosco"
+    ]
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:mosquito_larva"
+    },
+    "title": [
+      {
+        "text": "Jeremy Fragrance"
+      }
+    ],
+    "description": [
+      {
+        "text": "Brew bug pheromones."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/mobs",
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:potion",
+            "potion": "alexsmobs:bug_pheromones"
+          }
+        ]
+      }
+    },
+    "long_potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:potion",
+            "potion": "alexsmobs:long_bug_pheromones"
+          }
+        ]
+      }
+    },
+    "splash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:splash_potion",
+            "potion": "alexsmobs:bug_pheromones"
+          }
+        ]
+      }
+    },
+    "long_splash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:splash_potion",
+            "potion": "alexsmobs:long_bug_pheromones"
+          }
+        ]
+      }
+    },
+    "lingering": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lingering_potion",
+            "potion": "alexsmobs:bug_pheromones"
+          }
+        ]
+      }
+    },
+    "long_lingering": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lingering_potion",
+            "potion": "alexsmobs:long_bug_pheromones"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "potion",
+      "long_potion",
+      "splash",
+      "long_splash",
+      "lingering",
+      "long_lingering"
+    ]
+  ]
+}

@@ -18,11 +18,7 @@
   "parent": "baersadditions:other/exploration",
   "criteria": {
     "overworld": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "from": "minecraft:overworld",
-        "to": "minecraft:overworld"
-      }
+      "trigger": "minecraft:tick"
     },
     "nether": {
       "trigger": "minecraft:changed_dimension",

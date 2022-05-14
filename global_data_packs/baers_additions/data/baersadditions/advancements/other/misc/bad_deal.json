@@ -1,41 +1,37 @@
 {
   "display": {
     "icon": {
-      "item": "blue_skies:loot_bag_summoner"
+      "item": "minecraft:bone"
     },
     "title": [
       {
-        "text": "Summoner Slayer",
-        "color": "gold",
-        "bold": true
+        "text": "Bad Deal"
       }
     ],
     "description": [
       {
-        "text": "Defeat the Summoner boss.",
-        "color": "white",
-        "italic": true
+        "text": "Kill a villager."
       }
     ],
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "baersadditions:other/bosses",
+  "parent": "baersadditions:other/misc",
   "criteria": {
-    "summoner": {
+    "villager": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "blue_skies:summoner"
+          "type": "minecraft:villager"
         }
       }
     }
   },
   "requirements": [
     [
-      "summoner"
+      "villager"
     ]
   ]
 }

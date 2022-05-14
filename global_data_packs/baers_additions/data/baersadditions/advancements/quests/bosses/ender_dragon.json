@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ender_dragon"
+    ]
+  ]
+}

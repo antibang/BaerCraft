@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "void_worm": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:void_worm"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "void_worm"
+    ]
+  ]
+}

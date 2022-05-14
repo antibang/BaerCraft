@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/pharaoh",
+            "trigger": "baersadditions:quests/bosses/pharaoh",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Pharaoh boss.$(br2)$(6)$(bold)Where are they found?:$() The Pharaoh can be found in the Atum dimension."
         },
@@ -15,5 +15,5 @@
             "offset": 0.15
         }
     ],
-    "turnin": "baersadditions:other/bosses/pharaoh"
+    "turnin": "baersadditions:quests/bosses/pharaoh"
 }

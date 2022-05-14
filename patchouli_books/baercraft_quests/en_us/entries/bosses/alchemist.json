@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/alchemist",
+            "trigger": "baersadditions:quests/bosses/alchemist",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Alchemist boss.$(br2)$(6)$(bold)Where are they found?:$() The Alchemist can be found in the Everdawn dimension."
         },
@@ -15,5 +15,5 @@
             "offset": 0.1
         }
     ],
-    "turnin": "baersadditions:other/bosses/alchemist"
+    "turnin": "baersadditions:quests/bosses/alchemist"
 }

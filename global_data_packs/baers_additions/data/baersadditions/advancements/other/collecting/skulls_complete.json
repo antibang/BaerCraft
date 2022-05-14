@@ -1,599 +1,601 @@
 {
-    "display": {
-        "title": [
-        	{
-        	    "text": "Sweaty Try-Hard",
-        	    "color": "purple",
-             	"bold": true,
-             	"underline": true
-        	}
-        ],
-        "description": [
-            {"text":"Obtain every mob head and/or skull in the game... Freak.","color":"white"}
-        ],
-        "icon": {
-            "item": "iceandfire:troll_skull"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "iceandfire:troll_skull"
     },
-    "parent": "baersadditions:other/collecting",
-    "criteria": {
-        "head1": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:feralwolfhead_black"
-                    }
-                ]
-            }
-        },
-        "head2": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:feralwolfhead_snowy"
-                    }
-                ]
-            }
-        },
-        "head3": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:feralwolfhead_timber"
-                    }
-                ]
-            }
-        },
-        "feralwolfhead_arctic": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:feralwolfhead_arctic"
-                    }
-                ]
-            }
-        },
-        "feralwolfhead_brown": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:feralwolfhead_brown"
-                    }
-                ]
-            }
-        },
-        "feralwolfhead_red": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:feralwolfhead_red"
-                    }
-                ]
-            }
-        },
-        "head4": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:coyotehead_1"
-                    }
-                ]
-            }
-        },
-        "head5": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:brownbearhead_1"
-                    }
-                ]
-            }
-        },
-        "head6": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:blackbearhead_black"
-                    }
-                ]
-            }
-        },
-        "head7": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:blackbearhead_kermode"
-                    }
-                ]
-            }
-        },
-        "head8": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:deerhead_1"
-                    }
-                ]
-            }
-        },
-        "head9": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:deerhead_2"
-                    }
-                ]
-            }
-        },
-        "head10": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:reindeerhead_1"
-                    }
-                ]
-            }
-        },
-        "head11": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:reindeerhead_2"
-                    }
-                ]
-            }
-        },
-        "head12": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:reindeerhead_3"
-                    }
-                ]
-            }
-        },
-        "head13": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:reindeerhead_4"
-                    }
-                ]
-            }
-        },
-        "head14": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:boarhead_gray"
-                    }
-                ]
-            }
-        },
-        "head15": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:boarhead_light_brown"
-                    }
-                ]
-            }
-        },
-        "head16": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:boarhead_dark_brown"
-                    }
-                ]
-            }
-        },
-        "head18": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:moosehead_1"
-                    }
-                ]
-            }
-        },
-        "head19": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:moosehead_2"
-                    }
-                ]
-            }
-        },
-        "head20": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:moosehead_3"
-                    }
-                ]
-            }
-        },
-        "head21": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:moosehead_4"
-                    }
-                ]
-            }
-        },
-        "head22": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:deerhead_3"
-                    }
-                ]
-            }
-        },
-        "head23": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "betteranimalsplus:deerhead_4"
-                    }
-                ]
-            }
-        },
-        "head24": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:amphithere_skull"
-                    }
-                ]
-            }
-        },
-        "head25": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:cockatrice_skull"
-                    }
-                ]
-            }
-        },
-        "head26": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:creeper_head"
-                    }
-                ]
-            }
-        },
-        "head27": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:cyclops_skull"
-                    }
-                ]
-            }
-        },
-        "head28": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:dragon_head"
-                    }
-                ]
-            }
-        },
-        "head29": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:hippogryph_skull"
-                    }
-                ]
-            }
-        },
-        "head30": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "whisperwoods:hirschgeist_skull"
-                    }
-                ]
-            }
-        },
-        "head31": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:hydra_skull"
-                    }
-                ]
-            }
-        },
-        "head32": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "mutantbeasts:mutant_skeleton_skull"
-                    }
-                ]
-            }
-        },
-        "head33": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:seaserpent_skull"
-                    }
-                ]
-            }
-        },
-        "head34": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:skeleton_skull"
-                    }
-                ]
-            }
-        },
-        "head35": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:stymphalian_skull"
-                    }
-                ]
-            }
-        },
-        "head36": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:troll_skull"
-                    }
-                ]
-            }
-        },
-        "head37": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:wither_skeleton_skull"
-                    }
-                ]
-            }
-        },
-        "head38": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:zombie_head"
-                    }
-                ]
-            }
-        },
-        "head39": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:dragon_skull_fire"
-                    }
-                ]
-            }
-        },
-        "head40": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:dragon_skull_ice"
-                    }
-                ]
-            }
-        },
-        "head41": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "iceandfire:dragon_skull_lightning"
-                    }
-                ]
-            }
-        },
-        "head42": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "mutantmore:mutant_wither_skeleton_skull"
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "head1"
-        ],
-        [
-            "head2"
-		],
-        [
-            "head3"
-        ],
-        [
-            "head4"
-        ],
-        [
-            "head5"
-        ],
-        [
-            "head6"
-        ],
-        [
-            "head7"
-        ],
-        [
-            "head8"
-        ],
-        [
-            "head9"
-        ],
-        [
-            "head10"
-        ],
-        [
-            "head11"
-        ],
-        [
-            "head12"
-        ],
-        [
-            "head13"
-        ],
-        [
-            "head14"
-        ],
-        [
-            "head15"
-        ],
-        [
-            "head16"
-        ],
-        [
-            "head18"
-        ],
-        [
-            "head19"
-        ],
-        [
-            "head20"
-        ],
-        [
-            "head21"
-        ],
-        [
-            "head22"
-        ],
-        [
-            "head23"
-        ],
-        [
-            "feralwolfhead_arctic"
-        ],
-        [
-            "feralwolfhead_brown"
-        ],
-        [
-            "feralwolfhead_red"
-        ],
-        [
-            "head24"
-        ],
-        [
-            "head25"
-        ],
-        [
-            "head26"
-        ],
-        [
-            "head27"
-        ],
-        [
-            "head28"
-        ],
-        [
-            "head29"
-        ],
-        [
-            "head30"
-        ],
-        [
-            "head31"
-        ],
-        [
-            "head32"
-        ],
-        [
-            "head33"
-        ],
-        [
-            "head34"
-        ],
-        [
-            "head35"
-        ],
-        [
-            "head36"
-        ],
-        [
-            "head37"
-        ],
-        [
-            "head38"
-        ],
-        [
-            "head39"
-        ],
-        [
-            "head40"
-        ],
-        [
-            "head41"
-        ],
-        [
-            "head42"
+    "title": [
+      {
+        "text": "Sweaty Try-Hard",
+        "color": "purple",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Obtain every mob head and/or skull in the game... Freak.",
+        "color": "white"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/collecting",
+  "criteria": {
+    "feralwolf_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:feralwolfhead_black"
+          }
         ]
+      }
+    },
+    "feralwolf_snowy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:feralwolfhead_snowy"
+          }
+        ]
+      }
+    },
+    "feralwolf_timber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:feralwolfhead_timber"
+          }
+        ]
+      }
+    },
+    "feralwolf_arctic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:feralwolfhead_arctic"
+          }
+        ]
+      }
+    },
+    "feralwolf_brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:feralwolfhead_brown"
+          }
+        ]
+      }
+    },
+    "feralwolf_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:feralwolfhead_red"
+          }
+        ]
+      }
+    },
+    "coyote": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:coyotehead_1"
+          }
+        ]
+      }
+    },
+    "brown_bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:brownbearhead_1"
+          }
+        ]
+      }
+    },
+    "black_bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:blackbearhead_black"
+          }
+        ]
+      }
+    },
+    "black_bear_kermode": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:blackbearhead_kermode"
+          }
+        ]
+      }
+    },
+    "deer_female": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:deerhead_1"
+          }
+        ]
+      }
+    },
+    "deer_male": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:deerhead_2"
+          }
+        ]
+      }
+    },
+    "reindeer_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:reindeerhead_1"
+          }
+        ]
+      }
+    },
+    "reindeer_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:reindeerhead_2"
+          }
+        ]
+      }
+    },
+    "reindeer_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:reindeerhead_3"
+          }
+        ]
+      }
+    },
+    "reindeer_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:reindeerhead_4"
+          }
+        ]
+      }
+    },
+    "boar_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:boarhead_gray"
+          }
+        ]
+      }
+    },
+    "boar_light_brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:boarhead_light_brown"
+          }
+        ]
+      }
+    },
+    "boar_dark_brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:boarhead_dark_brown"
+          }
+        ]
+      }
+    },
+    "moose_male": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:moosehead_1"
+          }
+        ]
+      }
+    },
+    "moose_female": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:moosehead_2"
+          }
+        ]
+      }
+    },
+    "white_moose_male": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:moosehead_3"
+          }
+        ]
+      }
+    },
+    "white_moose_female": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:moosehead_4"
+          }
+        ]
+      }
+    },
+    "white_deer_male": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:deerhead_3"
+          }
+        ]
+      }
+    },
+    "white_deer_female": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betteranimalsplus:deerhead_4"
+          }
+        ]
+      }
+    },
+    "amphithere": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:amphithere_skull"
+          }
+        ]
+      }
+    },
+    "cockatrice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:cockatrice_skull"
+          }
+        ]
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:creeper_head"
+          }
+        ]
+      }
+    },
+    "cyclops": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:cyclops_skull"
+          }
+        ]
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_head"
+          }
+        ]
+      }
+    },
+    "hippogryph": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:hippogryph_skull"
+          }
+        ]
+      }
+    },
+    "hirschgeist": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "whisperwoods:hirschgeist_skull"
+          }
+        ]
+      }
+    },
+    "hydra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:hydra_skull"
+          }
+        ]
+      }
+    },
+    "mutant_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mutantbeasts:mutant_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "seaserpent": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:seaserpent_skull"
+          }
+        ]
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:skeleton_skull"
+          }
+        ]
+      }
+    },
+    "stymphalian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:stymphalian_skull"
+          }
+        ]
+      }
+    },
+    "troll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:troll_skull"
+          }
+        ]
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:zombie_head"
+          }
+        ]
+      }
+    },
+    "fire_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragon_skull_fire"
+          }
+        ]
+      }
+    },
+    "ice_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragon_skull_ice"
+          }
+        ]
+      }
+    },
+    "lightning_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragon_skull_lightning"
+          }
+        ]
+      }
+    },
+    "mutant_wither_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mutantmore:mutant_wither_skeleton_skull"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "feralwolf_black"
+    ],
+    [
+      "feralwolf_snowy"
+    ],
+    [
+      "feralwolf_timber"
+    ],
+    [
+      "feralwolf_arctic"
+    ],
+    [
+      "feralwolf_brown"
+    ],
+    [
+      "feralwolf_red"
+    ],
+    [
+      "coyote"
+    ],
+    [
+      "brown_bear"
+    ],
+    [
+      "black_bear"
+    ],
+    [
+      "black_bear_kermode"
+    ],
+    [
+      "deer_female"
+    ],
+    [
+      "deer_male"
+    ],
+    [
+      "reindeer_1"
+    ],
+    [
+      "reindeer_2"
+    ],
+    [
+      "reindeer_3"
+    ],
+    [
+      "reindeer_4"
+    ],
+    [
+      "boar_gray"
+    ],
+    [
+      "boar_light_brown"
+    ],
+    [
+      "boar_dark_brown"
+    ],
+    [
+      "moose_male"
+    ],
+    [
+      "moose_female"
+    ],
+    [
+      "white_moose_male"
+    ],
+    [
+      "white_moose_female"
+    ],
+    [
+      "white_deer_male"
+    ],
+    [
+      "white_deer_female"
+    ],
+    [
+      "amphithere"
+    ],
+    [
+      "cockatrice"
+    ],
+    [
+      "creeper"
+    ],
+    [
+      "cyclops"
+    ],
+    [
+      "ender_dragon"
+    ],
+    [
+      "hippogryph"
+    ],
+    [
+      "hirschgeist"
+    ],
+    [
+      "hydra"
+    ],
+    [
+      "mutant_skeleton"
+    ],
+    [
+      "seaserpent"
+    ],
+    [
+      "skeleton"
+    ],
+    [
+      "stymphalian"
+    ],
+    [
+      "troll"
+    ],
+    [
+      "wither_skeleton"
+    ],
+    [
+      "zombie"
+    ],
+    [
+      "fire_dragon"
+    ],
+    [
+      "ice_dragon"
+    ],
+    [
+      "lightning_dragon"
+    ],
+    [
+      "mutant_wither_skeleton"
     ]
+  ]
 }

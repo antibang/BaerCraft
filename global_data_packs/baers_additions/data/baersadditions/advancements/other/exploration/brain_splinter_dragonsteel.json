@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "item": "dtbop:dying_seed"
+    },
+    "title": [
+      {
+        "text": "The Impossible",
+        "color": "purple",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Do the impossible: die from a falling tree while wearing a full set of dragonsteel armor. Sounds like you have a skill issue.",
+        "italic": true
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration/tree_hugger",
+  "criteria": {
+    "killed_by_tree_fire": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "item": "iceandfire:dragonsteel_fire_helmet"
+            },
+            "chest": {
+              "item": "iceandfire:dragonsteel_fire_chestplate"
+            },
+            "legs": {
+              "item": "iceandfire:dragonsteel_fire_leggings"
+            },
+            "feet": {
+              "item": "iceandfire:dragonsteel_fire_boots"
+            }
+          }
+        },
+        "entity": {
+          "type": "dynamictrees:falling_tree"
+        }
+      }
+    },
+    "killed_by_tree_ice": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "item": "iceandfire:dragonsteel_ice_helmet"
+            },
+            "chest": {
+              "item": "iceandfire:dragonsteel_ice_chestplate"
+            },
+            "legs": {
+              "item": "iceandfire:dragonsteel_ice_leggings"
+            },
+            "feet": {
+              "item": "iceandfire:dragonsteel_ice_boots"
+            }
+          }
+        },
+        "entity": {
+          "type": "dynamictrees:falling_tree"
+        }
+      }
+    },
+    "killed_by_tree_lightning": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "item": "iceandfire:dragonsteel_lightning_helmet"
+            },
+            "chest": {
+              "item": "iceandfire:dragonsteel_lightning_chestplate"
+            },
+            "legs": {
+              "item": "iceandfire:dragonsteel_lightning_leggings"
+            },
+            "feet": {
+              "item": "iceandfire:dragonsteel_lightning_boots"
+            }
+          }
+        },
+        "entity": {
+          "type": "dynamictrees:falling_tree"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_by_tree_fire",
+      "killed_by_tree_ice",
+      "killed_by_tree_lightning"
+    ]
+  ]
+}

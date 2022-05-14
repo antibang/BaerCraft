@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "pharaoh": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "atum:pharaoh"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pharaoh"
+    ]
+  ]
+}

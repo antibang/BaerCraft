@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/wither",
+            "trigger": "baersadditions:quests/bosses/wither",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Wither boss.$(br2)$(6)$(bold)Where are they found?:$() The Wither can be summoned anywhere."
         },
@@ -15,5 +15,5 @@
             "offset": 0.3
         }
     ],
-    "turnin": "baersadditions:other/bosses/wither"
+    "turnin": "baersadditions:quests/bosses/wither"
 }

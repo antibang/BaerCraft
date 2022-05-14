@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/void_worm",
+            "trigger": "baersadditions:quests/bosses/void_worm",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Void Worm boss.$(br2)$(6)$(bold)Where are they found?:$() The Void Worm can be summoned in the End and Undergarden dimensions."
         },
@@ -16,5 +16,5 @@
             "offset": 0.1
         }
     ],
-    "turnin": "baersadditions:other/bosses/void_worm"
+    "turnin": "baersadditions:quests/bosses/void_worm"
 }

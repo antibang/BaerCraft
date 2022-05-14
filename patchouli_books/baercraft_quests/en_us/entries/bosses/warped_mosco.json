@@ -4,7 +4,7 @@
     "category": "patchouli:bosses_category",
     "pages": [
         {
-            "trigger": "baersadditions:other/bosses/warped_mosco",
+            "trigger": "baersadditions:quests/bosses/warped_mosco",
             "type": "quest",
             "text": "$(6)$(bold)Goal:$() Defeat the Warped Mosco boss.$(br2)$(6)$(bold)Where are they found?:$() The Warped Mosco can be summoned anywhere."
         },
@@ -15,5 +15,5 @@
             "offset": 0.35
         }
     ],
-    "turnin": "baersadditions:other/bosses/warped_mosco"
+    "turnin": "baersadditions:quests/bosses/warped_mosco"
 }

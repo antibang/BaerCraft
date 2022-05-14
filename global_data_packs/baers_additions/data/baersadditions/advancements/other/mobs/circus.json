@@ -1,0 +1,105 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:acacia_blossom"
+    },
+    "title": [
+      {
+        "text": "Circus",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Tame a bear, donkey, elephant, horse, lion and a tiger."
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/mobs",
+  "criteria": {
+    "bear": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "untamedwilds:bear"
+        }
+      }
+    },
+    "donkey": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:donkey"
+        }
+      }
+    },
+    "elephant": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:elephant"
+        }
+      }
+    },
+    "horse": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:horse"
+        }
+      }
+    },
+    "lion": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "untamedwilds:big_cat",
+          "nbt": "{Variant: 3}"
+        }
+      }
+    },
+    "untamedwilds_tiger": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "untamedwilds:big_cat",
+          "nbt": "{Variant: 8}"
+        }
+      }
+    },
+    "alexsmobs_tiger": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:tiger"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bear"
+    ],
+    [
+      "donkey"
+    ],
+    [
+      "elephant"
+    ],
+    [
+      "horse"
+    ],
+    [
+      "lion"
+    ],
+    [
+      "untamedwilds_tiger",
+      "alexsmobs_tiger"
+    ]
+  ]
+}
