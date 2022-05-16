@@ -1,7 +1,7 @@
 {
     "name": "Starlit Crusher",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:bosses_category",
+    "category": "patchouli:mobs_category/bosses_category",
     "pages": [
         {
             "trigger": "baersadditions:quests/bosses/starlit_crusher",

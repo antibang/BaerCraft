@@ -1,0 +1,6 @@
+{
+    "name": "Dragon Scales",
+    "description": "Your goal is to collect every type of Ice and Fire dragon scales.",
+    "icon": "iceandfire:dragonscales_blue",
+    "parent": "patchouli:root_collecting_category"
+}

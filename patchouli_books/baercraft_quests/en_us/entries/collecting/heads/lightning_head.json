@@ -1,7 +1,7 @@
 {
     "name": "Lightning Dragon",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:creature_trophies",
+    "category": "patchouli:collecting_category/creature_trophies",
     "pages": [
         {
             "type": "quest",

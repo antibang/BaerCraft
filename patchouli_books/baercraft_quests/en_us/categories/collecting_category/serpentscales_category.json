@@ -1,0 +1,6 @@
+{
+    "name": "Sea Serpent Scales",
+    "description": "Your goal is to collect every type of Ice and Fire sea serpent scales.",
+    "icon": "iceandfire:sea_serpent_scales_purple",
+    "parent": "patchouli:root_collecting_category"
+}

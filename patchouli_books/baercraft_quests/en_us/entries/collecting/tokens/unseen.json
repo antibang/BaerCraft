@@ -1,7 +1,7 @@
 {
     "name": "Unseen",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:tokens_category",
+    "category": "patchouli:collecting_category/tokens_category",
     "pages": [
         {
             "trigger": "baersadditions:quests/collecting/tokens/unseen",

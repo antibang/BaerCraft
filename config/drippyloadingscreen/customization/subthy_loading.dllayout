@@ -3,7 +3,7 @@ type = hud
 customization-meta {
   randomgroup = 1
   keepaspectratio = false
-  backgroundimage = config/drippyloadingscreen/forge_loading.jpg
+  backgroundimage = config/drippyloadingscreen/loading_comp.png
   renderorder = background
   randommode = false
   randomonlyfirsttime = false
@@ -17,7 +17,7 @@ customization {
 }
 
 customization {
-  x = 46
+  x = 32
   textcolor = ffffff
   action = editforgestatustext
   y = -41
@@ -26,7 +26,7 @@ customization {
 
 customization {
   orientation = bottom-left
-  x = 46
+  x = 32
   textcolor = ffffff
   action = editforgememoryinfo
   y = -30

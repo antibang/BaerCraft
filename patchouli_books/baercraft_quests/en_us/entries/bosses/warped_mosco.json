@@ -1,7 +1,7 @@
 {
     "name": "Warped Mosco",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:bosses_category",
+    "category": "patchouli:mobs_category/bosses_category",
     "pages": [
         {
             "trigger": "baersadditions:quests/bosses/warped_mosco",

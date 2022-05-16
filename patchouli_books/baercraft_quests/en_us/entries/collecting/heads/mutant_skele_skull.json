@@ -1,7 +1,7 @@
 {
     "name": "Mutant Skeleton",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:creature_trophies",
+    "category": "patchouli:collecting_category/creature_trophies",
     "pages": [
         {
             "trigger": "baersadditions:quests/collecting/heads/mutantskeleton",

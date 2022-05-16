@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "baersadditions:other/misc",
+  "parent": "baersadditions:other/mobs",
   "criteria": {
     "villager": {
       "trigger": "minecraft:player_killed_entity",

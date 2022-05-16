@@ -1,7 +1,7 @@
 {
     "name": "Black",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:dragoneggs_category",
+    "category": "patchouli:collecting_category/dragoneggs_category",
     "pages": [
         {
             "trigger": "baersadditions:quests/collecting/dragoneggs/black",

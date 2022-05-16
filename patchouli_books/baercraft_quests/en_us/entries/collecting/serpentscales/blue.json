@@ -1,7 +1,7 @@
 {
     "name": "Blue",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:serpentscales_category",
+    "category": "patchouli:collecting_category/serpentscales_category",
     "pages": [
         {
             "trigger": "baersadditions:quests/collecting/serpentscales/blue",

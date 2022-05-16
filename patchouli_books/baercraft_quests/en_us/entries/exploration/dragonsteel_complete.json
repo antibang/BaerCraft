@@ -1,0 +1,17 @@
+{
+    "name": "Made of Dragonsteel",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:root_exploration_category",
+    "pages": [
+        {
+            "trigger": "baersadditions:other/exploration/dragonsteel_complete",
+            "type": "quest",
+            "text": "$(6)$(bold)Goal:$() Craft a full set of any type of dragonsteel armor."
+        },
+        {
+            "type": "spotlight",
+            "item": "iceandfire:dragonsteel_fire_helmet"
+        }
+    ],
+    "turnin": "baersadditions:other/exploration/dragonsteel_complete"
+}

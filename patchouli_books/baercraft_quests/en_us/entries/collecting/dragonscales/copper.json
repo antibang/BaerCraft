@@ -1,7 +1,7 @@
 {
     "name": "Copper",
     "icon": "thermal:iron_coin",
-    "category": "patchouli:dragonscales_category",
+    "category": "patchouli:collecting_category/dragonscales_category",
     "pages": [
         {
             "trigger": "baersadditions:quests/collecting/dragonscales/copper",
