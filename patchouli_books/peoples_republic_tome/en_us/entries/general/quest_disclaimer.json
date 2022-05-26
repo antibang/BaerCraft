@@ -1,6 +1,6 @@
 {
     "name": "Quests Disclaimer",
-    "icon": "thermal:lock",
+    "icon": "minecraft:experience_bottle",
     "category": "patchouli:general",
     "pages": [
         {

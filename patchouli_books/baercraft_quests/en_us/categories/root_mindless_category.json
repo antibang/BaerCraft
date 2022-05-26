@@ -1,5 +1,5 @@
 {
     "name": "Mindless",
-    "description": "In this section, you'll find all of the food related quests.$(br2)Each category will have a list of all the requirements needed to complete the category. You'll know if you have completed it once you've made an advancement matching the category.",
+    "description": "In this section, you'll find all of the mindless related quests.$(br2)Each category will have a list of all the requirements needed to complete the category. You'll know if you have completed it once you've made an advancement matching the category. Mindless advancements are a work in progress :)",
     "icon": "create:sweet_roll"
 }
