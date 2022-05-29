@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "xplosives:hydrogen_bomb"
+    },
+    "title": [
+      {
+        "text": "A Bad Idea",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Acquire a hydrogen bomb."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration",
+  "criteria": {
+    "hydrogen_bomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "xplosives:hydrogen_bomb"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hydrogen_bomb"
+    ]
+  ]
+}

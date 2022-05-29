@@ -1,0 +1,402 @@
+{
+  "display": {
+    "icon": {
+      "item": "bountifulbaubles:wormhole_mirror"
+    },
+    "title": [
+      {
+        "text": "Indiana Jones",
+        "color": "gold",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "description": "Collect every bauble, even the ones you can't wear.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/collecting",
+  "criteria": {
+    "sunglasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:sunglasses"
+          }
+        ]
+      }
+    },
+    "mixed_dragon_scale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:mixed_dragon_scale"
+          }
+        ]
+      }
+    },
+    "balloon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:balloon"
+          }
+        ]
+      }
+    },
+    "wormhole_mirror": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:wormhole_mirror"
+          }
+        ]
+      }
+    },
+    "amulet_cross": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:amulet_cross"
+          }
+        ]
+      }
+    },
+    "obsidian_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:obsidian_skull"
+          }
+        ]
+      }
+    },
+    "bezoar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:bezoar"
+          }
+        ]
+      }
+    },
+    "amulet_sin_empty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:amulet_sin_empty"
+          }
+        ]
+      }
+    },
+    "amulet_sin_pride": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:amulet_sin_pride"
+          }
+        ]
+      }
+    },
+    "ring_free_action": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:ring_free_action"
+          }
+        ]
+      }
+    },
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:apple"
+          }
+        ]
+      }
+    },
+    "amulet_sin_gluttony": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:amulet_sin_gluttony"
+          }
+        ]
+      }
+    },
+    "gloves_dexterity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:gloves_dexterity"
+          }
+        ]
+      }
+    },
+    "lucky_horseshoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:lucky_horseshoe"
+          }
+        ]
+      }
+    },
+    "ring_overclocking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:ring_overclocking"
+          }
+        ]
+      }
+    },
+    "black_dragon_scale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:black_dragon_scale"
+          }
+        ]
+      }
+    },
+    "amulet_sin_wrath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:amulet_sin_wrath"
+          }
+        ]
+      }
+    },
+    "ankh_charm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:ankh_charm"
+          }
+        ]
+      }
+    },
+    "shield_cobalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:shield_cobalt"
+          }
+        ]
+      }
+    },
+    "horseshoe_balloon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:horseshoe_balloon"
+          }
+        ]
+      }
+    },
+    "shield_ankh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:shield_ankh"
+          }
+        ]
+      }
+    },
+    "phylactery_charm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:phylactery_charm"
+          }
+        ]
+      }
+    },
+    "broken_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:broken_heart"
+          }
+        ]
+      }
+    },
+    "magic_mirror": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:magic_mirror"
+          }
+        ]
+      }
+    },
+    "ender_dragon_scale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:ender_dragon_scale"
+          }
+        ]
+      }
+    },
+    "vitamins": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:vitamins"
+          }
+        ]
+      }
+    },
+    "broken_black_dragon_scale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:broken_black_dragon_scale"
+          }
+        ]
+      }
+    },
+    "shield_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:shield_obsidian"
+          }
+        ]
+      }
+    },
+    "shulker_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:shulker_heart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sunglasses"
+    ],
+    [
+      "mixed_dragon_scale"
+    ],
+    [
+      "balloon"
+    ],
+    [
+      "wormhole_mirror"
+    ],
+    [
+      "amulet_cross"
+    ],
+    [
+      "obsidian_skull"
+    ],
+    [
+      "bezoar"
+    ],
+    [
+      "amulet_sin_empty"
+    ],
+    [
+      "amulet_sin_pride"
+    ],
+    [
+      "ring_free_action"
+    ],
+    [
+      "apple"
+    ],
+    [
+      "amulet_sin_gluttony"
+    ],
+    [
+      "gloves_dexterity"
+    ],
+    [
+      "lucky_horseshoe"
+    ],
+    [
+      "ring_overclocking"
+    ],
+    [
+      "black_dragon_scale"
+    ],
+    [
+      "amulet_sin_wrath"
+    ],
+    [
+      "ankh_charm"
+    ],
+    [
+      "shield_cobalt"
+    ],
+    [
+      "horseshoe_balloon"
+    ],
+    [
+      "shield_ankh"
+    ],
+    [
+      "phylactery_charm"
+    ],
+    [
+      "broken_heart"
+    ],
+    [
+      "magic_mirror"
+    ],
+    [
+      "ender_dragon_scale"
+    ],
+    [
+      "vitamins"
+    ],
+    [
+      "broken_black_dragon_scale"
+    ],
+    [
+      "shield_obsidian"
+    ],
+    [
+      "shulker_heart"
+    ]
+  ]
+}
