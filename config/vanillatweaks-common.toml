@@ -85,7 +85,7 @@
 
 	#Mob Drops
 	[VanillaTweaks.loot]
-		#No comment
+		#Adds a chance for bats to drop leather when killed by a player.
 		#Range: 0.0 ~ 10.0
 		batLeatherDropChance = 1.0
 		#Does a nametag drop when named mob dies?
