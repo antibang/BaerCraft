@@ -1,0 +1,16 @@
+{
+    "name": "Requesting Shop Plots",
+    "icon": "minecraft:enchanted_golden_apple",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you'd like to have your own shop around spawn, you simply need to ask either Antibang or Subthy about it. I want to keep plots free, but some think otherwise. So, no prices are set for now.$(br2)We will ask you some questions like what kind of shop it is, what you plan on asking in return, etc. Keep in mind, we do not allow shops that offer an advantage to new players."
+        },
+        {
+            "type": "text",
+            "text": "We currently offer 3 different sized plots: $(br2)$(#e2a3ff)$(bold)Small -$() 32 x 32 blocks$(br2)$(#e2a3ff)$(bold)Medium -$() 64 x 64 blocks$(br2)$(#e2a3ff)$(bold)Large -$() 128 x 128 blocks$(br2)You $(italic)are$() allowed to pick the area around spawn for your plot, as long as you let us know where, but you might not get it as it might be already claimed."
+        }
+    ],
+    "priority": true
+}

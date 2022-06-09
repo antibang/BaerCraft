@@ -1,0 +1,13 @@
+{
+    "name": "Back",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:commands",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "/back",
+            "item": "thermal:iron_gear",
+            "text": "Use the command '/back' to go back to your previous location! You can only use this command 10 times at once.$(br2)$(italic)Be warned, if you lose track of your deaths or whatever else, using /back may not send you where you want to go."
+        }
+    ]
+}
