@@ -1,0 +1,15 @@
+{
+    "name": "Ownership Deeds",
+    "icon": "untamedwilds:ownership_deed",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "An ownership deed is a contract between a player and a tamed mob.$(br2)If you right-click one of your tamed mobs with the deed, the contract will be signed. If you'd like to transfer ownership to another player, you right-click the mob as usual, then give the deed to another player and have them right click the same mob. It will then be bound to them"
+        },
+        {
+            "type": "text",
+            "text": "instead of the original player."
+        }
+    ]
+}

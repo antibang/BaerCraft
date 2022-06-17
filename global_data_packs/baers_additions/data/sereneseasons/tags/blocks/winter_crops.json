@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:barley",
+    "thermal:onion",
+    "thermal:sadiroot",
+    "thermal:spinach",
+    "thermal:frost_melon_stem"
+  ]
+}

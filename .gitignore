@@ -8,6 +8,7 @@ bin
 crash-reports
 debug
 dumps
+etched-sounds
 fancymenu_setups
 kubejs
 libraries
@@ -73,6 +74,7 @@ config/advancements_tracker-client.toml
 config/ambientsounds-client.json
 config/betteradvancements-client.toml
 config/betterpingdisplay-client.toml
+config/brutalbosses-common.toml
 config/dynmus-client.toml
 config/fastsuite.cfg
 config/fml.toml
@@ -91,6 +93,7 @@ config/xaerominimap_entities.json
 config/xaerominimap.txt
 
 #Datapacks
+global_data_packs/baers_additions/data/brutalbosses
 global_data_packs/baers_additions/data/ob_aquamirae
 
 #Other

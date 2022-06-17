@@ -218,5 +218,12 @@
         "damageadd": 10,
         "onjoin": true,
         "result": "allow"
+    },
+    {
+        "mob": "minecraft:ender_dragon",
+        "healthadd": 1000,
+        "damageadd": 20,
+        "onjoin": true,
+        "result": "allow"
     }
 ]
