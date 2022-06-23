@@ -74,6 +74,7 @@ config/advancements_tracker-client.toml
 config/ambientsounds-client.json
 config/betteradvancements-client.toml
 config/betterpingdisplay-client.toml
+config/bettervillage_general_.properties
 config/brutalbosses-common.toml
 config/dynmus-client.toml
 config/fastsuite.cfg
