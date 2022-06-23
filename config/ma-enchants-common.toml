@@ -48,7 +48,7 @@
 	enable = true
 
 [lifesteal]
-	enable = true
+	enable = false
 
 [ice_aspect]
 	enable = true

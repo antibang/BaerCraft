@@ -120,7 +120,7 @@
 				# The density of surface caves. Higher = more caves, closer together. 
 				# Default: 17
 				#Range: 0 ~ 100
-				"Surface Cave Density" = 21
+				"Surface Cave Density" = 22
 
 			###########################################################################################################
 			## Settings used in the generation of type 1 caves, which are more worm-like.
@@ -151,7 +151,7 @@
 				# Determines how frequently Type 1 Caves spawn. 0 = will not spawn at all.
 				# Default: 10
 				#Range: 0 ~ 10
-				"Type 1 Cave Priority" = 3
+				"Type 1 Cave Priority" = 5
 
 			###########################################################################################################
 			## Settings used in the generation of type 2 caves, which tend to be more open and spacious.
@@ -182,7 +182,7 @@
 				# Determines how frequently Type 2 Caves spawn. 0 = will not spawn at all.
 				# Default: 5
 				#Range: 0 ~ 10
-				"Type 2 Cave Priority" = 6
+				"Type 2 Cave Priority" = 8
 
 			###########################################################################################################
 			## Settings controlling vanilla Minecraft cave generation.

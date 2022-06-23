@@ -1,0 +1,15 @@
+{
+    "name": "Ice Dragons",
+    "icon": "iceandfire:dragon_skull_ice",
+    "category": "patchouli:dragon_spawns",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#4096ff)$(bold)Ice dragons$() can spawn in the following biomes:$(br2)Snowy Tundra$(br)Snowy Mountains$(br)Ice Spikes$(br)Snowy Taiga$(br)Snowy Taiga Mountains$(br)Snowy Taiga Hills$(br)Giant Tree Taiga$(br)Giant Tree Taiga Hills$(br)Gravelly Mountains$(br)Modified Gravelly Mountains$(br)Snowy Coniferous Forest"
+        },
+        {
+            "type": "text",
+            "text": "$(br)Snowy Fir Clearing$(br)Snowy Maple Forest$(br)Twilight Valley$(br)Twilight Valley Hills$(br)Seasonal Deciduous Forest$(br)Seasonal Deciduous Forest Hills$(br)Snowy Deciduous Forest$(br)Snowy Deciduous Forest Hills"
+        }
+    ]
+}

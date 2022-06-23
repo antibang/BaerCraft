@@ -1,0 +1,11 @@
+{
+    "name": "Lightning Dragons",
+    "icon": "iceandfire:dragon_skull_lightning",
+    "category": "patchouli:dragon_spawns",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#8800ff)$(bold)Lightning dragons$() can spawn in the following biomes/biome types:$(br2)ALL jungle biomes$(br)ALL mesa biomes$(br)ALL savanna biomes"
+        }
+    ]
+}

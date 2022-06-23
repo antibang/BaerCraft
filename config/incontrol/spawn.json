@@ -82,7 +82,7 @@
         "result": "deny"
     },
     {
-        "mob": "dungeons_mobs:armored_skeleton",
+        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie"],
         "block": "minecraft:grass_block",
         "mintime": 0,
         "maxtime": 12000,
@@ -91,85 +91,7 @@
         "result": "deny"
     },
     {
-        "mob": "dungeons_mobs:armored_zombie",
-        "block": "minecraft:grass_block",
-        "mintime": 0,
-        "maxtime": 12000,
-        "minheight": 62,
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:spider",
-        "block": "minecraft:grass_block",
-        "mintime": 0,
-        "maxtime": 12000,
-        "minheight": 62,
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:skeleton",
-        "block": "minecraft:grass_block",
-        "mintime": 0,
-        "maxtime": 12000,
-        "minheight": 62,
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:zombie",
-        "block": "minecraft:grass_block",
-        "mintime": 0,
-        "maxtime": 12000,
-        "minheight": 62,
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:zombie",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:skeleton",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:spider",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "dungeons_mobs:armored_skeleton",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "dungeons_mobs:armored_zombie",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:creeper",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:stray",
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "iceandfire:troll",
+        "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:creeper", "minecraft:stray", "iceandfire:troll"],
         "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
         "onjoin": true,
         "result": "deny"

@@ -101,10 +101,10 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 1300.0
+		"Dragon Health" = 1600.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 19
+		"Dragon Attack Damage" = 20
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
 		"Dragon Attack Damage(Fire breath)" = 4.0
@@ -113,7 +113,7 @@
 		"Dragon Attack Damage(Ice breath)" = 4.5
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 9.5
+		"Dragon Attack Damage(Lightning breath)" = 10.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
 		"Dragon Flight Speed Modifier" = 1.0
@@ -384,7 +384,7 @@
 		"Ghost Spawn from PvP deaths" = true
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
 		#Range: 0 ~ 10000
-		"Villager Scribe House Weight" = 30
+		"Villager Scribe House Weight" = 5
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn
