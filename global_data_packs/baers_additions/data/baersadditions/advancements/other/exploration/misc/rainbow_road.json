@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "baersadditions:rainbow_road_music_disc"
+    },
+    "title": [
+      {
+        "text": "§4H§ci§6d§ed§ae§2n §9R§ba§di§5n§4b§co§6w §aR§2o§1a§9d",
+        "italic": true
+      }
+    ],
+    "description": "Find the §4R§ca§6i§en§ab§2o§1w §bR§do§5a§4d§r music disc... that isn't all that hidden.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration",
+  "criteria": {
+    "rainbow_road": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "baersadditions:rainbow_road_music_disc"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rainbow_road"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}
