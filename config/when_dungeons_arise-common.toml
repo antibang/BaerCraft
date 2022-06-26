@@ -482,10 +482,10 @@
 			miningSystemGenerates = true
 			#Maximum separation between Mining Systems (in chunks).
 			#Range: 0 ~ 1000000
-			miningSystemSeparation = 90
+			miningSystemSeparation = 70
 			#Minimum spacing between Mining Systems (in chunks).
 			#Range: 0 ~ 1000000
-			miningSystemSpacing = 60
+			miningSystemSpacing = 45
 			#Number of Jigsaw iterations when generating an Mining System.
 			#Range: 0 ~ 1000000
 			miningSystemSize = 20

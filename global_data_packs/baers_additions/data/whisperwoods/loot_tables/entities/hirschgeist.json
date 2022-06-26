@@ -286,6 +286,15 @@
           "name": "whisperwoods:hirschgeist_skull"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "baersadditions:rainbow_road_music_disc"
+        }
+      ]
     }
   ]
 }
