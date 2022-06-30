@@ -20,7 +20,7 @@
 	#Enable conversion of stereo sounds to mono format for spacial play
 	"Enable Stereo to Mono Conversion" = true
 	#Possible sounds to play when client reaches main game menu
-	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup", "minecraft:entity.chicken.egg", "minecraft:ambient.underwater.exit"]
+	"Startup Sound List" = ["baersadditions:startup_0", "baersadditions:startup_1", "baersadditions:startup_2", "baersadditions:startup_3", "baersadditions:startup_4", "baersadditions:startup_5"]
 	#Number of streaming sound channels to configure
 	#Range: 8 ~ 16
 	"Streaming Sound Count" = 10

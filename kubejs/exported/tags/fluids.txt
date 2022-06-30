@@ -1,0 +1,118 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 27, 2022 2:32:37 AM
+
+#forge:lubricant
+- immersivepetroleum:lubricant
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#forge:crude_oil
+- immersivepetroleum:oil
+- thermal:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- the_bumblezone:sugar_water_still
+- the_bumblezone:sugar_water_flowing
+- undergarden:virulent_mix_source
+- undergarden:virulent_mix_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:redstone
+- thermal:redstone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:plantoil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- cofh_core:potion
+- immersiveengineering:potion
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:gasoline
+- immersivepetroleum:gasoline
+
+#forge:ender
+- thermal:ender
+
+#forge:experience
+- cofh_core:experience
+
+#forge:glowstone
+- thermal:glowstone
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#the_bumblezone:honey
+- the_bumblezone:honey_fluid_still
+- the_bumblezone:honey_fluid_flowing
+
+#forge:drill_fuel
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:biodiesel
+
+#forge:latex
+- thermal:latex
+
+#forge:honey
+- the_bumblezone:honey_fluid_still
+- the_bumblezone:honey_fluid_flowing
+- cofh_core:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+- thermal:creosote
+- immersiveengineering:creosote
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane
+
+#forge:napalm
+- immersivepetroleum:napalm

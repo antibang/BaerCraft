@@ -1,0 +1,15 @@
+{
+    "name": "Trash Cans (Nullifier)",
+    "icon": "thermal:device_nullifier",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Looking for a trash can? Well, Thermal Expansion's nullifier is what you're looking for. While it's may not be your average trash can, it gets the job done just like normal.$(br2)$(italic)Something to note:$() if you connect pipes directly onto the nullifier, the items will automatically be deleted. However, if you place the items inside the nullifier by hand, you will then need to press"
+        },
+        {
+            "type": "text",
+            "text": "the trash can icon to delete them.$(br2)Additionally, you can use a Thermal item filter to filter the items you want into the nullifier (or the ones you don't want)."
+        }
+    ]
+}

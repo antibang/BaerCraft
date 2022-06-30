@@ -10,7 +10,6 @@ debug
 dumps
 etched-sounds
 fancymenu_setups
-kubejs
 libraries
 local
 logs
@@ -18,6 +17,7 @@ main menu
 mods
 notes
 output
+pregen
 resourcepacks
 saves
 schematics

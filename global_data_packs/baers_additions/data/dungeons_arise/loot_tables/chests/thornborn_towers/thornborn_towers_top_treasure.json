@@ -274,6 +274,20 @@
               "count": 1
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "baersadditions:platinum_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     }

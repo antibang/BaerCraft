@@ -19,7 +19,8 @@ mods.jei.JEI.addInfo(<item:iceandfire:dragonsteel_ice_ingot>, ["To make an ice d
     <item:quark:music_disc_fire>,
     <item:quark:music_disc_clock>,
     <item:quark:music_disc_crickets>,
-    <item:quark:music_disc_chatter>
+    <item:quark:music_disc_chatter>,
+    <item:baersadditions:rainbow_road_music_disc>
 );
 
 //
@@ -41,6 +42,7 @@ mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantment
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "ma-enchants:soft_fall"}]}));
 mods.jei.JEI.hideItem(<item:rereskillablerereforked:skill_fragment>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:sorter>);
+mods.jei.JEI.hideItem(<item:kubejs:dummy_fluid_item>);
 
 //
 
