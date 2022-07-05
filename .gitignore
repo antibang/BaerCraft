@@ -13,6 +13,7 @@ fancymenu_setups
 libraries
 local
 logs
+maessentials
 main menu
 mods
 notes
@@ -71,7 +72,6 @@ config/spark
 config/starterkit/starterkit.txt
 config/terraforged
 config/advancements_tracker-client.toml
-config/ambientsounds-client.json
 config/betteradvancements-client.toml
 config/betterpingdisplay-client.toml
 config/bettervillage_general_.properties
@@ -82,6 +82,8 @@ config/fml.toml
 config/forge-client.toml
 config/forge-common.toml
 config/globalgamerules-common.toml
+config/infinityitemeditor-client.toml
+config/infinityitemeditor.toml
 config/jeresources.toml
 config/jeresources-common.toml
 config/notes-client.toml

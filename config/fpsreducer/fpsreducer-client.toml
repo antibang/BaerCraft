@@ -5,7 +5,7 @@
 	enableFpsReducer = true
 	#Waiting time(sec) until reducing FPS. (0:OFF)
 	#Range: 0 ~ 86400
-	waitingTime = 15
+	waitingTime = 20
 	#Frame rate during reducing.
 	#Range: 1 ~ 60
 	idleFps = 5
@@ -23,7 +23,7 @@
 	suppressSound = true
 	#Suppression master volume ratio in inactive (0-100).
 	#Range: 0 ~ 100
-	suppressedVolume = 40
+	suppressedVolume = 20
 	#Enable HUD.
 	hudEnabled = false
 	#Reference position of HUD.
@@ -37,7 +37,7 @@
 	hudBehindChatBox = 2
 	#HUD information (1:FPS/CPU(long), 1:FPS/CPU(short), 3:FPS/CPU(2lines), 4:FPS only, 5:CPU only)
 	#Range: 0 ~ 5
-	hudInfo = 3
+	hudInfo = 4
 
 #HUD offsets from reference positions at the screen edge.
 [hud_offset]

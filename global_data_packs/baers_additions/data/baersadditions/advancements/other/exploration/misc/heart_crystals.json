@@ -12,7 +12,7 @@
   },
   "parent": "baersadditions:other/exploration",
   "criteria": {
-    "heart": {
+    "power": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

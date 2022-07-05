@@ -7,10 +7,10 @@
       "weight": 2
     },
     "biomesoplenty:cherry_blossom_grove": {
-      "weight": 1
+      "weight": 4
     },
     "biomesoplenty:cold_desert": {
-      "weight": 7
+      "weight": 0
     },
     "biomesoplenty:coniferous_forest": {
       "weight": 0
@@ -31,52 +31,52 @@
       "weight": 3
     },
     "biomesoplenty:grove": {
-      "weight": 10
+      "weight": 5
     },
     "biomesoplenty:highland": {
       "weight": 0
     },
     "biomesoplenty:jade_cliffs": {
-      "weight": 1
+      "weight": 5
     },
     "biomesoplenty:lavender_field": {
-      "weight": 3
+      "weight": 5
     },
     "biomesoplenty:lush_desert": {
-      "weight": 1
+      "weight": 4
     },
     "biomesoplenty:marsh": {
-      "weight": 7
+      "weight": 3
     },
     "biomesoplenty:meadow": {
       "weight": 7
     },
     "biomesoplenty:muskeg": {
-      "weight": 1
+      "weight": 0
     },
     "biomesoplenty:mystic_grove": {
-      "weight": 1
+      "weight": 2
     },
     "biomesoplenty:ominous_woods": {
       "weight": 1
     },
     "biomesoplenty:prairie": {
-      "weight": 7
+      "weight": 4
     },
     "biomesoplenty:rainforest": {
-      "weight": 7
+      "weight": 4
     },
     "biomesoplenty:redwood_forest": {
-      "weight": 5
+      "weight": 6
     },
     "biomesoplenty:scrubland": {
-      "weight": 7
+      "weight": 3
     },
     "biomesoplenty:seasonal_forest": {
-      "weight": 5
+      "weight": 3
     },
     "biomesoplenty:shrubland": {
-      "weight": 7
+      "weight": 3
     },
     "biomesoplenty:snowy_coniferous_forest": {
       "weight": 5
@@ -94,13 +94,13 @@
       "weight": 0
     },
     "biomesoplenty:wetland": {
-      "weight": 10
+      "weight": 4
     },
     "biomesoplenty:withered_abyss": {
       "weight": 0
     },
     "biomesoplenty:woodland": {
-      "weight": 7
+      "weight": 3
     }
   },
   "technical_biome_toggles": {
@@ -170,7 +170,7 @@
     },
     "biomesoplenty:lavender_forest": {
       "weight": 100,
-      "rarity": 0.6
+      "rarity": 0.8
     },
     "biomesoplenty:lush_savanna": {
       "weight": 100,
@@ -178,7 +178,7 @@
     },
     "biomesoplenty:meadow_forest": {
       "weight": 100,
-      "rarity": 1.0
+      "rarity": 0.7
     },
     "biomesoplenty:mystic_plains": {
       "weight": 100,
@@ -273,7 +273,7 @@
       "weight": 3
     },
     "minecraft:giant_tree_taiga": {
-      "weight": 5
+      "weight": 7
     },
     "minecraft:jungle": {
       "weight": 10
@@ -303,7 +303,7 @@
       "weight": 10
     },
     "minecraft:swamp": {
-      "weight": 7
+      "weight": 6
     },
     "minecraft:taiga": {
       "weight": 10

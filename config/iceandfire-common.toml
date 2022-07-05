@@ -51,7 +51,7 @@
 		"Dragon Cave Ore Ratio" = 45
 
 	[Generation.Structures-Features]
-		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
 		#Range: 1 ~ 10000
 		"Dangerous World Gen Dist From Spawn" = 1
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
@@ -322,6 +322,8 @@
 		#The maximum radius myrmex area allowed to wander/forage
 		#Range: 25 ~ 4000
 		"Myrmex Maximum Wander Radius" = 50
+		#Myrmex hives will ignore daytime
+		"Myrmex Hive Ignore Daytime" = false
 
 	[Mobs.Amphitheres]
 		#True if amphitheres are allowed to spawn
@@ -385,6 +387,11 @@
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
 		#Range: 0 ~ 10000
 		"Villager Scribe House Weight" = 5
+		#Dread Lich spawn chance. Lower = higher chance to spawn
+		#Range: 1 ~ 10000
+		"Lich Spawn Chance" = 30
+		#Allows attributes for mobs to be overridden via the config file. One might want to disable this if other mods are enabled that change mob attributes e.g armor, health etc...
+		"Allow Attribute Overriding" = true
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn
@@ -450,4 +457,6 @@
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
 	"Dragon Max Pathfinding Nodes" = 5000
+	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
+	"Debug Pathfinding Mode" = false
 

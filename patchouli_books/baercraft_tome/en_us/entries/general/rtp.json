@@ -1,0 +1,11 @@
+{
+    "name": "Random Teleport (RTP)",
+    "icon": "supplementaries:rope",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Just started a new world and tired of exploring? You can easily use the command:$(br2)$(bold)'/rtp'$()$(br2)or$(br2)$(bold)'/rtpb $(italic)<biomeofyourchoosing>'$() to teleport to a specific biome! $(italic)Don't include the '< >' in the command."
+        }
+    ]
+}

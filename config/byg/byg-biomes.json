@@ -90,7 +90,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 4,
+      "weight": 5,
       "dictionary": [
         "PLAINS",
         "LUSH",
@@ -210,7 +210,7 @@
       "beach": "byg:rocky_beach",
       "river": "byg:bluff_steeps",
       "climate": "COOL",
-      "weight": 6,
+      "weight": 5,
       "dictionary": [
         "MOUNTAIN",
         "CONIFEROUS",
@@ -334,7 +334,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 0,
+      "weight": 2,
       "dictionary": [
         "FOREST",
         "OVERWORLD"
@@ -345,7 +345,7 @@
       "beach": "minecraft:beach",
       "river": "byg:dead_sea",
       "climate": "HOT",
-      "weight": 4,
+      "weight": 3,
       "dictionary": [
         "OCEAN",
         "WASTELAND",
@@ -358,7 +358,7 @@
       "beach": "byg:white_beach",
       "river": "byg:dover_mountains",
       "climate": "COOL",
-      "weight": 8,
+      "weight": 6,
       "dictionary": [
         "MOUNTAIN",
         "COLD",
@@ -447,7 +447,7 @@
       "beach": "minecraft:beach",
       "river": "byg:guiana_shield",
       "climate": "WARM",
-      "weight": 0,
+      "weight": 2,
       "dictionary": [
         "JUNGLE",
         "HOT",
@@ -523,7 +523,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "COOL",
-      "weight": 0,
+      "weight": 2,
       "dictionary": [
         "FOREST",
         "COLD",
@@ -640,7 +640,7 @@
       "beach": "byg:mangrove_marshes",
       "river": "byg:mangrove_marshes",
       "climate": "WARM",
-      "weight": 6,
+      "weight": 3,
       "dictionary": [
         "SWAMP",
         "FOREST",
@@ -839,7 +839,7 @@
       "beach": "byg:vibrant_swamplands",
       "river": "byg:vibrant_swamplands",
       "climate": "COOL",
-      "weight": 4,
+      "weight": 3,
       "dictionary": [
         "SWAMP",
         "WET",
@@ -951,7 +951,7 @@
       "beach": "byg:bayou",
       "river": "byg:bayou",
       "climate": "WARM",
-      "weight": 8,
+      "weight": 2,
       "dictionary": [
         "SWAMP",
         "FOREST",
@@ -999,7 +999,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 6,
+      "weight": 4,
       "dictionary": [
         "FOREST",
         "DENSE",
@@ -1029,7 +1029,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 4,
+      "weight": 3,
       "dictionary": [
         "FOREST",
         "DENSE",
@@ -1096,7 +1096,7 @@
       "beach": "byg:cypress_swamplands",
       "river": "byg:cypress_swamplands",
       "climate": "WARM",
-      "weight": 5,
+      "weight": 2,
       "dictionary": [
         "SWAMP",
         "OVERWORLD"

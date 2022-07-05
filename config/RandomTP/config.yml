@@ -12,16 +12,10 @@ inter-dimensions-command:
   # Do you want to the command /rtpd be allowed? (This commands adds a inter-dimension RTP) [default: true]
   inter-dim: true
   # Do you want to use the whitelist or blacklist dimension?  [default: false]
-  use-whitelist: false
+  use-whitelist: true
   # The dimensions whitelist (Works with namespaces:paths only, use-whitelist:true=whitelist use-whitelist:true=blacklist)
   whitelist-dimension:
-    - 'minecraft:the_end'
-    - 'twilight:dimension'
-    - 'undergarden:undergarden'
-    - 'blue_skies:everdawn'
-    - 'blue_skies:everbright'
-    - 'minecraft:the_nether'
-    - 'atum:atum'
+    - 'minecraft:the_overworld'
 
 inter-biomes-command:
   # Do you want to the command /rtpb be allowed? (This commands adds a inter-biome RTP) [default: true]
