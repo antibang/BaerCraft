@@ -3,7 +3,7 @@ command:
   max-tries: '&cTimed out trying to find a safe location to warp to.'
   # Message that you want to appear when the mod is finding a safe location [ placeholders: {playerName} {blockZ} {blockY}, color codes: & + letter (example: &c) ] [default: &aFinding a safe random teleport location...]
   finding: >-
-    &aFinding a safe random teleport location...
+    &aFinding the perfect, safe random teleport location...
   # Message that you want to appear when the command is successfully made. [ placeholders: {playerName} {blockZ} {blockY}, color codes: & + letter (example: &c) ] [default: &aSuccessfully teleported you to a random location.]
   successfully: >-
     &aYou have been teleported to the coordinates &e{blockX}, {blockY},

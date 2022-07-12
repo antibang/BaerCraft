@@ -91,8 +91,8 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:creeper", "minecraft:stray", "iceandfire:troll"],
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone"],
+        "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:creeper", "minecraft:stray", "iceandfire:troll", "minecraft:husk", "quark:forgotten", "dungeons_mobs:wraith"],
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone", "iceandfire:copper_pile", "iceandfire:silver_pile", "iceandfire:gold_pile"],
         "onjoin": true,
         "result": "deny"
     },

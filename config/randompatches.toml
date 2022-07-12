@@ -14,7 +14,7 @@
 	remove_glowing_effect_from_potions = true
 	# Removes the glowing effect from enchanted books.
 	# Default: false
-	remove_glowing_effect_from_enchanted_books = false
+	remove_glowing_effect_from_enchanted_books = true
 	# Disables the warning that displays when loading a world that uses experimental settings.
 	# Default: true
 	disable_experimental_settings_warning = true

@@ -1,0 +1,3 @@
+identifier = Sponsor
+title = Sponsor
+allowesc = true

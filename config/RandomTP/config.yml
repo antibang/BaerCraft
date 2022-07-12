@@ -12,10 +12,17 @@ inter-dimensions-command:
   # Do you want to the command /rtpd be allowed? (This commands adds a inter-dimension RTP) [default: true]
   inter-dim: true
   # Do you want to use the whitelist or blacklist dimension?  [default: false]
-  use-whitelist: true
+  use-whitelist: false
   # The dimensions whitelist (Works with namespaces:paths only, use-whitelist:true=whitelist use-whitelist:true=blacklist)
   whitelist-dimension:
-    - 'minecraft:the_overworld'
+    - 'appliedenergistics2:spatial_storage'
+    - 'atum:atum'
+    - 'blue_skies:everbright'
+    - 'blue_skies:everdawn'
+    - 'minecraft:the_end'
+    - 'minecraft:the_nether'
+    - 'the_bumblezone:the_bumblezone'
+    - 'undergarden:undergarden'
 
 inter-biomes-command:
   # Do you want to the command /rtpb be allowed? (This commands adds a inter-biome RTP) [default: true]
@@ -40,6 +47,14 @@ others:
     - 'minecraft:frozen_ocean'
     - 'minecraft:lukewarm_ocean'
     - 'byg:dead_sea'
+    - 'minecraft:beach'
+    - 'biomesoplenty:gravel_beach'
+    - 'biomesoplentytropic_beach'
+    - 'byg:rainbow_beach'
+    - 'byg:rocky_beach'
+    - 'byg:snowy_black_beach'
+    - 'byg:snowy_rocky_black_beach'
+    - 'byg:white_beach'
 
   # How much cooldown do you want for the command [range: 0 ~ 1000, default: 0]
   # Range: > 0

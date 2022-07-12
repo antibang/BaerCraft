@@ -34,15 +34,15 @@
 		#Range: 1 ~ 10000
 		"Generate Dragon Skeleton Chance" = 250
 		#Whether to generate dragon caves or not
-		"Generate Dragon Caves" = false
+		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 40
+		"Generate Dragon Cave Chance" = 50
 		#Whether to generate dragon roosts or not
-		"Generate Dragon Roosts" = false
+		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 9999
+		"Generate Dragon Roost Chance" = 1260
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 4
@@ -51,7 +51,7 @@
 		"Dragon Cave Ore Ratio" = 45
 
 	[Generation.Structures-Features]
-		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 		#Range: 1 ~ 10000
 		"Dangerous World Gen Dist From Spawn" = 1
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
@@ -78,7 +78,7 @@
 	[Dragons.Griefing]
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 0
+		"Dragon Griefing" = 1
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = false
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
@@ -172,7 +172,7 @@
 		#Range: 1 ~ 10000
 		"Pixie Village Size" = 7
 		#True if pixies are allowed to steal from players
-		"Pixies Steal Items" = true
+		"Pixies Steal Items" = false
 
 	[Mobs.Cyclops]
 		#True if cyclops caves are allowed to spawn
@@ -210,7 +210,7 @@
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 500
+		"Spawn Sirens Chance" = 520
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
 		"Siren Max Sing Time" = 12000
@@ -242,7 +242,7 @@
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
 		#Range: 1.0 ~ 10000.0
-		"Cockatrice Health" = 60.0
+		"Cockatrice Health" = 50.0
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
 		"Cockatrice chicken Search Length" = 30
@@ -260,7 +260,7 @@
 	[Mobs.Stymphalians]
 		#How many blocks away can stymphalian birds spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Stymphalian Bird Target Search Length" = 64
+		"Stymphalian Bird Target Search Length" = 50
 		#1/this number chance for a stymphalian feather to turn into an item before despawning. Zero means never.
 		#Range: 0 ~ 10000
 		"Stymphalian Bird Feather Drop Chance" = 25
@@ -269,7 +269,7 @@
 		"Stymphalian Bird Feather Attack Strength" = 1.0
 		#How far away stymphalian birds will consider other birds to be in the same flock.
 		#Range: 1 ~ 10000
-		"Stymphalian Bird Flock Length" = 40
+		"Stymphalian Bird Flock Length" = 30
 		#How high stymphalian birds can fly, in Y height.
 		#Range: > 10
 		"Max Stymphalian Bird Flight Height" = 80
@@ -281,7 +281,7 @@
 		"Stymphalian Birds Target Animals" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Stymhphalian Bird Chance" = 240
+		"Spawn Stymhphalian Bird Chance" = 320
 
 	[Mobs.Trolls]
 		#True if trolls are allowed to spawn
@@ -290,7 +290,7 @@
 		"Trolls Drop Weapon" = true
 		#Troll spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Troll Spawn Weight" = 150
+		"Troll Spawn Weight" = 90
 		#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
 		"Troll Spawn Check Chance" = 0
@@ -315,22 +315,20 @@
 		"Myrmex Colony Gen Chance" = 220
 		#How many maximum individuals a myrmex colony can have.
 		#Range: 10 ~ 10000
-		"Myrmex Colony Max Size" = 80
+		"Myrmex Colony Max Size" = 120
 		#Base Myrmex(worker) attack strength
 		#Range: 1.0 ~ 10000.0
 		"Myrmex Base Attack Strength" = 4.0
 		#The maximum radius myrmex area allowed to wander/forage
 		#Range: 25 ~ 4000
 		"Myrmex Maximum Wander Radius" = 50
-		#Myrmex hives will ignore daytime
-		"Myrmex Hive Ignore Daytime" = false
 
 	[Mobs.Amphitheres]
 		#True if amphitheres are allowed to spawn
 		"Spawn Amphitheres" = true
 		#Amphithere spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Amphithere Spawn Weight" = 70
+		"Amphithere Spawn Weight" = 90
 		#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Amphithere Villager Search Length" = 64
@@ -372,7 +370,7 @@
 		#Range: 1.0 ~ 10000.0
 		"Hydra Max Health" = 250.0
 		#True if hydra caves are allowed to generate
-		"Generate Hydra Caves" = false
+		"Generate Hydra Caves" = true
 		#One out of this number chance per chunk to generate a hydra cave.
 		#Range: 1 ~ 10000
 		"Hydra Caves Gen Chance" = 400
@@ -387,11 +385,6 @@
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
 		#Range: 0 ~ 10000
 		"Villager Scribe House Weight" = 5
-		#Dread Lich spawn chance. Lower = higher chance to spawn
-		#Range: 1 ~ 10000
-		"Lich Spawn Chance" = 30
-		#Allows attributes for mobs to be overridden via the config file. One might want to disable this if other mods are enabled that change mob attributes e.g armor, health etc...
-		"Allow Attribute Overriding" = true
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn
@@ -415,10 +408,10 @@
 
 	[Mobs.Gorgons]
 		#True if gorgon temples are allowed to spawn
-		"Spawn Gorgons" = false
+		"Spawn Gorgons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Gorgon Chance" = 75
+		"Spawn Gorgon Chance" = 180
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
 		"Gorgon Max Health" = 100.0
@@ -457,6 +450,4 @@
 	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
 	#Range: > 1
 	"Dragon Max Pathfinding Nodes" = 5000
-	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
-	"Debug Pathfinding Mode" = false
 

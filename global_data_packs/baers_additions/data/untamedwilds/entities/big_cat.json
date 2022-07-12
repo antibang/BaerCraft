@@ -356,7 +356,7 @@
     {
       "name":"snow_leopard",
       "variant":7,
-      "scale":0.8,
+      "scale":0.9,
       "rarity":5,
       "breeding":"ALL",
       "growing":5,
@@ -375,7 +375,7 @@
     {
       "name":"tiger",
       "variant":8,
-      "scale":1.2,
+      "scale":1.25,
       "rarity":3,
       "breeding":"ALL",
       "growing":6,
@@ -393,6 +393,30 @@
         ],
         [
           "resource|minecraft:taiga_mountains"
+        ],
+        [
+          "resource|minecraft:snowy_taiga"
+        ],
+        [
+          "resource|minecraft:snowy_taiga_hills"
+        ],
+        [
+          "resource|minecraft:snowy_taiga_mountains"
+        ],
+        [
+          "resource|biomesoplenty:snowy_coniferous_forest"
+        ],
+        [
+          "resource|biomesoplenty:snowy_coniferous_forest_hills"
+        ],
+        [
+          "resource|byg:snowy_deciduous_forest"
+        ],
+        [
+          "resource|byg:snowy_deciduous_forest_hills"
+        ],
+        [
+          "resource|byg:snowy_deciduous_forest"
         ]
       ]
     }

@@ -35,6 +35,54 @@
         "negate": false,
         "value": "minecraft:bamboo_jungle_hills"
       }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:lush_savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:scrubland"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:sierra_valley"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:sierra_range"
+      }
     ]
   ]
 }

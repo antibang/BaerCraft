@@ -3,18 +3,3 @@ type = customizablemenus
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
-com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
-}
-
-net.minecraft.client.gui.screen.inventory.CreativeScreen {
-}
-
-net.minecraft.client.gui.screen.WorldLoadProgressScreen {
-}
-
-net.minecraft.client.gui.screen.MultiplayerScreen {
-}
-
-com.bisecthosting.mods.bhmenu.BHMultiplayerScreen {
-}
-

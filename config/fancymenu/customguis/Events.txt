@@ -1,0 +1,3 @@
+identifier = Events
+title = Events
+allowesc = true

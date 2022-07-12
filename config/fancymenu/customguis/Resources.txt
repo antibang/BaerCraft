@@ -1,0 +1,3 @@
+identifier = Resaurces
+title = Resaurces
+allowesc = true

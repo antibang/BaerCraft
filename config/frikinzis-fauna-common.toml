@@ -15,9 +15,9 @@
 	#Enable/disable lovebird spawns
 	"Lovebird Spawns" = true
 	#Max group for lovebirds
-	"Lovebird Max Group" = 6
+	"Lovebird Max Group" = 5
 	#Spawn weight for lovebirds
-	"Lovebird Spawn Weight" = 20
+	"Lovebird Spawn Weight" = 18
 
 [Dottyback]
 	#Spawn weight for dottybacks
@@ -91,7 +91,7 @@
 
 [Lorikeet]
 	#Max group for lorikeet
-	"Lorikeet Max Group" = 5
+	"Lorikeet Max Group" = 3
 	#Enable/disable lorikeet spawns
 	"Lorikeet Spawns" = true
 	#Spawn weight for lorikeet
@@ -101,7 +101,7 @@
 
 [Conure]
 	#Max group for conure
-	"Conure Max Group" = 5
+	"Conure Max Group" = 4
 	#Spawn weight for conure
 	"Conure Spawn Weight" = 20
 	#Enable/disable conure spawns
@@ -125,9 +125,9 @@
 	#Enable/disable dove spawns
 	"Dove Spawns" = true
 	#Spawn weight for dove
-	"Dove Spawn Weight" = 20
+	"Dove Spawn Weight" = 16
 	#Max group for dove
-	"Dove Max Group" = 5
+	"Dove Max Group" = 4
 
 ["Mandarin Duck"]
 	#Min group for mandarin duck
@@ -161,9 +161,9 @@
 
 [Fairywren]
 	#Max group for fairywren
-	"Fairywren Max Group" = 6
+	"Fairywren Max Group" = 4
 	#Spawn weight for fairywren
-	"Fairywren Spawn Weight" = 30
+	"Fairywren Spawn Weight" = 26
 	#Enable/disable fairywren spawns
 	"Fairywren Spawns" = true
 	#Min group for fairywren
@@ -277,7 +277,7 @@
 	#Max group for chickadee
 	"Chickadee Max Group" = 3
 	#Spawn weight for chickadee
-	"Chickadee Spawn Weight" = 25
+	"Chickadee Spawn Weight" = 22
 
 ["Pygmy Goose"]
 	#Spawn weight for pygmy goose
@@ -291,13 +291,13 @@
 
 [Swallow]
 	#Min group for swallow
-	"Swallow Min Group" = 3
+	"Swallow Min Group" = 2
 	#Enable/disable swallow spawns
 	"Swallow Spawns" = true
 	#Spawn weight for swallow
-	"Swallow Spawn Weight" = 25
+	"Swallow Spawn Weight" = 19
 	#Max group for swallow
-	"Swallow Max Group" = 5
+	"Swallow Max Group" = 4
 
 ["Fire Goby"]
 	#Min group for fire goby
@@ -343,7 +343,7 @@
 	#Min group for fiddler crab
 	"Fiddler Crab Min Group" = 2
 	#Spawn weight for fiddler crab
-	"Fiddler Crab Spawn Weight" = 20
+	"Fiddler Crab Spawn Weight" = 18
 	#Enable/disable fiddler crab spawns
 	"Fiddler Crab Spawns" = true
 	#Max group for fiddler crab
@@ -415,11 +415,11 @@
 	#Enable/disable sparrow spawns
 	"Sparrow Spawns" = true
 	#Spawn weight for sparrows
-	"Sparrow Spawn Weight" = 30
+	"Sparrow Spawn Weight" = 26
 	#Min group for sparrows
 	"Sparrow Min Group" = 4
 	#Max group for sparrows
-	"Sparrow Max Group" = 7
+	"Sparrow Max Group" = 6
 
 [Bushtit]
 	#Enable/disable bushtit spawns
@@ -445,7 +445,7 @@
 	#Enable/disable eagleowl spawns
 	"Eagle owl Spawns" = true
 	#Spawn weight for eagle owls
-	"Eagle owl Spawn Weight" = 10
+	"Eagle owl Spawn Weight" = 12
 	#Min group for eagle owls
 	"Eagle owl Min Group" = 1
 	#Max group for eagle owls
@@ -465,7 +465,7 @@
 	#Enable/disable magpie spawns
 	"Magpie Spawns" = true
 	#Spawn weight for magpies
-	"Magpie Spawn Weight" = 20
+	"Magpie Spawn Weight" = 18
 	#Min group for magpies
 	"Magpie Min Group" = 3
 	#Max group for magpies
