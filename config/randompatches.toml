@@ -149,12 +149,12 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 120
-	read_timeout_seconds = 120
+	read_timeout_seconds = 240
 	# The login timeout in ticks.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 2400
-	login_timeout_ticks = 2400
+	login_timeout_ticks = 4800
 	# The interval in seconds at which KeepAlive packets are sent to clients.
 	# Min: 1
 	# Max: 2147483647
@@ -166,7 +166,7 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 120
-	keep_alive_timeout_seconds = 120
+	keep_alive_timeout_seconds = 240
 
 # Options related to packet size limits.
 [packet_size_limits]
