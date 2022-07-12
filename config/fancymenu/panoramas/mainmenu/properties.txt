@@ -2,7 +2,7 @@ type = panorama
 
 panorama-meta {
   name = name_of_your_panorama
-  speed = 0.8
-  fov = 91.0
-  angle = 10.0
+  speed = 0.6
+  fov = 90.0
+  angle = 0.0
 }
