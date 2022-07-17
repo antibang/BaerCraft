@@ -12,5 +12,5 @@
 	"Testing Mode" = false
 	#Set how text overflow should be coped with: overflow the text off the page, truncate overflowed text, or resize everything to fit. Relogin after changing.
 	#Allowed Values: OVERFLOW, TRUNCATE, RESIZE
-	textOverflowMode = "OVERFLOW"
+	textOverflowMode = "TRUNCATE"
 

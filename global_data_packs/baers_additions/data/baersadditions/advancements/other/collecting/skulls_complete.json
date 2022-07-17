@@ -597,5 +597,11 @@
     [
       "mutant_wither_skeleton"
     ]
-  ]
+  ],
+  "rewards": {
+    "loot": [
+      "baersadditions:advancement/heads_complete_reward"
+    ],
+    "experience": 500
+  }
 }

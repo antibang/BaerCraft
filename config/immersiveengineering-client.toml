@@ -1,6 +1,6 @@
 #Disables most lighting code for certain models that are rendered dynamically (TESR). May improve FPS.
 #Affects turrets and garden cloches
-disableFancyTESR = false
+disableFancyTESR = true
 #Show the text overlay for various blocks, such as the configuration of capacitors or pumps
 showTextOverlay = true
 #Set this to false to disable the super awesome looking nixie tube front for the voltmeter and other things

@@ -37,7 +37,7 @@
 	hudBehindChatBox = 2
 	#HUD information (1:FPS/CPU(long), 1:FPS/CPU(short), 3:FPS/CPU(2lines), 4:FPS only, 5:CPU only)
 	#Range: 0 ~ 5
-	hudInfo = 4
+	hudInfo = 3
 
 #HUD offsets from reference positions at the screen edge.
 [hud_offset]

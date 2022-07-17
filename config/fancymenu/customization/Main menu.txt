@@ -265,7 +265,7 @@ customization {
   width = 200
   action = addtexture
   actionid = 7cafed5b-c031-4e4a-b3b9-2579c737b56f1657597757078
-  y = -205
+  y = -203
   height = 351
 }
 
@@ -343,5 +343,22 @@ customization {
   backgroundnormal = config\fancymenu\resources.png
   value = Resources
   height = 34
+}
+
+customization {
+  orientation = element
+  basecolor = #D5CECA
+  shadow = true
+  splashfilepath = config\fancymenu\splashes.txt
+  rotation = -20.0
+  scale = 0.7
+  refresh = true
+  bouncing = true
+  vanilla-like = false
+  orientation_element = 7cafed5b-c031-4e4a-b3b9-2579c737b56f1657597757078
+  x = 3
+  actionid = 78ca5868-9dd6-4ed7-8a19-a6d94253c6371657911434252
+  action = addsplash
+  y = 107
 }
 

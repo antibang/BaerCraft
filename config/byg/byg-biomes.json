@@ -801,7 +801,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 0,
+      "weight": 3,
       "dictionary": [
         "PLAINS",
         "DRY",
