@@ -52,9 +52,6 @@ craftingTable.removeRecipe(<item:bountifulbaubles:gloves_digging_diamond>);
 craftingTable.removeRecipe(<item:spawnermod:spawner_key>);
 craftingTable.removeRecipe(<item:minecraft:crying_obsidian>);
 craftingTable.removeRecipe(<item:appletreesrev:gapple_sapling>);
-craftingTable.removeRecipe(<item:xplosives:fireblast_tnt>);
-craftingTable.removeRecipe(<item:xplosives:incendiary_bomb>);
-craftingTable.removeRecipe(<item:xplosives:hydrogen_bomb>);
 craftingTable.removeRecipe(<item:bountifulbaubles:broken_heart>);
 craftingTable.removeRecipe(<item:bountifulbaubles:lucky_horseshoe>);
 craftingTable.removeRecipe(<item:quark:flamerang>);
@@ -123,24 +120,6 @@ craftingTable.addShaped("pr_tome", <item:patchouli:guide_book>.withTag({"patchou
     [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>],
     [<tag:items:forge:gems>, <item:minecraft:paper>, <item:minecraft:paper>],
     [<item:minecraft:leather>, <item:minecraft:leather>, <item:minecraft:leather>]
-]);
-
-craftingTable.addShaped("fire_blast", <item:xplosives:fireblast_tnt>, [
-    [<item:minecraft:tnt>, <item:minecraft:tnt>, <item:minecraft:tnt>],
-    [<item:minecraft:tnt>, <item:xplosives:packed_tnt>, <item:minecraft:tnt>],
-    [<item:minecraft:tnt>, <item:minecraft:tnt>, <item:minecraft:tnt>]
-]);
-
-craftingTable.addShaped("incendiary", <item:xplosives:incendiary_bomb>, [
-    [<item:xplosives:fireblast_tnt>, <item:xplosives:fireblast_tnt>, <item:xplosives:fireblast_tnt>],
-    [<item:xplosives:fireblast_tnt>, <item:xplosives:physics_bomb>, <item:xplosives:fireblast_tnt>],
-    [<item:xplosives:fireblast_tnt>, <item:xplosives:fireblast_tnt>, <item:xplosives:fireblast_tnt>]
-]);
-
-craftingTable.addShaped("hydrogen", <item:xplosives:hydrogen_bomb>, [
-    [<item:xplosives:incendiary_bomb>, <item:xplosives:incendiary_bomb>, <item:xplosives:incendiary_bomb>],
-    [<item:xplosives:incendiary_bomb>, <item:appliedenergistics2:singularity>, <item:xplosives:incendiary_bomb>],
-    [<item:xplosives:incendiary_bomb>, <item:xplosives:incendiary_bomb>, <item:xplosives:incendiary_bomb>]
 ]);
 
 craftingTable.addShaped("better_furnace", <item:minecraft:furnace>, [

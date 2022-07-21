@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:soul_soil"
+    },
+    "under_material": {
+      "Name": "minecraft:soul_soil"
+    },
+    "underwater_material": {
+      "Name": "minecraft:soul_soil"
+    }
+  },
+  "type": "minecraft:default"
+}

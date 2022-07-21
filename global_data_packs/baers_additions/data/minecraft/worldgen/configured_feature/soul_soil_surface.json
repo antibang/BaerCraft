@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count",
+      "config": {
+        "count": 128
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 256,
+                "bottom_offset": 0,
+                "top_offset": 0
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 6,
+                    "noise_factor": 24,
+                    "noise_offset": 0.0001
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:ore",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:soul_sand"
+                    },
+                    "size": 64,
+                    "target": {
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:soul_soil"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

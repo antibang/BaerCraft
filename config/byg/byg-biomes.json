@@ -147,18 +147,18 @@
           "data": "byg:evergreen_hills"
         },
         {
-          "weight": 3,
+          "weight": 0,
           "data": "byg:evergreen_clearing"
         },
         {
-          "weight": 3,
+          "weight": 0,
           "data": "byg:evergreen_clearing"
         }
       ],
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "COLD",
-      "weight": 0,
+      "weight": 2,
       "dictionary": [
         "CONIFEROUS",
         "FOREST",
@@ -923,7 +923,7 @@
     "byg:snowy_evergreen_taiga": {
       "hills": [
         {
-          "weight": 4,
+          "weight": 0,
           "data": "byg:snowy_evergreen_clearing"
         },
         {
@@ -931,14 +931,14 @@
           "data": "byg:snowy_evergreen_hills"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "data": "byg:frozen_lake"
         }
       ],
       "beach": "byg:snowy_rocky_black_beach",
       "river": "minecraft:frozen_river",
       "climate": "COLD",
-      "weight": 0,
+      "weight": 3,
       "dictionary": [
         "FOREST",
         "SNOWY",

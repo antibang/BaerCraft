@@ -193,7 +193,8 @@
       "sounds": [
         {
           "name": "rain",
-          "files": [ "ambientsounds:weather.rain" ]
+          "files": [ "ambientsounds:weather.rain" ],
+          "volume": 0.5
         }
       ],
       "mute": 0.8
@@ -279,6 +280,7 @@
             "min": 400,
             "max": 700
           },
+          "volume": 0.65,
           "transition": 200
         }
       ]
@@ -351,7 +353,7 @@
             "max": 3000
           },
           "transition": 400,
-          "day": 0.7,
+          "day": 0.55,
           "night": 0.3
         },
         {
@@ -401,7 +403,7 @@
         {
           "name": "bird-ambience-huge",
           "files": [ "ambientsounds:animals.bird-ambience-huge1", "ambientsounds:animals.bird-ambience-huge2", "ambientsounds:animals.bird-ambience-huge3" ],
-          "day": 0.5,
+          "day": 0.45,
           "night": 0.2
         }
       ]
@@ -441,7 +443,7 @@
             "min": 1500,
             "max": 3000
           },
-          "day": 0.65,
+          "day": 0.55,
           "night": 0.2
         }
       ]
@@ -720,7 +722,7 @@
         {
           "name": "cricket-jungle",
           "files": [ "ambientsounds:animals.cricket-jungle" ],
-          "day": 0.5,
+          "day": 0.4,
           "night": 0
         },
         {

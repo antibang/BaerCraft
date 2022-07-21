@@ -1,0 +1,11 @@
+{
+    "name": "Redstone Pen",
+    "icon": "redstonepen:pen",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A redstone pen is a tool that you can use to make redstone a little more... compact, easier, and complicated at the same time! While it's not only one object, Redstone Pen is actually an entire mod! I highly suggest checking out their $(#e2a3ff)$(l:https://www.curseforge.com/minecraft/mc-mods/redstone-pen)project page$() because it can do a far better job at explaining everything than I can!"
+        }
+    ]
+}
