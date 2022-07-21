@@ -78,8 +78,11 @@ config/terraforged
 config/advancements_tracker-client.toml
 config/betteradvancements-client.toml
 config/betterpingdisplay-client.toml
+config/betterf3.toml
 config/bettervillage_general_.properties
 config/brutalbosses-common.toml
+config/does_it_tick-common.toml
+config/does_it_tick.toml
 config/dynmus-client.toml
 config/fastsuite.cfg
 config/fml.toml
@@ -91,6 +94,7 @@ config/infinityitemeditor.toml
 config/jeresources.toml
 config/jeresources-common.toml
 config/notes-client.toml
+config/pickupnotifier-client.toml
 config/PregenConfig.toml
 config/musicdr-client.toml
 config/out_of_sight-client.toml
