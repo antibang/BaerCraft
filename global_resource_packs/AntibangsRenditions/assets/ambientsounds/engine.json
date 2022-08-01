@@ -280,7 +280,7 @@
             "min": 400,
             "max": 700
           },
-          "volume": 0.65,
+          "volume": 0.3,
           "transition": 200
         }
       ]

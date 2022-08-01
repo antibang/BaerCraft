@@ -1,6 +1,7 @@
 {
   "biome/wind": {
     "name": "environs:wind",
+    "volume": 20,
     "repeatable": true
   },
   "biome/wind/hills": {
@@ -12,7 +13,7 @@
   "biome/wind/mountains": {
     "name": "environs:wind",
     "repeatable": true,
-    "volume": 60
+    "volume": 40
   },
   "biome/wind/desert": {
     "name": "environs:desert.wind",
@@ -22,7 +23,7 @@
   "biome/wind/arctic": {
     "name": "environs:arctic.wind",
     "repeatable": true,
-    "volume": 35
+    "volume": 25
   },
   "biome/ocean": {
     "name": "environs:ocean",
@@ -36,7 +37,8 @@
   },
   "biome/jungle": {
     "name": "environs:jungle",
-    "repeatable": true
+    "repeatable": true,
+    "volume": 80
   },
   "biome/savanna/day": {
     "name": "environs:savanna.day",
@@ -56,11 +58,13 @@
   },
   "biome/forest": {
     "name": "environs:forest",
-    "repeatable": true
+    "repeatable": true,
+    "volume": 60
   },
   "biome/forest/deep": {
     "name": "environs:deep_forest",
-    "repeatable": true
+    "repeatable": true,
+    "volume": 70
   },
   "biome/crickets/deep": {
     "name": "environs:deep_crickets",
@@ -81,7 +85,8 @@
   },
   "biome/underground": {
     "name": "environs:underground",
-    "repeatable": true
+    "repeatable": true,
+    "volume": 50
   },
   "biome/ocean/under": {
     "name": "environs:underocean",
@@ -104,14 +109,16 @@
     "category": "biomes",
     "repeatable": true,
     "repeat_delay_min": 100,
-    "repeat_delay_max": 200
+    "repeat_delay_max": 200,
+    "volume": 80
   },
   "village/anvil": {
     "name": "environs:village.anvil",
     "category": "biomes",
     "repeatable": true,
     "repeat_delay_min": 1200,
-    "repeat_delay_max": 2400
+    "repeat_delay_max": 2400,
+    "volume": 60
   },
   "village/dogbark": {
     "name": "environs:village.dogbark",

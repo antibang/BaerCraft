@@ -82,8 +82,8 @@
         "result": "deny"
     },
     {
-        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie"],
-        "block": "minecraft:grass_block",
+        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie", "minecraft:creeper"],
+        "block": ["minecraft:grass_block", "minecraft:podzol", "minecraft:coarse_dirt"],
         "mintime": 0,
         "maxtime": 12000,
         "minheight": 62,

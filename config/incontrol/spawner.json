@@ -43,7 +43,7 @@
     {
         "mob": "minecraft:panda",
         "persecond": 1,
-        "attemps": 100,
+        "attemps": 60,
         "ammount": {
             "minimum": 1,
             "maximum": 4

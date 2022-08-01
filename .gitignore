@@ -25,6 +25,7 @@ output
 pregen
 resourcepacks
 saves
+schematic_collection
 schematics
 screenshots
 shaderpacks
@@ -89,6 +90,7 @@ config/fml.toml
 config/forge-client.toml
 config/forge-common.toml
 config/globalgamerules-common.toml
+config/illuminations.properties
 config/infinityitemeditor-client.toml
 config/infinityitemeditor.toml
 config/jeresources.toml

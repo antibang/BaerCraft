@@ -54,11 +54,11 @@
 	#Increase fog based on the strength of rain
 	"Weather Fog" = true
 	#Increase fog at bedrock layers
-	"Bedrock Fog" = true
+	"Bedrock Fog" = false
 	#Show morning fog that eventually burns off
 	"Morning Fog" = true
 	#Higher the player elevation the more haze that is experienced
-	"Elevation Haze" = true
+	"Elevation Haze" = false
 	#Enable biome specific fog density and color
 	"Biome Fog" = true
 	#Percentage chance morning fog will occur
@@ -69,7 +69,7 @@
 ["Sound Options"]
 	#Scaling factor to apply to waterfall sounds
 	#Range: 0 ~ 100
-	"Waterfall Volume" = 48
+	"Waterfall Volume" = 38
 	#Scaling factor to apply to biome sounds
 	#Range: 0 ~ 100
 	"Biome Sound Volume" = 90
@@ -77,5 +77,5 @@
 	#Range: 0 ~ 100
 	"Spot Sound Volume" = 90
 	#Occlude WATERFALL sounds
-	"Occlude WATERFALL sounds" = false
+	"Occlude WATERFALL sounds" = true
 

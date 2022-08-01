@@ -48,3 +48,9 @@ craftingTable.addShaped("white_bear_cape", <item:betteranimalsplus:bear_cape_ker
     [<tag:items:forge:white_bear_hide>, <tag:items:forge:white_bear_hide>, <tag:items:forge:white_bear_hide>],
     [<item:minecraft:air>, <tag:items:forge:white_bear_hide>, <item:minecraft:air>]
 ]);
+
+craftingTable.addShaped("mob_analyzer", <item:untamedwilds:debug_analyzer>, [
+    [<tag:items:forge:ingots>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots>],
+    [<tag:items:forge:ingots>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots>],
+    [<tag:items:forge:ingots>, <item:minecraft:redstone>, <tag:items:forge:ingots>]
+]);

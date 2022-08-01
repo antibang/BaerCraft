@@ -139,9 +139,9 @@ craftingTable.addShaped("platinum_rapier", <item:spartanweaponry:rapier_platinum
 ]);
 
 craftingTable.addShaped("platinum_quarterstaff", <item:spartanweaponry:quarterstaff_platinum>, [
-    [<item:minecraft:air>, <item:baersadditions:platinum_ingot>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:spartanweaponry:pole>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+    [<item:minecraft:air>, <item:baersadditions:platinum_ingot>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("platinum_hammer", <item:spartanweaponry:hammer_platinum>, [
