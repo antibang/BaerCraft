@@ -82,6 +82,7 @@ config/betterpingdisplay-client.toml
 config/betterf3.toml
 config/bettervillage_general_.properties
 config/brutalbosses-common.toml
+config/camera-client.toml
 config/does_it_tick-common.toml
 config/does_it_tick.toml
 config/dynmus-client.toml

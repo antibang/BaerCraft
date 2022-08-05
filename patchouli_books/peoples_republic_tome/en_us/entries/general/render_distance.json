@@ -1,0 +1,16 @@
+{
+    "name": "Render Distance",
+    "icon": "thermal:gold_gear",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(italic)FOR THE LOVE OF GOD,$() if you have your render distance higher than 7 while playing on my servers, there is absolutely no point, so please lower it to 7. $(br2)This does not affect the servers, but it causes the client (you) to lose a significant amount of frames. The only time this is an exception is if you have the mod Far Sight installed."
+        },
+        {
+            "type": "text",
+            "text": "Otherwise, there's no point in having a render distance higher than 7 because you $(italic)will not see further than 7, EVER.$()"
+        }
+    ],
+    "sortnum": 5
+}
