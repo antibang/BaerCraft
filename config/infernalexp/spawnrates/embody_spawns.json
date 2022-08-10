@@ -3,7 +3,7 @@
     {
       "biome": "default",
       "spawn_info": {
-        "spawn_rate": 60,
+        "spawn_rate": 90,
         "min_count": 1,
         "max_count": 5
       }

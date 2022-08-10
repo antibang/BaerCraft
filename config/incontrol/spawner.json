@@ -92,5 +92,47 @@
             "inwater": true,
             "maxthis": 12
         }
+    },
+    {
+        "mob": "fins:golden_river_ray",
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "maxthis": 3
+        }
+    },
+    {
+        "mob": "fins:red_bull_crab",
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "maxthis": 3
+        }
+    },
+    {
+        "mob": "fins:white_bull_crab",
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+            "minimum": 2,
+            "maximum": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "maxthis": 3
+        }
     }
 ]

@@ -4,12 +4,12 @@
 	#Day is defined as any time between 23500 (middle of dawn) and 12500 (middle of dusk) the next day.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	daySpeed = 0.3666666666
+	daySpeed = 0.3
 	#The speed at which time passes during the night.
 	#Night is defined as any time between 12500 (middle of dusk) and 23500 (middle of dawn).
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	nightSpeed = 1.0
+	nightSpeed = 0.8
 	#When true, displays a clock in the sleep interface.
 	displayBedClock = true
 	#Accelerate the passage of weather at the same rate as the passage of time, making weather events

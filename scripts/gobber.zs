@@ -33,9 +33,6 @@ mods.jei.JEI.hideItem(<item:gobber2:gobber2_ring_blaze>);
 mods.jei.JEI.hideItem(<item:gobber2:block_defender>);
 mods.jei.JEI.hideItem(<item:gobber2:block_protector>);
 mods.jei.JEI.hideItem(<item:gobber2:block_looter>);
-mods.jei.JEI.hideItem(<item:gobber2:gobber2_foo>);
-mods.jei.JEI.hideItem(<item:gobber2:gobber2_foo_nether>);
-mods.jei.JEI.hideItem(<item:gobber2:gobber2_foo_end>);
 
 //
 

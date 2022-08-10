@@ -57,6 +57,7 @@ craftingTable.removeRecipe(<item:bountifulbaubles:lucky_horseshoe>);
 craftingTable.removeRecipe(<item:quark:flamerang>);
 craftingTable.removeRecipe(<item:quark:pickarang>);
 craftingTable.removeRecipe(<item:immersiveengineering:sorter>);
+craftingTable.removeRecipe(<item:atum:scarab>);
 
 //
 

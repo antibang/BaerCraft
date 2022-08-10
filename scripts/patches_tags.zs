@@ -2,12 +2,14 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:patches>.add(<item:subwild:dirt_patch>);
-<tag:items:forge:patches>.add(<item:subwild:mossy_dirt_patch>);
-<tag:items:forge:patches>.add(<item:subwild:podzol_patch>);
-<tag:items:forge:patches>.add(<item:subwild:gravel_patch>);
-<tag:items:forge:patches>.add(<item:subwild:sand_patch>);
-<tag:items:forge:patches>.add(<item:subwild:red_sand_patch>);
-<tag:items:forge:patches>.add(<item:subwild:snow_patch>);
-<tag:items:forge:patches>.add(<item:subwild:ice_patch>);
-<tag:items:forge:patches>.add(<item:subwild:water_puddle>);
+<tag:items:forge:patches>.add(
+    <item:subwild:dirt_patch>,
+    <item:subwild:mossy_dirt_patch>,
+    <item:subwild:podzol_patch>,
+    <item:subwild:gravel_patch>,
+    <item:subwild:sand_patch>,
+    <item:subwild:red_sand_patch>,
+    <item:subwild:snow_patch>,
+    <item:subwild:ice_patch>,
+    <item:subwild:water_puddle>
+);

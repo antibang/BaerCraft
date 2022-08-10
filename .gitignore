@@ -80,6 +80,7 @@ config/advancements_tracker-client.toml
 config/betteradvancements-client.toml
 config/betterpingdisplay-client.toml
 config/betterf3.toml
+config/bettervillage.properties
 config/bettervillage_general_.properties
 config/brutalbosses-common.toml
 config/camera-client.toml
@@ -96,6 +97,7 @@ config/infinityitemeditor-client.toml
 config/infinityitemeditor.toml
 config/jeresources.toml
 config/jeresources-common.toml
+config/libraryferret.properties
 config/notes-client.toml
 config/pickupnotifier-client.toml
 config/PregenConfig.toml

@@ -147,5 +147,49 @@
         "damageadd": 20,
         "onjoin": true,
         "result": "allow"
+    },
+    {
+        "mob": "fins:golden_river_ray",
+        "biome": ["minecraft:river", "minecraft:swanp", "minecraft:swamp_hills"],
+        "incontrol": true,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "fins:golden_river_ray",
+        "result": "deny"
+    },
+    {
+        "mob": "fins:red_bull_crab",
+        "biome": ["minecraft:ocean", "minecraft:deep_warm_ocean", "minecraft:deep_ocean"],
+        "incontrol": true,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "fins:red_bull_crab",
+        "result": "deny"
+    },
+    {
+        "mob": "fins:white_bull_crab",
+        "biome": ["minecraft:ocean", "minecraft:deep_warm_ocean", "minecraft:deep_ocean"],
+        "incontrol": true,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "fins:white_bull_crab",
+        "result": "deny"
+    },
+    {
+        "mob": "fins:swamp_mucker",
+        "biome": ["minecraft:river", "minecraft:swanp", "minecraft:swamp_hills"],
+        "incontrol": true,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "fins:swamp_mucker",
+        "result": "deny"
     }
 ]

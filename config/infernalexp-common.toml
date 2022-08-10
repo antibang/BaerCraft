@@ -72,23 +72,23 @@
 
 	["Mob Spawning"."Spawnable Biomes"]
 		#Determines what biomes Volines will spawn in
-		volineBiomes = "minecraft:nether_wastes, minecraft:crimson_forest"
+		volineBiomes = "minecraft:nether_wastes, minecraft:crimson_forest, byg:magma_wastes"
 		#Determines what biomes Warpbeetles will spawn in
-		warpbeetleBiomes = "minecraft:warped_forest"
+		warpbeetleBiomes = "minecraft:warped_forest, byg:warped_desert"
 		#Determines what biomes Shroomloins will spawn in
-		shroomloinBiomes = "minecraft:crimson_forest"
+		shroomloinBiomes = "minecraft:crimson_forest, byg:crimson_gardens, byg:glowstone_gardens, byg:embur_bog, byg:sythian_torrids"
 		#Determines what biomes Basalt Giants will spawn in
-		basaltGiantBiomes = "minecraft:basalt_deltas, infernalexp:delta_shores"
+		basaltGiantBiomes = "minecraft:basalt_deltas, infernalexp:delta_shores, byg:magma_wastes"
 		#Determines what biomes Embodies will spawn in
-		embodyBiomes = "minecraft:soul_sand_valley"
+		embodyBiomes = "minecraft:soul_sand_valley, byg:warped_desert, byg:wailing_garth, byg:withering_woods"
 		#Determines what biomes Glowsquitos will spawn in
-		glowsquitoBiomes = "infernalexp:glowstone_canyon"
+		glowsquitoBiomes = "infernalexp:glowstone_canyon, byg:glowstone_gardens"
 		#Determines what biomes Glowsilk Moths will spawn in
-		glowsilkMothBiomes = "minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon"
+		glowsilkMothBiomes = "minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon, byg:glowstone_gardens"
 		#Determines what biomes Blindsights will spawn in
-		blindsightBiomes = "infernalexp:glowstone_canyon"
+		blindsightBiomes = "infernalexp:glowstone_canyon, byg:glowstone_gardens"
 		#Determines what biomes Blackstone Dwarfs will spawn in
-		blackstoneDwarfBiomes = "infernalexp:glowstone_canyon"
+		blackstoneDwarfBiomes = "infernalexp:glowstone_canyon, byg:magma_wastes"
 
 ["World Generation"]
 	#CHANGING THIS REQUIRES A GAME RESTART
@@ -112,6 +112,8 @@
 	#Determines the amplifier of the effect that Cured Jerky gives
 	#Range: 0 ~ 2
 	jerkyEffectAmplifier = 1
+	#Determines if bricks are throwable or not
+	useThrowableBricks = true
 
 	[Miscellaneous."Luminous Fungus"]
 		#Determines the distance an entity has to be from a luminous fungus for it to activate (larger values have performance impact)
