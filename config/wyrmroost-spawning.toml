@@ -89,7 +89,7 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 11
 	#Range: > 0
-	weight = 6
+	weight = 0
 	#Minimum group size
 	#Default: 1
 	#Range: > 0

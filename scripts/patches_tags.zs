@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:patches>.add(
+<tag:items:baercraft:patches>.add(
     <item:subwild:dirt_patch>,
     <item:subwild:mossy_dirt_patch>,
     <item:subwild:podzol_patch>,

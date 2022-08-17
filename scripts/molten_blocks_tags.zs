@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:molten_blocks>.add(
+<tag:items:baercraft:molten_blocks>.add(
     <item:subwild:molten_stone>,
     <item:subwild:molten_granite>,
     <item:subwild:molten_diorite>,

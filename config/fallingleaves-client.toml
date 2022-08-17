@@ -4,11 +4,11 @@ leafSize = 11
 #modifies how long it takes for the leaves to disappear
 #Values over 2000 are not recommend
 #Range: > 100
-leafLifespan = 120
+leafLifespan = 100
 #modifies the amount of leaves that are spawning
 #Values over 10000 are not recommend
 #Range: > 0
-leafSpawnRate = 9
+leafSpawnRate = 8
 #modifier the amount of leaves are spawning from conifer trees
 #Values over 10000 are not recommend
 #Range: > 0
@@ -21,5 +21,5 @@ minimumFreeSpaceBelow = 2
 #disable wind effects
 disableWind = false
 #windless dimensions
-windlessDimension = ["minecraft:the_end"]
+windlessDimension = []
 

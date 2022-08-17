@@ -191,5 +191,15 @@
     {
         "mob": "fins:swamp_mucker",
         "result": "deny"
+    },
+    {
+        "mob": "whisperwoods:moth",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "wyrmroost:lesser_desertwyrm",
+        "onjoin": true,
+        "result": "deny"
     }
 ]

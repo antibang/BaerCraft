@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:speleothems>.add(
+<tag:items:baercraft:speleothems>.add(
     <item:subwild:frozen_stone_speleothem>,
     <item:subwild:frozen_granite_speleothem>,
     <item:subwild:frozen_diorite_speleothem>,

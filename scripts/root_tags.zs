@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:cave_roots>.add(
+<tag:items:baercraft:cave_roots>.add(
     <item:subwild:light_brown_roots>,
     <item:subwild:brown_roots>,
     <item:subwild:white_roots>,

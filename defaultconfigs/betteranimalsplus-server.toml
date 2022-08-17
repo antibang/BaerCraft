@@ -76,13 +76,13 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 21
+			spawn_weight = 18
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 2
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 4
+			maximum_group_size = 6
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["minecraft:jungle_edge", "byg:woodlands", "minecraft:modified_jungle", "byg:snowy_deciduous_clearing", "byg:seasonal_birch_forest", "biomesoplenty:burnt_forest", "minecraft:swamp_hills", "byg:jacaranda_clearing", "byg:skyris_highlands", "byg:snowy_blue_taiga", "byg:canyons", "byg:weeping_witch_forest", "byg:seasonal_giant_taiga", "byg:evergreen_clearing", "minecraft:savanna_plateau", "byg:blue_taiga", "byg:seasonal_taiga_hills", "byg:seasonal_deciduous_forest", "minecraft:forest", "minecraft:modified_jungle_edge", "byg:bamboo_forest", "biomesoplenty:coniferous_lakes", "byg:lush_tundra", "minecraft:taiga_hills", "byg:weeping_witch_clearing", "byg:guiana_springs", "byg:bluff_peaks", "biomesoplenty:wooded_scrubland", "byg:snowy_blue_taiga_hills", "byg:redwood_mountains", "biomesoplenty:dense_woodland", "biomesoplenty:redwood_hills", "byg:seasonal_taiga", "byg:zelkova_forest", "minecraft:savanna", "byg:evergreen_taiga", "byg:seasonal_forest", "biomesoplenty:ominous_woods", "minecraft:giant_spruce_taiga", "byg:jacaranda_forest", "minecraft:wooded_hills", "biomesoplenty:meadow_forest", "byg:red_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:tall_dead_forest", "byg:deciduous_forest", "byg:prairie_clearing", "byg:snowy_deciduous_forest_hills", "biomesoplenty:highland_moor", "byg:coniferous_clearing", "minecraft:desert_hills", "byg:amaranth_fields", "byg:snowy_evergreen_taiga", "byg:alpine_foothills", "biomesoplenty:shrubland_hills", "byg:snowy_coniferous_forest", "minecraft:mountain_edge", "byg:bluff_steeps", "minecraft:bamboo_jungle_hills", "byg:guiana_shield", "byg:blue_taiga_hills", "byg:coniferous_forest_hills", "biomesoplenty:woodland", "byg:araucaria_savanna", "biomesoplenty:fir_clearing", "biomesoplenty:flower_meadow", "biomesoplenty:grassland", "biomesoplenty:grove_clearing", "biomesoplenty:lush_desert", "biomesoplenty:dry_boneyard", "minecraft:giant_tree_taiga", "desolation:charred_forest", "minecraft:gravelly_mountains", "byg:great_lakes", "biomesoplenty:shrubland", "byg:zelkova_clearing", "minecraft:snowy_taiga_mountains", "byg:cika_mountains", "byg:alps", "minecraft:wooded_mountains", "biomesoplenty:shroomy_wetland", "byg:snowy_evergreen_clearing", "biomesoplenty:rainforest", "minecraft:shattered_savanna", "byg:twilight_valley_hills", "biomesoplenty:prairie", "byg:red_rock_highlands", "minecraft:tall_birch_forest", "byg:cika_woods", "byg:ebony_woods", "biomesoplenty:lavender_forest", "byg:prairie", "byg:flowering_grove", "byg:skyris_peaks", "minecraft:sunflower_plains", "biomesoplenty:fungal_field", "biomesoplenty:snowy_maple_forest", "minecraft:modified_gravelly_mountains", "byg:pointed_stone_forest", "byg:ebony_hills", "byg:red_oak_forest", "byg:pumpkin_forest", "minecraft:birch_forest_hills", "byg:aspen_forest_hills", "byg:cherry_blossom_clearing", "byg:deciduous_forest_hills", "biomesoplenty:mystic_grove", "byg:orchard", "byg:redwood_tropics", "biomesoplenty:bamboo_blossom_grove", "byg:ancient_forest", "byg:grove", "byg:maple_taiga", "byg:maple_hills", "biomesoplenty:rainbow_hills", "byg:red_rock_mountains", "byg:flowering_enchanted_grove", "biomesoplenty:redwood_forest", "byg:dover_mountains", "byg:enchanted_forest", "byg:skyris_highlands_clearing", "byg:glowing_ancient_forest", "byg:allium_fields", "byg:flowering_ancient_forest", "minecraft:flower_forest", "minecraft:modified_badlands_plateau", "biomesoplenty:jade_cliffs", "byg:seasonal_deciduous_clearing", "biomesoplenty:snowy_coniferous_forest", "byg:autumnal_valley", "biomesoplenty:seasonal_orchard", "byg:red_desert_dunes", "byg:redwood_clearing", "biomesoplenty:cherry_blossom_grove", "byg:snowy_blue_giant_taiga", "minecraft:snowy_mountains", "byg:evergreen_hills", "minecraft:dark_forest", "biomesoplenty:mystic_plains", "byg:boreal_forest_hills", "byg:red_oak_forest_hills", "byg:seasonal_forest_hills", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_savanna", "byg:tropical_rainforest_hills", "byg:wooded_grassland_plateau", "byg:boreal_clearing", "byg:baobab_savanna", "byg:bayou", "byg:flowering_meadow", "minecraft:plains", "byg:enchanted_forest_hills", "byg:forest_fault", "byg:zelkova_forest_hills", "byg:black_forest_clearing", "byg:skyris_steeps", "byg:enchanted_grove", "minecraft:tall_birch_hills", "biomesoplenty:orchard", "biomesoplenty:scrubland", "minecraft:jungle_hills", "biomesoplenty:highland_crag", "biomesoplenty:wetland_forest", "byg:snowy_coniferous_clearing", "minecraft:shattered_savanna_plateau", "byg:aspen_forest", "minecraft:dark_forest_hills", "byg:mangrove_marshes", "minecraft:snowy_taiga_hills", "byg:seasonal_deciduous_forest_hills", "byg:grassland_plateau", "biomesoplenty:seasonal_pumpkin_patch", "minecraft:taiga", "byg:rose_fields", "byg:wooded_meadow", "minecraft:taiga_mountains", "biomesoplenty:meadow", "biomesoplenty:grove", "biomesoplenty:wetland", "byg:seasonal_birch_forest_hills", "byg:the_black_forest", "biomesoplenty:ominous_mire", "byg:snowy_coniferous_forest_hills", "byg:shrublands", "byg:black_forest_hills", "byg:snowy_deciduous_forest", "byg:glowshroom_bayou", "biomesoplenty:lavender_field", "byg:tropical_fungal_rainforest_hills", "biomesoplenty:volcano", "byg:boreal_forest", "byg:jacaranda_forest_hills", "minecraft:snowy_taiga", "minecraft:birch_forest", "byg:coniferous_forest", "minecraft:mountains", "byg:aspen_clearing", "byg:snowy_evergreen_hills", "byg:northern_forest", "biomesoplenty:golden_prairie", "minecraft:eroded_badlands", "minecraft:giant_tree_taiga_hills", "biomesoplenty:seasonal_forest", "byg:cherry_blossom_forest", "byg:araucaria_forest", "byg:sierra_valley", "minecraft:ice_spikes", "byg:meadow", "byg:guiana_clearing", "minecraft:modified_wooded_badlands_plateau", "biomesoplenty:snowy_fir_clearing", "byg:sierra_range", "byg:wooded_red_rock_mountains", "byg:deciduous_clearing"]
 
@@ -107,7 +107,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 16
+			spawn_weight = 13
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 2
@@ -297,13 +297,13 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 8
+			spawn_weight = 6
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 2
+			maximum_group_size = 1
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_frozen_ocean", "byg:dead_sea", "minecraft:ocean", "minecraft:warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_warm_ocean", "jellyfishing:jellyfish_fields", "minecraft:frozen_ocean", "minecraft:deep_ocean", "minecraft:cold_ocean"]
 			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
@@ -704,7 +704,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 8
+			spawn_weight = 7
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 3
@@ -764,13 +764,13 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 10
+			spawn_weight = 8
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 4
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 6
+			maximum_group_size = 7
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["byg:snowy_deciduous_forest_hills", "byg:snowy_coniferous_clearing", "byg:snowy_black_beach", "minecraft:snowy_taiga", "minecraft:snowy_beach", "biomesoplenty:snowy_maple_forest", "minecraft:snowy_taiga_hills", "byg:snowy_deciduous_clearing", "biomesoplenty:snowy_coniferous_forest", "byg:snowy_evergreen_taiga", "byg:snowy_rocky_black_beach", "byg:alpine_foothills", "byg:snowy_coniferous_forest", "byg:bluff_peaks", "byg:snowy_evergreen_hills", "byg:snowy_blue_giant_taiga", "byg:snowy_blue_taiga_hills", "minecraft:snowy_mountains", "byg:northern_forest", "biomesoplenty:muskeg", "minecraft:snowy_taiga_mountains", "byg:alps", "byg:shattered_glacier", "byg:snowy_evergreen_clearing", "byg:frozen_lake", "minecraft:ice_spikes", "byg:snowy_coniferous_forest_hills", "minecraft:snowy_tundra", "biomesoplenty:cold_desert", "byg:snowy_deciduous_forest", "minecraft:frozen_river", "biomesoplenty:snowy_fir_clearing"]
 
@@ -795,7 +795,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 10
+			spawn_weight = 8
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 2
@@ -897,13 +897,13 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 8
+			spawn_weight = 10
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 2
+			maximum_group_size = 3
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["undergarden:mushroom_bog", "biomesoplenty:highland_moor", "biomesoplenty:wetland_forest", "byg:mangrove_marshes", "byg:cypress_swamplands", "byg:coral_mangroves", "byg:vibrant_swamplands", "minecraft:swamp_hills", "biomesoplenty:tundra_bog", "byg:bog", "biomesoplenty:bayou", "biomesoplenty:marsh", "biomesoplenty:bayou_mangrove", "biomesoplenty:muskeg", "biomesoplenty:wetland", "minecraft:giant_tree_taiga_hills", "minecraft:swamp", "byg:cold_swamplands", "biomesoplenty:shroomy_wetland", "biomesoplenty:deep_bayou", "minecraft:giant_spruce_taiga", "biomesoplenty:ominous_mire", "byg:bayou", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:dense_marsh", "byg:marshlands", "biomesoplenty:rainforest_floodplain", "minecraft:giant_tree_taiga", "byg:glowshroom_bayou"]
 

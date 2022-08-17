@@ -66,7 +66,7 @@ furnace.removeByName("powder_power:ingot_quadrilium");
 
 craftingTable.addShaped("token_dragon_egg", <item:powder_power:token_dragon>, [
     [<item:powder_power:blend_quadrilium>, <item:minecraft:dragon_head>, <item:powder_power:blend_quadrilium>],
-    [<item:minecraft:elytra>, <tag:items:forge:lightning_dragon_eggs>, <item:minecraft:elytra>],
+    [<item:minecraft:elytra>, <tag:items:baercraft:lightning_dragon_eggs>, <item:minecraft:elytra>],
     [<item:powder_power:blend_quadrilium>, <item:minecraft:dragon_head>, <item:powder_power:blend_quadrilium>]
 ]);
 
@@ -132,19 +132,19 @@ craftingTable.addShaped("no_fall_token", <item:powder_power:token_no_fall>, [
 
 craftingTable.addShaped("supreme_strength_token", <item:powder_power:token_supreme_strength>, [
     [<item:powder_power:blend_quadrilium>, <item:powder_power:token_greater_strength>, <item:powder_power:blend_quadrilium>],
-    [<item:powder_power:token_greater_strength>, <tag:items:forge:dragonsteel_ingots>, <item:powder_power:token_greater_strength>],
+    [<item:powder_power:token_greater_strength>, <tag:items:baercraft:dragonsteel_ingots>, <item:powder_power:token_greater_strength>],
     [<item:powder_power:ingot_quadrilium>, <item:powder_power:ingot_quadrilium>, <item:powder_power:ingot_quadrilium>]
 ]);
 
 craftingTable.addShaped("supreme_health_token", <item:powder_power:token_supreme_health>, [
     [<item:powder_power:ingot_quadrilium>, <item:powder_power:token_health>, <item:powder_power:ingot_quadrilium>],
-    [<item:powder_power:token_health>, <tag:items:forge:dragonsteel_ingots>, <item:powder_power:token_health>],
+    [<item:powder_power:token_health>, <tag:items:baercraft:dragonsteel_ingots>, <item:powder_power:token_health>],
     [<item:powder_power:block_quadrilium>, <item:powder_power:block_quadrilium>, <item:powder_power:block_quadrilium>]
 ]);
 
 craftingTable.addShaped("supreme_resistance_token", <item:powder_power:token_supreme_resistance>, [
     [<item:powder_power:blend_quadrilium>, <item:powder_power:token_greater_resistance>, <item:powder_power:blend_quadrilium>],
-    [<item:powder_power:token_greater_resistance>, <tag:items:forge:dragonsteel_ingots>, <item:powder_power:token_greater_resistance>],
+    [<item:powder_power:token_greater_resistance>, <tag:items:baercraft:dragonsteel_ingots>, <item:powder_power:token_greater_resistance>],
     [<item:powder_power:block_quadrilium>, <item:powder_power:block_quadrilium>, <item:powder_power:block_quadrilium>]
 ]);
 

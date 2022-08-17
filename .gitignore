@@ -71,7 +71,9 @@ usernamecache.json
 WailaErrorOutput.txt
 
 #Configs
+config/cherishedworlds
 config/defaultworldtype/client-config.toml
+config/fancymenu/locals
 config/roadrunner
 config/spark
 config/starterkit/starterkit.txt
@@ -111,6 +113,7 @@ config/xaerominimap.txt
 #Datapacks
 global_data_packs/baers_additions/data/brutalbosses
 global_data_packs/baers_additions/data/ob_aquamirae
+global_data_packs/baers_additions/data/baersadditions/advancements/stages
 
 #Other
 !global_resource_packs/AntibangsRenditions/assets

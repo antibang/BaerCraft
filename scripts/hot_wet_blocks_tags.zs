@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:hot_blocks>.add(
+<tag:items:baercraft:hot_blocks>.add(
     <item:subwild:hot_andesite>,
     <item:subwild:hot_diorite>,
     <item:subwild:hot_granite>,

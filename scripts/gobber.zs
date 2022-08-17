@@ -116,7 +116,7 @@ craftingTable.addShaped("new_gobber_nether_ingot", <item:gobber2:gobber2_ingot_n
 
 craftingTable.addShaped("new_gobber_end_ingot", <item:gobber2:gobber2_ingot_end>, [
     [<item:gobber2:gobber2_glob_end>, <item:gobber2:gobber2_ingot_nether>, <item:minecraft:air>],
-    [<item:gobber2:gobber2_ingot_nether>, <tag:items:forge:dragonsteel_ingots>, <item:minecraft:air>],
+    [<item:gobber2:gobber2_ingot_nether>, <tag:items:baercraft:dragonsteel_ingots>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
@@ -151,9 +151,9 @@ craftingTable.addShaped("new_blaze_ring", <item:gobber2:gobber2_ring_blaze>, [
 ]);
 
 craftingTable.addShaped("new_blaze_dismissal", <item:gobber2:gobber2_ring_dismissal>, [
-    [<tag:items:forge:dragonsteel_ingots>, <item:minecraft:netherite_ingot>, <tag:items:forge:dragonsteel_ingots>],
+    [<tag:items:baercraft:dragonsteel_ingots>, <item:minecraft:netherite_ingot>, <tag:items:baercraft:dragonsteel_ingots>],
     [<item:minecraft:netherite_ingot>, <item:gobber2:gobber2_ring_end>, <item:minecraft:netherite_ingot>],
-    [<tag:items:forge:dragonsteel_ingots>, <item:minecraft:netherite_ingot>, <tag:items:forge:dragonsteel_ingots>]
+    [<tag:items:baercraft:dragonsteel_ingots>, <item:minecraft:netherite_ingot>, <tag:items:baercraft:dragonsteel_ingots>]
 ]);
 
 craftingTable.addShaped("new_nether_sword", <item:gobber2:gobber2_sword_nether>, [

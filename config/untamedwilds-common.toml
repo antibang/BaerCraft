@@ -16,7 +16,7 @@
 	whale_shark = true
 	#Critters further than this value from any Player will despawn into their Burrow (only if they have a Burrow assigned).
 	#Range: > 0
-	critterSpawnRange = 25
+	critterSpawnRange = 20
 	#Controls whether to add Snakes and their associated items.
 	snake = true
 	#Controls whether to add Catfish and their associated items.
@@ -81,7 +81,7 @@
 	reed_blacklist = []
 	#Frequency of Apex Predators, 1 in N chunks will generate with an Apex Predator (0 to disable)
 	#Range: > 0
-	freqapex = 22
+	freqapex = 19
 	#Frequency of Critters, 1 in N chunks will generate with Critters (0 to disable)
 	#Range: > 0
 	freqcritter = 12
@@ -107,7 +107,7 @@
 	probunderground = 4.0E-4
 	#Frequency of Ocean Mobs, 1 in N chunks will generate with Ocean Mobs (0 to disable)
 	#Range: > 0
-	freqocean = 16
+	freqocean = 21
 	#Controls whether to use Burrows to spawn Critters, instead of having them clog up the Spawns
 	burrows = true
 	#Controls whether to add Tree Orchids (NOT YET IMPLEMENTED)

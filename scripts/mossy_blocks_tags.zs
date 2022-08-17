@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 
 //
 
-<tag:items:forge:mossy_blocks>.add(
+<tag:items:baercraft:mossy_blocks>.add(
     <item:subwild:mossy_sandstone>,
     <item:subwild:mossy_andesite>,
     <item:subwild:mossy_diorite>,
