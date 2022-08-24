@@ -103,10 +103,12 @@ config/libraryferret.properties
 config/notes-client.toml
 config/pickupnotifier-client.toml
 config/PregenConfig.toml
+config/mod_lavacow.common.toml
 config/musicdr-client.toml
 config/out_of_sight-client.toml
 config/skinlayers.json
 config/worldedit/worldedit.properties
+config/tips-client.toml
 config/xaerominimap_entities.json
 config/xaerominimap.txt
 
@@ -114,6 +116,14 @@ config/xaerominimap.txt
 global_data_packs/baers_additions/data/brutalbosses
 global_data_packs/baers_additions/data/ob_aquamirae
 global_data_packs/baers_additions/data/baersadditions/advancements/stages
+
+#Scripts
+scripts/stages
+
+#Patchouli Books
+patchouli_books/baercraft_tome/en_us/entries/stages
+patchouli_books/baercraft_tome/en_us/categories/stages
+patchouli_books/baercraft_tome/en_us/categories/root_stages_category.json
 
 #Other
 !global_resource_packs/AntibangsRenditions/assets
