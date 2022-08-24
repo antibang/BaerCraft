@@ -12,7 +12,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 7
+			spawn_weight = 6
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
@@ -107,7 +107,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 13
+			spawn_weight = 12
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 2
@@ -138,7 +138,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 28
+			spawn_weight = 24
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
@@ -164,7 +164,7 @@
 
 	[entities.songbird]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.songbird.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -261,7 +261,7 @@
 
 	[entities.horseshoecrab]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.horseshoecrab.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -603,7 +603,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 16
+			spawn_weight = 15
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
@@ -634,7 +634,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 18
+			spawn_weight = 17
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 4
@@ -667,7 +667,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 12
+			spawn_weight = 10
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 4
@@ -710,7 +710,7 @@
 			minimum_group_size = 3
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 7
+			maximum_group_size = 6
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["byg:flowering_grove", "minecraft:sunflower_plains", "biomesoplenty:fungal_field", "minecraft:wooded_badlands_plateau", "minecraft:desert_hills", "byg:amaranth_fields", "byg:grassland_plateau", "byg:mojave_desert", "biomesoplenty:shrubland_hills", "byg:rose_fields", "byg:oasis", "biomesoplenty:tropic_beach", "byg:wooded_meadow", "byg:orchard", "byg:grove", "minecraft:savanna_plateau", "byg:shrublands", "biomesoplenty:flower_meadow", "biomesoplenty:grassland", "biomesoplenty:grove_clearing", "biomesoplenty:lush_desert", "byg:flowering_enchanted_grove", "biomesoplenty:dry_boneyard", "byg:allium_fields", "biomesoplenty:lavender_field", "byg:lush_tundra", "minecraft:badlands_plateau", "minecraft:desert_lakes", "byg:autumnal_valley", "byg:red_desert_dunes", "biomesoplenty:shrubland", "byg:lush_red_desert", "minecraft:badlands", "minecraft:desert", "byg:red_desert", "biomesoplenty:golden_prairie", "biomesoplenty:mystic_plains", "biomesoplenty:grassland_clover_patch", "biomesoplenty:lush_savanna", "byg:wooded_grassland_plateau", "minecraft:savanna", "byg:sierra_valley", "byg:meadow", "byg:flowering_meadow", "minecraft:plains", "biomesoplenty:prairie", "byg:dunes", "byg:enchanted_grove", "byg:prairie_clearing", "biomesoplenty:orchard", "byg:prairie"]
 
@@ -764,7 +764,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 8
+			spawn_weight = 6
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 4
@@ -795,7 +795,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 8
+			spawn_weight = 6
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 2
@@ -837,13 +837,13 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 5
+			spawn_weight = 3
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
 			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
 			#Range: 1 ~ 9999
-			maximum_group_size = 2
+			maximum_group_size = 1
 			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 			spawn_biomes = ["biomesoplenty:highland_moor", "biomesoplenty:wetland_forest", "byg:mangrove_marshes", "byg:cypress_swamplands", "byg:coral_mangroves", "byg:vibrant_swamplands", "minecraft:swamp_hills", "biomesoplenty:tundra_bog", "byg:bog", "biomesoplenty:bayou", "biomesoplenty:marsh", "biomesoplenty:bayou_mangrove", "biomesoplenty:muskeg", "biomesoplenty:wetland", "minecraft:swamp", "byg:cold_swamplands", "minecraft:river", "biomesoplenty:shroomy_wetland", "biomesoplenty:deep_bayou", "biomesoplenty:ominous_mire", "byg:bayou", "biomesoplenty:dense_marsh", "minecraft:frozen_river", "byg:marshlands", "biomesoplenty:rainforest_floodplain", "byg:glowshroom_bayou"]
 
@@ -981,7 +981,7 @@
 
 		[entities.butterfly.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 1
@@ -1010,7 +1010,7 @@
 
 		[entities.dragonfly.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 2

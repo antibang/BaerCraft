@@ -81,18 +81,18 @@
 	reed_blacklist = []
 	#Frequency of Apex Predators, 1 in N chunks will generate with an Apex Predator (0 to disable)
 	#Range: > 0
-	freqapex = 19
+	freqapex = 23
 	#Frequency of Critters, 1 in N chunks will generate with Critters (0 to disable)
 	#Range: > 0
-	freqcritter = 12
+	freqcritter = 17
 	#Controls whether to spawn Amazon Sword in Swamp/Jungle biomes
 	algae = true
 	#Frequency of Sessile Ocean Mobs, 1 in N chunks will generate with Sessile Mobs (0 to disable)
 	#Range: > 0
-	freqsessile = 8
+	freqsessile = 6
 	#Frequency of Freshwater Mobs, 1 in N chunks will generate with Freshwater Mobs (0 to disable)
 	#Range: > 0
-	freqwater = 10
+	freqwater = 14
 	#Prevent spawns of Flora in these biomes
 	flora_blacklist = []
 	#Controls whether to spawn Reeds in River/Swamp biomes
@@ -107,7 +107,7 @@
 	probunderground = 4.0E-4
 	#Frequency of Ocean Mobs, 1 in N chunks will generate with Ocean Mobs (0 to disable)
 	#Range: > 0
-	freqocean = 21
+	freqocean = 28
 	#Controls whether to use Burrows to spawn Critters, instead of having them clog up the Spawns
 	burrows = true
 	#Controls whether to add Tree Orchids (NOT YET IMPLEMENTED)

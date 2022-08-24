@@ -51,19 +51,11 @@ craftingTable.removeRecipe(<item:bountifulbaubles:gloves_digging_iron>);
 craftingTable.removeRecipe(<item:bountifulbaubles:gloves_digging_diamond>);
 craftingTable.removeRecipe(<item:spawnermod:spawner_key>);
 craftingTable.removeRecipe(<item:minecraft:crying_obsidian>);
-craftingTable.removeRecipe(<item:appletreesrev:gapple_sapling>);
 craftingTable.removeRecipe(<item:bountifulbaubles:broken_heart>);
 craftingTable.removeRecipe(<item:bountifulbaubles:lucky_horseshoe>);
 craftingTable.removeRecipe(<item:quark:flamerang>);
 craftingTable.removeRecipe(<item:quark:pickarang>);
 craftingTable.removeRecipe(<item:immersiveengineering:sorter>);
-craftingTable.removeRecipe(<item:atum:scarab>);
-
-//
-
-stoneCutter.addRecipe("evil_pig", <item:dads_sewing:pig_plush_evil>, <tag:items:appliedenergistics2:wool>);
-stoneCutter.addRecipe("evil_llama", <item:dads_sewing:llama_plush_evil>, <tag:items:appliedenergistics2:wool>);
-stoneCutter.addRecipe("evil_unicorn", <item:dads_sewing:unicorn_plush_evil>, <tag:items:appliedenergistics2:wool>);
 
 //
 
@@ -97,12 +89,6 @@ craftingTable.addShaped("no_fall_bauble", <item:bountifulbaubles:lucky_horseshoe
     [<item:powder_power:ingot_quadrilium>, <item:powder_power:blend_quadrilium>, <item:powder_power:ingot_quadrilium>],
     [<item:powder_power:blend_quadrilium>, <item:minecraft:netherite_boots>, <item:powder_power:blend_quadrilium>],
     [<item:powder_power:ingot_quadrilium>, <item:powder_power:blend_quadrilium>, <item:powder_power:ingot_quadrilium>]
-]);
-
-craftingTable.addShaped("golden_apple_tree_sapling", <item:appletreesrev:gapple_sapling>, [
-    [<item:minecraft:gold_ingot>, <item:minecraft:golden_apple>, <item:minecraft:gold_ingot>],
-    [<item:minecraft:golden_apple>, <item:appletreesrev:apple_sapling>, <item:minecraft:golden_apple>],
-    [<item:minecraft:gold_ingot>, <item:minecraft:golden_apple>, <item:minecraft:gold_ingot>]
 ]);
 
 craftingTable.addShaped("baer_quests", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:baercraft_quests"}), [

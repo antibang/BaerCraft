@@ -1,9 +1,9 @@
 
 [general]
-	#Small improvements to make working an enchantment table more convenient.
-	"Easy Enchanting" = true
 	#Some convenient tweaks for working with anvils.
 	"Anvil Tweaks" = true
+	#Small improvements to make working an enchantment table more convenient.
+	"Easy Enchanting" = true
 
 [anvil_tweaks]
 	#Using an iron block on a chipped or damaged anvil repairs it fully.
@@ -19,11 +19,14 @@
 	"Inventory Contents Stay" = true
 	#Re-roll possible enchantments in an enchanting table every time an item is placed into the enchanting slot.
 	"Re-Roll Enchantments" = false
-	#When hovering over an enchanting option show the complete outcome on the tooltip instead of only a single enchantment.
-	"Show All Enchantments" = true
+	#Choose how many enchantments are shown on the enchanting tooltip, if any at all.
+	#Allowed Values: NONE, SINGLE, ALL
+	"Show Enchantments" = "ALL"
 	#Amount of bookshelves required to perform enchantments at the highest level.
 	#Range: > 0
 	"Enchanting Power" = 22
 	#Blocks without a collision shape do not block bookshelves placed behind from counting towards current enchanting power.
 	"Lenient Bookshelves" = true
+	#Only allow items that can be enchanted to be placed into the enchanting slot of an enchanting table. Useful when inserting items automatically with a hopper.
+	"Filter Enchanting Input" = true
 

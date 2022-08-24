@@ -1,12 +1,12 @@
 
 ["all mobs"]
-	"Have all mobs attack villagers?" = false
-	#Any mob id in this list will not attack villagers if the config option for that is on.
-	"Mob BlackList" = []
 	"Enable the fix for melee cooldowns for mobs?" = true
 	#This determines the range a mob will detect other entities if they have the blindness potion, by default entities will only detect targets in a 10 block radius if they are blinded.
 	#Range: -500.0 ~ 10000.0
 	"Blindness range" = 0.1
+	"Have all mobs attack villagers?" = false
+	#Any mob id in this list will not attack villagers if the config option for that is on.
+	"Mob BlackList" = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
 
 [buckler]
 	"Have the explosion spawned while using the Bang! enchant destroy blocks?" = false
@@ -24,11 +24,11 @@
 
 [animals]
 	#Any mob id in this list will not attempt to find an area to stay in while it's raining or at night.
-	"Animal BlackList" = ["minecraft:fox", "minecraft:wolf", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cow", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:llama", "minecraft:mooshroom", "minecraft:mule", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:rabbit", "minecraft:sheep", "minecraft:trader_llama", "minecraft:turtle", "wyrmroost:dragon_fruit_drake", "wyrmroost:alpine", "alexsmobs:roadrunner", "alexsmobs:gazelle", "alexsmobs:crocodile", "alexsmobs:gorilla", "alexsmobs:komodo_dragon", "alexsmobs:raccoon", "alexsmobs:seal", "alexsmobs:shoebill", "alexsmobs:elephant", "alexsmobs:snow_leopard", "alexsmobs:crow", "alexsmobs:alligator_snapping_turtle", "alexsmobs:emu", "alexsmobs:platypus", "alexsmobs:tasmanian_devil", "alexsmobs:leafcutter_ant", "alexsmobs:bald_eagle", "alexsmobs:tiger", "cnb:yeti", "snowpig:snow_pig", "betteranimalsplus:brownbear", "betteranimalsplus:blackbear", "betteranimalsplus:deer", "betteranimalsplus:feral_wolf", "betteranimalsplus:coyote", "betteranimalsplus:goat", "betteranimalsplus:pheasant", "betteranimalsplus:reindeer", "betteranimalsplus:boar", "betteranimalsplus:squirrel", "betteranimalsplus:badger", "betteranimalsplus:moose", "betteranimalsplus:turkey", "betteranimalsplus:goose", "betteranimalsplus:walrus", "iceandfire:hippogryph", "iceandfire:cockatrice", "quark:stoneling", "quark:frog", "aquaculture:box_turtle", "aquaculture:arrau_turtle", "aquaculture:starshell_turtle"]
+	"Animal BlackList" = ["minecraft:fox", "minecraft:wolf", "minecraft:turtle", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
 	#Any mob id in this list will not attempt to find an area to stay in while it's night.
-	"Animal Night BlackList" = ["minecraft:cat"]
+	"Animal Night BlackList" = ["minecraft:cat", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
 	#Any mob id in this list will not attempt to find an area to stay in while it's raining.
-	"Animal Raining BlackList" = []
+	"Animal Raining BlackList" = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
 	"Animals seek shelter?" = false
 
 	[animals.pigs]
