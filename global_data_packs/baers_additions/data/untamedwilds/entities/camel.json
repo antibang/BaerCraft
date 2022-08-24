@@ -25,6 +25,9 @@
       "spawnBiomes":[
         [
           "dictionary|wasteland"
+        ],
+        [
+          "!resource|byg:dead_sea"
         ]
       ]
     },

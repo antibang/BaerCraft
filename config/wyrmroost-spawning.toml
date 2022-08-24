@@ -9,7 +9,7 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 1
 	#Range: > 0
-	weight = 14
+	weight = 10
 	#Minimum group size
 	#Default: 1
 	#Range: > 0
@@ -62,7 +62,7 @@
 [dragonfruit_drake]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:jungle_edge", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills"]
-	biomes = ["minecraft:jungle_edge", "minecraft:jungle", "minecraft:jungle_hills", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:modified_jungle", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:rainforest_floodplain", "biomesoplenty:tropics", "biomesoplenty:fungal_field", "biomesoplenty:fungal_jungle"]
+	biomes = ["minecraft:jungle_edge", "minecraft:jungle", "minecraft:jungle_hills", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:modified_jungle", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:rainforest_floodplain", "biomesoplenty:tropics", "biomesoplenty:fungal_field", "biomesoplenty:fungal_jungle", "byg:orchard", "byg:guiana_shield", "byg:tropical_rainforest"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -142,7 +142,7 @@
 [royal_red]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
-	biomes = ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:lush_desert", "biomesoplenty:lush_savanna"]
+	biomes = ["minecraft:mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "byg:snowy_deciduous_forest", "byg:snowy_deciduous_forest_hills", "biomesoplenty:snowy_coniferous_forest"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false

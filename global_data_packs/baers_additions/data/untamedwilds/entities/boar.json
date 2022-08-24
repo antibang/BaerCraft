@@ -61,6 +61,12 @@
         ],
         [
           "resource|biomesoplenty:lush_desert"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     }

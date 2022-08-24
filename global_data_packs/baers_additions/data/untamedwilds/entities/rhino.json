@@ -24,6 +24,12 @@
       "spawnBiomes":[
         [
           "category|savanna"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },
@@ -91,6 +97,12 @@
       "spawnBiomes":[
         [
           "category|savanna"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },

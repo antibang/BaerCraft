@@ -20,11 +20,17 @@
       "attack":4,
       "health":10,
       "flags":{
-        "groupCount":5
+        "groupCount":6
       },
       "spawnBiomes":[
         [
           "category|savanna"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },
@@ -50,6 +56,12 @@
         ],
         [
           "resource|biomesoplenty:dry_boneyard"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },
@@ -66,7 +78,7 @@
         "threat":"untamedwilds:entity.hyena.laugh"
       },
       "flags":{
-        "groupCount":11
+        "groupCount":9
       },
       "spawnBiomes":[
         [
@@ -83,6 +95,12 @@
         ],
         [
           "resource|biomesoplenty:dry_boneyard"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },
@@ -95,7 +113,7 @@
       "health":16,
       "skins":30,
       "flags":{
-        "groupCount":3
+        "groupCount":5
       },
       "spawnBiomes":[
         [
@@ -112,6 +130,12 @@
         ],
         [
           "resource|biomesoplenty:dry_boneyard"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },
@@ -128,6 +152,12 @@
       "spawnBiomes":[
         [
           "category|savanna"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     }

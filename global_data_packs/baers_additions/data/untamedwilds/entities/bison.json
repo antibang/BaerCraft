@@ -20,7 +20,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:wheat",
       "flags":{
-        "groupCount":22
+        "groupCount":12
       },
       "spawnBiomes":[
         [
@@ -39,6 +39,12 @@
         "groupCount":6
       },
       "spawnBiomes":[
+        [
+          "!resource|byg:araucaria_savanna"
+        ],
+        [
+          "!resource|byg:araucaria_forest"
+        ],
         [
           "category|forest"
         ]

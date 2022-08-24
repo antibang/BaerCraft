@@ -3,7 +3,7 @@
 	#Enable/disable koi spawns
 	"Koi Spawns" = true
 	#Spawn weight for koi
-	"Koi Spawn Weight" = 7
+	"Koi Spawn Weight" = 5
 	#Min group for koi
 	"Koi Min Group" = 1
 	#Max group for koi
@@ -57,17 +57,17 @@
 	#Enable/disable shrimp spawns
 	"Shrimp Spawns" = true
 	#Spawn weight for shrimp
-	"Shrimp Spawn Weight" = 5
+	"Shrimp Spawn Weight" = 4
 	#Min group for shrimp
 	"Shrimp Min Group" = 2
 	#Max group for shrimp
-	"Shrimp Max Group" = 6
+	"Shrimp Max Group" = 4
 
 [Gourami]
 	#Enable/disable gourami spawns
 	"Gourami Spawns" = true
 	#Spawn weight for gourami
-	"Gourami Spawn Weight" = 5
+	"Gourami Spawn Weight" = 3
 	#Min group for gourami
 	"Gourami Min Group" = 1
 	#Max group for gourami
@@ -87,7 +87,7 @@
 	#Enable/disable ghost crab spawns
 	"Ghost Crab Spawns" = true
 	#Spawn weight for ghost crab
-	"Ghost Crab Spawn Weight" = 15
+	"Ghost Crab Spawn Weight" = 8
 	#Min group for ghost crab
 	"Ghost Crab Min Group" = 2
 	#Max group for ghost crab
@@ -295,7 +295,7 @@
 	#Spawn weight for goldfish
 	"Goldfish Spawn Weight" = 3
 	#Min group for goldfish
-	"Goldfish Min Group" = 2
+	"Goldfish Min Group" = 1
 	#Max group for goldfish
 	"Goldfish Max Group" = 3
 
@@ -303,7 +303,7 @@
 	#Enable/disable ranchu spawns
 	"Ranchu Spawns" = true
 	#Spawn weight for ranchu
-	"Ranchu Spawn Weight" = 3
+	"Ranchu Spawn Weight" = 2
 	#Min group for ranchu
 	"Ranchu Min Group" = 1
 	#Max group for ranchu
@@ -393,7 +393,7 @@
 	#Enable/disable blue tang spawns
 	"Blue Tang Spawns" = true
 	#Spawn weight for blue tang
-	"Blue Tang Spawn Weight" = 12
+	"Blue Tang Spawn Weight" = 9
 	#Min group for blue tang
 	"Blue Tang Min Group" = 1
 	#Max group for blue tang
@@ -423,7 +423,7 @@
 	#Enable/disable fiddler crab spawns
 	"Fiddler Crab Spawns" = true
 	#Spawn weight for fiddler crab
-	"Fiddler Crab Spawn Weight" = 16
+	"Fiddler Crab Spawn Weight" = 12
 	#Min group for fiddler crab
 	"Fiddler Crab Min Group" = 2
 	#Max group for fiddler crab
@@ -447,11 +447,11 @@
 	#Enable/disable red snapper spawns
 	"Red Snapper Spawns" = true
 	#Spawn weight for red snapper
-	"Red Snapper Spawn Weight" = 18
+	"Red Snapper Spawn Weight" = 5
 	#Min group for red snapper
 	"Red Snapper Min Group" = 3
 	#Max group for red snapper
-	"Red Snapper Max Group" = 7
+	"Red Snapper Max Group" = 4
 
 ["Wood Duck"]
 	#Enable/disable wood duck spawns
@@ -659,7 +659,7 @@
 	#Gameplay: Enable/disable tamed birds teleporting to the player while following
 	Teleportation = true
 	#Gameplay: Distance at which a following bird will teleport to you (higher value = greater distance)
-	"Teleporting distance" = 4.0
+	"Teleporting distance" = 5.0
 	#Gameplay: Enable/disable raptors attacking prey
 	"Raptor Attacks" = true
 	#Gameplay: Enable/disable raptors throwing targets into air

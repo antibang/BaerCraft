@@ -41,6 +41,12 @@
         ],
         [
           "resource|biomesoplenty:dry_boneyard"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     }

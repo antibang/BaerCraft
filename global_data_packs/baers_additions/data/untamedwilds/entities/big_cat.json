@@ -106,6 +106,7 @@
       "health":40,
       "skins":30,
       "flags":{
+        "fluffyTail":1
 
       },
       "spawnBiomes":[
@@ -144,7 +145,10 @@
           "category|savanna"
         ],
         [
-          "resource|minecraft:wooded_mountains"
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },
@@ -177,6 +181,12 @@
         ],
         [
           "resource|biomesoplenty:dry_boneyard"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
         ]
       ]
     },

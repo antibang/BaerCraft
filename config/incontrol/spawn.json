@@ -191,5 +191,15 @@
         "mob": "wyrmroost:lesser_desertwyrm",
         "onjoin": true,
         "result": "deny"
+    },
+    {
+        "mob": "wyrmroost:royal_red",
+        "healthadd": 100,
+        "damageadd": 5
+    },
+    {
+        "biome": "byg:dead_sea",
+        "onjoin": true,
+        "result": "deny"
     }
 ]
