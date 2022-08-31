@@ -24,10 +24,7 @@
       },
       "spawnBiomes":[
         [
-          "dictionary|wasteland"
-        ],
-        [
-          "!resource|byg:dead_sea"
+          ["dictionary|wasteland", "!category|ocean", "!resource|byg:dead_sea"]
         ]
       ]
     },

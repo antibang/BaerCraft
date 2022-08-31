@@ -88,7 +88,7 @@
 	gobberOreSize = 4
 	#Chances of Gobber Ore pocket being generated [0-100, default: 15]
 	#Range: 0 ~ 100
-	gobberOreChance = 15
+	gobberOreChance = 11
 	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
 	#Range: 0 ~ 255
 	gobberOreMaxHeight = 30
@@ -198,7 +198,7 @@
 	gobberArmorHunger = 2
 	#Amount of saturation point to restore per interval
 	#Range: 0.0 ~ 10.0
-	gobberArmorSaturation = 0.02
+	gobberArmorSaturation = 0.00
 	#Amount of hunger point to restore per interval
 	#Range: 0 ~ 10
 	gobberNetherArmorHunger = 1

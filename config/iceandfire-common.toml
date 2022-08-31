@@ -210,7 +210,7 @@
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 520
+		"Spawn Sirens Chance" = 610
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
 		"Siren Max Sing Time" = 12000

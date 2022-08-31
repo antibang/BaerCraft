@@ -24,7 +24,7 @@
       },
       "spawnBiomes":[
         [
-          "category|plains"
+          ["category|plains", "!category|ocean", "!resource|byg:dead_sea"]
         ]
       ]
     },
@@ -40,13 +40,7 @@
       },
       "spawnBiomes":[
         [
-          "!resource|byg:araucaria_savanna"
-        ],
-        [
-          "!resource|byg:araucaria_forest"
-        ],
-        [
-          "category|forest"
+          ["category|forest", "!category|ocean", "!resource|byg:araucaria_forest"]
         ]
       ]
     }
