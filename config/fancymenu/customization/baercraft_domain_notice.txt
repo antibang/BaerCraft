@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/baercraft_server_domain_notice_alt_a.png
+  orientation = bottom-left
+  x = -9
+  width = 854
+  action = addtexture
+  actionid = 53252ae3-5c60-4302-983e-5cb938326ecf1662887210920
+  y = -462
+  height = 457
+}
+

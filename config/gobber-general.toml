@@ -88,10 +88,10 @@
 	gobberOreSize = 4
 	#Chances of Gobber Ore pocket being generated [0-100, default: 15]
 	#Range: 0 ~ 100
-	gobberOreChance = 11
+	gobberOreChance = 8
 	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
 	#Range: 0 ~ 255
-	gobberOreMaxHeight = 30
+	gobberOreMaxHeight = 42
 
 #Gobber Nether Ore Generation
 [gobber2_ore_nether]
@@ -102,7 +102,7 @@
 	gobberOreNetherSize = 3
 	#Chances of Gobber Nether Ore pocket being generated [0-100, default: 80]
 	#Range: 0 ~ 100
-	gobberOreNetherChance = 80
+	gobberOreNetherChance = 70
 	#Maximal height for Gobber Nether Ore pocket generation [0-255, default: 255]
 	#Range: 0 ~ 255
 	gobberOreNetherMaxHeight = 255
@@ -176,13 +176,13 @@
 	ringFarmerTickDelay = 20
 	#Ring of the Farmer radius from player [default: 10]
 	#Range: 2 ~ 20
-	ringFarmerRadius = 10
+	ringFarmerRadius = 16
 	#Staff of the Farmer base tick delay [default: 20]
 	#Range: 10 ~ 120
 	staffFarmerTickDelay = 20
 	#Staff of the Farmer radius from player [default: 10]
 	#Range: 2 ~ 20
-	staffFarmerRadius = 10
+	staffFarmerRadius = 20
 
 #Auto Replanting Settings
 [replanting_settings]
