@@ -2,7 +2,7 @@
 [alpine]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
-	biomes = ["byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:snowy_maple_forest", "biomesoplenty:tundra_bog", "biomesoplenty:coniferous_forest", "biomesoplenty:lavender_field", "biomesoplenty:grassland", "biomesoplenty:mystic_grove", "biomesoplenty:redwood_forest", "biomesoplenty:flower_meadow", "biomesoplenty:golden_prairie", "biomesoplenty:mystic_plains", "biomesoplenty:ominous_mire", "biomesoplenty:grove"]
+	biomes = ["byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:snowy_maple_forest", "biomesoplenty:tundra_bog", "biomesoplenty:coniferous_forest", "biomesoplenty:lavender_field", "biomesoplenty:grassland", "biomesoplenty:mystic_grove", "biomesoplenty:redwood_forest", "biomesoplenty:flower_meadow", "biomesoplenty:golden_prairie", "biomesoplenty:mystic_plains", "biomesoplenty:ominous_mire", "biomesoplenty:grove", "biomesoplenty:jade_cliffs", "biomesoplenty:flower_meadow", "byg:orchard"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -42,7 +42,7 @@
 [canari_wyvern]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:swamp", "minecraft:swamp_hills"]
-	biomes = ["byg:glowshroom_bayou", "byg:mangrove_marshes", "byg:bluff_steeps", "byg:bluff_peaks", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:bayou", "biomesoplenty:fungal_jungle", "biomesoplenty:grove", "biomesoplenty:mystic_grove", "biomesoplenty:ominous_woods", "biomesoplenty:fungal_field", "biomesoplenty:ominous_mire", "biomesoplenty:tropics", "biomesoplenty:grassland_clover_patch"]
+	biomes = ["byg:glowshroom_bayou", "byg:mangrove_marshes", "byg:bluff_steeps", "byg:bluff_peaks", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:bayou", "biomesoplenty:fungal_jungle", "biomesoplenty:grove", "biomesoplenty:mystic_grove", "biomesoplenty:ominous_woods", "biomesoplenty:fungal_field", "biomesoplenty:ominous_mire", "biomesoplenty:tropics", "biomesoplenty:grassland_clover_patch", "biomesoplenty:meadow_forest", "biomesoplenty:redwood_forest", "biomesoplenty:redwood_hills"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -142,7 +142,7 @@
 [royal_red]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
-	biomes = ["minecraft:mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "byg:snowy_deciduous_forest", "byg:snowy_deciduous_forest_hills", "biomesoplenty:snowy_coniferous_forest"]
+	biomes = ["minecraft:mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "byg:snowy_deciduous_forest", "byg:snowy_deciduous_forest_hills", "biomesoplenty:snowy_coniferous_forest", "byg:orchard"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "dreadsteel:dreadsteel_helmet"
+    },
+    "title": [
+      {
+        "text": "Dreadful",
+        "color": "purple",
+        "bold": true
+      }
+    ],
+    "description": "Make a full set of dreadsteel.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/exploration/dragonsteel_complete",
+  "criteria": {
+    "dreadsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "dreadsteel:dreadsteel_helmet"
+          },
+          {
+            "item": "dreadsteel:dreadsteel_chestplate"
+          },
+          {
+            "item": "dreadsteel:dreadsteel_leggings"
+          },
+          {
+            "item": "dreadsteel:dreadsteel_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dreadsteel"
+    ]
+  ]
+}

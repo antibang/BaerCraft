@@ -135,7 +135,8 @@
   "dimension/nether": {
     "name": "environs:dimension.nether",
     "category": "biomes",
-    "repeatable": true
+    "repeatable": true,    
+    "volume": 30
   },
   "waterlily/frog": {
     "type": "probability",

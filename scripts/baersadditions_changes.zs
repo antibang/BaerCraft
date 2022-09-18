@@ -5,9 +5,21 @@ import crafttweaker.api.BlastFurnaceManager;
 
 //
 
-furnace.addRecipe("platinum_ore_to_ingot", <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ore>, 1.5, 220);
+mods.jei.JEI.addInfo(<item:baersadditions:oxytocin_concentrate>, ["\u00A75Oxytocin \u00A7ris a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones.\n\u00A75Oxytocin concentrate \u00A7r currently has no recipe, but it can, however, be found in places like foundries, nether cities, and more."]);
 
-blastFurnace.addRecipe("platinum_ore_to_ingot_blast", <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ore>, 1.5, 120);
+//
+
+furnace.addRecipe("platinum_ore_to_nugget", <item:baersadditions:platinum_nugget>, <item:baersadditions:platinum_ore>, 1.5, 200);
+
+blastFurnace.addRecipe("platinum_ore_to_nugget_blast", <item:baersadditions:platinum_nugget>, <item:baersadditions:platinum_ore>, 1.5, 120);
+
+//
+
+craftingTable.addShapedMirrored("platinum_nugget_to_ingot", <item:baersadditions:platinum_ingot>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:baersadditions:platinum_nugget>, <item:baersadditions:platinum_nugget>, <item:baersadditions:platinum_nugget>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
 
 //
 

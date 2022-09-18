@@ -2,7 +2,7 @@
     "name": "BAERCRAFT QUESTS",
     "landing_text": "Here you will find the quests to complete throughout your journey. These are not mandatory, and mainly there to keep better track of your quests than the advancement tab. $(br2)There's plenty of quests currently being worked on. Happy questing!",
     "version": 1,
-    "creative_tab": "mod_tab",
+    "creative_tab": "mod_book_tab",
     "model": "baersadditions:baercraft_quests",
     "book_texture": "patchouli:textures/gui/book_blue.png"
 }

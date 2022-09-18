@@ -54,3 +54,9 @@ craftingTable.addShaped("mob_analyzer", <item:untamedwilds:debug_analyzer>, [
     [<tag:items:forge:ingots>, <tag:items:forge:glass_panes>, <tag:items:forge:ingots>],
     [<tag:items:forge:ingots>, <item:minecraft:redstone>, <tag:items:forge:ingots>]
 ]);
+
+craftingTable.addShaped("love_potion", <item:untamedwilds:debug_love_potion>, [
+    [<item:minecraft:honey_bottle>, <item:gobber2:gobber2_globette_nether>, <item:farmersdelight:milk_bottle>],
+    [<item:gobber2:gobber2_globette_nether>, <item:baersadditions:oxytocin_concentrate>, <item:gobber2:gobber2_globette_nether>],
+    [<item:farmersdelight:milk_bottle>, <item:gobber2:gobber2_globette_nether>, <item:minecraft:honey_bottle>]
+]);

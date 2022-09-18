@@ -447,7 +447,7 @@
 	#Enable/disable red snapper spawns
 	"Red Snapper Spawns" = true
 	#Spawn weight for red snapper
-	"Red Snapper Spawn Weight" = 5
+	"Red Snapper Spawn Weight" = 3
 	#Min group for red snapper
 	"Red Snapper Min Group" = 3
 	#Max group for red snapper
@@ -639,7 +639,7 @@
 	#Enable/disable skua spawns
 	"Skua Spawns" = true
 	#Spawn weight for skuas
-	"Skua Spawn Weight" = 18
+	"Skua Spawn Weight" = 11
 	#Min group for skua
 	"Skua Min Group" = 1
 	#Max group for skua

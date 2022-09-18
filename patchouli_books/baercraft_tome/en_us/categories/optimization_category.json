@@ -1,6 +1,6 @@
 {
-    "name": "Optimization Options",
-    "description": "If you want non-mod options, consult to the link in the 'Non-mod Options' entry. If you're noticing performance issues, some of these options may help.$(br2)Each entry will address the 3 following topics: my recommendations on how to use it, any warnings you should know about, and the mod's general purpose.",
+    "name": "Optimization & Resources",
+    "description": "I've put together a lot of useful information about improving player's performance or provide quality of life resources to make your gameplay as good as it could possibly be!$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki)Here's BaerCraft's WIP wiki with all of the useful information for players.",
     "icon": "thermal:upgrade_augment_1",
     "sortnum": 8
 }

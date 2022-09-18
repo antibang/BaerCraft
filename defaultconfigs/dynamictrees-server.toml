@@ -6,7 +6,7 @@
 	seedDropRate = 0.0
 	#The rate at which seeds voluntarily plant themselves in their ideal biomes
 	#Range: 0.0 ~ 1.0
-	seedPlantRate = 0.1666666716337204
+	seedPlantRate = 0.22486
 	#Ticks before a seed in the world attempts to plant itself or despawn. 1200 = 1 minute
 	#Range: 0 ~ 6000
 	timeToLive = 1200
@@ -20,7 +20,7 @@
 [trees]
 	#Factor that multiplies the rate at which trees grow. Use at own risk
 	#Range: 0.0 ~ 16.0
-	growthMultiplier = 0.45
+	growthMultiplier = 0.4
 	#Factor that multiplies the wood returned from harvesting a tree.  You cheat.
 	#Range: 0.0 ~ 128.0
 	harvestMultiplier = 1.0

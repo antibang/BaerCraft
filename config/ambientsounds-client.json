@@ -1,7 +1,13 @@
 {
   "sounds": {
     "nether.nether": 1,
+    "nether.nether_ambient_0": 1,
+    "nether.nether_ambient_1": 1,
+    "nether.nether_ambient_2": 1,
     "end.suspense": 1,
+    "end.end_ambient_0": 1,
+    "end.end_ambient_1": 1,
+    "end.end_ambient_2": 1,
     "abyssalcraft-dark.suspense": 1,
     "void-dark.suspense": 1,
     "twilight_forest-dark.suspense": 1,

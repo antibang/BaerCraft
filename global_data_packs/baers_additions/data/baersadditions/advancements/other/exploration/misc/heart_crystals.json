@@ -4,7 +4,7 @@
       "item": "scalinghealth:heart_crystal"
     },
     "title": "Ace of Hearts",
-    "description": "Find or craft the max amount of heart crystals.",
+    "description": "Obtain a heart crystal. You need 10 heart crystals in total to reach the maximum amount of crystals you can use.",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
@@ -12,16 +12,20 @@
   },
   "parent": "baersadditions:other/exploration",
   "criteria": {
-    "power": {
+    "health": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "scalinghealth:heart_crystal",
-            "count": 10
+            "item": "scalinghealth:heart_crystal"
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "health"
+    ]
+  ]
 }

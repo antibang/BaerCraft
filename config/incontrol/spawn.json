@@ -9,6 +9,7 @@
         "mob": "minecraft:rabbit",
         "healthadd": 5,
         "biome": ["minecraft:taiga", "minecraft:taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:flower_forest", "minecraft:snowy_tundra", "minecraft:snowy_mountains"],
+        "incontrol": true,
         "onjoin": true,
         "result": "allow"
     },
@@ -183,11 +184,6 @@
         "result": "deny"
     },
     {
-        "mob": "whisperwoods:moth",
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
         "mob": "wyrmroost:lesser_desertwyrm",
         "onjoin": true,
         "result": "deny"
@@ -199,6 +195,24 @@
     },
     {
         "biome": "byg:dead_sea",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "whisperwoods:moth",
+        "mincount": {
+          "amount": 4,
+          "perplayer": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mod": "aquaculture",
+        "mincount": {
+          "amount": 20,
+          "perplayer": true
+        },
         "onjoin": true,
         "result": "deny"
     }

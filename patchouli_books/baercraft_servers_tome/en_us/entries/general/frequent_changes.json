@@ -1,0 +1,12 @@
+{
+    "name": "Frequent Book Changes",
+    "icon": "supplementaries:wrench",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Like both the BaerCraft Tome and BaerCraft Quest book, the BaerCraft Servers Tome will also be updated frequently to add new information or to tweak existing content.$(br2)I would suggest checking back here every once in a while to see if anything of importance has been added."
+        }
+    ],
+    "sortnum": 3
+}

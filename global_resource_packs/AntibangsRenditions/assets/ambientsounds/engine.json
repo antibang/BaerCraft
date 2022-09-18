@@ -15,7 +15,34 @@
             {
               "name": "nether",
               "files": [ "ambientsounds:suspense.nether" ],
-              "volume": 0.1
+              "volume": 0.35
+            },
+            {
+              "name": "nether_ambient_0",
+              "files": [ "baersadditions:nether_ambient_0" ],
+              "pause": {
+                "min": 2400,
+                "max": 6000
+              },
+              "volume": 0.55
+            },
+            {
+              "name": "nether_ambient_1",
+              "files": [ "baersadditions:nether_ambient_1" ],
+              "pause": {
+                "min": 2400,
+                "max": 7200
+              },
+              "volume": 0.7
+            },
+            {
+              "name": "nether_ambient_2",
+              "files": [ "baersadditions:nether_ambient_2" ],
+              "pause": {
+                "min": 4800,
+                "max": 10800
+              },
+              "volume": 0.75
             }
           ]
         }
@@ -36,8 +63,35 @@
           "sounds": [
             {
               "name": "suspense",
-              "volume": 0.3,
+              "volume": 0.25,
               "files": [ "ambientsounds:suspense.end" ]
+            },
+            {
+              "name": "end_ambient_0",
+              "files": [ "baersadditions:end_ambient_0" ],
+              "pause": {
+                "min": 4800,
+                "max": 10800
+              },
+              "volume": 0.2
+            },
+            {
+              "name": "end_ambient_1",
+              "files": [ "baersadditions:end_ambient_1" ],
+              "pause": {
+                "min": 3600,
+                "max": 8400
+              },
+              "volume": 0.25
+            },
+            {
+              "name": "end_ambient_2",
+              "files": [ "baersadditions:end_ambient_2" ],
+              "pause": {
+                "min": 3600,
+                "max": 7200
+              },
+              "volume": 0.2
             }
           ]
         }

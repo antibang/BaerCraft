@@ -1,0 +1,15 @@
+{
+    "name": "Useful Resources",
+    "icon": "thermal:gold_coin",
+    "category": "patchouli:optimization_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I've moved and revised most of this category's information as well as moving the contents to BaerCraft's GitHub wiki.$(br2)There, you can find $(italic)all$() of the resources I find extremely useful or handy. Most of them improve performance, but a few are just quality of life resources."
+        },
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Recommended-RAM)Useful RAM Information$()$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Better-Performance-Settings)A Detailed Guide for Better Performance$()$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/CurseForge-&-Performance)My Thoughts About CurseForge$()$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Resources-and-Useful-Things)Useful Client-sided Resources!"
+        }
+    ]
+}

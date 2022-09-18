@@ -1,0 +1,16 @@
+{
+    "name": "Make it Rain!",
+    "icon": "thermal:lightning_charge",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The weather cycle is turned off on both of the BaerCraft servers due to the weather cycle favoring rain no matter what. It becomes quite annoying and there's not too much I can do about it, however, there might be a few resources I can look into to possibly allow players to control when it rains, storms, or clear the weather."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)You can request us to change the weather temporarily if you need it.$()$(br2)Reasons would include hatching a lightning dragon egg, taming a butterfly leviathan, etc., so don't be afraid to ask us!"
+        }
+    ],
+    "sortnum": 6
+}
