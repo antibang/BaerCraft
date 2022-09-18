@@ -93,6 +93,7 @@ config/fastsuite.cfg
 config/fml.toml
 config/forge-client.toml
 config/forge-common.toml
+config/fpsreducer/fpsreducer-client.toml
 config/globalgamerules-common.toml
 config/illuminations.properties
 config/infinityitemeditor-client.toml
@@ -106,6 +107,7 @@ config/PregenConfig.toml
 config/mod_lavacow.common.toml
 config/musicdr-client.toml
 config/out_of_sight-client.toml
+config/skillcloaks-common.toml
 config/skinlayers.json
 config/worldedit/worldedit.properties
 config/tips-client.toml
@@ -124,6 +126,9 @@ scripts/stages
 patchouli_books/baercraft_tome/en_us/entries/stages
 patchouli_books/baercraft_tome/en_us/categories/stages
 patchouli_books/baercraft_tome/en_us/categories/root_stages_category.json
+
+#Misc.
+global_resource_packs/AntibangsRenditions/assets/ambientsounds/sounds/suspense/nether.ogg
 
 #Other
 !global_resource_packs/AntibangsRenditions/assets
