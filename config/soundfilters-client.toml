@@ -20,7 +20,7 @@
 	################################################################################
 	#The maximum percent sound can be occluded behind a wall.
 	#Range: 0.0 ~ 1.0
-	occlusionMaximum = 0.98
+	occlusionMaximum = 0.9
 	################################################################################
 	#Add new entries separated by commas in the format
 	#"<reverb double> <block>"
@@ -63,12 +63,12 @@
 	#The percentage of reverb you can get. You can lower this if you find
 	#the reverb to be too much (or raise it if you really want an echo).
 	#Range: 0.0 ~ 2.0
-	reverbPercent = 1.4
+	reverbPercent = 1.55
 	################################################################################
 	#If you are getting lag, set this number lower. The higher it is,
 	#the more realistic the reverb will be.
 	#Range: > 0
-	numberOfBlocksReverbWillCheckThrough = 1024
+	numberOfBlocksReverbWillCheckThrough = 808
 	################################################################################
 	#Add new entries separated by commas in the format
 	#"<reverb amount> <block>"
@@ -87,7 +87,7 @@
 	#to customize how much ambient reverb a specific dimension has.
 	#The reverb percent should be between 0.0 and 1.0. By default the
 	#nether has 1.0, meaning full reverb without any special blocks.
-	dimensionSpecificReverb = ["1.0 minecraft:the_nether"]
+	dimensionSpecificReverb = ["1.4 minecraft:the_nether"]
 	################################################################################
 	#If this is true, when you're in an area that can see the sky, then
 	#there will be less reverb. This is for aboveground areas with
