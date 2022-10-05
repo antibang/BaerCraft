@@ -357,10 +357,10 @@
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 80.0
+		"Sea Serpent Base Health" = 800.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 4.0
+		"Sea Serpent Base Attack Strength" = 16.0
 
 	[Mobs.Others]
 		#True if dread liches are allowed to spawn
@@ -415,7 +415,7 @@
 
 	[Mobs.Gorgons]
 		#True if gorgon temples are allowed to spawn
-		"Spawn Gorgons" = true
+		"Spawn Gorgons" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Gorgon Chance" = 180

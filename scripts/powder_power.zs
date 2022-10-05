@@ -25,12 +25,52 @@ craftingTable.removeRecipe(<item:powder_power:token_greater_absorption>);
 craftingTable.removeRecipe(<item:powder_power:token_breathing>);
 craftingTable.removeRecipe(<item:powder_power:token_fire_resistance>);
 
+//Remove blend recipes
+
+craftingTable.removeRecipe(<item:powder_power:blend_redium>);
+craftingTable.removeRecipe(<item:powder_power:blend_lapium>);
+craftingTable.removeRecipe(<item:powder_power:blend_gemium>);
+craftingTable.removeRecipe(<item:powder_power:blend_trilium>);
+craftingTable.removeRecipe(<item:powder_power:blend_quadrilium>);
+
 //
 
 smithing.removeRecipe(<item:powder_power:armor_quadrilium_head>);
 smithing.removeRecipe(<item:powder_power:armor_quadrilium_body>);
 smithing.removeRecipe(<item:powder_power:armor_quadrilium_leggings>);
 smithing.removeRecipe(<item:powder_power:armor_quadrilium_boots>);
+
+//New blend recipes
+
+craftingTable.addShaped("redium_blend", <item:powder_power:blend_redium> * 2, [
+    [<item:powder_power:powder_redstone>, <item:powder_power:powder_obsidian>, <item:powder_power:powder_redstone>],
+    [<tag:items:forge:dusts/iron>, <item:minecraft:blaze_powder>, <tag:items:forge:dusts/iron>],
+    [<item:powder_power:powder_redstone>, <item:powder_power:powder_obsidian>, <item:powder_power:powder_redstone>]
+]);
+
+craftingTable.addShaped("lapium_blend", <item:powder_power:blend_lapium> * 2, [
+    [<item:powder_power:powder_lapis>, <item:powder_power:powder_obsidian>, <item:powder_power:powder_lapis>],
+    [<tag:items:forge:dusts/gold>, <item:powder_power:powder_nether_quartz>, <tag:items:forge:dusts/gold>],
+    [<item:powder_power:powder_lapis>, <item:powder_power:powder_obsidian>, <item:powder_power:powder_lapis>]
+]);
+
+craftingTable.addShaped("gemium_blend", <item:powder_power:blend_gemium> * 2, [
+    [<item:powder_power:powder_obsidian>, <tag:items:forge:dusts/emerald>, <item:powder_power:powder_obsidian>],
+    [<tag:items:forge:dusts/diamond>, <item:powder_power:powder_prismarine>, <tag:items:forge:dusts/diamond>],
+    [<item:powder_power:powder_obsidian>, <tag:items:forge:dusts/emerald>, <item:powder_power:powder_obsidian>]
+]);
+
+craftingTable.addShaped("trilium_blend", <item:powder_power:blend_trilium> * 2, [
+    [<item:powder_power:blend_redium>, <item:powder_power:blend_gemium>, <item:powder_power:blend_lapium>],
+    [<item:powder_power:blend_gemium>, <item:powder_power:powder_end_pearl>, <item:powder_power:blend_gemium>],
+    [<item:powder_power:blend_lapium>, <item:powder_power:blend_gemium>, <item:powder_power:blend_redium>]
+]);
+
+craftingTable.addShaped("quadrilium_blend", <item:powder_power:blend_quadrilium> * 2, [
+    [<item:powder_power:blend_trilium>, <item:minecraft:netherite_scrap>, <item:powder_power:blend_trilium>],
+    [<item:minecraft:netherite_scrap>, <item:powder_power:powder_ghast_tear>, <item:minecraft:netherite_scrap>],
+    [<item:powder_power:blend_trilium>, <item:minecraft:netherite_scrap>, <item:powder_power:blend_trilium>]
+]);
 
 //
 

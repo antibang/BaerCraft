@@ -1,0 +1,26 @@
+
+["Configs for Skillcloaks"]
+	#true = Cloaks are cosmetic only. false = Cloaks have abilities (Default = false)
+	"Cosmetic only" = false
+	#The percentage of health the target has to have left for Slayer Cloak to activate (Default = 0.25 = 25%)
+	#Range: 0.0 ~ 1.0
+	"Slayer threshold" = 0.05
+	#The percent chance for the Ranging Cloak or the Fletching Cloak to return an arrow (Default = 0.5 = 50%)
+	#Range: 0.0 ~ 1.0
+	"Arrow return chance" = 0.5
+	#The percent chance for the Attack Cloak to prevent armor durability loss (Default = 0.2 = 20%)
+	#Range: 0.0 ~ 1.0
+	"Armor durability loss prevent chance" = 0.5
+	#The percent chance for the Runecraft Cloak to prevent tool durability loss (Default = 0.2 = 20%)
+	#Range: 0.0 ~ 1.0
+	"Tool durability loss prevent chance" = 0.05
+	#The bonus range in blocks your bonemeal reaches while wearing the Farming Cloak (Default = 2 = 3x3 area)
+	"Number of blocks your bonemeal area is extended" = 5
+	#The amount your visibility value is multiplied by while wearing the Thieving Cloak. Lower values makes you less likely to be spotted by enemies (Default = 0.2 = 20%)
+	#Range: 0.0 ~ 1.0
+	"Thieving cloak visibility multiplier" = 0.2
+	#The Amount of luck the Fishing Cloak gives (Default = 10)
+	"Fishing luck" = 50
+	#The Amount of knockback resistance the Strength Cloak gives (Default = 1)
+	"Strength knockback resistance" = 5
+

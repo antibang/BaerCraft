@@ -107,7 +107,6 @@ config/PregenConfig.toml
 config/mod_lavacow.common.toml
 config/musicdr-client.toml
 config/out_of_sight-client.toml
-config/skillcloaks-common.toml
 config/skinlayers.json
 config/worldedit/worldedit.properties
 config/tips-client.toml
