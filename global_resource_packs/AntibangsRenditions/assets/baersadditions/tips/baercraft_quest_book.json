@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Useful Information",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "The BaerCraft Quest book is in its very early stages. It is planned to develop a better way to keep track and visualize all of the quests. The book is most likely just temporary to give players the option to do something on the side for now!"
+  }
+}

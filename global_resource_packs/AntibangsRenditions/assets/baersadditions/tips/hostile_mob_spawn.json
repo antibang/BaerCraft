@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "Some hostile mobs do not spawn on the surface of heavily wooded areas in the overworld between 6:00 A.M. and 6:00 P.M. to allow players to explore more freely."
+  }
+}

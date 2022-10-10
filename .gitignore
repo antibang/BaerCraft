@@ -6,6 +6,7 @@ assets
 backups
 bin
 crash-reports
+ct_dumps
 debug
 dumps
 etched-sounds
@@ -22,6 +23,7 @@ mods
 nekocache
 notes
 output
+pollen-cache
 pregen
 resourcepacks
 saves
@@ -74,6 +76,7 @@ WailaErrorOutput.txt
 config/cherishedworlds
 config/defaultworldtype/client-config.toml
 config/fancymenu/locals
+config/QualityEquipment
 config/roadrunner
 config/spark
 config/starterkit/starterkit.txt
@@ -104,6 +107,8 @@ config/libraryferret.properties
 config/notes-client.toml
 config/pickupnotifier-client.toml
 config/PregenConfig.toml
+config/servertabinfo-client.toml
+config/servertabinfo-server.toml
 config/mod_lavacow.common.toml
 config/musicdr-client.toml
 config/out_of_sight-client.toml
@@ -131,3 +136,4 @@ global_resource_packs/AntibangsRenditions/assets/ambientsounds/sounds/suspense/n
 
 #Other
 !global_resource_packs/AntibangsRenditions/assets
+imgui.ini

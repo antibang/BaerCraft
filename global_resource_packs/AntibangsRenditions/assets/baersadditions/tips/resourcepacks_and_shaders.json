@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "Using resource packs and shaders requires more resources. 8GB - 12GB of RAM is recommended for those playing with a lot of resource packs and shaders!"
+  }
+}

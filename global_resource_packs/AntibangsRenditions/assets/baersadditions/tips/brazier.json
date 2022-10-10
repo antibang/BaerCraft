@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "A brazier is a multiblock structure when fully built can prevent hostile mobs up to 208 blocks without consuming power or energy! In the BaerCraft Tome under ''The Little Things'' category, there's a link to the GitHub to further explain how to build it and how it all works."
+  }
+}

@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "I think we can both agree that there are a ton of mobs in the game! I'm sure you've wanted to bring one home, but it was either too far away, too violent or too big. Well, you can craft a cage and you're able to capture any mob in the game... you just right click and then you got it caged. If you shift-right click, you'll place the mob in the cage, but if you simply just right click, then you'll set it free."
+            "text": "I think we can both agree that there are a ton of mobs in the game! I'm sure you've wanted to bring one home, but it was either too far away, too violent or too big. $(br2)Well, you can craft a cage or jar and you're able to capture almost every mob in the game! This makes for much easier transport or just display."
         },
         {
             "type": "text",
-            "text": "$(italics)For the love of god, don't use a jar to catch them..."
+            "text": "This of course excludes things like bosses, Ice & Fire dragons, etc., so basically, just try to jar or cage all the mobs to find out which ones can't be captured! $(br2)$(italic)(I will soon make a list of things that cannot be captured)"
         }
     ]
 }

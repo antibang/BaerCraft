@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "There's a bunch of customizations and the BaerCraft Tome that you start with holds a ton of useful information about the modpack!"
+  }
+}

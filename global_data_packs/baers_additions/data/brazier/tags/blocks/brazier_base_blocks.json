@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "powder_power:block_trilium",
+    "gobber2:gobber2_block_nether",
+    "minecraft:gilded_blackstone",
+    {
+      "id": "caverns_and_chasms:necromium_block",
+      "required": false
+    }
+  ]
+}

@@ -7,16 +7,15 @@ craftingTable.removeRecipe(<item:brazier:brazier>);
 
 //
 
-<tag:items:baercraft:dragonsteel_blocks>.add(
-    <item:iceandfire:dragonsteel_ice_block>,
-    <item:iceandfire:dragonsteel_fire_block>,
-    <item:iceandfire:dragonsteel_lightning_block>
+<tag:items:baercraft:brazier_crafting_blocks>.add(
+    <item:gobber2:gobber2_block_nether>,
+    <item:powder_power:block_quadrilium>
 );
 
 //
 
-craftingTable.addShaped("brazier_dragonsteel", <item:brazier:brazier>, [
+craftingTable.addShaped("new_brazier_base", <item:brazier:brazier>, [
     [<item:minecraft:air>, <item:mutantmore:mutant_blaze_core>, <item:minecraft:air>],
     [<item:minecraft:iron_bars>, <item:brazier:living_flame>, <item:minecraft:iron_bars>],
-    [<tag:items:baercraft:dragonsteel_blocks>, <tag:items:baercraft:dragonsteel_blocks>, <tag:items:baercraft:dragonsteel_blocks>]
+    [<tag:items:baercraft:brazier_crafting_blocks>, <item:powder_power:block_trilium>, <tag:items:baercraft:brazier_crafting_blocks>]
 ]);

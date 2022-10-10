@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "Jars and cages from Supplementaries can pick up most mobs, however, this does not include mobs like bosses, Ice & Fire dragons, and more."
+  }
+}

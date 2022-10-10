@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "You can wear any shulker box in the Curios 'back' slot and access it directly by pressing 'x'!"
+  }
+}

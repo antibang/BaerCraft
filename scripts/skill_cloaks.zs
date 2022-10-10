@@ -6,6 +6,7 @@ import mods.jei.JEI;
 //Bro these are so much harder to implement than I thought they'd be :(
 //Cloaks ideas ->
     //Farming cloak -> possibly add a concentrate vial that drops from the hirschgiest, ender dreagon, an entity or 2 in the Undergarden/Everbright/Everdawn, possibly more. Make a full recipe accordingly
+        //Hopefully implement this cloak in the loot table of the structures in 'It Takes a Pillage' mod once I add it
     //Slayer cloak -> most likely will only be dropped from the Ender Dragon or another difficult mob
     //Fishing cloak -> maybe only obtainable through Aquaculture's neptunium chest
 
@@ -13,15 +14,50 @@ import mods.jei.JEI;
 
 villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 5, <item:skillcloaks:brown_sack>);
 villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 5, <item:skillcloaks:brown_sack>);
-
 villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 5, <item:skillcloaks:green_sack>);
 villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 5, <item:skillcloaks:green_sack>);
-
 villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 5, <item:skillcloaks:red_sack>);
 villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 5, <item:skillcloaks:red_sack>);
-
 villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 5, <item:skillcloaks:blue_sack>);
 villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 5, <item:skillcloaks:blue_sack>);
+
+//Attempting to remove sack trade for all levels because the villagers still trade the sacks :(
+
+villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 4, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 4, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 4, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 4, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 4, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 4, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 4, <item:skillcloaks:blue_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 4, <item:skillcloaks:blue_sack>);
+
+villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 3, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 3, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 3, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 3, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 3, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 3, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 3, <item:skillcloaks:blue_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 3, <item:skillcloaks:blue_sack>);
+
+villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 2, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 2, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 2, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 2, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 2, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 2, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 2, <item:skillcloaks:blue_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 2, <item:skillcloaks:blue_sack>);
+
+villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 1, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 1, <item:skillcloaks:brown_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 1, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 1, <item:skillcloaks:green_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 1, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 1, <item:skillcloaks:red_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 1, <item:skillcloaks:blue_sack>);
+villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 1, <item:skillcloaks:blue_sack>);
 
 //
 
@@ -55,14 +91,20 @@ mods.jei.JEI.hideItem(<item:skillcloaks:firemaking_hood>);
 
 //
 
-<item:skillcloaks:farming_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:mining_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:hunter_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:fishing_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:prayer_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:strength_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:runecraft_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
-<item:skillcloaks:slayer_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change in the next update!");
+<item:skillcloaks:farming_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:mining_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:hunter_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:fishing_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:prayer_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:strength_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:runecraft_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+<item:skillcloaks:slayer_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+
+<item:skillcloaks:brown_sack>.addTooltip("\u00A74Any cloak sack should not be obtainable by trading with villagers. If you're seeing this, that means you found it through a villager... This makes Antibang very sad.");
+<item:skillcloaks:green_sack>.addTooltip("\u00A74Any cloak sack should not be obtainable by trading with villagers. If you're seeing this, that means you found it through a villager... This makes Antibang very sad.");
+<item:skillcloaks:red_sack>.addTooltip("\u00A74Any cloak sack should not be obtainable by trading with villagers. If you're seeing this, that means you found it through a villager... This makes Antibang very sad.");
+<item:skillcloaks:blue_sack>.addTooltip("\u00A74Any cloak sack should not be obtainable by trading with villagers. If you're seeing this, that means you found it through a villager... This makes Antibang very sad.");
+<item:skillcloaks:black_sack>.addTooltip("\u00A74Any cloak sack should not be obtainable by trading with villagers. If you're seeing this, that means you found it through a villager... This makes Antibang very sad.");
 
 //Cloaks
 

@@ -295,6 +295,15 @@
           "name": "baersadditions:rainbow_road_music_disc"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brazier:living_flame"
+        }
+      ]
     }
   ]
 }

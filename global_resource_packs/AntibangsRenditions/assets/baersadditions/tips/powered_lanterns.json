@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "Powered lanterns will prevent hostile mob spawn up to 32 blocks!"
+  }
+}

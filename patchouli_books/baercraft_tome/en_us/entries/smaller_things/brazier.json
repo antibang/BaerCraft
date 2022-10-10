@@ -1,0 +1,15 @@
+{
+    "name": "Brazier & Hostile Mobs",
+    "icon": "brazier:brazier",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Braziers are extremely useful and are an alternative to the powered lanterns for players lacking in the tech-department. A brazier multiblock structure base will prevent hostile mobs up to 48 blocks, unlike a powered lantern which only prevents up to 32. A complete brazier can prevent up to 208 blocks in total.$(br2)However, each level that you add, it will increase the range"
+        },
+        {
+            "type": "text",
+            "text": "by 16 blocks. It is significantly easier and does not consume energy like a powered lantern does. $(br2)$(italic)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/How-to-Construct-&-Information-About-the-Brazier)Here's my GitHub page I created with images showing how to construct the brazier structure and important information about it."
+        }
+    ]
+}

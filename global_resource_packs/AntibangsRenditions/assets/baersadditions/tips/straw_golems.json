@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "You can create little helpers called straw golems! They will help you farm by harvesting mature crops and placing them in chests nearby."
+  }
+}

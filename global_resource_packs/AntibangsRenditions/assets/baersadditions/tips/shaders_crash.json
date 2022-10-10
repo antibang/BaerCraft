@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Useful Information",
+    "bold": true,
+    "color": "gold"
+  },
+  "tip": {
+    "text": "When you apply shaders, you will encounter a crash. If you do not restart your game after this client crash, all textures will appear incorrectly. Don't worry, though! Once you restart the game, this issue will be fixed."
+  }
+}

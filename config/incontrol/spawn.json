@@ -174,7 +174,7 @@
     },
     {
         "mob": "fins:swamp_mucker",
-        "biome": ["minecraft:river", "minecraft:swanp", "minecraft:swamp_hills"],
+        "biome": ["minecraft:river", "minecraft:swamp", "minecraft:swamp_hills"],
         "incontrol": true,
         "onjoin": true,
         "result": "allow"

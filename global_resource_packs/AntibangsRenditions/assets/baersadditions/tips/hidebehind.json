@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "Hidebehinds will become invisible during daytime and will no longer be hostile unless provoked."
+  }
+}
