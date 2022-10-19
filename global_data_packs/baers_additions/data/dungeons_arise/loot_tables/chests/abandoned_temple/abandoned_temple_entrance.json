@@ -153,20 +153,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "appletreesrev:apple_sapling",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 6,
           "name": "pamhc2foodextended:frosteddonutitem",
           "functions": [

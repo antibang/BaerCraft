@@ -1,9 +1,12 @@
 {
   "replace": false,
   "values": [
+    "powder_power:block_gemium",
     "powder_power:block_trilium",
+    "powder_power:block_quadrilium",
+    "gobber2:gobber2_block",
     "gobber2:gobber2_block_nether",
-    "minecraft:gilded_blackstone",
+    "gobber2:gobber2_block_end",    
     {
       "id": "caverns_and_chasms:necromium_block",
       "required": false

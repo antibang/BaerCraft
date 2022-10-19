@@ -6,13 +6,13 @@
 	"Blindness range" = 0.1
 	"Have all mobs attack villagers?" = false
 	#Any mob id in this list will not attack villagers if the config option for that is on.
-	"Mob BlackList" = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
+	"Mob BlackList" = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen", "wyrmroost:alpine", "wyrmroost:butterfly_leviathan", "wyrmroost:canari_wyvern", "wyrmroost:dragonfruit_drake", "wyrmroost:lesser_desertwyrm", "wyrmroost:overworld_drake", "wyrmroost:roost_stalker", "wyrmroost:royal_red", "wyrmroost:silver_glider"]
 
 [buckler]
-	"Have the explosion spawned while using the Bang! enchant destroy blocks?" = false
+	"Have the explosion spawned while using the Bang! enchant destroy blocks?" = true
 	"Have brutes spawn with bucklers?" = true
 	#Range: > -2147483648
-	"How long should the buckler's cooldown be in ticks?" = 240
+	"How long should the buckler's cooldown be in ticks?" = 120
 	#Range: > -2147483648
 	"How long should the buckler's charge move be in ticks?" = 15
 	#Range: > -2147483648
@@ -28,7 +28,7 @@
 	#Any mob id in this list will not attempt to find an area to stay in while it's night.
 	"Animal Night BlackList" = ["minecraft:cat", "iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
 	#Any mob id in this list will not attempt to find an area to stay in while it's raining.
-	"Animal Raining BlackList" = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen"]
+	"Animal Raining BlackList" = ["iceandfire:fire_dragon", "iceandfire:ice_dragon", "iceandfire:lightning_dragon", "iceandfire:hippogryph", "iceandfire:myrmex_worker", "iceandfire:myrmex_soldier", "iceandfire:myrmex_sentinel", "iceandfire:myrmex_royal", "iceandfire:myrmex_queen", "wyrmroost:alpine", "wyrmroost:butterfly_leviathan", "wyrmroost:canari_wyvern", "wyrmroost:dragonfruit_drake", "wyrmroost:lesser_desertwyrm", "wyrmroost:overworld_drake", "wyrmroost:roost_stalker", "wyrmroost:royal_red", "wyrmroost:silver_glider"]
 	"Animals seek shelter?" = false
 
 	[animals.pigs]

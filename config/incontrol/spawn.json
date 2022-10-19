@@ -101,18 +101,6 @@
         "result": "deny"
     },
     {
-        "mob": "creatures:shrimp",
-        "biome": ["minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean"],
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "creatures:shrimp",
-        "biome": ["minecraft:river", "minecraft:frozen_river"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
         "mob": ["untamedwilds:aardvark", "untamedwilds:bear", "untamedwilds:big_cat", "untamedwilds:bison", "untamedwilds:boar", "untamedwilds:camel", "untamedwilds:hippo", "untamedwilds:hyena", "untamedwilds:manatee", "untamedwilds:rhino"],
         "healthadd": 10,
         "onjoin": true,
@@ -136,6 +124,13 @@
         "mob": "minecraft:ender_dragon",
         "healthadd": 1000,
         "damageadd": 20,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "alexsmobs:bone_serpent",
+        "healthadd": 50,
+        "damageadd": 10,
         "onjoin": true,
         "result": "allow"
     },
