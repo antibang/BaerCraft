@@ -24,7 +24,7 @@
                 "min": 2400,
                 "max": 6000
               },
-              "volume": 0.55
+              "volume": 0.6
             },
             {
               "name": "nether_ambient_1",
@@ -33,16 +33,43 @@
                 "min": 2400,
                 "max": 7200
               },
-              "volume": 0.7
+              "volume": 0.68
             },
             {
               "name": "nether_ambient_2",
               "files": [ "baersadditions:nether_ambient_2" ],
               "pause": {
-                "min": 4800,
+                "min": 4100,
                 "max": 10800
               },
-              "volume": 0.75
+              "volume": 0.85
+            },
+            {
+              "name": "nether_ambient_3",
+              "files": [ "baersadditions:nether_ambient_3" ],
+              "pause": {
+                "min": 4800,
+                "max": 11600
+              },
+              "volume": 0.55
+            },
+            {
+              "name": "nether_ambient_4",
+              "files": [ "baersadditions:nether_ambient_4" ],
+              "pause": {
+                "min": 5600,
+                "max": 12200
+              },
+              "volume": 0.65
+            },
+            {
+              "name": "nether_ambient_5",
+              "files": [ "baersadditions:nether_ambient_5" ],
+              "pause": {
+                "min": 7000,
+                "max": 14400
+              },
+              "volume": 0.4
             }
           ]
         }

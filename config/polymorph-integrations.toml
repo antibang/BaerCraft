@@ -14,6 +14,7 @@ craftingcraft = false
 toms_storage = false
 refinedstorage = false
 prettypipes = false
+fastsuite = true
 fastbench = true
 cyclic = false
 appliedenergistics2 = true
