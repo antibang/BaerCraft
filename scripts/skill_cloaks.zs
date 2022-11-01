@@ -12,55 +12,6 @@ import mods.jei.JEI;
 
 //
 
-villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 5, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 5, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 5, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 5, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 5, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 5, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 5, <item:skillcloaks:blue_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 5, <item:skillcloaks:blue_sack>);
-
-//Attempting to remove sack trade for all levels because the villagers still trade the sacks :(
-
-villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 4, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 4, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 4, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 4, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 4, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 4, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 4, <item:skillcloaks:blue_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 4, <item:skillcloaks:blue_sack>);
-
-villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 3, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 3, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 3, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 3, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 3, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 3, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 3, <item:skillcloaks:blue_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 3, <item:skillcloaks:blue_sack>);
-
-villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 2, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 2, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 2, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 2, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 2, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 2, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 2, <item:skillcloaks:blue_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 2, <item:skillcloaks:blue_sack>);
-
-villagerTrades.removeTradesSelling(<profession:minecraft:fletcher>, 1, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:toolsmith>, 1, <item:skillcloaks:brown_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:farmer>, 1, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:fisherman>, 1, <item:skillcloaks:green_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:armorer>, 1, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 1, <item:skillcloaks:red_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:librarian>, 1, <item:skillcloaks:blue_sack>);
-villagerTrades.removeTradesSelling(<profession:minecraft:cleric>, 1, <item:skillcloaks:blue_sack>);
-
-//
-
 mods.jei.JEI.hideItem(<item:skillcloaks:max_cloak>);
 mods.jei.JEI.hideItem(<item:skillcloaks:brown_sack>);
 mods.jei.JEI.hideItem(<item:skillcloaks:green_sack>);
@@ -91,13 +42,20 @@ mods.jei.JEI.hideItem(<item:skillcloaks:firemaking_hood>);
 
 //
 
-<item:skillcloaks:farming_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
-<item:skillcloaks:mining_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
-<item:skillcloaks:hunter_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
-<item:skillcloaks:fishing_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
-<item:skillcloaks:prayer_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
+mods.jei.JEI.addInfo(<item:skillcloaks:mining_cloak>, ["This cloak is only obtainable by killing the Ender Dragon. Some of the cloaks dropped by the Ender Dragon have a much higher chance of dropping than others do, so you may receive the same cloak multiple times."]);
+mods.jei.JEI.addInfo(<item:skillcloaks:hunter_cloak>, ["This cloak is only obtainable by killing the Ender Dragon. Some of the cloaks dropped by the Ender Dragon have a much higher chance of dropping than others do, so you may receive the same cloak multiple times."]);
+mods.jei.JEI.addInfo(<item:skillcloaks:prayer_cloak>, ["This cloak is only obtainable by killing the Ender Dragon. Some of the cloaks dropped by the Ender Dragon have a much higher chance of dropping than others do, so you may receive the same cloak multiple times."]);
+mods.jei.JEI.addInfo(<item:skillcloaks:runecraft_cloak>, ["This cloak is only obtainable by killing the Ender Dragon. Some of the cloaks dropped by the Ender Dragon have a much higher chance of dropping than others do, so you may receive the same cloak multiple times."]);
+mods.jei.JEI.addInfo(<item:skillcloaks:fishing_cloak>, ["This cloak is only obtainable by finding a neptunium chest. It has a moderate chance of generating in the chest's loot."]);
+
+//
+
+<item:skillcloaks:mining_cloak>.addTooltip("\u00A76This cloak is only obtainable from the Ender Dragon.");
+<item:skillcloaks:hunter_cloak>.addTooltip("\u00A76This cloak is only obtainable from the Ender Dragon.");
+<item:skillcloaks:prayer_cloak>.addTooltip("\u00A76This cloak is only obtainable from the Ender Dragon.");
+<item:skillcloaks:runecraft_cloak>.addTooltip("\u00A76This cloak is only obtainable from the Ender Dragon.");
+<item:skillcloaks:fishing_cloak>.addTooltip("\u00A76This cloak is only obtainable by finding a neptunium chest.");
 <item:skillcloaks:strength_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
-<item:skillcloaks:runecraft_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
 <item:skillcloaks:slayer_cloak>.addTooltip("\u00A76This cloak does not have a crafting recipe and cannot be found in any structure. This will change within one of the next few updates!");
 
 <item:skillcloaks:brown_sack>.addTooltip("\u00A74Any cloak sack should not be obtainable by trading with villagers. If you're seeing this, that means you found it through a villager... This makes Antibang very sad.");
@@ -136,6 +94,12 @@ craftingTable.addShaped("herblore_cloak", <item:skillcloaks:herblore_cloak>, [
     [<item:powder_power:powder_ghast_tear>, <item:shretnether:magmashroom>, <item:powder_power:powder_ghast_tear>],
     [<item:powder_power:powder_ghast_tear>, <item:thermal:beekeeper_fabric>, <item:powder_power:powder_ghast_tear>],
     [<item:minecraft:blaze_powder>, <item:powder_power:powder_ghast_tear>, <item:minecraft:blaze_powder>]
+]);
+
+craftingTable.addShaped("farming_cloak", <item:skillcloaks:farming_cloak>, [
+    [<item:gobber2:gobber2_seed_nether>, <item:gobber2:gobber2_staff_farmer>, <item:gobber2:gobber2_seed_end>],
+    [<item:gobber2:gobber2_seed>, <item:thermal:beekeeper_fabric>, <item:gobber2:gobber2_seed>],
+    [<item:gobber2:gobber2_seed_end>, <item:gobber2:gobber2_staff_farmer>, <item:gobber2:gobber2_seed_nether>]
 ]);
 
 //Hoods
@@ -217,3 +181,4 @@ craftingTable.addShaped("woodcutting_hood", <item:skillcloaks:woodcutting_hood>,
     [<item:thermal:beekeeper_fabric>, <tag:items:minecraft:logs>, <item:thermal:beekeeper_fabric>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
+

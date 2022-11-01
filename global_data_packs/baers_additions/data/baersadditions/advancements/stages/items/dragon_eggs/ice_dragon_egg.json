@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:ice_dragon_heart"
+    },
+    "title": [
+      {
+        "text": "Taming Ice"
+      }
+    ],
+    "description": "Kill an ice dragon. I wonder if you can hatch an ice egg now?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/dragon_eggs",
+  "criteria": {
+    "ice_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:ice_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ice_dragon"
+    ]
+  ]
+}

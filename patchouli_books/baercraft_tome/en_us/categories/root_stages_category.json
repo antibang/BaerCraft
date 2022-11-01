@@ -1,0 +1,6 @@
+{
+    "name": "Stages",
+    "description": "This section will tell you about every stage in the game. Please excuse the messiness of this category, as this is a completely new system and $(bold)is not finished.$() Certain entries will have additional information added soon.$(br2)If you are confused and have questions, always feel free to ask us!",
+    "icon": "thermal:bronze_gear",
+    "sortnum": 10
+}

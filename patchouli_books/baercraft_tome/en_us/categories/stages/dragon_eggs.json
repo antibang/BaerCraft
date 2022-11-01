@@ -1,0 +1,6 @@
+{
+    "name": "Dragon Eggs",
+    "description": "Might seem redundant, however, this will tell you how to unlock the stage to be granted access to use each type of dragon egg.$(br2)$(italic)(Ice & Fire dragon eggs only)",
+    "icon": "iceandfire:dragonegg_electric",
+    "parent": "patchouli:root_stages_category"
+}

@@ -23,4 +23,8 @@
 	"Fishing luck" = 50
 	#The Amount of knockback resistance the Strength Cloak gives (Default = 1)
 	"Strength knockback resistance" = 5
+	#Will villagers have a chance to offer a sack in a trade (Default = true)
+	"Sack trades" = false
+	#How much armor will the cloaks give to the wearer. Only values greater than 0 will have any effect (Default = 0)
+	"Cloak armor" = 0
 

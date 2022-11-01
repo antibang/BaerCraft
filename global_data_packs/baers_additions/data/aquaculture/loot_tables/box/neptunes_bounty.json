@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "aquaculture:box/neptunes_bounty_junk"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "aquaculture:neptunium_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_fillet_knife"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquaculture:neptunium_bow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "aquaculture:box/neptunes_bounty_junk"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skillcloaks:fishing_cloak",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.24
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

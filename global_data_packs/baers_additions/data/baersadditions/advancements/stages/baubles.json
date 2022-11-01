@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "bountifulbaubles:horseshoe_balloon"
+    },
+    "title": [
+      {
+        "text": "Baubles",
+        "color": "gold",
+        "bold": true,
+        "italic": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Staged Baubles",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "baersadditions:stages/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

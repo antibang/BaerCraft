@@ -1,0 +1,16 @@
+{
+    "name": "Dimension Resets",
+    "icon": "gobber2:gobber2_glob_end",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It is highly advised that you refrain from building anything too sedimental in $(italic)any$() dimension, as cool as it may be. The only reason for this is because it's highly likely that dimensions will reset as it seems they're the most prone to breaking, especially the End.$(br2)You can still definitely build things in the dimensions, but please know that even on"
+        },
+        {
+            "type": "text",
+            "text": "the main server, the server that doesn't reset, the dimensions $(italic)might reset.$()"
+        }
+    ],
+    "sortnum": 7
+}

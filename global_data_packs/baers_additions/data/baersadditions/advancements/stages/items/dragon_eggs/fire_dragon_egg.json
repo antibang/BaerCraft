@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:fire_dragon_heart"
+    },
+    "title": [
+      {
+        "text": "Taming Fire"
+      }
+    ],
+    "description": "Kill a fire dragon. I wonder if you can hatch a fire egg now?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/dragon_eggs",
+  "criteria": {
+    "fire_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:fire_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire_dragon"
+    ]
+  ]
+}

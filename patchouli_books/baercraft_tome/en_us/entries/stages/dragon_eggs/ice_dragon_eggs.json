@@ -1,0 +1,13 @@
+{
+    "name": "Ice Dragon Eggs",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/dragon_eggs",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/items/dragon_eggs/ice_dragon_egg",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least 1 ice dragon before you can use any ice dragon egg."
+        }
+    ],
+    "turnin": "baersadditions:stages/items/dragon_eggs/ice_dragon_egg"
+}

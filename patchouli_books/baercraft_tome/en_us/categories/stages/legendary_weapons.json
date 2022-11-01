@@ -1,0 +1,6 @@
+{
+    "name": "Legendary Weapons",
+    "description": "$(bold)$(italic)These stages are a work in progress and will slowly be integrated in upcoming updates.$()$(br2)If an item or block is not listed here, then it is currently not locked behind a stage.",
+    "icon": "iceandfire:dragonbone_sword_ice",
+    "parent": "patchouli:root_stages_category"
+}
