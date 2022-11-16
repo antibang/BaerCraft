@@ -10,25 +10,25 @@
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 0.5]": 0.5,
       "has_caves [default: true]": true,
-      "enabled [default: true]": true
+      "enabled [default: true]": false
     },
     "end_highlands": {
-      "fog_density [default: 1.0]": 1.0,
+      "fog_density [default: 1.0]": 0.6,
       "generation_chance [default: 0.5]": 0.5,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "end_barrens": {
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.6,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "small_end_islands": {
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.6,
       "has_caves [default: true]": true,
-      "enabled [default: true]": true
+      "enabled [default: true]": false
     }
   },
   "betterendforge": {
@@ -40,7 +40,7 @@
     },
     "crystal_mountains": {
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.8,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -58,25 +58,25 @@
     },
     "dust_wastelands": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.5,
       "has_caves [default: false]": false,
       "enabled [default: true]": true
     },
     "painted_mountains": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.7,
       "has_caves [default: false]": false,
       "enabled [default: true]": true
     },
     "chorus_forest": {
       "fog_density [default: 1.5]": 1.5,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.6,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "shadow_forest": {
       "fog_density [default: 2.5]": 2.5,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.8,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -88,7 +88,7 @@
     },
     "sulphur_springs": {
       "fog_density [default: 1.5]": 1.5,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.7,
       "has_caves [default: false]": false,
       "enabled [default: true]": true
     },
@@ -106,7 +106,7 @@
     },
     "ice_starfield": {
       "fog_density [default: 2.2]": 2.2,
-      "generation_chance [default: 0.25]": 0.25,
+      "generation_chance [default: 0.25]": 0.15,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -130,13 +130,13 @@
     },
     "dry_shrubland": {
       "fog_density [default: 1.2]": 1.2,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.8,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "neon_oasis": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 0.5]": 0.5,
+      "generation_chance [default: 0.5]": 0.4,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -169,6 +169,24 @@
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
+    },
+    "umbra_valley": {
+      "fog_density [default: 1.5]": 1.5,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "enabled [default: true]": true
+    },
+    "end_cave": {
+      "fog_density [default: 2.0]": 2.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "enabled [default: true]": true
+    },
+    "jade_cave": {
+      "fog_density [default: 2.0]": 2.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "enabled [default: true]": true
     }
   },
   "outer_end": {
@@ -181,7 +199,7 @@
     "crystal_crag": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.5,
       "has_caves [default: true]": true
     }
   },
@@ -197,7 +215,7 @@
     "ivis_fields": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.8,
       "has_caves [default: true]": true
     },
     "nightshade_forest": {
