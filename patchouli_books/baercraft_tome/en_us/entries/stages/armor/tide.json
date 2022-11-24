@@ -1,0 +1,13 @@
+{
+    "name": "Tide Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/armor",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/tide",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat 1 sea serpent and 1 fire, ice, or lightning dragon to use any item part of the tide set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/tide"
+}

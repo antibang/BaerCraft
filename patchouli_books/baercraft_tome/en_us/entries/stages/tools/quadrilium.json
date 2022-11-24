@@ -1,0 +1,13 @@
+{
+    "name": "Quadrilium Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/tools",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/quadrilium",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full trilium armor set to use any item part of the quadrilium set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/quadrilium"
+}

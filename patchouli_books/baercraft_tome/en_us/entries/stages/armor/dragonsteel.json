@@ -1,0 +1,13 @@
+{
+    "name": "Dragonsteel Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/armor",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/dragonsteel",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat 1 fire, ice, and lightning dragon and the Ender Dragon to use any item part of the dragonsteel set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/dragonsteel"
+}

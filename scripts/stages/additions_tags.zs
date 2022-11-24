@@ -19,7 +19,20 @@ import crafttweaker.api.item.IItemStack;
         <item:gobber2:gobber2_helmet_end>,
         <item:gobber2:gobber2_chestplate_end>,
         <item:gobber2:gobber2_leggings_end>,
-        <item:gobber2:gobber2_boots_end>
+        <item:gobber2:gobber2_boots_end>,
+        <item:gobber2:gobber2_sword_end>,
+        <item:gobber2:gobber2_sword_sniper>,
+        <item:gobber2:gobber2_sword_traveler>,
+        <item:gobber2:gobber2_bow_end>,
+        <item:gobber2:gobber2_pickaxe_end>,
+        <item:gobber2:gobber2_shovel_end>,
+        <item:gobber2:gobber2_axe_end>,
+        <item:gobber2:gobber2_tree_axe_end>,
+        <item:gobber2:gobber2_hoe_end>,
+        <item:gobber2:gobber2_hammer_end>,
+        <item:gobber2:gobber2_excavator_end>,
+        <item:gobber2:gobber2_paxel_end>,
+        <item:gobber2:gobber2_paxel_stars>
     );
 
     //Nether Gobber Set
@@ -27,7 +40,17 @@ import crafttweaker.api.item.IItemStack;
         <item:gobber2:gobber2_helmet_nether>,
         <item:gobber2:gobber2_chestplate_nether>,
         <item:gobber2:gobber2_leggings_nether>,
-        <item:gobber2:gobber2_boots_nether>
+        <item:gobber2:gobber2_boots_nether>,
+        <item:gobber2:gobber2_sword_nether>,
+        <item:gobber2:gobber2_bow_nether>,
+        <item:gobber2:gobber2_pickaxe_nether>,
+        <item:gobber2:gobber2_shovel_nether>,
+        <item:gobber2:gobber2_axe_nether>,
+        <item:gobber2:gobber2_tree_axe_nether>,
+        <item:gobber2:gobber2_hoe_nether>,
+        <item:gobber2:gobber2_hammer_nether>,
+        <item:gobber2:gobber2_excavator_nether>,
+        <item:gobber2:gobber2_paxel_nether>
     );
 
     //Gobber Set
@@ -35,7 +58,17 @@ import crafttweaker.api.item.IItemStack;
         <item:gobber2:gobber2_helmet>,
         <item:gobber2:gobber2_chestplate>,
         <item:gobber2:gobber2_leggings>,
-        <item:gobber2:gobber2_boots>
+        <item:gobber2:gobber2_boots>,
+        <item:gobber2:gobber2_sword>,
+        <item:gobber2:gobber2_bow>,
+        <item:gobber2:gobber2_pickaxe>,
+        <item:gobber2:gobber2_shovel>,
+        <item:gobber2:gobber2_axe>,
+        <item:gobber2:gobber2_tree_axe>,
+        <item:gobber2:gobber2_hoe>,
+        <item:gobber2:gobber2_hammer>,
+        <item:gobber2:gobber2_excavator>,
+        <item:gobber2:gobber2_paxel>
     );
 
     //Quadrilium Set 
@@ -43,7 +76,17 @@ import crafttweaker.api.item.IItemStack;
         <item:powder_power:armor_quadrilium_head>,
         <item:powder_power:armor_quadrilium_body>,
         <item:powder_power:armor_quadrilium_leggings>,
-        <item:powder_power:armor_quadrilium_boots>
+        <item:powder_power:armor_quadrilium_boots>,
+        <item:powder_power:sword_quadrilium>,
+        <item:powder_power:bow_quadrilium>,
+        <item:powder_power:pickaxe_quadrilium>,
+        <item:powder_power:axe_quadrilium>,
+        <item:powder_power:tree_axe_quadrilium>,
+        <item:powder_power:shovel_quadrilium>,
+        <item:powder_power:hoe_quadrilium>,
+        <item:powder_power:paxel_quadrilium>,
+        <item:powder_power:hammer_quadrilium>,
+        <item:powder_power:excavator_quadrilium>
     );
         
     //Trilium Set
@@ -51,7 +94,17 @@ import crafttweaker.api.item.IItemStack;
         <item:powder_power:armor_trilium_head>,
         <item:powder_power:armor_trilium_body>,
         <item:powder_power:armor_trilium_leggings>,
-        <item:powder_power:armor_trilium_boots>
+        <item:powder_power:armor_trilium_boots>,        
+        <item:powder_power:sword_trilium>,
+        <item:powder_power:bow_trilium>,
+        <item:powder_power:pickaxe_trilium>,
+        <item:powder_power:axe_trilium>,
+        <item:powder_power:tree_axe_trilium>,
+        <item:powder_power:shovel_trilium>,
+        <item:powder_power:hoe_trilium>,
+        <item:powder_power:paxel_trilium>,
+        <item:powder_power:hammer_trilium>,
+        <item:powder_power:excavator_trilium>
     );
 
     //Gemium Set
@@ -59,7 +112,16 @@ import crafttweaker.api.item.IItemStack;
         <item:powder_power:armor_gemium_head>,
         <item:powder_power:armor_gemium_body>,
         <item:powder_power:armor_gemium_leggings>,
-        <item:powder_power:armor_gemium_boots>
+        <item:powder_power:armor_gemium_boots>,
+        <item:powder_power:sword_gemium>,
+        <item:powder_power:bow_gemium>,
+        <item:powder_power:pickaxe_gemium>,
+        <item:powder_power:axe_gemium>,
+        <item:powder_power:shovel_gemium>,
+        <item:powder_power:hoe_gemium>,
+        <item:powder_power:paxel_gemium>,
+        <item:powder_power:hammer_gemium>,
+        <item:powder_power:excavator_gemium>
     );
 
     //Dragonsteel Set
@@ -68,14 +130,29 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:dragonsteel_fire_chestplate>,
         <item:iceandfire:dragonsteel_fire_leggings>,
         <item:iceandfire:dragonsteel_fire_boots>,
+        <item:iceandfire:dragonsteel_fire_sword>,
+        <item:iceandfire:dragonsteel_fire_pickaxe>,
+        <item:iceandfire:dragonsteel_fire_axe>,
+        <item:iceandfire:dragonsteel_fire_shovel>,
+        <item:iceandfire:dragonsteel_fire_hoe>,
         <item:iceandfire:dragonsteel_ice_helmet>,
         <item:iceandfire:dragonsteel_ice_chestplate>,
         <item:iceandfire:dragonsteel_ice_leggings>,
         <item:iceandfire:dragonsteel_ice_boots>,
+        <item:iceandfire:dragonsteel_ice_sword>,
+        <item:iceandfire:dragonsteel_ice_pickaxe>,
+        <item:iceandfire:dragonsteel_ice_axe>,
+        <item:iceandfire:dragonsteel_ice_shovel>,
+        <item:iceandfire:dragonsteel_ice_hoe>,
         <item:iceandfire:dragonsteel_lightning_helmet>,
         <item:iceandfire:dragonsteel_lightning_chestplate>,
         <item:iceandfire:dragonsteel_lightning_leggings>,
-        <item:iceandfire:dragonsteel_lightning_boots>
+        <item:iceandfire:dragonsteel_lightning_boots>,
+        <item:iceandfire:dragonsteel_lightning_sword>,
+        <item:iceandfire:dragonsteel_lightning_pickaxe>,
+        <item:iceandfire:dragonsteel_lightning_axe>,
+        <item:iceandfire:dragonsteel_lightning_shovel>,
+        <item:iceandfire:dragonsteel_lightning_hoe>
     );
 
     //Fire Dragonsteel Set
@@ -83,7 +160,12 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:dragonsteel_fire_helmet>,
         <item:iceandfire:dragonsteel_fire_chestplate>,
         <item:iceandfire:dragonsteel_fire_leggings>,
-        <item:iceandfire:dragonsteel_fire_boots>
+        <item:iceandfire:dragonsteel_fire_boots>,
+        <item:iceandfire:dragonsteel_fire_sword>,
+        <item:iceandfire:dragonsteel_fire_pickaxe>,
+        <item:iceandfire:dragonsteel_fire_axe>,
+        <item:iceandfire:dragonsteel_fire_shovel>,
+        <item:iceandfire:dragonsteel_fire_hoe>
     );
 
     //Ice Dragonsteel Set
@@ -91,7 +173,12 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:dragonsteel_ice_helmet>,
         <item:iceandfire:dragonsteel_ice_chestplate>,
         <item:iceandfire:dragonsteel_ice_leggings>,
-        <item:iceandfire:dragonsteel_ice_boots>
+        <item:iceandfire:dragonsteel_ice_boots>,
+        <item:iceandfire:dragonsteel_ice_sword>,
+        <item:iceandfire:dragonsteel_ice_pickaxe>,
+        <item:iceandfire:dragonsteel_ice_axe>,
+        <item:iceandfire:dragonsteel_ice_shovel>,
+        <item:iceandfire:dragonsteel_ice_hoe>
     );
 
     //Lightning Dragonsteel Set
@@ -99,7 +186,12 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:dragonsteel_lightning_helmet>,
         <item:iceandfire:dragonsteel_lightning_chestplate>,
         <item:iceandfire:dragonsteel_lightning_leggings>,
-        <item:iceandfire:dragonsteel_lightning_boots>
+        <item:iceandfire:dragonsteel_lightning_boots>,
+        <item:iceandfire:dragonsteel_lightning_sword>,
+        <item:iceandfire:dragonsteel_lightning_pickaxe>,
+        <item:iceandfire:dragonsteel_lightning_axe>,
+        <item:iceandfire:dragonsteel_lightning_shovel>,
+        <item:iceandfire:dragonsteel_lightning_hoe>
     );
 
     //Dragonscale Set
@@ -147,7 +239,13 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:armor_black_helmet>,
         <item:iceandfire:armor_black_chestplate>,
         <item:iceandfire:armor_black_leggings>,
-        <item:iceandfire:armor_black_boots>
+        <item:iceandfire:armor_black_boots>,
+        <item:iceandfire:dragonbone_sword>,
+        <item:iceandfire:dragonbone_shovel>,
+        <item:iceandfire:dragonbone_pickaxe>,
+        <item:iceandfire:dragonbone_axe>,
+        <item:iceandfire:dragonbone_hoe>,
+        <item:iceandfire:dragonbone_bow>
     );
 
     //Tide Set
@@ -179,7 +277,8 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:tide_teal_helmet>,
         <item:iceandfire:tide_teal_chestplate>,
         <item:iceandfire:tide_teal_leggings>,
-        <item:iceandfire:tide_teal_boots>
+        <item:iceandfire:tide_teal_boots>,
+        <item:iceandfire:tide_trident>
     );
 
 //Items

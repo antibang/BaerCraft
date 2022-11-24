@@ -1,0 +1,13 @@
+{
+    "name": "Trilium Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/armor",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/trilium",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full gemium armor set to use any item part of the trilium set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/trilium"
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:armor_quadrilium_head"
+    },
+    "title": [
+      {
+        "text": "Unlock the Quadrilium Set",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft a full set of trilium armor."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/armor_sets",
+  "criteria": {
+    "trilium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:armor_trilium_boots"
+          },
+          {
+            "item": "powder_power:armor_trilium_leggings"
+          },
+          {
+            "item": "powder_power:armor_trilium_body"
+          },
+          {
+            "item": "powder_power:armor_trilium_head"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trilium"
+    ]
+  ]
+}

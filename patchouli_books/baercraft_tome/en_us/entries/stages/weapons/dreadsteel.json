@@ -1,0 +1,13 @@
+{
+    "name": "Dreadsteel Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/dreadsteel",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full fire, ice, and lightning dragonsteel armor set to use any item part of the dreadsteel set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/dreadsteel"
+}

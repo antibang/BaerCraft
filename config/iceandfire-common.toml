@@ -92,7 +92,7 @@
 	[Dragons.Attributes]
 		#How long it takes(in ticks) for a dragon egg to hatch
 		#Range: > 1
-		"Dragon Egg Hatch Time" = 8000
+		"Dragon Egg Hatch Time" = 18000
 		#Dragon Flap Noise Distance - Larger number, further away you can hear it
 		#Range: 0 ~ 10000
 		"Dragon Flap Noise Distance" = 7
@@ -101,7 +101,7 @@
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 1600.0
+		"Dragon Health" = 1800.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
 		"Dragon Attack Damage" = 20

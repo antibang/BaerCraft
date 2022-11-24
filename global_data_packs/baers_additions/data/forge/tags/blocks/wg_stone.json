@@ -1,18 +1,14 @@
 {
   "replace": true,
   "values": [
-    "minecraft:granite",
     "minecraft:andesite",
     "minecraft:stone",
-    "minecraft:diorite",
     "create:limestone",
     "create:dolomite",
     "create:weathered_limestone",
-    "minecraft:cobblestone",
-    "create:gabbro",
-    "subwild:mossy_andesite",
     "byg:rocky_stone",
-    "byg:white_smooth_sandstone",
-    "byg:dacite"
+    "byg:black_smooth_sandstone",
+    "basaltblocks:basalt_cobblestone",
+    "minecraft:gray_terracotta"
   ]
 }

@@ -1,0 +1,13 @@
+{
+    "name": "Dragon Scale & Bone Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/dragon_scale",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least 1 fire, ice, or lightning dragon to use any item part of the dragon scale or dragon bone set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/dragon_scale"
+}

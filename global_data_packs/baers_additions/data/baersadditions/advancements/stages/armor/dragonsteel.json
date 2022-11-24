@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dragonsteel_fire_helmet"
+    },
+    "title": [
+      {
+        "text": "Unlock the Dragonsteel Set",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Kill 1 fire, ice, and lightning dragon and kill the Ender dragon."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/armor_sets",
+  "criteria": {
+    "fire_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:fire_dragon"
+        }
+      }
+    },
+    "ice_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:ice_dragon"
+        }
+      }
+    },
+    "lightning_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:lightning_dragon"
+        }
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire_dragon"
+    ],
+    [
+      "ice_dragon"
+    ],
+    [
+      "lightning_dragon"
+    ],
+    [
+      "ender_dragon"
+    ]
+  ]
+}

@@ -17,7 +17,7 @@
         "italic": true
       }
     ],
-    "background": "create:textures/block/palettes/dolomite/plain.png",
+    "background": "create:textures/block/palettes/dolomite/paved_borderless.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

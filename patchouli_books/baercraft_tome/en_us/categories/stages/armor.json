@@ -1,6 +1,6 @@
 {
     "name": "Armor Sets",
-    "description": "$(bold)$(italic)These stages are a work in progress and will slowly be integrated in upcoming updates.$()$(br2)If an item or block is not listed here, then it is currently not locked behind a stage.",
+    "description": "Something important to note in this section is that a ''full armor set'' is $(bold)not$() the same as just a ''set''. $(br2)A full armor set refers to just the armor pieces (helmet, chestplate, leggings, boots). A set refers to a group of items such as armor, weapons and tools of a specific type.",
     "icon": "iceandfire:dragonsteel_lightning_helmet",
     "parent": "patchouli:root_stages_category"
 }

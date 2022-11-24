@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_helmet_end"
+    },
+    "title": [
+      {
+        "text": "Unlock the End Gobber Set",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft a full set of nether gobber or quadrilium armor."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/armor_sets",
+  "criteria": {
+    "nether_gobber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_boots_nether"
+          },
+          {
+            "item": "gobber2:gobber2_leggings_nether"
+          },
+          {
+            "item": "gobber2:gobber2_chestplate_nether"
+          },
+          {
+            "item": "gobber2:gobber2_helmet_nether"
+          }
+        ]
+      }
+    },
+    "quadrilium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:armor_quadrilium_boots"
+          },
+          {
+            "item": "powder_power:armor_quadrilium_leggings"
+          },
+          {
+            "item": "powder_power:armor_quadrilium_body"
+          },
+          {
+            "item": "powder_power:armor_quadrilium_head"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether_gobber",
+      "quadrilium"
+    ]
+  ]
+}

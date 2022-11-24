@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:armor_gemium_head"
+    },
+    "title": [
+      {
+        "text": "Unlock the Gemium Set",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft a full set of lapium armor."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/armor_sets",
+  "criteria": {
+    "lapium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:armor_lapium_boots"
+          },
+          {
+            "item": "powder_power:armor_lapium_leggings"
+          },
+          {
+            "item": "powder_power:armor_lapium_body"
+          },
+          {
+            "item": "powder_power:armor_lapium_head"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lapium"
+    ]
+  ]
+}

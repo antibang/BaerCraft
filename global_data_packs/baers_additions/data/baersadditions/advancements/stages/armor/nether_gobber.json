@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_helmet_nether"
+    },
+    "title": [
+      {
+        "text": "Unlock the Nether Gobber Set",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft a full set of gobber or trilium armor."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/armor_sets",
+  "criteria": {
+    "gobber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_boots"
+          },
+          {
+            "item": "gobber2:gobber2_leggings"
+          },
+          {
+            "item": "gobber2:gobber2_chestplate"
+          },
+          {
+            "item": "gobber2:gobber2_helmet"
+          }
+        ]
+      }
+    },
+    "trilium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:armor_trilium_boots"
+          },
+          {
+            "item": "powder_power:armor_trilium_leggings"
+          },
+          {
+            "item": "powder_power:armor_trilium_body"
+          },
+          {
+            "item": "powder_power:armor_trilium_head"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber",
+      "trilium"
+    ]
+  ]
+}

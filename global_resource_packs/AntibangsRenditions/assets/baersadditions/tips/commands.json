@@ -5,6 +5,6 @@
     "color": "blue"
   },
   "tip": {
-    "text": "There's a lot of useful commands for you to use! You can randomly teleport using ''/rtp'', go back to your death location using ''/back'' and to go back home by using ''/home''."
+    "text": "There's a lot of useful commands for you to use! You can randomly teleport using ''/rtp'' or ''/rtpb'' to randomly teleport to a specific biome."
   }
 }

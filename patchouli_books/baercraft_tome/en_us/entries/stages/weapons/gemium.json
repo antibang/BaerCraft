@@ -1,0 +1,13 @@
+{
+    "name": "Gemium Set",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/gemium",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full lapium armor set to use any item part of the gemium set."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/gemium"
+}
