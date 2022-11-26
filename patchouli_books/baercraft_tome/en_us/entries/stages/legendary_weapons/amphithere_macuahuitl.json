@@ -1,0 +1,13 @@
+{
+    "name": "Amphithere Macuahuitl",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/amphithere_macuahuitl",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one amphithere before you can use the amphithere macuahuitl."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/amphithere_macuahuitl"
+}

@@ -13,7 +13,7 @@
 	#Enable/disable lovebird spawns
 	"Lovebird Spawns" = true
 	#Spawn weight for lovebirds
-	"Lovebird Spawn Weight" = 18
+	"Lovebird Spawn Weight" = 12
 	#Min group for lovebirds
 	"Lovebird Min Group" = 3
 	#Max group for lovebirds
@@ -27,7 +27,7 @@
 	#Enable/disable dottyback spawns
 	"Dottyback Spawns" = true
 	#Spawn weight for dottybacks
-	"Dottyback Spawn Weight" = 15
+	"Dottyback Spawn Weight" = 11
 	#Min group for dottybacks
 	"Dottyback Min Group" = 2
 	#Max group for dottybacks
@@ -97,7 +97,7 @@
 	#Enable/disable lorikeet spawns
 	"Lorikeet Spawns" = true
 	#Spawn weight for lorikeet
-	"Lorikeet Spawn Weight" = 12
+	"Lorikeet Spawn Weight" = 10
 	#Min group for lorikeet
 	"Lorikeet Min Group" = 2
 	#Max group for lorikeet
@@ -111,7 +111,7 @@
 	#Enable/disable conure spawns
 	"Conure Spawns" = true
 	#Spawn weight for conure
-	"Conure Spawn Weight" = 18
+	"Conure Spawn Weight" = 14
 	#Min group for conure
 	"Conure Min Group" = 3
 	#Max group for conure
@@ -139,7 +139,7 @@
 	#Enable/disable dove spawns
 	"Dove Spawns" = true
 	#Spawn weight for dove
-	"Dove Spawn Weight" = 12
+	"Dove Spawn Weight" = 9
 	#Min group for dove
 	"Dove Min Group" = 2
 	#Max group for dove
@@ -153,7 +153,7 @@
 	#Enable/disable mandarin duck spawns
 	"Mandarin Duck Spawns" = true
 	#Spawn weight for mandarin duck
-	"Mandarin Duck Spawn Weight" = 18
+	"Mandarin Duck Spawn Weight" = 14
 	#Min group for mandarin duck
 	"Mandarin Duck Min Group" = 2
 	#Max group for mandarin duck
@@ -181,7 +181,7 @@
 	#Enable/disable raven spawns
 	"Raven Spawns" = true
 	#Spawn weight for raven
-	"Raven Spawn Weight" = 21
+	"Raven Spawn Weight" = 16
 	#Min group for raven
 	"Raven Min Group" = 1
 	#Max group for raven
@@ -195,7 +195,7 @@
 	#Enable/disable fairywren spawns
 	"Fairywren Spawns" = true
 	#Spawn weight for fairywren
-	"Fairywren Spawn Weight" = 22
+	"Fairywren Spawn Weight" = 17
 	#Min group for fairywren
 	"Fairywren Min Group" = 3
 	#Max group for fairywren
@@ -313,7 +313,7 @@
 	#Enable/disable wild duck spawns
 	"Wild Duck Spawns" = true
 	#Spawn weight for wild duck
-	"Wild Duck Spawn Weight" = 18
+	"Wild Duck Spawn Weight" = 15
 	#Min group for wild duck
 	"Wild Duck Min Group" = 1
 	#Max group for wild duck
@@ -327,7 +327,7 @@
 	#Enable/disable roller spawns
 	"Roller Spawns" = true
 	#Spawn weight for roller
-	"Roller Spawn Weight" = 20
+	"Roller Spawn Weight" = 17
 	#Min group for roller
 	"Roller Min Group" = 1
 	#Max group for roller
@@ -341,7 +341,7 @@
 	#Enable/disable chickadee spawns
 	"Chickadee Spawns" = true
 	#Spawn weight for chickadee
-	"Chickadee Spawn Weight" = 21
+	"Chickadee Spawn Weight" = 16
 	#Min group for chickadee
 	"Chickadee Min Group" = 2
 	#Max group for chickadee
@@ -355,7 +355,7 @@
 	#Enable/disable pygmy goose spawns
 	"Pygmy Goose Spawns" = true
 	#Spawn weight for pygmy goose
-	"Pygmy Goose Spawn Weight" = 23
+	"Pygmy Goose Spawn Weight" = 19
 	#Min group for pygmy goose
 	"Pygmy Goose Min Group" = 1
 	#Max group for pygmy goose
@@ -369,7 +369,7 @@
 	#Enable/disable swallow spawns
 	"Swallow Spawns" = true
 	#Spawn weight for swallow
-	"Swallow Spawn Weight" = 22
+	"Swallow Spawn Weight" = 16
 	#Min group for swallow
 	"Swallow Min Group" = 3
 	#Max group for swallow
@@ -471,7 +471,7 @@
 	#Enable/disable peafowl spawns
 	"Peafowl Spawns" = true
 	#Spawn weight for peafowl
-	"Peafowl Spawn Weight" = 15
+	"Peafowl Spawn Weight" = 12
 	#Min group for peafowl
 	"Peafowl Min Group" = 1
 	#Max group for peafowl
@@ -485,7 +485,7 @@
 	#Enable/disable sparrow spawns
 	"Sparrow Spawns" = true
 	#Spawn weight for sparrows
-	"Sparrow Spawn Weight" = 24
+	"Sparrow Spawn Weight" = 18
 	#Min group for sparrows
 	"Sparrow Min Group" = 4
 	#Max group for sparrows
@@ -499,7 +499,7 @@
 	#Enable/disable bushtit spawns
 	"Bushtit Spawns" = true
 	#Spawn weight for bushtits
-	"Bushtit Spawn Weight" = 18
+	"Bushtit Spawn Weight" = 13
 	#Min group for bushtits
 	"Bushtit Min Group" = 3
 	#Max group for bushtits
@@ -513,7 +513,7 @@
 	#Enable/disable laughingthrush spawns
 	"Laughingthrush Spawns" = true
 	#Spawn weight for laughingthrushes
-	"Laughingthrush Spawn Weight" = 16
+	"Laughingthrush Spawn Weight" = 11
 	#Min group for laughingthrushes
 	"Laughingthrush Min Group" = 3
 	#Max group for laughingthrushes
@@ -541,7 +541,7 @@
 	#Enable/disable robin spawns
 	"Robin Spawns" = true
 	#Spawn weight for robins
-	"Robin Spawn Weight" = 18
+	"Robin Spawn Weight" = 14
 	#Min group for robins
 	"Robin Min Group" = 3
 	#Max group for robins
@@ -555,7 +555,7 @@
 	#Enable/disable magpie spawns
 	"Magpie Spawns" = true
 	#Spawn weight for magpies
-	"Magpie Spawn Weight" = 16
+	"Magpie Spawn Weight" = 11
 	#Min group for magpies
 	"Magpie Min Group" = 3
 	#Max group for magpies
@@ -569,7 +569,7 @@
 	#Enable/disable goose spawns
 	"Goose Spawns" = true
 	#Spawn weight for goose
-	"Goose Spawn Weight" = 19
+	"Goose Spawn Weight" = 17
 	#Min group for goose
 	"Goose Min Group" = 3
 	#Max group for goose
@@ -597,7 +597,7 @@
 	#Enable/disable kingfisher spawns
 	"Kingfisher Spawns" = true
 	#Spawn weight for kingfishers
-	"Kingfisher Spawn Weight" = 20
+	"Kingfisher Spawn Weight" = 16
 	#Min group for kingfisher
 	"Kingfisher Min Group" = 3
 	#Max group for kingfisher
@@ -625,7 +625,7 @@
 	#Enable/disable lapwing spawns
 	"Lapwing Spawns" = true
 	#Spawn weight for lapwings
-	"Lapwing Spawn Weight" = 18
+	"Lapwing Spawn Weight" = 12
 	#Min group for lapwing
 	"Lapwing Min Group" = 3
 	#Max group for lapwing

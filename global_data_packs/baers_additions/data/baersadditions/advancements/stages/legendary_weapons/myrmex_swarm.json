@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:myrmex_jungle_swarm"
+    },
+    "title": [
+      {
+        "text": "Unlock the Myrmex Swarm",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Obtain a myrmex egg"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_myrmex_queen": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:myrmex_queen"
+        }
+      }
+    },
+    "myrmex_jungle_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:myrmex_jungle_egg"
+          }
+        ]
+      }
+    },
+    "myrmex_desert_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:myrmex_desert_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_myrmex_queen"
+    ],
+    [
+      "myrmex_jungle_egg",
+      "myrmex_desert_egg"
+    ]
+  ]
+}

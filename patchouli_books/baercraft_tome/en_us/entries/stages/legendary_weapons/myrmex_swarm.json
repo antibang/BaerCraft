@@ -1,0 +1,13 @@
+{
+    "name": "Myrmex Swarm",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/myrmex_swarm",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one myrmex queen and obtain one myrmex egg before you can use the myrmex swarm."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/myrmex_swarm"
+}

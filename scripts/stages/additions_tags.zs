@@ -277,8 +277,7 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:tide_teal_helmet>,
         <item:iceandfire:tide_teal_chestplate>,
         <item:iceandfire:tide_teal_leggings>,
-        <item:iceandfire:tide_teal_boots>,
-        <item:iceandfire:tide_trident>
+        <item:iceandfire:tide_teal_boots>
     );
 
 //Items
@@ -327,4 +326,23 @@ import crafttweaker.api.item.IItemStack;
         <item:iceandfire:troll_weapon_hammer>,
         <item:iceandfire:troll_weapon_trunk>,
         <item:iceandfire:troll_weapon_trunk_frost>
+    );
+
+    //Deathworm Gauntlets
+    <tag:items:baercraft:deathworm_gauntlets>.add(
+        <item:iceandfire:deathworm_gauntlet_red>,
+        <item:iceandfire:deathworm_gauntlet_white>,
+        <item:iceandfire:deathworm_gauntlet_yellow>
+    );
+
+    //Myrmex Swarms
+    <tag:items:baercraft:myrmex_swarms>.add(
+        <item:iceandfire:myrmex_desert_swarm>,
+        <item:iceandfire:myrmex_jungle_swarm>
+    );
+
+    //Stymphalian Bird Weapons
+    <tag:items:baercraft:stymphalian_bird_weapons>.add(
+        <item:iceandfire:stymphalian_bird_dagger>,
+        <item:iceandfire:stymphalian_feather_bundle>
     );

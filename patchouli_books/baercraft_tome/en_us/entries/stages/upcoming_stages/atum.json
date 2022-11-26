@@ -1,0 +1,11 @@
+{
+    "name": "Atum Dimension",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/upcoming_stages",
+    "pages": [
+        {
+            "type": "text",
+            "text": " "
+        }
+    ]
+}

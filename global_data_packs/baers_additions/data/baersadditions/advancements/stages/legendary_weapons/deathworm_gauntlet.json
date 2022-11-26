@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:deathworm_gauntlet_red"
+    },
+    "title": [
+      {
+        "text": "Unlock the Deathworm Gauntlets",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat at least one deathworm and obtain one giant deathworm egg"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_deathworm": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:deathworm"
+        }
+      }
+    },
+    "giant_deathworm_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:deathworm_egg_giant"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_deathworm"
+    ],
+    [
+      "giant_deathworm_egg"
+    ]
+  ]
+}

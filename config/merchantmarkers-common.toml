@@ -38,4 +38,6 @@
 		# The items associated with each villager profession.  Only used when marker type is set to "items".
 		# If not specified here, vanilla professions will have a default item and modded professions will have a generic icon.
 		associated_items = {}
+		# If markers above villagers should always show. If false, they will only show when the configured keybind is held.
+		always_show = true
 

@@ -1,0 +1,13 @@
+{
+    "name": "Pixie Wand",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/pixie_wand",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one pixie and obtain its wings before you can use the pixie wand."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/pixie_wand"
+}

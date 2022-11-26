@@ -1,0 +1,13 @@
+{
+    "name": "Hippocampus Slapper",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/hippocampus_slapper",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat and tame at least one hippocampus before you can use the hippocampus slapper."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/hippocampus_slapper"
+}

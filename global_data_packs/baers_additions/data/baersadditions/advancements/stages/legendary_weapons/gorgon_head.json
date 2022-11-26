@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:gorgon_head"
+    },
+    "title": [
+      {
+        "text": "Unlock the Gorgon Head",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat at least one gorgon"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_gorgon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:gorgon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_gorgon"
+    ]
+  ]
+}

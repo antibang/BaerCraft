@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:siren_flute"
+    },
+    "title": [
+      {
+        "text": "Unlock the Siren Flute",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat at least one siren and obtain its tear"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_siren": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:siren"
+        }
+      }
+    },
+    "siren_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:siren_tear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_siren"
+    ],
+    [
+      "siren_tear"
+    ]
+  ]
+}

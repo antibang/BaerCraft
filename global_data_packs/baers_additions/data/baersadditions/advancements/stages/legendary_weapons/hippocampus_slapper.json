@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:hippocampus_slapper"
+    },
+    "title": [
+      {
+        "text": "Unlock the Hippocampus Slapper",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat and tame at least one hippocampus"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_hippocampus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:hippocampus"
+        }
+      }
+    },
+    "tamed_hippocampus": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:hippocampus"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_hippocampus"
+    ],
+    [
+      "tamed_hippocampus"
+    ]
+  ]
+}

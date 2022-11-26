@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:amphithere_macuahuitl"
+    },
+    "title": [
+      {
+        "text": "Unlock the Amphithere Macuahuitl",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat at least one amphithere."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_amphithere": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:amphithere"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_amphithere"
+    ]
+  ]
+}

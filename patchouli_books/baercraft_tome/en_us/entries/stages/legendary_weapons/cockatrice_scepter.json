@@ -1,0 +1,13 @@
+{
+    "name": "Cockatrice Scepter",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/cockatrice_scepter",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat and tame at least one cockatrice before you can use the cockatrice scepter."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/cockatrice_scepter"
+}

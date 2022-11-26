@@ -1,0 +1,13 @@
+{
+    "name": "Troll Weapons",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/troll_weapons",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one troll before you can use any troll weapon."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/troll_weapons"
+}

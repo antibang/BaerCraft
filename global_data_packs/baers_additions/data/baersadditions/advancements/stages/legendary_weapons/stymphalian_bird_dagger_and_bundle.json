@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:stymphalian_bird_dagger"
+    },
+    "title": [
+      {
+        "text": "Unlock the Stymphalian Bird Dagger & Feather Bundle",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat at least one stymphalian bird and obtain its skull"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_stymphalian_bird": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:stymphalian_bird"
+        }
+      }
+    },
+    "stymphalian_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:stymphalian_skull"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_stymphalian_bird"
+    ],
+    [
+      "stymphalian_skull"
+    ]
+  ]
+}

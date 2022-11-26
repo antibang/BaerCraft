@@ -1,0 +1,13 @@
+{
+    "name": "Gorgon Head",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/gorgon_head",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one gorgon before you can use the gorgon head."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/gorgon_head"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Upcoming Stages",
+    "description": "Here, I will try my best to give a small list of the planned stages coming in future updates so people can know what to expect.$(br2)Most entries will be left blank, but the title should give you enough of an idea of what is planned. This is all subject to change, so take it with a grain of salt.",
+    "icon": "nethers_delight:crimson_fungus_colony_item",
+    "parent": "patchouli:root_stages_category",
+    "sortnum": 1
+}

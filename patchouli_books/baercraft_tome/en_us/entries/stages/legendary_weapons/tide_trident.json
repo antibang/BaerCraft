@@ -1,0 +1,13 @@
+{
+    "name": "Tide Trident",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/armor/tide",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one sea serpent and one dragon before you can use a tide trident."
+        }
+    ],
+    "turnin": "baersadditions:stages/armor/tide"
+}

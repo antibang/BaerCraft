@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:pixie_wand"
+    },
+    "title": [
+      {
+        "text": "Unlock the Pixie Wand",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat at least one pixie and obtain its wings"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_pixie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:pixie"
+        }
+      }
+    },
+    "pixie_wings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:pixie_wings"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_pixie"
+    ],
+    [
+      "pixie_wings"
+    ]
+  ]
+}

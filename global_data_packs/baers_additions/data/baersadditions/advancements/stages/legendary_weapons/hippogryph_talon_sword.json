@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:hippogryph_sword"
+    },
+    "title": [
+      {
+        "text": "Unlock the Hippogryph Talon Sword",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Tame at least one hippogryph"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "tamed_hippogryph": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:hippogryph"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tamed_hippogryph"
+    ]
+  ]
+}

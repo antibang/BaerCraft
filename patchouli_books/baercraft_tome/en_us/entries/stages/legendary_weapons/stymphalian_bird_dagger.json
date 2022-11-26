@@ -1,0 +1,13 @@
+{
+    "name": "Stymphalian Bird Dagger",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/stymphalian_bird_dagger_and_bundle",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least one stymphalian bird and obtain its skull before you can use the stymphalian bird feather dagger."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/stymphalian_bird_dagger_and_bundle"
+}

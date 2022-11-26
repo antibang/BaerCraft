@@ -1,9 +1,9 @@
 // priority: 0
 
-settings.logAddedRecipes = true
+settings.logAddedRecipes = false
 settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
+settings.logErroringRecipes = false
 
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
