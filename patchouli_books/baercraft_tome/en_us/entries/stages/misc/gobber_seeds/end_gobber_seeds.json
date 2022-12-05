@@ -1,0 +1,13 @@
+{
+    "name": "End Gobber Seeds",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/misc/gobber_seeds",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/items/gobber_seeds/end_gobber_seeds",
+            "type": "quest",
+            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full end gobber armor set to unlock end gobber seeds."
+        }
+    ],
+    "turnin": "baersadditions:stages/items/gobber_seeds/end_gobber_seeds"
+}

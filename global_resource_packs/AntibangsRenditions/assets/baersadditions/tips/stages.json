@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Tip",
+      "bold": true,
+      "color": "blue"
+    },
+    "tip": {
+      "text": "Items, tools, weapons, armor, etc. may be locked behind a stage. I.e., before you can use any dragonscale armor, you must defeat one dragon. Each stage will be kept track in the BaerCraft Tome with details on how to unlock the stage and will show if you've completed the advancement needed."
+    }
+  }

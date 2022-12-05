@@ -3,7 +3,7 @@ type = hud
 customization-meta {
   randomgroup = 1
   keepaspectratio = false
-  backgroundimage = config/drippyloadingscreen/loading_comp.png
+  backgroundimage = config/drippyloadingscreen/forge_loading.png
   renderorder = background
   randommode = false
   randomonlyfirsttime = false
@@ -20,7 +20,7 @@ customization {
   x = 32
   textcolor = ffffff
   action = editforgestatustext
-  y = -41
+  y = -32
   scale = 0.7
 }
 
@@ -29,7 +29,7 @@ customization {
   x = 32
   textcolor = ffffff
   action = editforgememoryinfo
-  y = -30
+  y = -22
   scale = 0.7
 }
 
@@ -44,11 +44,11 @@ customization {
 customization {
   orientation = bottom-centered
   x = 0
-  width = 231
+  width = 240
   actionid = 95e3e762-7164-4677-bce4-1c94680fbd311647706235099
-  y = -78
+  y = -23
   action = addcustomprogressbar
-  height = 11
+  height = 7
   direction = right
   barcolor = #ece0d1
   backgroundcolor = #

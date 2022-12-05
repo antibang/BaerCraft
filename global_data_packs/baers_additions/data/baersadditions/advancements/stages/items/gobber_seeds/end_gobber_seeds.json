@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_seed_end"
+    },
+    "title": [
+      {
+        "text": "Unlock end gobber seeds",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft a full set of end gobber armor."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/misc",
+  "criteria": {
+    "end_gobber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_boots_end"
+          },
+          {
+            "item": "gobber2:gobber2_leggings_end"
+          },
+          {
+            "item": "gobber2:gobber2_chestplate_end"
+          },
+          {
+            "item": "gobber2:gobber2_helmet_end"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "end_gobber"
+    ]
+  ]
+}

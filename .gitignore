@@ -29,7 +29,6 @@ schematic_collection
 schematics
 screenshots
 shaderpacks
-trees
 unreleased_wip_content
 versions
 webcache2
@@ -45,6 +44,7 @@ biomeidfixer.temp
 clientId.txt
 launcher_accounts_microsoft_store.json
 launcher_cef_log.txt
+launcher_custom_skins.json
 launcher_entitlements_microsoft_store.json
 launcher_gamer_pics_microsoft_store.json
 launcher_log.txt

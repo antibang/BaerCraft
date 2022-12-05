@@ -1,0 +1,6 @@
+{
+    "name": "Gobber Seeds",
+    "description": "Stages and criteria for unlocking gobber seeds.",
+    "icon": "gobber2:gobber2_seed",
+    "parent": "patchouli:stages/misc"
+}

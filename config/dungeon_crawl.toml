@@ -7,7 +7,7 @@
 	#----------------------------------------------------------------------------------------------------+
 	# Enables extended debug logging to help detecting errors. Enabled by default.
 	#
-	extended_debug = true
+	extended_debug = false
 	#----------------------------------------------------------------------------------------------------+
 	# Prints all biome categories and their respective biomes to the console when entering a world.
 	# Might be useful to modpack creators. Ignore this for normal gameplay.
@@ -33,7 +33,7 @@
 	# Halving it will quadruple the amount of dungeons, doubling it would have the opposite effect.
 	#
 	#Range: 9 ~ 8192
-	spacing = 42
+	spacing = 46
 	#----------------------------------------------------------------------------------------------------+
 	# The minimum distance between two adjacent dungeons in chunks. Has to be lower than the spacing!
 	# The closer the separation is to the spacing, the more grid-aligned and predictable the dungeon placement will be.
@@ -41,7 +41,7 @@
 	# !! Has to be lower than the spacing! !!
 	#
 	#Range: 8 ~ 8191
-	separation = 26
+	separation = 28
 
 	["Dungeon Placement".Biomes]
 		#----------------------------------------------------------------------------------------------------+
@@ -55,7 +55,7 @@
 		# Biomes that should never contain dungeons.
 		# Entries need to use the full biome name ( eg. minecraft:plains ) and have to be comma-separated.
 		#
-		"Biome Blacklist" = ""
+		"Biome Blacklist" = "minecraft:birch_forest, minecraft:birch_forest_hills, biomesoplenty:mystic_grove, biomesoplenty:mystic_plains, biomesoplenty:rainbow_hills, byg:twilight_valley, byg:twilight_valley_hills, minecraft:taiga_mountains, minecraft:snowy_taiga_mountains, biomesoplenty:flower_meadow, biomesoplenty:meadow_forest, byg:the_black_forest, byg:black_forest_hills, minecraft:modified_gravelly_mountains, minecraft:gravelly_mountains, byg:bluff_steeps, byg:bluff_peaks, minecraft:sunflower_plains, minecraft:plains, biomesoplenty:lavender_field, byg:grove, byg:orchard, byg:prairie, byg:sierra_valley, byg:sierra_range, byg:prairie_clearing, minecraft:jungle_edge, minecraft:modified_jungle_edge, minecraft:desert_lakes, minecraft:snowy_tundra, minecraft:ice_spikes, byg:snowy_deciduous_clearing, byg:frozen_lake"
 		#----------------------------------------------------------------------------------------------------+
 		# List of biome categories the dungeons should spawn in.
 		# Entries have to be comma-separated.
@@ -66,7 +66,7 @@
 		# You may also enable the 'Print Biome Categories' option to have a list of all categories and their respective biomes
 		#  (including biomes of mods you have installed) printed to the logs.
 		#
-		"Biome Categories" = "desert, extreme_hills, icy, jungle, mesa, savanna, taiga"
+		"Biome Categories" = "forest, taiga, mesa, extreme_hills, savanna, plains, jungle, desert, icy"
 
 	["Dungeon Placement".Dimensions]
 		#----------------------------------------------------------------------------------------------------+

@@ -2,7 +2,7 @@
   "disableReturnToMainMenu": false,
   "deobfuscateStackTrace": true,
   "catchInitializationCrashes": true,
-  "debugModIdentification": false,
+  "debugModIdentification": true,
   "forceCrashScreen": false,
   "crashLimit": 20,
   "crashlogUpload": {

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_seed"
+    },
+    "title": [
+      {
+        "text": "Unlock gobber seeds",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft a full set of gobber armor."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/misc",
+  "criteria": {
+    "gobber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_boots"
+          },
+          {
+            "item": "gobber2:gobber2_leggings"
+          },
+          {
+            "item": "gobber2:gobber2_chestplate"
+          },
+          {
+            "item": "gobber2:gobber2_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber"
+    ]
+  ]
+}

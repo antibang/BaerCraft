@@ -34,7 +34,6 @@ mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantment
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "vanillatweaks:blazing"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "charm:tinted"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "ma-enchants:soft_fall"}]}));
-mods.jei.JEI.hideItem(<item:rereskillablerereforked:skill_fragment>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:sorter>);
 mods.jei.JEI.hideItem(<item:kubejs:dummy_fluid_item>);
 

@@ -239,3 +239,21 @@ craftingTable.addShaped("platinum_glaive", <item:spartanweaponry:glaive_platinum
     [<item:minecraft:air>, <item:baersadditions:platinum_ingot>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:spartanweaponry:pole>, <item:minecraft:air>]
 ]);
+
+craftingTable.addShaped("platinum_parrying_dagger", <item:spartanweaponry:parrying_dagger_platinum>, [
+    [<item:minecraft:air>, <item:baersadditions:platinum_ingot>, <item:minecraft:air>],
+    [<item:baersadditions:platinum_ingot>, <item:spartanweaponry:handle>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("platinum_boomerang", <item:spartanweaponry:boomerang_platinum>, [
+    [<item:baersadditions:platinum_ingot>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:minecraft:planks>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+craftingTable.addShaped("platinum_scythe", <item:spartanweaponry:scythe_platinum>, [
+    [<item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:baersadditions:platinum_ingot>],
+    [<item:minecraft:air>, <item:spartanweaponry:pole>, <item:minecraft:air>]
+]);

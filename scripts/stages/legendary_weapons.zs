@@ -26,9 +26,9 @@ StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/tro
 
 //Stage
 
-ItemStages.restrict(<item:iceandfire:dragonbone_sword_fire>, "flamed_dragonbone_sword").hiddenName("§e§lYou must defeat a fire dragon and craft a dragonbone sword before you can use the Flamed Dragonbone Sword").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:iceandfire:dragonbone_sword_ice>, "iced_dragonbone_sword").hiddenName("§e§lYou must defeat an ice dragon and craft a dragonbone sword before you can use the Iced Dragonbone Sword").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:iceandfire:dragonbone_sword_lightning>, "lightning_dragonbone_sword").hiddenName("§e§lYou must defeat a lightning dragon and craft a dragonbone sword before you can use the Lightning Dragonbone Sword").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
+ItemStages.restrict(<tag:items:baercraft:flamed_weapons>, "flamed_dragonbone_sword").hiddenName("§e§lYou must defeat a fire dragon and craft a dragonbone sword before you can use any flamed dragonbone weapon").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
+ItemStages.restrict(<tag:items:baercraft:iced_weapons>, "iced_dragonbone_sword").hiddenName("§e§lYou must defeat an ice dragon and craft a dragonbone sword before you can use any iced dragonbone weapon").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
+ItemStages.restrict(<tag:items:baercraft:lightning_weapons>, "lightning_dragonbone_sword").hiddenName("§e§lYou must defeat a lightning dragon and craft a dragonbone sword before you can use any lightning dragonbone weapon").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
 
 ItemStages.restrict(<item:iceandfire:amphithere_macuahuitl>, "amphithere_macuahuitl").hiddenName("§e§lYou must defeat at least one amphithere to unlock").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:iceandfire:cockatrice_scepter>, "cockatrice_scepter").hiddenName("§e§lYou must defeat and tame at least one cockatrice to unlock").setHiddenInJEI(false).preventInventory(false).preventPickup(false);
