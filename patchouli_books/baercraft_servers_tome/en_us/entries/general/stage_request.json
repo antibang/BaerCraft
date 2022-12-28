@@ -1,0 +1,12 @@
+{
+    "name": "Stage Requests",
+    "icon": "minecraft:book",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(bold)This is only for those who played on the servers BEFORE stages were implemented (November 1st, 2022)$()$(br2)If you have already completed the requirements for a stage or stage achievement, but don’t want to do it again or find it too difficult, then simply ask in the ''Stage Request'' forum on Discord."
+        }
+    ],
+    "sortnum": 7
+}

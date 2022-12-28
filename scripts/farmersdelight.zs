@@ -43,6 +43,14 @@ import crafttweaker.api.StoneCutterManager;
 
 //
 
+furnace.addRecipe("grass_to_straw", <item:farmersdelight:straw>, <item:minecraft:grass>, 0.5, 100);
+blastFurnace.addRecipe("grass_to_straw_blast", <item:farmersdelight:straw>, <item:minecraft:grass>, 0.5, 60);
+
+furnace.addRecipe("tall_grass_to_straw", <item:farmersdelight:straw>, <item:minecraft:tall_grass>, 0.5, 100);
+blastFurnace.addRecipe("tall_grass_to_straw_blast", <item:farmersdelight:straw>, <item:minecraft:tall_grass>, 0.5, 60);
+
+//
+
 stoneCutter.addRecipe("easy_bark", <item:farmersdelight:tree_bark> * 2, <tag:items:minecraft:logs>);
 
 //

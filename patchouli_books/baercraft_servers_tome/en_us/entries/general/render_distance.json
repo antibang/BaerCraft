@@ -5,11 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(italic)FOR THE LOVE OF GOD,$() if you have your render distance higher than 7 while playing on my servers, there is absolutely no point, so please lower it to 7. $(br2)This does not affect the servers, but it causes the client (you) to lose a significant amount of frames. The only time this is an exception is if you have the mod Far Sight installed."
-        },
-        {
-            "type": "text",
-            "text": "Otherwise, there's no point in having a render distance higher than 7 because you $(italic)will not see further than 7, EVER.$()"
+            "text": "Now that the mod Farsight is installed on clients, players can see past the server's render distance.$(br2)This only applies to chunks you've already loaded in. Sadly, each time you restart your game, you'll have to re-visit those chunks if you wish to see past the server's render distance again."
         }
     ],
     "sortnum": 5

@@ -1,0 +1,11 @@
+{
+    "name": "Resource Packs",
+    "icon": "minecraft:oxeye_daisy",
+    "category": "patchouli:resource_packs_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Resource-Packs-Perfect-for-BaerCraft)Here's the link$() to my GitHub page where I listed all of the resource packs that go perfectly with BaerCraft!"
+        }
+    ]
+}

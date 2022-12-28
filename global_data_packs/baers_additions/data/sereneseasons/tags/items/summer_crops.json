@@ -96,6 +96,7 @@
 	"thermal:strawberry_seeds",
 	"thermal:tomato_seeds",
 	"thermal:coffee_seeds",
-	"thermal:tea_seeds"
+	"thermal:tea_seeds",
+	"gobber2:gobber2_seed_nether"
   ]
 }
