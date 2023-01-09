@@ -23,7 +23,7 @@
 	#Placeholders:
 	#%coords% (X:??? Y:??? Z:???)
 	#%world% World name
-	Singleplayer-Text = "Exploring in %world%"
+	Singleplayer-Text = "Currently exploring"
 	#Custom client id, see https://github.com/ErdbeerbaerLP/DiscordRichPresence/wiki/Set-up-custom-Icons-(for-Modpacks) for more info
 	#Default: 511106082366554122
 	client-id = "1017866875167842365"
