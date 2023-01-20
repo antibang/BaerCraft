@@ -499,10 +499,10 @@
 	[tools.railgun]
 		#The base amount of Flux consumed per shot by the Railgun
 		#Range: > 1
-		consumption = 800
+		consumption = 3500
 		#A modifier for the damage of all projectiles fired by the Railgun
 		#Range: 0.0 ~ 1.7976931348623157E308
-		damage_modifier = 1.0
+		damage_modifier = 1.5
 
 	[tools.powerpack]
 		#A whitelist of armor pieces to allow attaching the capacitor backpack, formatting: [mod id]:[item name]

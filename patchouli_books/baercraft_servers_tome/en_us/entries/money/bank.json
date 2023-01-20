@@ -1,11 +1,11 @@
 {
-    "name": "Server Bank (WIP)",
+    "name": "Server Bank",
     "icon": "thermal:enderium_coin",
     "category": "patchouli:money",
     "pages": [
         {
             "type": "text",
-            "text": "."
+            "text": "The server's dedicated bank is located directly north of spawn.$(br2)At the bank, you can exchange coins for both lower or higher levels of currency.$(br2)Netherite and enderium coins are only obtainable through exchange at the bank."
         }
     ]
 }

@@ -1,0 +1,11 @@
+{
+    "name": "Finding Coins",
+    "icon": "thermal:bronze_coin",
+    "category": "patchouli:money",
+    "pages": [
+        {
+            "type": "text",
+            "text": "First and foremost, know that you $(bold) cannot craft coins.$() The numismatic die (coin press) is under the ''Bad Items'' tag, therefore you cannot create coins.$(br2)That being said, you $(italic)can$() find coins in a lot of structures and dungeons. Additionally, you can exchange the coins that you do have for either lower or higher currency at the server's bank."
+        }
+    ]
+}
