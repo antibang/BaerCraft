@@ -1,0 +1,13 @@
+{
+    "name": "Disenchanter",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/misc/blocks",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/blocks/disenchanter",
+            "type": "quest",
+            "text": "$(bold)How to unlock:$() You must find experience, Nether, and Overworld concentrate (click on these items in JEI to see where you can locate them).$(br2)You must also locate the Thornborn Towers and a Stronghold. Additionally, you must either find a Nether City or kill the Wither."
+        }
+    ],
+    "turnin": "baersadditions:stages/blocks/disenchanter"
+}

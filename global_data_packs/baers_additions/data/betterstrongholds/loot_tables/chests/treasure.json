@@ -157,6 +157,26 @@
             }
           ],
           "name": "thermal:gold_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "baersadditions:experience_concentrate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ]
         }
       ]
     }

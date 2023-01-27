@@ -1,0 +1,6 @@
+{
+    "name": "Blocks",
+    "description": "Stages and criteria for unlocking various blocks.",
+    "icon": "disenchanting:disenchanter",
+    "parent": "patchouli:stages/misc"
+}

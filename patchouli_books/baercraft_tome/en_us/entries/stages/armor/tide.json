@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/tide",
             "type": "quest",
-            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat 1 sea serpent and 1 fire, ice, or lightning dragon to use any item part of the tide set."
+            "text": "$(bold)How to unlock:$() You must defeat 1 sea serpent and 1 fire, ice, or lightning dragon to use any item part of the tide set."
         }
     ],
     "turnin": "baersadditions:stages/armor/tide"

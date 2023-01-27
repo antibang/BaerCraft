@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Recommended-RAM)Useful RAM Information$()$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Better-Performance-Settings)A Detailed Guide for Better Performance$()$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/CurseForge-&-Performance)My Thoughts About CurseForge$()$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/Resources-and-Useful-Things)Useful Client-sided Resources!"
+            "text": "$(l:https://github.com/antibang/BaerCraft/wiki/Recommended-RAM)Useful RAM Information$()$(br2)$(l:https://github.com/antibang/BaerCraft/wiki/Better-Performance-Settings)A Detailed Guide for Better Performance$()$(br2)$(l:https://github.com/antibang/BaerCraft/wiki/CurseForge-&-Performance)My Thoughts About CurseForge$()$(br2)$(l:https://github.com/antibang/BaerCraft/wiki/Resources-and-Useful-Things)Useful Client-sided Resources!"
         }
     ]
 }

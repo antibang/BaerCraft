@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "We currently offer 3 different sized plots: $(br2)$(#e2a3ff)$(bold)Small -$() 32 x 32 blocks$(br2)$(#e2a3ff)$(bold)Medium -$() 64 x 64 blocks$(br2)$(#e2a3ff)$(bold)Large -$() 128 x 128 blocks$(br2)You $(italic)are$() allowed to pick the area around spawn for your plot, as long as you let us know where, but you might not get it as it might be already claimed."
+            "text": "We currently offer 3 different sized plots: $(br2)$(bold)Small -$() 32 x 32 blocks$(br2)$(bold)Medium -$() 64 x 64 blocks$(br2)$(bold)Large -$() 128 x 128 blocks$(br2)You $(italic)are$() allowed to pick the area around spawn for your plot, as long as you let us know where, but you might not get it as it might be already claimed."
         }
     ],
     "priority": true

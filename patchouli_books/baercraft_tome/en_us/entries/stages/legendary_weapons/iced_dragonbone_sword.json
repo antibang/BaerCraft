@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/legendary_weapons/iced_dragonbone_sword",
             "type": "quest",
-            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat one ice dragon and craft one dragonbone sword before you can use the Iced Dragonbone Sword."
+            "text": "$(bold)How to unlock:$() You must defeat one ice dragon and craft one dragonbone sword before you can use the Iced Dragonbone Sword."
         }
     ],
     "turnin": "baersadditions:stages/legendary_weapons/iced_dragonbone_sword"

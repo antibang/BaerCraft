@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/gobber",
             "type": "quest",
-            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full netherite or gemium armor set to use any item part of the gobber set."
+            "text": "$(bold)How to unlock:$() You must craft a full netherite or gemium armor set to use any item part of the gobber set."
         }
     ],
     "turnin": "baersadditions:stages/armor/gobber"

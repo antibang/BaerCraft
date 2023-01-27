@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/items/dragon_eggs/fire_dragon_egg",
             "type": "quest",
-            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must defeat at least 1 fire dragon before you can use any fire dragon egg."
+            "text": "$(bold)How to unlock:$() You must defeat at least 1 fire dragon before you can use any fire dragon egg."
         }
     ],
     "turnin": "baersadditions:stages/items/dragon_eggs/fire_dragon_egg"

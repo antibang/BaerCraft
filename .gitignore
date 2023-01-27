@@ -17,15 +17,12 @@ imgui.log
 libraries
 local
 logs
-maessentials
 mods
 nekocache
 output
 pollen-cache
-pregen
 resourcepacks
 saves
-schematic_collection
 schematics
 screenshots
 shaderpacks
@@ -38,8 +35,6 @@ XaeroWaypoints_BACKUP032021
 XaeroWorldMap
 
 #files
-advancement-ideas.txt
-advancements-to-add-to-quest-book.txt
 biomeidfixer.temp
 clientId.txt
 launcher_accounts_microsoft_store.json
@@ -72,10 +67,8 @@ WailaErrorOutput.txt
 
 #Configs
 config/cherishedworlds
-config/defaultworldtype/client-config.toml
 config/fancymenu/locals
 config/QualityEquipment
-config/roadrunner
 config/spark
 config/starterkit/starterkit.txt
 config/terraforged
@@ -102,10 +95,6 @@ config/xaerominimap_entities.json
 config/xaerominimap.txt
 
 #Datapacks
-global_data_packs/baers_additions/data/takesapillage
-
-#Patchouli Books
-patchouli_books/trash_panda_craft_tome
 
 #Misc.
 global_resource_packs/AntibangsRenditions/assets/ambientsounds/sounds/suspense/nether.ogg

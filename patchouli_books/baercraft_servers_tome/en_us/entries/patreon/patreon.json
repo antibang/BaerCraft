@@ -11,7 +11,7 @@
             "type": "spotlight",
             "title": "Become a Patron",
             "item": "curios:crown",
-            "text": "$(#e2a3ff)$(l:https://www.patreon.com/antibang)      Link to my Patreon"
+            "text": "$(l:https://www.patreon.com/antibang)      Link to my Patreon"
         }
     ]
 }

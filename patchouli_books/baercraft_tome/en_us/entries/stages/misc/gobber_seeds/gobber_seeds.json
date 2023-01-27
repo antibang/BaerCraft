@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/items/gobber_seeds/gobber_seeds",
             "type": "quest",
-            "text": "$(#e2a3ff)$(bold)How to unlock:$() You must craft a full gobber armor set to unlock gobber seeds."
+            "text": "$(bold)How to unlock:$() You must craft a full gobber armor set to unlock gobber seeds."
         }
     ],
     "turnin": "baersadditions:stages/items/gobber_seeds/gobber_seeds"

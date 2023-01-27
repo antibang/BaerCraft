@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "out of my control. I’m going to list all of the types of reoccurring crashes on our $(#e2a3ff)$(l:https://discord.gg/cGxnWKQhpU)Discord in the bugs channel$(/l)$() if I haven’t already."
+            "text": "out of my control. I’m going to list all of the types of reoccurring crashes on our $(l:https://discord.gg/cGxnWKQhpU)Discord in the bugs channel$(/l)$() if I haven’t already."
         }
     ]
 }

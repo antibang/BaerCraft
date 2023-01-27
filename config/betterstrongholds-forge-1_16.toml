@@ -20,7 +20,7 @@
 		# The minimum y-value at which the STARTING ROOM of the stronghold can spawn.
 		# Note that the various pieces of the stronghold can extend above or below this value.
 		# Default: 30
-		"Min Start Y" = 30
+		"Min Start Y" = 20
 		# The maximum y-value at which the STARTING ROOM of the stronghold can spawn.
 		# Note that the various pieces of the stronghold can extend above or below this value.
 		# Default: 31
@@ -35,7 +35,7 @@
 		# This number controls the general size of strongholds. Bigger number = bigger strongholds.
 		# It is HIGHLY recommended to keep this an even number!
 		# Default: 16
-		"Stronghold Size" = 18
+		"Stronghold Size" = 20
 		# The rate at which cobwebs will spawn in various parts of the stronghold.
 		# Default: 0.1
 		"Cobweb Spawn Rate (NORMAL)" = 0.1
@@ -47,7 +47,7 @@
 		"Torch Spawn Rate" = 0.4
 		# The rate at which lanterns spawn throughout the stronghold.
 		# Default: 0.2
-		"Lantern Spawn Rate" = 1.2
+		"Lantern Spawn Rate" = 1.6
 
 	###########################################################################################################
 	## Options for controlling individual pieces/rooms in the stronghold.

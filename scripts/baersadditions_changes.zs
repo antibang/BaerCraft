@@ -5,7 +5,13 @@ import crafttweaker.api.BlastFurnaceManager;
 
 //
 
-mods.jei.JEI.addInfo(<item:baersadditions:oxytocin_concentrate>, ["\u00A75Oxytocin \u00A7ris a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones.\n\u00A75Oxytocin concentrate \u00A7r currently has no recipe, but it can, however, be found in places like foundries, nether cities, and more."]);
+mods.jei.JEI.addInfo(<item:baersadditions:experience_concentrate>, ["\u00A7eExperience concentrate \u00A7r is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds."]);
+
+mods.jei.JEI.addInfo(<item:baersadditions:nether_concentrate>, ["\u00A78Nether concentrate \u00A7r is an extremely potent, but deadly, concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it."]);
+
+mods.jei.JEI.addInfo(<item:baersadditions:overworld_concentrate>, ["\u00A72Overworld concentrate \u00A7r is the purest concentrate of them all, harvesting all power from the Overworld. While it's currently unknown how to create it, it can be found rarely in the Thornborn Towers."]);
+
+mods.jei.JEI.addInfo(<item:baersadditions:oxytocin_concentrate>, ["\u00A75Oxytocin \u00A7ris a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones.\n\u00A75Oxytocin concentrate \u00A7r currently has no recipe, but it can, however, be found in places like Foundries, Nether cities, and more."]);
 
 //
 
@@ -40,7 +46,9 @@ craftingTable.removeRecipe(<item:wyrmroost:platinum_dragon_armor>);
 
 craftingTable.addShapeless("wyrmroost_platinum_to_baersadditions_platinum", <item:baersadditions:platinum_ingot> * 1, [<item:wyrmroost:platinum_ingot>]);
 
-//Platinum block
+//Baer's Additions Blocks
+
+craftingTable.addShapeless("moss_block", <item:baersadditions:moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:vine>]);
 
 craftingTable.addShapedMirrored("platinum_block", <item:baersadditions:platinum_block>, [
     [<item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>],

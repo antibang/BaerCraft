@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "I $(italic)highly$() recommend playing my modpack with $(#e2a3ff)$(l:https://www.curseforge.com/minecraft/mc-mods/terraforged)TerraForged$(/l)$() if you’re not a fan of boring vanilla terrain generation. It’s one of my favorite mods out there, and my pack is partially developed with it in mind (keep in mind there will be some issues like some structures spawning too frequently, but that’s because those are configured to work with the default vanilla generation!)"
+            "text": "I $(italic)highly$() recommend playing my modpack with $(l:https://www.curseforge.com/minecraft/mc-mods/terraforged)TerraForged$(/l)$() if you’re not a fan of boring vanilla terrain generation. It’s one of my favorite mods out there, and my pack is partially developed with it in mind (keep in mind there will be some issues like some structures spawning too frequently, but that’s because those are configured to work with the default vanilla generation!)"
         },
         {
             "type": "text",
-            "text": "If you decide to try out TerraForged, I also recommend downloading the presets I have made that I feel like suit my pack and its generation very well. You can find them $(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki/TerraForged-Presets-&-Guide)here!$()$(br2)Please note, TerraForged is $(italic)very resource hungry$() and your computer might not like it on top of the modpack."
+            "text": "If you decide to try out TerraForged, I also recommend downloading the presets I have made that I feel like suit my pack and its generation very well. You can find them $(l:https://github.com/antibang/BaerCraft/wiki/TerraForged-Presets-&-Guide)here!$()$(br2)Please note, TerraForged is $(italic)very resource hungry$() and your computer might not like it on top of the modpack."
         }
     ]
 }

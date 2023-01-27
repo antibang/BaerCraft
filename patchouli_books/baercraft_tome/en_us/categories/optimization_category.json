@@ -1,6 +1,6 @@
 {
     "name": "Optimization & Resources",
-    "description": "I've put together a lot of useful information about improving player's performance or provide quality of life resources to make your gameplay as good as it could possibly be!$(br2)$(#e2a3ff)$(l:https://github.com/antibang/BaerCraft/wiki)Here's BaerCraft's WIP wiki with all of the useful information for players.",
+    "description": "I've put together a lot of useful information about improving player's performance or provide quality of life resources to make your gameplay as good as it could possibly be!$(br2)$(l:https://github.com/antibang/BaerCraft/wiki)Here's BaerCraft's WIP wiki with all of the useful information for players.",
     "icon": "thermal:upgrade_augment_1",
     "sortnum": 8
 }

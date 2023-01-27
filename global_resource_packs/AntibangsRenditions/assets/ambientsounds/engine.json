@@ -70,6 +70,15 @@
                 "max": 14400
               },
               "volume": 0.4
+            },
+            {
+              "name": "nether_ambient_6",
+              "files": [ "baersadditions:nether_ambient_6" ],
+              "pause": {
+                "min": 6800,
+                "max": 16400
+              },
+              "volume": 0.35
             }
           ]
         }
@@ -90,7 +99,7 @@
           "sounds": [
             {
               "name": "suspense",
-              "volume": 0.25,
+              "volume": 0.2,
               "files": [ "ambientsounds:suspense.end" ]
             },
             {
@@ -106,7 +115,7 @@
               "name": "end_ambient_1",
               "files": [ "baersadditions:end_ambient_1" ],
               "pause": {
-                "min": 3600,
+                "min": 4200,
                 "max": 8400
               },
               "volume": 0.25
@@ -116,9 +125,18 @@
               "files": [ "baersadditions:end_ambient_2" ],
               "pause": {
                 "min": 3600,
-                "max": 7200
+                "max": 7600
               },
               "volume": 0.2
+            },
+            {
+              "name": "end_ambient_3",
+              "files": [ "baersadditions:end_ambient_3" ],
+              "pause": {
+                "min": 5000,
+                "max": 12000
+              },
+              "volume": 0.4
             }
           ]
         }
