@@ -104,7 +104,7 @@
       "favourite_food":"minecraft:porkchop",
       "attack":8,
       "health":40,
-      "skins":30,
+      "skins":40,
       "flags":{
         "fluffyTail":1
 
@@ -132,7 +132,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:porkchop",
       "attack":7,
-      "health":40,
+      "health":45,
       "skins":30,
       "flags":{
 
@@ -163,7 +163,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:beef",
       "attack":8,
-      "health":40,
+      "health":50,
       "skins":20,
       "flags":{
         "dimorphism":1,
@@ -267,7 +267,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:beef",
       "attack":9,
-      "health":40,
+      "health":50,
       "flags":{
 
       },
@@ -374,7 +374,7 @@
       "activityType":"nocturnal",
       "favourite_food":"minecraft:beef",
       "attack":8,
-      "health":30,
+      "health":40,
       "flags":{
         "fluffyTail":1
       },
@@ -393,7 +393,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:porkchop",
       "attack":9,
-      "health":40,
+      "health":45,
       "flags":{
 
       },

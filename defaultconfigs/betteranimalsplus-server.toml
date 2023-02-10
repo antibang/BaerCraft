@@ -569,10 +569,10 @@
 
 		[entities.brownbear.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 10
+			spawn_weight = 1
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
@@ -600,10 +600,10 @@
 
 		[entities.blackbear.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 13
+			spawn_weight = 1
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
@@ -792,10 +792,10 @@
 
 		[entities.boar.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 5
+			spawn_weight = 1
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 2

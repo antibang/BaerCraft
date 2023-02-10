@@ -1,13 +1,6 @@
 [
     {
-        "mob": "betteranimalsplus:deer",
-        "speedmultiply": 2,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
         "mob": "minecraft:rabbit",
-        "healthadd": 5,
         "biome": ["minecraft:taiga", "minecraft:taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:flower_forest", "minecraft:snowy_tundra", "minecraft:snowy_mountains"],
         "incontrol": true,
         "onjoin": true,
@@ -15,7 +8,8 @@
     },
     {
         "mob": "bettas:betta_fish",
-        "biome": ["minecraft:flower_forest", "minecraft:forest", "minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:bamboo_jungle_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:river"],
+        "biome": ["minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:bamboo_jungle_hills", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:river"],
+        "incontrol": true,
         "onjoin": true,
         "result": "allow"
     },
@@ -24,23 +18,18 @@
         "result": "deny"
     },
     {
+        "mob": "betteranimalsplus:deer",
+        "speedmultiply": 2,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
         "mob": "minecraft:wither",
         "healthadd": 100,
         "damageadd": 2,
-        "potion": ["minecraft:absorption,1000000,1", "minecraft:glowing,1000000,1", "minecraft:speed,1000000,10"],
+        "potion": "minecraft:absorption,1000000,1",
         "onjoin": true,
         "result": "allow"
-    },
-    {
-        "mob": "mutantbeasts:mutant_zombie",
-        "minheight": 66,
-        "seesky": true,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "mutantbeasts:mutant_zombie",
-        "result": "deny"
     },
     {
         "mob": "blue_skies:summoner",
@@ -50,65 +39,7 @@
         "result": "allow"
     },
     {
-        "mob": "blue_skies:artificial_golem",
-        "healthadd": 60,
-        "damageadd": 4
-    },
-    {
-        "mob": "mutantbeasts:mutant_enderman",
-        "dimension": "minecraft:the_end",
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "undergarden:forgotten_guardian",
-        "dimension": "minecraft:overworld",
-        "structure": "dungeons_arise:foundry",
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "undergarden:forgotten_guardian",
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie", "minecraft:creeper"],
-        "block": ["minecraft:grass_block", "minecraft:podzol", "minecraft:coarse_dirt"],
-        "mintime": 0,
-        "maxtime": 12000,
-        "minheight": 62,
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:creeper", "minecraft:stray", "iceandfire:troll", "minecraft:husk", "quark:forgotten", "dungeons_mobs:wraith"],
-        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone", "iceandfire:copper_pile", "iceandfire:silver_pile", "iceandfire:gold_pile"],
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
-        "mob": "mutantmore:mutant_wither_skeleton",
-        "dimension": "minecraft:overworld",
-        "structure": "dungeons_arise:foundry",
-        "maxheight": 20,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "mutantmore:mutant_wither_skeleton",
-        "dimension": "minecraft:overworld",
-        "result": "deny"
-    },
-    {
-        "mob": ["untamedwilds:aardvark", "untamedwilds:bear", "untamedwilds:big_cat", "untamedwilds:bison", "untamedwilds:boar", "untamedwilds:camel", "untamedwilds:hippo", "untamedwilds:hyena", "untamedwilds:manatee", "untamedwilds:rhino"],
-        "healthadd": 10,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
         "mob": "untamedwilds:large_snake",
-        "healthadd": 20,
         "speedmultiply": 1.5,
         "onjoin": true,
         "result": "allow"
@@ -135,66 +66,50 @@
         "result": "allow"
     },
     {
-        "mob": "fins:golden_river_ray",
-        "biome": ["minecraft:river", "minecraft:swanp", "minecraft:swamp_hills"],
-        "incontrol": true,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "fins:golden_river_ray",
-        "result": "deny"
-    },
-    {
-        "mob": "fins:red_bull_crab",
-        "biome": ["minecraft:ocean", "minecraft:deep_warm_ocean", "minecraft:deep_ocean"],
-        "incontrol": true,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "fins:red_bull_crab",
-        "result": "deny"
-    },
-    {
-        "mob": "fins:white_bull_crab",
-        "biome": ["minecraft:ocean", "minecraft:deep_warm_ocean", "minecraft:deep_ocean"],
-        "incontrol": true,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "fins:white_bull_crab",
-        "result": "deny"
-    },
-    {
-        "mob": "fins:swamp_mucker",
-        "biome": ["minecraft:river", "minecraft:swamp", "minecraft:swamp_hills"],
-        "incontrol": true,
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": "fins:swamp_mucker",
-        "result": "deny"
-    },
-    {
-        "mob": "wyrmroost:lesser_desertwyrm",
-        "onjoin": true,
-        "result": "deny"
-    },
-    {
         "mob": "wyrmroost:royal_red",
         "healthadd": 100,
-        "damageadd": 5
+        "damageadd": 5,
+        "onjoin": true,
+        "result": "allow"
     },
     {
-        "biome": "byg:dead_sea",
+        "mob": "blue_skies:artificial_golem",
+        "healthadd": 60,
+        "damageadd": 4,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie", "minecraft:creeper"],
+        "block": ["minecraft:grass_block", "minecraft:podzol", "minecraft:coarse_dirt"],
+        "mintime": 0,
+        "maxtime": 11000,
         "onjoin": true,
         "result": "deny"
     },
     {
-        "mob": "whisperwoods:moth",
+        "hostile": true,
+        "block": ["iceandfire:chared_stone", "iceandfire:chared_cobblestone", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone", "iceandfire:copper_pile", "iceandfire:silver_pile", "iceandfire:gold_pile"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "mutantmore:mutant_wither_skeleton",
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:foundry",
+        "block": ["minecraft:red_terracotta", "minecraft:gray_terracotta", "minecraft:black_terracotta"],
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "mutantmore:mutant_wither_skeleton",
+        "dimension": "minecraft:overworld",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": ["fins:swamp_mucker", "fins:red_bull_crab", "fins:white_bull_crab", "whisperwoods:moth"],
         "mincount": {
           "amount": 4,
           "perplayer": true
@@ -203,9 +118,36 @@
         "result": "deny"
     },
     {
+        "dimension": "minecraft:overworld",
         "mod": "aquaculture",
         "mincount": {
-          "amount": 20,
+          "amount": 14,
+          "perplayer": true
+        },
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "mutantbeasts:mutant_enderman",
+        "dimension": "minecraft:the_end",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "mob": "wyrmroost:lesser_desertwyrm",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
+        "biome": "byg:dead_sea",
+        "onjoin": true,
+        "result": "deny"
+    },    
+    {
+        "dimension": "minecraft:the_end",
+        "mob": "dungeons_mobs:endersent",
+        "mincount": {
+          "amount": 3,
           "perplayer": true
         },
         "onjoin": true,

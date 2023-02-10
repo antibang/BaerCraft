@@ -18,7 +18,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 2.0
+			frequency = 1.5
 			# 
 			#Range: > 0
 			minHeight = 40
@@ -36,13 +36,13 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 0.015625
+			frequency = 0.0164
 			# 
 			#Range: > 0
-			minHeight = 10
+			minHeight = 5
 			# 
 			#Range: > 0
-			maxHeight = 30
+			maxHeight = 20
 
 		[worldgen.v2.zinc_ore]
 			# 
@@ -72,13 +72,13 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 0.015625
+			frequency = 0.0238
 			# 
 			#Range: > 0
 			minHeight = 30
 			# 
 			#Range: > 0
-			maxHeight = 70
+			maxHeight = 150
 
 		[worldgen.v2.dolomite]
 			# 
@@ -90,13 +90,13 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 0.015625
+			frequency = 0.0238
 			# 
 			#Range: > 0
 			minHeight = 20
 			# 
 			#Range: > 0
-			maxHeight = 70
+			maxHeight = 160
 
 		[worldgen.v2.gabbro]
 			# 
@@ -108,7 +108,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 0.015625
+			frequency = 0.0166
 			# 
 			#Range: > 0
 			minHeight = 20

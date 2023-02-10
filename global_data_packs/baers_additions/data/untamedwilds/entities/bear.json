@@ -26,7 +26,7 @@
       "activityType":"crepuscular",
       "favourite_food":"minecraft:sweet_berries",
       "attack":5,
-      "health":30,
+      "health":40,
       "skins":41,
       "flags":{
 
@@ -163,7 +163,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:salmon",
       "attack":7,
-      "health":40,
+      "health":50,
       "skins":40,
       "flags":{
         "hasHump":1
@@ -266,7 +266,7 @@
       "activityType":"crepuscular",
       "favourite_food":"minecraft:bamboo",
       "attack":4,
-      "health":25,
+      "health":30,
       "flags":{
         "hasShortSnout":1,
         "isPanda":1
@@ -312,7 +312,7 @@
       "activityType":"diurnal",
       "favourite_food":"untamedwilds:material_fat",
       "attack":8,
-      "health":45,
+      "health":50,
       "flags":{
 
       },
@@ -393,7 +393,7 @@
       "activityType":"diurnal",
       "favourite_food":"minecraft:honeycomb",
       "attack":4,
-      "health":15,
+      "health":20,
       "flags":{
         "groupCount":3
       },

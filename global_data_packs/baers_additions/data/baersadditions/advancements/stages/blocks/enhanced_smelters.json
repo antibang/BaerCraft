@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "betterendforge:end_stone_smelter"
+    },
+    "title": [
+      {
+        "text": "Enhanced Smelting",
+        "italic": true
+      }
+    ],
+    "description": "Unlock the end stone smelter and pulverizer.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/misc",
+  "criteria": {
+    "killed_ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+    "end_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endcity"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_ender_dragon"
+    ],
+    [
+      "end_city"
+    ]
+  ]
+}

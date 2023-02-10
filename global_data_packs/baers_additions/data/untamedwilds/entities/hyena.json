@@ -18,7 +18,7 @@
       "scale":1.0,
       "rarity":3,
       "attack":4,
-      "health":10,
+      "health":20,
       "flags":{
         "groupCount":6
       },
@@ -40,7 +40,7 @@
       "scale":1.0,
       "rarity":2,
       "attack":4,
-      "health":14,
+      "health":20,
       "flags":{
         "groupCount":6
       },
@@ -71,7 +71,7 @@
       "scale":1.1,
       "rarity":5,
       "attack":5,
-      "health":20,
+      "health":25,
       "skins":30,
       "sounds":{
         "ambient":"untamedwilds:entity.hyena.laugh",
@@ -110,7 +110,7 @@
       "scale":1.1,
       "rarity":3,
       "attack":4,
-      "health":16,
+      "health":25,
       "skins":30,
       "flags":{
         "groupCount":5
@@ -145,7 +145,7 @@
       "scale":1.2,
       "rarity":1,
       "attack":5,
-      "health":24,
+      "health":20,
       "flags":{
         "groupCount":6
       },

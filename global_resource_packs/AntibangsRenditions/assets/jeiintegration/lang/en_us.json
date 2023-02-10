@@ -1,0 +1,29 @@
+{
+  "_comment": "JEI Integration Language File",
+
+  "_comment": "Language Name: English",
+  "_comment": "Language Region: United States",
+  "_comment": "Language Code: en_us",
+
+  "_comment": "Config",
+  "config.jeiintegration.tooltips.burnTimeTooltipMode": "§9Burn Time Tooltip",
+  "config.jeiintegration.tooltips.durabilityTooltipMode": "§9Durability Tooltip",
+  "config.jeiintegration.tooltips.foodTooltipMode": "§9Hunger/Saturation Tooltip",
+  "config.jeiintegration.tooltips.maxStackSizeTooltipMode": "§9Max Stack Size Tooltip",
+  "config.jeiintegration.tooltips.nbtTooltipMode": "§9NBT Data Tooltip",
+  "config.jeiintegration.tooltips.registryNameTooltipMode": "§9Registry Name Tooltip",
+  "config.jeiintegration.tooltips.tagsTooltipMode": "§9Tags Tooltip",
+  "config.jeiintegration.tooltips.translationKeyTooltipMode": "§9Translation Key Tooltip",
+
+  "_comment": "Tooltips",
+  "tooltip.jeiintegration.burnTime": "§9Burn Time:",
+  "tooltip.jeiintegration.burnTime.suffix": "§9ticks",
+  "tooltip.jeiintegration.durability": "§9Durability:",
+  "tooltip.jeiintegration.hunger": "§9Hunger:",
+  "tooltip.jeiintegration.saturation": "§9Saturation:",
+  "tooltip.jeiintegration.maxStackSize": "§9Max Stack Size:",
+  "tooltip.jeiintegration.nbtTagData": "§9NBT:",
+  "tooltip.jeiintegration.registryName": "§9ID:",
+  "tooltip.jeiintegration.tags": "§9Tags:",
+  "tooltip.jeiintegration.translationKey": "§9Translation Key:"
+}

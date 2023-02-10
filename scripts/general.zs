@@ -46,8 +46,6 @@ craftingTable.removeRecipe(<item:spawnermod:spawner_key>);
 craftingTable.removeRecipe(<item:minecraft:crying_obsidian>);
 craftingTable.removeRecipe(<item:bountifulbaubles:broken_heart>);
 craftingTable.removeRecipe(<item:bountifulbaubles:lucky_horseshoe>);
-craftingTable.removeRecipe(<item:quark:flamerang>);
-craftingTable.removeRecipe(<item:quark:pickarang>);
 craftingTable.removeRecipe(<item:immersiveengineering:sorter>);
 
 //

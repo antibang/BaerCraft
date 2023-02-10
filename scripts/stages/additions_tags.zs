@@ -1,6 +1,12 @@
 import crafttweaker.api.item.IItemStack;
 
-//
+//Non-armor things
+
+    //Enhanced Smelters
+    <tag:items:baercraft:enhanced_smelters>.add(
+        <item:betterendforge:end_stone_smelter>,
+        <item:thermal:machine_pulverizer>
+    );
 
 //Sets
 

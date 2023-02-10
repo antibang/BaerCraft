@@ -19,9 +19,9 @@
 
 	[Generation.Ores]
 		#Whether to generate copper ore or not
-		"Generate Copper Ore" = true
+		"Generate Copper Ore" = false
 		#Whether to generate silver ore or not
-		"Generate Silver Ore" = true
+		"Generate Silver Ore" = false
 		#Whether to generate sapphire ore or not
 		"Generate Sapphire Ore" = true
 		#Whether to generate amethyst ore or not

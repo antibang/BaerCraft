@@ -16,6 +16,7 @@
       "variant":0,
       "scale":2.2,
       "rarity":1,
+      "health":40,
       "skins":30,
       "flags":{
         "groupCount": 5

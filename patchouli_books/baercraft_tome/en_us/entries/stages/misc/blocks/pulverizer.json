@@ -1,0 +1,13 @@
+{
+    "name": "Pulverizer",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/misc/blocks",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/blocks/enhanced_smelters",
+            "type": "quest",
+            "text": "$(bold)How to unlock:$() You must defeat the Ender Dragon and find an End City before you can use the pulverizer."
+        }
+    ],
+    "turnin": "baersadditions:stages/blocks/enhanced_smelters"
+}

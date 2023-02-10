@@ -22,7 +22,7 @@
       "activityType":"cathemeral",
       "favourite_food":"minecraft:beef",
       "attack":6,
-      "health":30,
+      "health":50,
       "flags":{
         "parts":3
       },
@@ -50,7 +50,7 @@
       "activityType":"cathemeral",
       "favourite_food":"minecraft:porkchop",
       "attack":6,
-      "health":30,
+      "health":50,
       "flags":{
         "eggLayer":1,
         "parts":3

@@ -27,19 +27,6 @@
         }
     },
     {
-        "mob": "undergarden:forgotten_guardian",
-        "persecond": 0.7,
-        "attempts": 10,
-        "amount": {
-            "minimum": 1,
-            "maximum": 5
-        },
-        "conditions": {
-            "dimension": "minecraft:overworld",
-            "maxthis": 8
-        }
-    },
-    {
         "mob": "mutantmore:mutant_wither_skeleton",
         "persecond": 0.5,
         "attempts": 8,
@@ -49,49 +36,9 @@
         },
         "conditions": {
             "dimension": "minecraft:overworld",
+            "mindist": 16,
+            "maxdist": 96,
             "maxthis": 4
-        }
-    },
-    {
-        "mob": "fins:golden_river_ray",
-        "persecond": 0.5,
-        "attempts": 10,
-        "amount": {
-            "minimum": 2,
-            "maximum": 3
-        },
-        "conditions": {
-            "dimension": "minecraft:overworld",
-            "inwater": true,
-            "maxthis": 3
-        }
-    },
-    {
-        "mob": "fins:red_bull_crab",
-        "persecond": 0.5,
-        "attempts": 10,
-        "amount": {
-            "minimum": 2,
-            "maximum": 3
-        },
-        "conditions": {
-            "dimension": "minecraft:overworld",
-            "inwater": true,
-            "maxthis": 3
-        }
-    },
-    {
-        "mob": "fins:white_bull_crab",
-        "persecond": 0.5,
-        "attempts": 10,
-        "amount": {
-            "minimum": 2,
-            "maximum": 3
-        },
-        "conditions": {
-            "dimension": "minecraft:overworld",
-            "inwater": true,
-            "maxthis": 3
         }
     }
 ]

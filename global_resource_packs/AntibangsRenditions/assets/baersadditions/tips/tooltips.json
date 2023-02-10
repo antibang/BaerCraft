@@ -1,0 +1,10 @@
+{
+    "title": {
+      "text": "Tip",
+      "bold": true,
+      "color": "blue"
+    },
+    "tip": {
+      "text": "Want to know more about an item or block in your inventory? Simply hover your mouse over an item in your inventory and press ''Shift'' on your keyboard to see am item's burn time, NBT data, registry name, and tags."
+    }
+  }

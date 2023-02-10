@@ -363,7 +363,7 @@
 		max_y = 72
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 8
+		avg_veins_per_chunk = 6
 		#Set this to true to allow retro-generation of copper Ore.
 		retrogen_enable = false
 
@@ -397,7 +397,7 @@
 		max_y = 36
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 4
+		avg_veins_per_chunk = 3
 		#Set this to true to allow retro-generation of lead Ore.
 		retrogen_enable = false
 
@@ -414,7 +414,7 @@
 		max_y = 40
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 4
+		avg_veins_per_chunk = 3
 		#Set this to true to allow retro-generation of silver Ore.
 		retrogen_enable = false
 
