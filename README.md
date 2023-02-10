@@ -8,4 +8,4 @@ The modpack is also accessable on [CurseForge](https://www.curseforge.com/minecr
 
 > Be sure to check the Wiki!!
 
-![baercraft-github-banner](https://user-images.githubusercontent.com/79492924/218115664-c534f212-58f2-46d2-80c5-911629ff17f4.png)
+![baercraft-github-banner](https://user-images.githubusercontent.com/79492924/218116336-1be8cebf-98c1-4c6c-95b3-73a9ecdbb532.png)
