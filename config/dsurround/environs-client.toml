@@ -72,10 +72,10 @@
 	"Waterfall Volume" = 30
 	#Scaling factor to apply to biome sounds
 	#Range: 0 ~ 100
-	"Biome Sound Volume" = 90
+	"Biome Sound Volume" = 80
 	#Scaling factor to apply to spot sounds
 	#Range: 0 ~ 100
-	"Spot Sound Volume" = 90
+	"Spot Sound Volume" = 85
 	#Occlude WATERFALL sounds
 	"Occlude WATERFALL sounds" = true
 

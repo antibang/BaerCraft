@@ -19,11 +19,11 @@
 	#Do you want to use custom Hypixel integration (show what game you are playing and such)?
 	Hypixel-Integration = false
 	#No placeholders supported, Text that shows when you are in the main menu
-	Main-Menu = "In Main Menu"
+	Main-Menu = "Currently exploring or developing"
 	#Placeholders:
 	#%coords% (X:??? Y:??? Z:???)
 	#%world% World name
-	Singleplayer-Text = "Currently exploring"
+	Singleplayer-Text = "Currently exploring or developing"
 	#Custom client id, see https://github.com/ErdbeerbaerLP/DiscordRichPresence/wiki/Set-up-custom-Icons-(for-Modpacks) for more info
 	#Default: 511106082366554122
 	client-id = "1017866875167842365"

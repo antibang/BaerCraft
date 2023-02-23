@@ -63,12 +63,12 @@
 	#The percentage of reverb you can get. You can lower this if you find
 	#the reverb to be too much (or raise it if you really want an echo).
 	#Range: 0.0 ~ 2.0
-	reverbPercent = 1.55
+	reverbPercent = 1.72
 	################################################################################
 	#If you are getting lag, set this number lower. The higher it is,
 	#the more realistic the reverb will be.
 	#Range: > 0
-	numberOfBlocksReverbWillCheckThrough = 808
+	numberOfBlocksReverbWillCheckThrough = 700
 	################################################################################
 	#Add new entries separated by commas in the format
 	#"<reverb amount> <block>"
