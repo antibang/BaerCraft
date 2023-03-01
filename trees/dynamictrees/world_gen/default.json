@@ -32,8 +32,7 @@
           "oak" : 2,
           "tall_birch" : 1,
           "dtbyg:tapered_oak" : 2,
-          "dtbyg:mega_prairie_oak" : 13,
-          "dtbyg:oak_twiglet" : 1
+          "dtbyg:mega_prairie_oak" : 13
         }
       },
       "density": 2.0,

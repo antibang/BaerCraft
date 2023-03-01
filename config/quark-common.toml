@@ -1377,17 +1377,17 @@
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 680
+			Rarity = 580
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]
 			"Max Y Level" = 22
 			#Allowed values: [0,)
-			"Horizontal Size" = 45
+			"Horizontal Size" = 74
 			#Allowed values: [0,)
 			"Vertical Size" = 24
 			#Allowed values: [0,)
-			"Horizontal Variation" = 34
+			"Horizontal Variation" = 22
 			#Allowed values: [0,)
 			"Vertical Variation" = 2
 
@@ -1401,7 +1401,7 @@
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 				# beach, void, overworld, nether, end]
-				"Biome Types" = ["ocean", "river", "savanna", "dead", "water", "plains", "swamp", "sandy", "mesa"]
+				"Biome Types" = ["ocean", "river", "savanna", "dead", "water", "plains", "swamp", "sandy"]
 				"Is Blacklist" = true
 
 	[world.elder_prismarine_underground_biome]

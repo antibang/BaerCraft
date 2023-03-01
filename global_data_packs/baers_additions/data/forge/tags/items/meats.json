@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:porkchop",
+    "minecraft:cooked_porkchop",
+    "minecraft:beef",
+    "minecraft:cooked_beef",
+    "minecraft:chicken",
+    "minecraft:cooked_chicken",
+    "minecraft:mutton",
+    "minecraft:cooked_mutton",
+    "iceandfire:fire_dragon_flesh",
+    "iceandfire:ice_dragon_flesh",
+    "iceandfire:lightning_dragon_flesh"
+  ]
+}

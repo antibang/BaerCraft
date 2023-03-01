@@ -21,8 +21,8 @@
               "name": "nether_ambient_0",
               "files": [ "baersadditions:nether_ambient_0" ],
               "pause": {
-                "min": 2400,
-                "max": 6000
+                "min": 4800,
+                "max": 13200
               },
               "volume": 0.6
             },
@@ -30,8 +30,8 @@
               "name": "nether_ambient_1",
               "files": [ "baersadditions:nether_ambient_1" ],
               "pause": {
-                "min": 2400,
-                "max": 7200
+                "min": 6000,
+                "max": 21600
               },
               "volume": 0.68
             },
@@ -39,8 +39,8 @@
               "name": "nether_ambient_2",
               "files": [ "baersadditions:nether_ambient_2" ],
               "pause": {
-                "min": 4100,
-                "max": 10800
+                "min": 8400,
+                "max": 24000
               },
               "volume": 0.85
             },
@@ -48,8 +48,8 @@
               "name": "nether_ambient_3",
               "files": [ "baersadditions:nether_ambient_3" ],
               "pause": {
-                "min": 4800,
-                "max": 11600
+                "min": 8400,
+                "max": 22800
               },
               "volume": 0.55
             },
@@ -57,8 +57,8 @@
               "name": "nether_ambient_4",
               "files": [ "baersadditions:nether_ambient_4" ],
               "pause": {
-                "min": 5600,
-                "max": 12200
+                "min": 6000,
+                "max": 25200
               },
               "volume": 0.65
             },
@@ -66,17 +66,17 @@
               "name": "nether_ambient_5",
               "files": [ "baersadditions:nether_ambient_5" ],
               "pause": {
-                "min": 7000,
-                "max": 14400
+                "min": 9600,
+                "max": 26400
               },
-              "volume": 0.4
+              "volume": 0.3
             },
             {
               "name": "nether_ambient_6",
               "files": [ "baersadditions:nether_ambient_6" ],
               "pause": {
-                "min": 6800,
-                "max": 16400
+                "min": 8600,
+                "max": 28800
               },
               "volume": 0.35
             }
