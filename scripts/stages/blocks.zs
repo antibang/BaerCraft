@@ -5,7 +5,7 @@ import crafttweaker.api.item.IItemStack;
 //Grant
 
 StageHelper.grantStageOnAdvancement("baersadditions:stages/blocks/disenchanter", "disenchanter");
-StageHelper.grantStageOnAdvancement("baersadditions:stages/blocks/end_stone_smelter", "enhanced_smelters");
+StageHelper.grantStageOnAdvancement("baersadditions:stages/blocks/enhanced_smelters", "enhanced_smelters");
 
 //Stage
 

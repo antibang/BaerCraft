@@ -126,6 +126,16 @@
         },
         "onjoin": true,
         "result": "deny"
+    },    
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "whisperwoods:zotzpyre",
+        "mincount": {
+          "amount": 1,
+          "perplayer": true
+        },
+        "onjoin": true,
+        "result": "deny"
     },
     {
         "mob": "mutantbeasts:mutant_enderman",

@@ -78,7 +78,6 @@ config/bettervillage_general_.properties
 config/camera-client.toml
 config/does_it_tick-common.toml
 config/does_it_tick.toml
-config/fml.toml
 config/forge-client.toml
 config/forge-common.toml
 config/fpsreducer/fpsreducer-client.toml
@@ -93,6 +92,7 @@ config/out_of_sight-client.toml
 config/worldedit/worldedit.properties
 config/xaerominimap_entities.json
 config/xaerominimap.txt
+config/xaeroworldmap.txt
 
 #Datapacks
 
