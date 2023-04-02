@@ -36,7 +36,8 @@
       "fog_density [default: 1.75]": 1.75,
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true,
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "generation_chance [default: 0.0]": 0.0
     },
     "crystal_mountains": {
       "fog_density [default: 1.0]": 1.0,
@@ -54,7 +55,8 @@
       "fog_density [default: 2.0]": 2.0,
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true,
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "generation_chance [default: 0.0]": 0.0
     },
     "dust_wastelands": {
       "fog_density [default: 2.0]": 2.0,
@@ -174,7 +176,8 @@
       "fog_density [default: 1.5]": 1.5,
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true,
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "generation_chance [default: 0.0]": 0.0
     },
     "end_cave": {
       "fog_density [default: 2.0]": 2.0,

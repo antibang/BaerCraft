@@ -6,11 +6,13 @@
   },
   "portal": {
     "hasPortal [default: true]": true,
-    "customEndPortal [default: true]": false
+    "customEndPortal [default: true]": false,
+    "customEndPortal [default: false]": false
   },
   "spikes": {
     "hasSpikes [default: true]": true,
-    "customObsidianSpikes [default: true]": true
+    "customObsidianSpikes [default: true]": true,
+    "customObsidianSpikes [default: false]": false
   },
   "hasDragonFights [default: true]": true,
   "swapOverworldToEnd [default: false]": false,

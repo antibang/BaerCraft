@@ -17,6 +17,7 @@ imgui.log
 libraries
 local
 logs
+modernfix
 mods
 nekocache
 output
@@ -86,6 +87,8 @@ config/globalgamerules-common.toml
 config/jeresources.toml
 config/jeresources-common.toml
 config/libraryferret.properties
+config/mod_checker_list.json
+config/mod_checker.json
 config/PregenConfig.toml
 config/servertabinfo-client.toml
 config/servertabinfo-server.toml
