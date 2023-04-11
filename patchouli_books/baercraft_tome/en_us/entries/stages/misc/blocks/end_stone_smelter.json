@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/blocks/enhanced_smelters",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat the Ender Dragon and find an End City before you can use the end stone smelter."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat the Ender Dragon and find an End City before you can use the end stone smelter."
         }
     ],
     "turnin": "baersadditions:stages/blocks/enhanced_smelters"

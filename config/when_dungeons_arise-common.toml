@@ -398,10 +398,10 @@
 			plagueAsylumGenerates = true
 			#Maximum separation between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
-			plagueAsylumSeparation = 240
+			plagueAsylumSeparation = 230
 			#Minimum spacing between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
-			plagueAsylumSpacing = 180
+			plagueAsylumSpacing = 120
 			#Number of Jigsaw iterations when generating a Plague Asylum.
 			#Range: 0 ~ 1000000
 			plagueAsylumSize = 35
@@ -522,10 +522,10 @@
 			foundryGenerates = true
 			#Maximum separation between Foundries (in chunks).
 			#Range: 0 ~ 1000000
-			foundrySeparation = 290
+			foundrySeparation = 280
 			#Minimum spacing between Foundries (in chunks).
 			#Range: 0 ~ 1000000
-			foundrySpacing = 170
+			foundrySpacing = 150
 			#Number of Jigsaw iterations when generating an Foundry.
 			#Range: 0 ~ 1000000
 			foundrySize = 60

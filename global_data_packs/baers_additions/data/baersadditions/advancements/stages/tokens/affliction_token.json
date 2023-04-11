@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_affliction"
+    },
+    "title": [
+      {
+        "text": "Unlock the Affliction Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the affliction token. With great power comes great responsibility."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "refined_radiance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "create:refined_radiance"
+          }
+        ]
+      }
+    },
+    "cockatrice_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:cockatrice_eye"
+          }
+        ]
+      }
+    },
+    "nether_concentrate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "baersadditions:nether_concentrate"
+          }
+        ]
+      }
+    },
+    "amulet_sin_gluttony": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bountifulbaubles:amulet_sin_gluttony"
+          }
+        ]
+      }
+    },
+    "compound_z": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mutantmore:compound_z"
+          }
+        ]
+      }
+    },
+    "quadrilium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_quadrilium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "refined_radiance"
+    ],
+    [
+      "cockatrice_eye"
+    ],
+    [
+      "nether_concentrate"
+    ],
+    [
+      "amulet_sin_gluttony"
+    ],
+    [
+      "compound_z"
+    ],
+    [
+      "quadrilium_blend"
+    ]
+  ]
+}

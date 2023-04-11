@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/nether_gobber",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must craft a full gobber or trilium armor set to use any item part of the nether gobber set."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must craft a full gobber or trilium armor set to use any item part of the nether gobber set."
         }
     ],
     "turnin": "baersadditions:stages/armor/nether_gobber"

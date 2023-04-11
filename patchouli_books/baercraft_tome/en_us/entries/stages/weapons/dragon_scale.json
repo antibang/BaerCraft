@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/dragon_scale",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat at least 1 fire, ice, or lightning dragon to use any item part of the dragon scale or dragon bone set."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat at least 1 fire, ice, or lightning dragon to use any item part of the dragon scale or dragon bone set."
         }
     ],
     "turnin": "baersadditions:stages/armor/dragon_scale"

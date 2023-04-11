@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/quadrilium",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must craft a full trilium armor set to use any item part of the quadrilium set."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must craft a full trilium armor set to use any item part of the quadrilium set."
         }
     ],
     "turnin": "baersadditions:stages/armor/quadrilium"

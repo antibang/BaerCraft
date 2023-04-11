@@ -78,8 +78,7 @@ config/betterpingdisplay-client.toml
 config/bettervillage.properties
 config/bettervillage_general_.properties
 config/camera-client.toml
-config/does_it_tick-common.toml
-config/does_it_tick.toml
+does_potato_tick-common.toml
 config/forge-client.toml
 config/forge-common.toml
 config/fpsreducer/fpsreducer-client.toml

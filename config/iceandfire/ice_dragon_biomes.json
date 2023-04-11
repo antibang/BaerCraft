@@ -105,30 +105,6 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:gravelly_mountains"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "minecraft:modified_gravelly_mountains"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
         "value": "biomesoplenty:snowy_coniferous_forest"
       }
     ],
@@ -154,54 +130,6 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "biomesoplenty:snowy_maple_forest"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:twilight_valley"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:twilight_valley_hills"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:seasonal_deciduous_forest"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:seasonal_deciduous_forest_hills"
       }
     ],
     [

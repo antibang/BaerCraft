@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/weapons/legendary_weapons/siren_flute",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat at least one siren and obtain its tear before you can use the siren flute."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat at least one siren and obtain its tear before you can use the siren flute."
         }
     ],
     "turnin": "baersadditions:stages/weapons/legendary_weapons/siren_flute"

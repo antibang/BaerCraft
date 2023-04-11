@@ -1,0 +1,17 @@
+{
+  "name": "Supreme Attack Resistance Token",
+  "icon": "thermal:iron_coin",
+  "category": "patchouli:stages/tokens",
+  "pages": [
+      {
+          "trigger": "baersadditions:stages/tokens/supreme_attack_resistance_token",
+          "type": "quest",
+          "text": "$(bold)$(#3a55de)How to unlock:$() Before using this token, you must aquire every ingredient needed to craft it."
+      },
+      {
+          "type": "crafting",
+          "recipe": "crafttweaker:supreme_resistance_token"
+      }
+  ],
+  "turnin": "baersadditions:stages/tokens/supreme_attack_resistance_token"
+}

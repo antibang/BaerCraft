@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "If you happen to spot dragon skeletons, perhaps exploring the underground in the same biome will lead you to dragon dens!"
+  }
+}

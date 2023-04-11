@@ -1,0 +1,16 @@
+{
+    "name": "Updated Rules Here!",
+    "icon": "minecraft:enchanted_golden_apple",
+    "category": "patchouli:rules",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Quite frankly, I change or add rules so often and it has come to my attention that I'm increasingly lazy, so I will no longer be updating this section and will now refer players reading this directly to our Discord where we DO keep the rules updated, of course.$(br2)$(l:https://ptb.discord.com/channels/783169828931239937/1041571486856654858)Please click here to be taken to our server rules.$()"
+        },
+        {
+            "type": "text",
+            "text": "$(italic)This means everything under the ''Rules'' category in this tome is irrelevant, so ONLY follow the rules listed on the Discord."
+        }
+    ],
+    "priority": true
+}

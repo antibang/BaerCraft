@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_supreme_resistance"
+    },
+    "title": [
+      {
+        "text": "Unlock the Supreme Attack Resistance Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the supreme attack resistance token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "fire_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_fire_ingot"
+          }
+        ]
+      }
+    },    
+    "ice_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_ice_ingot"
+          }
+        ]
+      }
+    },
+    "lightning_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_lightning_ingot"
+          }
+        ]
+      }
+    },
+    "quadrilium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_quadrilium"
+          }
+        ]
+      }
+    },
+    "quadrilium_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:block_quadrilium"
+          }
+        ]
+      }
+    },
+    "greater_resistance_token": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:token_greater_resistance"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire_dragonsteel",
+      "ice_dragonsteel",
+      "lightning_dragonsteel"
+    ],
+    [
+      "quadrilium_block"
+    ],
+    [
+      "quadrilium_blend"
+    ],
+    [
+      "greater_resistance_token"
+    ]
+  ]
+}

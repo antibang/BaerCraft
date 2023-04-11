@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/items/dragon_eggs/lightning_dragon_egg",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat at least 1 lightning dragon before you can use any lightning dragon egg."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat at least 1 lightning dragon before you can use any lightning dragon egg."
         }
     ],
     "turnin": "baersadditions:stages/items/dragon_eggs/lightning_dragon_egg"

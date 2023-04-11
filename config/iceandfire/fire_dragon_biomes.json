@@ -33,30 +33,6 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "minecraft:tall_birch_hills"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "minecraft:tall_birch_forest"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
         "value": "minecraft:birch_forest"
       }
     ],
@@ -165,30 +141,6 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "biomesoplenty:ominous_mire"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "biomesoplenty:ominous_woods"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
         "value": "byg:dunes"
       }
     ],
@@ -250,30 +202,6 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "byg:mojave_desert"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:ebony_woods"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "byg:ebony_hills"
       }
     ],
     [

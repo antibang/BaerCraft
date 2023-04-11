@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/legendary_weapons/pixie_wand",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat at least one pixie and obtain its wings before you can use the pixie wand."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat at least one pixie and obtain its wings before you can use the pixie wand."
         }
     ],
     "turnin": "baersadditions:stages/legendary_weapons/pixie_wand"

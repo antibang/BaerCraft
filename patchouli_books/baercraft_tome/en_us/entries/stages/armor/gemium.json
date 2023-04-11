@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/gemium",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must craft a full lapium armor set to use any item part of the gemium set."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must craft a full lapium armor set to use any item part of the gemium set."
         }
     ],
     "turnin": "baersadditions:stages/armor/gemium"

@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/legendary_weapons/hippogryph_talon_sword",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat and tame at least one hippogryph before you can use the hippogryph talon sword."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat and tame at least one hippogryph before you can use the hippogryph talon sword."
         }
     ],
     "turnin": "baersadditions:stages/legendary_weapons/hippogryph_talon_sword"

@@ -9,11 +9,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone",
           "weight": 50,
+          "name": "minecraft:redstone",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 16,
                 "max": 32
@@ -23,25 +23,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_lamp",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 4,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
+          "weight": 30,
           "name": "minecraft:repeater",
-          "weight": 30,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 6,
                 "max": 12
@@ -51,11 +37,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 30,
           "name": "minecraft:comparator",
-          "weight": 30,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 6,
                 "max": 12
@@ -65,11 +51,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_torch",
           "weight": 20,
+          "name": "minecraft:redstone_torch",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 3,
                 "max": 4
@@ -87,39 +73,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 8,
-                "max": 32
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:quartz",
           "weight": 30,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 6,
-                "max": 12
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:coal",
-          "weight": 30,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 4,
                 "max": 6
@@ -129,11 +87,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:charcoal",
           "weight": 20,
+          "name": "minecraft:charcoal",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 4,
                 "max": 12
@@ -143,11 +101,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tnt",
           "weight": 5,
+          "name": "minecraft:tnt",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 20,
                 "max": 32
@@ -165,11 +123,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:piston",
           "weight": 30,
+          "name": "minecraft:piston",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 1,
                 "max": 12
@@ -179,11 +137,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sticky_piston",
           "weight": 20,
+          "name": "minecraft:sticky_piston",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 3,
                 "max": 6
@@ -193,11 +151,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:slime_block",
           "weight": 1,
+          "name": "minecraft:slime_block",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 1,
                 "max": 2

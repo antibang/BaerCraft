@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/items/gobber_seeds/nether_gobber_seeds",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must craft a full nether gobber armor set to unlock nether gobber seeds."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must craft a full nether gobber armor set to unlock nether gobber seeds."
         }
     ],
     "turnin": "baersadditions:stages/items/gobber_seeds/nether_gobber_seeds"

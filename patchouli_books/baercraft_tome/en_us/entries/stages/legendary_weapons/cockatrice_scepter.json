@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/legendary_weapons/cockatrice_scepter",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must defeat and tame at least one cockatrice before you can use the cockatrice scepter."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat and tame at least one cockatrice before you can use the cockatrice scepter."
         }
     ],
     "turnin": "baersadditions:stages/legendary_weapons/cockatrice_scepter"

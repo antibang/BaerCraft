@@ -106,6 +106,34 @@
         "mob": "mutantmore:mutant_wither_skeleton",
         "dimension": "minecraft:overworld",
         "result": "deny"
+    },    
+    {
+        "mob": "undergarden:rotling",
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:plague_asylum",
+        "healthadd": 11,
+        "damageadd": 4,
+        "speedadd": 0.1,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "undergarden:rotling",
+        "dimension": "minecraft:overworld",
+        "result": "deny"
+    }, 
+    {
+        "mob": "minecraft:evoker_fangs",
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:plague_asylum",
+        "damageadd": 10,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:evoker_fangs",
+        "dimension": "minecraft:overworld",
+        "result": "deny"
     },
     {
         "dimension": "minecraft:overworld",

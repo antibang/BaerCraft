@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 3
+        "min": 3,
+        "max": 7
       },
       "entries": [
         {
@@ -15,14 +15,14 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 64
+                "max": 32
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 14,
           "name": "minecraft:iron_ingot",
           "functions": [
             {
@@ -57,7 +57,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 6
+                "max": 8
               }
             }
           ]
@@ -71,7 +71,63 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 8
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "iceandfire:rotten_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "appliedenergistics2:certus_quartz_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 16,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
               }
             }
           ]
@@ -81,37 +137,9 @@
     {
       "rolls": {
         "min": 1,
-        "max": 3
+        "max": 4
       },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:iron_sword",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 20,
-                "max": 25
-              },
-              "treasure": true
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "weight": 1,
@@ -175,54 +203,15 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 8,
           "name": "minecraft:bone",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:skeleton_skull",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:cobweb",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -236,6 +225,34 @@
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "minecraft:skeleton_skull",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
           "name": "minecraft:gunpowder",
           "functions": [
             {

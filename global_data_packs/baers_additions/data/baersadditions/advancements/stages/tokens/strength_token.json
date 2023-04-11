@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_strength"
+    },
+    "title": [
+      {
+        "text": "Unlock the Strength Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the strength token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    },
+    "trilium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_trilium"
+          }
+        ]
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherite_ingot"
+    ],
+    [
+      "trilium_blend"
+    ],
+    [
+      "netherite_sword"
+    ]
+  ]
+}

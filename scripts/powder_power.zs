@@ -24,6 +24,7 @@ craftingTable.removeRecipe(<item:powder_power:token_greater_strength>);
 craftingTable.removeRecipe(<item:powder_power:token_greater_absorption>);
 craftingTable.removeRecipe(<item:powder_power:token_breathing>);
 craftingTable.removeRecipe(<item:powder_power:token_fire_resistance>);
+craftingTable.removeRecipe(<item:powder_power:token_exp>);
 
 //Remove blend recipes
 
@@ -122,22 +123,16 @@ craftingTable.addShaped("resistance_token", <item:powder_power:token_resistance>
     [<item:powder_power:sword_trilium>, <item:powder_power:blend_trilium>, <item:powder_power:sword_trilium>]
 ]);
 
-craftingTable.addShaped("strength_token_netherite", <item:powder_power:token_strength>, [
-    [<item:minecraft:diamond_block>, <item:powder_power:blend_trilium>, <item:minecraft:diamond_block>],
-    [<item:powder_power:blend_trilium>, <item:minecraft:diamond_sword>, <item:powder_power:blend_trilium>],
-    [<item:minecraft:diamond_block>, <item:powder_power:blend_trilium>, <item:minecraft:diamond_block>]
-]);
-
-craftingTable.addShaped("strength_token_diamond", <item:powder_power:token_strength>, [
+craftingTable.addShaped("strength_token", <item:powder_power:token_strength>, [
     [<item:minecraft:netherite_ingot>, <item:powder_power:blend_trilium>, <item:minecraft:netherite_ingot>],
     [<item:powder_power:blend_trilium>, <item:minecraft:netherite_sword>, <item:powder_power:blend_trilium>],
     [<item:minecraft:netherite_ingot>, <item:powder_power:blend_trilium>, <item:minecraft:netherite_ingot>]
 ]);
 
 craftingTable.addShaped("affliction_token", <item:powder_power:token_affliction>, [
-    [<item:minecraft:fermented_spider_eye>, <item:powder_power:blend_trilium>, <item:minecraft:nether_wart>],
-    [<item:powder_power:blend_trilium>, <item:minecraft:enchanted_golden_apple>, <item:powder_power:blend_trilium>],
-    [<item:minecraft:gunpowder>, <item:powder_power:blend_trilium>, <item:minecraft:glistering_melon_slice>]
+    [<item:create:refined_radiance>, <item:powder_power:blend_quadrilium>, <item:iceandfire:cockatrice_eye>],
+    [<item:powder_power:blend_quadrilium>, <item:mutantmore:compound_z>, <item:powder_power:blend_quadrilium>],
+    [<item:baersadditions:nether_concentrate>, <item:powder_power:blend_quadrilium>, <item:bountifulbaubles:amulet_sin_gluttony>]
 ]);
 
 craftingTable.addShaped("absorption_token", <item:powder_power:token_absorption>, [
@@ -208,8 +203,14 @@ craftingTable.addShaped("greater_absorption_token", <item:powder_power:token_gre
 
 craftingTable.addShaped("water_breathing_token", <item:powder_power:token_breathing>, [
     [<tag:items:forge:scales/sea_serpent>, <item:powder_power:blend_lapium>, <tag:items:forge:scales/sea_serpent>],
-    [<item:powder_power:blend_lapium>, <item:minecraft:pufferfish>, <item:powder_power:blend_lapium>],
+    [<item:powder_power:blend_lapium>, <item:baersadditions:oxygen_concentrate>, <item:powder_power:blend_lapium>],
     [<tag:items:forge:scales/sea_serpent>, <item:powder_power:blend_lapium>, <tag:items:forge:scales/sea_serpent>]
+]);
+
+craftingTable.addShaped("experience_token", <item:powder_power:token_exp>, [
+    [<item:baersadditions:experience_concentrate>, <item:powder_power:blend_lapium>, <item:baersadditions:experience_concentrate>],
+    [<item:powder_power:blend_lapium>, <item:minecraft:experience_bottle>, <item:powder_power:blend_lapium>],
+    [<item:baersadditions:experience_concentrate>, <item:powder_power:blend_lapium>, <item:baersadditions:experience_concentrate>]
 ]);
 
 //

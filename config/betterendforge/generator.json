@@ -6,13 +6,13 @@
   },
   "portal": {
     "hasPortal [default: true]": true,
-    "customEndPortal [default: true]": false,
-    "customEndPortal [default: false]": false
+    "customEndPortal [default: true]": true,
+    "customEndPortal [default: false]": true
   },
   "spikes": {
     "hasSpikes [default: true]": true,
     "customObsidianSpikes [default: true]": true,
-    "customObsidianSpikes [default: false]": false
+    "customObsidianSpikes [default: false]": true
   },
   "hasDragonFights [default: true]": true,
   "swapOverworldToEnd [default: false]": false,
@@ -25,7 +25,7 @@
     "useNewGenerator [default: true]": true,
     "noRingVoid [default: false]": false,
     "generateCentralIsland [default: true]": true,
-    "endCityFailChance [default: 5]": 4,
+    "endCityFailChance [default: 5]": 3,
     "layers": {
       "bigIslands": {
         "distance[1-8192] [default: 300.0]": 340.0,

@@ -1,0 +1,17 @@
+{
+  "name": "Greater Absorption Token",
+  "icon": "thermal:iron_coin",
+  "category": "patchouli:stages/tokens",
+  "pages": [
+      {
+          "trigger": "baersadditions:stages/tokens/greater_absorption_token",
+          "type": "quest",
+          "text": "$(bold)$(#3a55de)How to unlock:$() Before using this token, you must aquire every ingredient needed to craft it."
+      },
+      {
+          "type": "crafting",
+          "recipe": "crafttweaker:greater_absorption_token"
+      }
+  ],
+  "turnin": "baersadditions:stages/tokens/greater_absorption_token"
+}

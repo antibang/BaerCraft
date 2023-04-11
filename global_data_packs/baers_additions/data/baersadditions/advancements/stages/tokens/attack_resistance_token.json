@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_resistance"
+    },
+    "title": [
+      {
+        "text": "Unlock the Attack Resistance Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the attack resistance token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "trilium_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:sword_trilium"
+          }
+        ]
+      }
+    },
+    "trilium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_trilium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trilium_sword"
+    ],
+    [
+      "trilium_blend"
+    ]
+  ]
+}

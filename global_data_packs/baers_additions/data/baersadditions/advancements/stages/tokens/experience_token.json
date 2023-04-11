@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_exp"
+    },
+    "title": [
+      {
+        "text": "Unlock the Experience Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the experience token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "experience_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:experience_bottle"
+          }
+        ]
+      }
+    },
+    "lapium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_lapium"
+          }
+        ]
+      }
+    },
+    "experience_concentrate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "baersadditions:experience_concentrate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "experience_bottle"
+    ],
+    [
+      "lapium_blend"
+    ],
+    [
+      "experience_concentrate"
+    ]
+  ]
+}

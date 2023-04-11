@@ -1,0 +1,17 @@
+{
+  "name": "Affliction Token",
+  "icon": "thermal:iron_coin",
+  "category": "patchouli:stages/tokens",
+  "pages": [
+      {
+          "trigger": "baersadditions:stages/tokens/affliction_token",
+          "type": "quest",
+          "text": "$(bold)$(#3a55de)How to unlock:$() Before using this token, you must aquire every ingredient needed to craft it."
+      },
+      {
+          "type": "crafting",
+          "recipe": "crafttweaker:affliction_token"
+      }
+  ],
+  "turnin": "baersadditions:stages/tokens/affliction_token"
+}

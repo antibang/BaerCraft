@@ -32,7 +32,7 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 250
+		"Generate Dragon Skeleton Chance" = 210
 		#Whether to generate dragon caves or not
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
@@ -45,10 +45,10 @@
 		"Generate Dragon Roost Chance" = 1260
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
-		"Dragon Den Gold Amount" = 4
+		"Dragon Den Gold Amount" = 3
 		#Ratio of Stone(this number) to Ores in Dragon Caves
 		#Range: 1 ~ 10000
-		"Dragon Cave Ore Ratio" = 45
+		"Dragon Cave Ore Ratio" = 65
 
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
@@ -66,7 +66,7 @@
 		"Generate Mausoleums" = true
 		#One out of this number chance per chunk to generate a mausoleum.
 		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 3000
+		"Mausoleum Gen Chance" = 3300
 		#Whether to generate graveyards or not
 		"Generate Graveyards" = true
 		#Graveyard rarity.
@@ -330,7 +330,7 @@
 		"Spawn Amphitheres" = true
 		#Amphithere spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Amphithere Spawn Weight" = 170
+		"Amphithere Spawn Weight" = 190
 		#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Amphithere Villager Search Length" = 64
@@ -342,7 +342,7 @@
 		"Amphithere Flight Speed" = 3.0
 		#Maximum amphithere health
 		#Range: 1.0 ~ 10000.0
-		"Amphithere Max Health" = 60.0
+		"Amphithere Max Health" = 80.0
 		#Amphithere attack strength
 		#Range: 1.0 ~ 10000.0
 		"Amphithere Attack Strength" = 8.0
@@ -401,7 +401,7 @@
 		"Spawn Hippocampus Chance" = 60
 		#Change this to slow down or speed up hippocampus swimming.
 		#Range: 0.0 ~ 2.0
-		"Hippocampus Swim Speed Modifier" = 1.0
+		"Hippocampus Swim Speed Modifier" = 1.35
 
 	[Mobs.Hippogryph]
 		#True if hippogryphs are allowed to spawn

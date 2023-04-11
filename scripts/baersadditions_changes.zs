@@ -2,16 +2,44 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.FurnaceManager;
 import crafttweaker.api.BlastFurnaceManager;
+import crafttweaker.api.blocks.MCBlock;
+import crafttweaker.api.blocks.MCBlockState;
 
 //
 
-mods.jei.JEI.addInfo(<item:baersadditions:experience_concentrate>, ["\u00A7eExperience concentrate \u00A7r is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds."]);
+<block:baersadditions:platinum_ore>.setBlastResistance(3);
+<block:baersadditions:platinum_ore>.setHarvestLevel(2);
+<block:baersadditions:platinum_ore>.setHarvestTool(<tooltype:pickaxe>);
+<blockstate:baersadditions:platinum_ore>.setHardness(2.9f);
+
+//Tooltips
+
+<item:baersadditions:experience_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:experience_concentrate>.addShiftTooltip("\u00A7oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums.");
+
+<item:baersadditions:nether_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:nether_concentrate>.addShiftTooltip("\u00A7oNether concentrate is an extremely potent, but deadly, concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it.");
+
+<item:baersadditions:overworld_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:overworld_concentrate>.addShiftTooltip("\u00A7oOverworld concentrate is the purest concentrate of them all, harvesting all power from the Overworld. While it's currently unknown how to create it, it can be found rarely in the Thornborn Towers.");
+
+<item:baersadditions:oxytocin_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:oxytocin_concentrate>.addShiftTooltip("\u00A7oOxytocin is a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones. Oxytocin concentrate currently has no recipe, but it can, however, be found in places like Foundries, Nether cities, and more.");
+
+<item:baersadditions:oxygen_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:oxygen_concentrate>.addShiftTooltip("\u00A7oOxygen concentrate has only been found in one place. Your best chance of getting this concentrate is by defeating sea serpents.This can be quite difficult to obtain considering sea serpents only appear in deep oceans, including the deep frozen ocean, deep cold ocean, and so on.");
+
+//Add info in JEI
+
+mods.jei.JEI.addInfo(<item:baersadditions:experience_concentrate>, ["\u00A7eExperience concentrate \u00A7r is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums."]);
 
 mods.jei.JEI.addInfo(<item:baersadditions:nether_concentrate>, ["\u00A78Nether concentrate \u00A7r is an extremely potent, but deadly, concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it."]);
 
 mods.jei.JEI.addInfo(<item:baersadditions:overworld_concentrate>, ["\u00A72Overworld concentrate \u00A7r is the purest concentrate of them all, harvesting all power from the Overworld. While it's currently unknown how to create it, it can be found rarely in the Thornborn Towers."]);
 
 mods.jei.JEI.addInfo(<item:baersadditions:oxytocin_concentrate>, ["\u00A75Oxytocin \u00A7ris a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones.\n\u00A75Oxytocin concentrate \u00A7r currently has no recipe, but it can, however, be found in places like Foundries, Nether cities, and more."]);
+
+mods.jei.JEI.addInfo(<item:baersadditions:oxygen_concentrate>, ["\u00A7fOxygen concentrate \u00A7rhas only been found in one place. Your best chance of getting this concentrate is by defeating sea serpents.\nThis can be quite difficult to obtain considering sea serpents only appear in deep oceans, including the deep frozen ocean, deep cold ocean, and so on."]);
 
 //
 

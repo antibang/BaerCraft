@@ -1,6 +1,6 @@
 {
     "name": "Shops (WIP)",
-    "description": "Shops and shop information.$(br2)If you own a shop, and would like yours to be added to the tome, you may kindly ask, and you might just find it added to this book.",
+    "description": "Shops and shop information.$(br2)If you own a shop, and would like yours to be added to the tome, you may kindly ask.$(br2)Each description for the shops are made by the shop owner themselves to give you the most information and personality as possible.",
     "icon": "farmersdelight:carrot_crate",
     "sortnum": 5
 }

@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_curing"
+    },
+    "title": [
+      {
+        "text": "Unlock the Curing Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the curing token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "enchanted_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    },
+    "quadrilium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_quadrilium"
+          }
+        ]
+      }
+    },
+    "greater_health_token": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:token_health"
+          }
+        ]
+      }
+    },
+    "mommy_milk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:milk_bucket"
+          }
+        ]
+      }
+    },
+    "quadrilium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:ingot_quadrilium"
+          }
+        ]
+      }
+    },
+    "greater_absorption_token": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:token_greater_absorption"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_golden_apple"
+    ],
+    [
+      "quadrilium_blend"
+    ],
+    [
+      "greater_health_token"
+    ],
+    [
+      "quadrilium_ingot"
+    ],
+    [
+      "greater_absorption_token"
+    ],
+    [
+      "mommy_milk"
+    ]
+  ]
+}

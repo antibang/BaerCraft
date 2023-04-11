@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_greater_absorption"
+    },
+    "title": [
+      {
+        "text": "Unlock the Greater Absorption Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the greater absorption token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "absorption_token": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:token_absorption"
+          }
+        ]
+      }
+    },
+    "quadrilium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_quadrilium"
+          }
+        ]
+      }
+    },
+    "quadrilium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:ingot_quadrilium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "absorption_token"
+    ],
+    [
+      "quadrilium_blend"
+    ],
+    [
+      "quadrilium_ingot"
+    ]
+  ]
+}

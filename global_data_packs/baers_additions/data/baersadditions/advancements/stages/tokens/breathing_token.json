@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_breathing"
+    },
+    "title": [
+      {
+        "text": "Unlock the Breathing Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the water breathing token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "sea_serpent_scales": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:scales/sea_serpent"
+          }
+        ]
+      }
+    },
+    "lapium_blend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:blend_lapium"
+          }
+        ]
+      }
+    },
+    "oxygen_concentrate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "baersadditions:oxygen_concentrate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sea_serpent_scales"
+    ],
+    [
+      "lapium_blend"
+    ],
+    [
+      "oxygen_concentrate"
+    ]
+  ]
+}

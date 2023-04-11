@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "item": "powder_power:token_supreme_health"
+    },
+    "title": [
+      {
+        "text": "Unlock the Supreme Health Token",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Craft or find all powders or items it takes to make the supreme health token."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/tokens",
+  "criteria": {
+    "fire_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_fire_ingot"
+          }
+        ]
+      }
+    },    
+    "ice_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_ice_ingot"
+          }
+        ]
+      }
+    },
+    "lightning_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonsteel_lightning_ingot"
+          }
+        ]
+      }
+    },
+    "quadrilium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:ingot_quadrilium"
+          }
+        ]
+      }
+    },
+    "health_token": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:token_health"
+          }
+        ]
+      }
+    },
+    "quadrilium_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:block_quadrilium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fire_dragonsteel",
+      "ice_dragonsteel",
+      "lightning_dragonsteel"
+    ],
+    [
+      "quadrilium_ingot"
+    ],
+    [
+      "health_token"
+    ],
+    [
+      "quadrilium_block"
+    ]
+  ]
+}

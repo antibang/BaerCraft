@@ -6,7 +6,7 @@
         {
             "trigger": "baersadditions:stages/armor/trilium",
             "type": "quest",
-            "text": "$(bold)How to unlock:$() You must craft a full gemium armor set to use any item part of the trilium set."
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must craft a full gemium armor set to use any item part of the trilium set."
         }
     ],
     "turnin": "baersadditions:stages/armor/trilium"

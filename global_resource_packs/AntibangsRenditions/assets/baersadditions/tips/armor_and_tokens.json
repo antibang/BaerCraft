@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Tip",
+    "bold": true,
+    "color": "blue"
+  },
+  "tip": {
+    "text": "Armor sets are intended and scaled in conjunction with trinkets like baubles and tokens."
+  }
+}
