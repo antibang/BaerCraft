@@ -63,6 +63,7 @@ servers.dat
 servers.dat_old
 treatment_tags.json
 updateLog.txt
+updateSourceCache.json
 usercache.json
 usernamecache.json
 WailaErrorOutput.txt
