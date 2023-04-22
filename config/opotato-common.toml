@@ -1,0 +1,47 @@
+
+#Opotato Common Config
+["Opotato Custom Optimization Settings"]
+	"print mods list when launching game" = true
+	"allow entities spawn limit" = false
+	#Range: 1 ~ 100
+	"max entities spawning number per chunk" = 10
+	"entities whose spawn won't be limited" = ["modid:mobid"]
+
+["Blue Skies Extra Settings"]
+	"enable blue skies nerf" = true
+	"allow every mod generate features in blueskies dimensions" = false
+	#Range: > 6
+	"gate keeper house spacing" = 18
+
+["Headshot Extra Settings"]
+	"enable 'Ding' on Headshot" = true
+	#Range: 0.0F ~ 1.0F. Type: Float
+	"'Ding' volume" = 1.0
+	#Range: 0.5F ~ 2.0F. Type: Float
+	"'Ding' pitch" = 1.0
+
+["Cracker's Wither Storm Mod Optimization Settings"]
+	#Entities that will be killed: Block Cluster, Sickened Skeleton, Sickened Creeper, Sickened Spider, Sickened Zombie, Tentacle, Withered Symbiont.
+	#Inspired by Lag Removal mod
+	"kill witherstormmod entities after command block dies" = false
+
+["L_Ender's Cataclysm Extra Settings"]
+	#Range: > 5
+	"soul black smith spacing" = 90
+	#Range: > 5
+	"soul black smith separation" = 70
+	#Range: > 5
+	"ruined citadel spacing" = 30
+	#Range: > 5
+	"ruined citadel separation" = 10
+	#Range: > 5
+	"burning arena spacing" = 112
+	#Range: > 5
+	"burning arena separation" = 70
+
+["The Undergarden Extra Settings"]
+	#Range: > 5
+	"catacomb spacing" = 24
+	#Range: > 5
+	"catacomb separation" = 8
+
