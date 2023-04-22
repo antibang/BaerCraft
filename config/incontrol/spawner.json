@@ -40,5 +40,21 @@
             "maxdist": 96,
             "maxthis": 4
         }
+    },
+    {
+        "mob": "minecraft:ghast",
+        "persecond": 0.16,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:the_nether",
+            "inair": true,
+            "mindist": 48,
+            "maxdist": 128,
+            "maxthis": 1
+        }
     }
 ]

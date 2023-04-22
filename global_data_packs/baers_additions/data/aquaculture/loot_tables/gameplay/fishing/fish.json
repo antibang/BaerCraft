@@ -27,7 +27,7 @@
               ]
             }
           ],
-          "weight": 8,
+          "weight": 6,
           "name": "aquaculture:atlantic_cod"
         },
         {
@@ -107,7 +107,7 @@
               }
             }
           ],
-          "weight": 10,
+          "weight": 5,
           "name": "aquaculture:atlantic_herring"
         },
         {
@@ -133,7 +133,7 @@
               ]
             }
           ],
-          "weight": 8,
+          "weight": 7,
           "name": "aquaculture:pink_salmon"
         },
         {
@@ -159,7 +159,7 @@
               ]
             }
           ],
-          "weight": 8,
+          "weight": 7,
           "name": "aquaculture:pollock"
         },
         {
@@ -241,7 +241,7 @@
               }
             }
           ],
-          "weight": 10,
+          "weight": 7,
           "name": "aquaculture:synodontis"
         },
         {
@@ -449,7 +449,7 @@
               }
             }
           ],
-          "weight": 5,
+          "weight": 3,
           "name": "aquaculture:jellyfish"
         },
         {
@@ -462,7 +462,7 @@
               }
             }
           ],
-          "weight": 4,
+          "weight": 2,
           "name": "aquaculture:red_grouper"
         },
         {

@@ -873,7 +873,7 @@
       "sounds": [
         {
           "name": "light-wind",
-          "volume": 0.6,
+          "volume": 0.4,
           "files": [ "ambientsounds:wind.light-wind", "ambientsounds:wind.wind" ],
           "outside": true,
           "transition": 200,

@@ -13,7 +13,7 @@
   "biome/wind/mountains": {
     "name": "environs:wind",
     "repeatable": true,
-    "volume": 40
+    "volume": 30
   },
   "biome/wind/desert": {
     "name": "environs:desert.wind",
@@ -23,7 +23,7 @@
   "biome/wind/arctic": {
     "name": "environs:arctic.wind",
     "repeatable": true,
-    "volume": 25
+    "volume": 15
   },
   "biome/ocean": {
     "name": "environs:ocean",

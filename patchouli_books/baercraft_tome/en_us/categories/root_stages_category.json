@@ -1,6 +1,6 @@
 {
     "name": "Stages",
-    "description": "This section will tell you about every stage in the game. This is a completely new system and $(bold)is not finished.$() If an item or block is not listed here, then it is currently not locked behind a stage.$(br2)If you are confused and have questions, always feel free to ask us!",
+    "description": "$(l:https://github.com/antibang/BaerCraft/wiki/Stage-FAQ)Stage FAQ is located here.$()$(br2)Every stage will be kept track here! This is a new system and $(bold)is not finished.$() If an item or block is not listed here, then it is currently not locked behind a stage, but new stages $(bold)will$() be added over time.$(br2)Feeling confused or have questions? $(l:https://discord.gg/baercraft)Ask us!$()",
     "icon": "thermal:bronze_gear",
     "sortnum": 10
 }

@@ -13,9 +13,9 @@
 	#Range: 8 ~ 16
 	"Streaming Sound Count" = 10
 	#Occlude WEATHER sounds
-	"Occlude WEATHER Sounds" = false
+	"Occlude WEATHER Sounds" = true
 	#Occlude RECORDS sounds
-	"Occlude RECORDS Sounds" = false
+	"Occlude RECORDS Sounds" = true
 	#Options to configure sounds on an individual basis
 	"Individual Sound Config" = ["minecraft:entity.sheep.ambient cull", "minecraft:entity.chicken.ambient cull", "minecraft:entity.cow.ambient cull", "minecraft:entity.pig.ambient cull", "minecraft:entity.llama.ambient cull", "minecraft:entity.wither.spawn cull 10", "minecraft:entity.wither.death cull 10", "minecraft:entity.ender_dragon.death cull 10"]
 	#Possible sounds to play when client reaches main game menu
@@ -33,7 +33,7 @@
 	"Replace Randoms" = true
 	#Block range of entity special effect handling
 	#Range: 16 ~ 64
-	"Block Range" = 24
+	"Block Range" = 32
 
 #Defines how Sound Control logging will behave
 ["Logging Options"]

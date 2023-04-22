@@ -1,0 +1,13 @@
+{
+    "name": "Dread Knight's Sword",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/weapons/dread_knights_sword",
+            "type": "quest",
+            "text": "$(bold)$(#3a55de)How to unlock:$() You defeat a dread lich, dread beast, dread ghoul, dread knight, dread scuttler, dread thrall, obtain a gravemaster's key, and locate a mausoleum to use this item."
+        }
+    ],
+    "turnin": "baersadditions:stages/weapons/dread_knights_sword"
+}

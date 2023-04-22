@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "you 1 heart. Each power crystal requires 3 experience points, but only grants you 0.5 of a power level."
+            "text": "you 1 heart. Each power crystal requires 3 experience points, but only grants you 0.5 of a power level.$(br2)$(bold)$(#ff1755)You can use a maximum of 10 heart crystals.$(br2)$(bold)$(#0037ff)You can use a maximum of 60 power crystals."
         }
     ]
 }

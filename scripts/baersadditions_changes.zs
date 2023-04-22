@@ -2,23 +2,20 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.FurnaceManager;
 import crafttweaker.api.BlastFurnaceManager;
-import crafttweaker.api.blocks.MCBlock;
-import crafttweaker.api.blocks.MCBlockState;
-
-//
-
-<block:baersadditions:platinum_ore>.setBlastResistance(3);
-<block:baersadditions:platinum_ore>.setHarvestLevel(2);
-<block:baersadditions:platinum_ore>.setHarvestTool(<tooltype:pickaxe>);
-<blockstate:baersadditions:platinum_ore>.setHardness(2.9f);
 
 //Tooltips
+
+<item:baersadditions:blood_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:blood_concentrate>.addShiftTooltip("\u00A74\u00A7o Not recommended to ingest.");
 
 <item:baersadditions:experience_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
 <item:baersadditions:experience_concentrate>.addShiftTooltip("\u00A7oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums.");
 
 <item:baersadditions:nether_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
-<item:baersadditions:nether_concentrate>.addShiftTooltip("\u00A7oNether concentrate is an extremely potent, but deadly, concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it.");
+<item:baersadditions:nether_concentrate>.addShiftTooltip("\u00A7oNether concentrate is an extremely potent, deadly concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it.\u00A74\u00A7o Not recommended to ingest. Highly toxic.");
+
+<item:baersadditions:death_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
+<item:baersadditions:death_concentrate>.addShiftTooltip("\u00A74\u00A7oNot recommended to ingest.");
 
 <item:baersadditions:overworld_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
 <item:baersadditions:overworld_concentrate>.addShiftTooltip("\u00A7oOverworld concentrate is the purest concentrate of them all, harvesting all power from the Overworld. While it's currently unknown how to create it, it can be found rarely in the Thornborn Towers.");
@@ -33,7 +30,7 @@ import crafttweaker.api.blocks.MCBlockState;
 
 mods.jei.JEI.addInfo(<item:baersadditions:experience_concentrate>, ["\u00A7eExperience concentrate \u00A7r is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums."]);
 
-mods.jei.JEI.addInfo(<item:baersadditions:nether_concentrate>, ["\u00A78Nether concentrate \u00A7r is an extremely potent, but deadly, concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it."]);
+mods.jei.JEI.addInfo(<item:baersadditions:nether_concentrate>, ["\u00A78Nether concentrate \u00A7r is an extremely potent, deadly concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it."]);
 
 mods.jei.JEI.addInfo(<item:baersadditions:overworld_concentrate>, ["\u00A72Overworld concentrate \u00A7r is the purest concentrate of them all, harvesting all power from the Overworld. While it's currently unknown how to create it, it can be found rarely in the Thornborn Towers."]);
 
@@ -77,6 +74,8 @@ craftingTable.addShapeless("wyrmroost_platinum_to_baersadditions_platinum", <ite
 //Baer's Additions Blocks
 
 craftingTable.addShapeless("moss_block", <item:baersadditions:moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:vine>]);
+craftingTable.addShapeless("light_moss_block", <item:baersadditions:light_moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:lime_dye>]);
+craftingTable.addShapeless("dark_moss_block", <item:baersadditions:dark_moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:green_dye>]);
 
 craftingTable.addShapedMirrored("platinum_block", <item:baersadditions:platinum_block>, [
     [<item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>],

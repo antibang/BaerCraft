@@ -1,0 +1,118 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dread_knight_sword"
+    },
+    "title": [
+      {
+        "text": "Unlock the Dread Knight's Sword",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Defeat the Dread Lich, obtain the Gravemaster's Key, and locate a mausoleum."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_dread_lich": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:dread_lich"
+        }
+      }
+    },
+    "killed_dread_beast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:dread_beast"
+        }
+      }
+    },
+    "killed_dread_ghoul": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:dread_ghoul"
+        }
+      }
+    },    
+    "killed_dread_knight": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:dread_knight"
+        }
+      }
+    },
+    "killed_dread_scuttler": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:dread_scuttler"
+        }
+      }
+    },
+    "killed_dread_thrall": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:dread_thrall"
+        }
+      }
+    },
+    "gravemasters_key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dread_key"
+          }
+        ]
+      }
+    },
+    "mausoleum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "iceandfire:mausoleum"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_dread_lich"
+    ],
+    [
+      "killed_dread_beast"
+    ],
+    [
+      "killed_dread_ghoul"
+    ],
+    [
+      "killed_dread_knight"
+    ],
+    [
+      "killed_dread_scuttler"
+    ],
+    [
+      "killed_dread_thrall"
+    ],
+    [
+      "gravemasters_key"
+    ],
+    [
+      "mausoleum"
+    ]
+  ]
+}
