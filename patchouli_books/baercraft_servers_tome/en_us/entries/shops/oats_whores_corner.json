@@ -1,0 +1,11 @@
+{
+    "name": "Oat's Whore's Corner 3.0",
+    "icon": "farmersdelight:smoked_ham",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ever been preparing to do a battle and before you leave, you realize you need to wet your throat? Well, you've traveled to the right place! Adventure, come in and sit by the fire while my sheep wench fetches you a cold one.$(br2)$(bold)$(italic)Location:$()$(br)$(italic)-339510, 96, 93010"
+        }
+    ]
+}

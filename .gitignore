@@ -87,6 +87,7 @@ config/globalgamerules-common.toml
 config/jeresources.toml
 config/jeresources-common.toml
 config/libraryferret.properties
+config/memorysweep-common.toml
 config/mod_checker_list.json
 config/mod_checker.json
 config/PregenConfig.toml

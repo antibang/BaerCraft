@@ -100,13 +100,14 @@
     "apply": {
       "species" : {
         "random" : {
-          "jungle" : 9,
-          "mega_jungle" : 5,
-          "dtbyg:mega_rainbow_eucalyptus" : 3,
-          "dtbyg:mega_mahogany" : 5
+          "jungle" : 13,
+          "mega_jungle" : 8,
+          "dtbyg:mega_rainbow_eucalyptus" : 2,
+          "dtbyg:rainbow_eucalyptus" : 5,
+          "dtbyg:mega_mahogany" : 3
         }
       },
-      "density": [ 5 ],
+      "density": [ 10 ],
       "multipass" : true
     }
   },
@@ -163,7 +164,13 @@
   {
     "select": { "name": "minecraft:.*beach.*" },
     "apply": {
-      "chance": 0.0
+      "species" : {
+        "random" : {
+          "dtbyg:palm" : 1,
+          "dtbyg:mega_palm" : 3
+        }
+      },
+      "density": [ 0.2 ]
     }
   },
   {

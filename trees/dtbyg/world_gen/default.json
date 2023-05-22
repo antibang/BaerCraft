@@ -998,14 +998,14 @@
         "random": {
           "spruce": 1,
           "dtbyg:tall_spruce": 1,
-          "dtbyg:giga_spruce": 1,
+          "dtbyg:giga_spruce": 3,
           "dtbyg:pine": 1,
-          "dtbyg:mega_pine": 1,
+          "dtbyg:mega_pine": 2,
           "dtbyg:aspen": 1,
-          "dtbyg:canopy_aspen": 1
+          "dtbyg:canopy_aspen": 2
         }
       },
-      "density": [ 0.6 ],
+      "density": [ 0.7 ],
       "chance": 1.0,
       "forestness": 1
     }

@@ -5,7 +5,15 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(#8800ff)$(bold)Lightning dragons$() can spawn in the following biomes/biome types:$(br2)ALL jungle biomes$(br)ALL mesa biomes$(br)ALL savanna biomes"
+            "text": "$(#8800ff)$(bold)Lightning dragons$() can spawn in the following biomes:$(br2)Dry Boneyard$(br)Fungal Field$(br)Fungal Jungle$(br)Lush Savanna$(br)Rainforest$(br)Rainforest Cliffs$(br)Rainforest Floodplain$(br)Volcanic Plains$(br)Volcano$(br)Araucaria Forest$(br)Araucaria Savanna"
+        },
+        {
+            "type": "text",
+            "text": "Baobab Savanna$(br)Fungal Patch$(br)Guiana Clearing$(br)Guiana Shield$(br)Guiana Springs$(br)Tropical Fungal Forest$(br)Tropical Fungal Rainforest Hills$(br)Tropical Rainforest$(br)Tropical Rainforest Hills$(br)Badlands$(br)Badlands Plateau$(br)Bamboo Jungle$(br)Bamboo Jungle Hills$(br)Jungle$(br)Jungle Hills$(br)Modified Badlands Plateau$(br)Modified Jungle$(br)Modified Wooded Badlands Plateau$(br)Savanna$(br)Savanna Plateau$(br)Shattered Savanna$(br)Shattered Savanna Plateau$(br)Wooded Badlands Plateau"
+        },
+        {
+            "type": "text",
+            "text": "Modified Jungle$(br)Modified Wooded Badlands Plateau$(br)Savanna$(br)Savanna Plateau$(br)Shattered Savanna$(br)Shattered Savanna Plateau$(br)Wooded Badlands Plateau"
         }
     ]
 }

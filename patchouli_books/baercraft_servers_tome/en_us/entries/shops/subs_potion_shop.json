@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "."
+            "text": "Not a typical potion shop, but rather a transform potion shop! Transform potions are incredibly useful. When right-clicked on a dynamic tree, it will transform the tree into the species of the potion. Most useful when looking for a specific wood type. $(br2)$(bold)$(italic)Location:$()$(br)$(italic)-339104, 93406"
         }
     ]
 }

@@ -8,6 +8,8 @@
 	"Koi Min Group" = 1
 	#Max group for koi
 	"Koi Max Group" = 2
+	#Hatch chance for each koi roe
+	"Koi Hatch Chance" = 0.2
 
 [Lovebird]
 	#Enable/disable lovebird spawns
@@ -32,6 +34,8 @@
 	"Dottyback Min Group" = 2
 	#Max group for dottybacks
 	"Dottyback Max Group" = 3
+	#Hatch chance for each dottyback roe
+	"Dottyback Hatch Chance" = 0.2
 
 [Pike]
 	#Enable/disable pike spawns
@@ -42,6 +46,8 @@
 	"Pike Min Group" = 1
 	#Max group for pikes
 	"Pike Max Group" = 1
+	#Hatch chance for each pike roe
+	"Pike Hatch Chance" = 0.2
 
 [Guppy]
 	#Enable/disable guppy spawns
@@ -52,6 +58,8 @@
 	"Guppy Min Group" = 3
 	#Max group for guppies
 	"Guppy Max Group" = 6
+	#Hatch chance for each guppy roe
+	"Guppy Hatch Chance" = 0.2
 
 [Shrimp]
 	#Enable/disable shrimp spawns
@@ -62,6 +70,8 @@
 	"Shrimp Min Group" = 2
 	#Max group for shrimp
 	"Shrimp Max Group" = 4
+	#Hatch chance for each shrimp roe
+	"Shrimp Hatch Chance" = 0.3
 
 [Gourami]
 	#Enable/disable gourami spawns
@@ -72,6 +82,8 @@
 	"Gourami Min Group" = 1
 	#Max group for gourami
 	"Gourami Max Group" = 1
+	#Hatch chance for each gourami roe
+	"Gourami Hatch Chance" = 0.2
 
 [Arowana]
 	#Enable/disable arowana spawns
@@ -82,6 +94,8 @@
 	"Arowana Min Group" = 1
 	#Max group for arowana
 	"Arowana Max Group" = 1
+	#Hatch chance for each arowana roe
+	"Arowana Hatch Chance" = 0.1
 
 ["Ghost Crab"]
 	#Enable/disable ghost crab spawns
@@ -298,6 +312,8 @@
 	"Goldfish Min Group" = 1
 	#Max group for goldfish
 	"Goldfish Max Group" = 3
+	#Hatch chance for each goldfish roe
+	"Goldfish Hatch Chance" = 0.2
 
 [Ranchu]
 	#Enable/disable ranchu spawns
@@ -308,6 +324,8 @@
 	"Ranchu Min Group" = 1
 	#Max group for ranchu
 	"Ranchu Max Group" = 2
+	#Hatch chance for each ranchu roe
+	"Ranchu Hatch Chance" = 0.2
 
 ["Wild Duck"]
 	#Enable/disable wild duck spawns
@@ -374,10 +392,10 @@
 	"Swallow Min Group" = 3
 	#Max group for swallow
 	"Swallow Max Group" = 5
-	#Hatch chance for each wild duck egg
-	"Wild Duck Hatch Chance" = 0.6
-	#Max egg clutch size for wild ducks
-	"Wild Duck Clutch Size" = 3
+	#Hatch chance for each swallow egg
+	"Swallow Hatch Chance" = 0.6
+	#Max egg clutch size for swallows
+	"Swallow Clutch Size" = 3
 
 ["Fire Goby"]
 	#Enable/disable fire goby spawns
@@ -388,6 +406,8 @@
 	"Fire Goby Min Group" = 1
 	#Max group for fire goby
 	"Fire Goby Max Group" = 1
+	#Hatch chance for each fire goby roe
+	"Fire Goby Hatch Chance" = 0.2
 
 ["Blue Tang"]
 	#Enable/disable blue tang spawns
@@ -398,6 +418,8 @@
 	"Blue Tang Min Group" = 1
 	#Max group for blue tang
 	"Blue Tang Max Group" = 1
+	#Hatch chance for each blue tang roe
+	"Blue Tang Hatch Chance" = 0.2
 
 ["Flame Angelfish"]
 	#Enable/disable flame angelfish spawns
@@ -408,6 +430,8 @@
 	"Flame Angelfish Min Group" = 1
 	#Max group for flame angelfish
 	"Flame Angelfish Max Group" = 1
+	#Hatch chance for each flame angelfish roe
+	"Flame Angelfish Hatch Chance" = 0.2
 
 [Trout]
 	#Enable/disable trout spawns
@@ -418,6 +442,8 @@
 	"Trout Min Group" = 1
 	#Max group for trout
 	"Trout Max Group" = 1
+	#Hatch chance for each trout roe
+	"Trout Hatch Chance" = 0.2
 
 ["Fiddler Crab"]
 	#Enable/disable fiddler crab spawns
@@ -452,6 +478,8 @@
 	"Red Snapper Min Group" = 3
 	#Max group for red snapper
 	"Red Snapper Max Group" = 4
+	#Hatch chance for each red snapper roe
+	"Red Snapper Hatch Chance" = 0.2
 
 ["Wood Duck"]
 	#Enable/disable wood duck spawns
@@ -682,4 +710,144 @@
 	"Ducks Drop Feathers" = true
 	#Base time for egg to hatch, in ticks
 	"Base Egg Hatch Time" = 6000
+
+[Bunting]
+	#Enable/disable bunting spawns
+	"Bunting Spawns" = true
+	#Spawn weight for buntings
+	"Bunting Spawn Weight" = 16
+	#Min group for bunting
+	"Bunting Min Group" = 1
+	#Max group for bunting
+	"Bunting Max Group" = 3
+	#Hatch chance for each bunting egg
+	"Bunting Hatch Chance" = 0.4
+	#Max egg clutch size for bunting
+	"Bunting Clutch Size" = 4
+
+[Monal]
+	#Enable/disable monal spawns
+	"Monal Spawns" = true
+	#Spawn weight for monals
+	"Monal Spawn Weight" = 9
+	#Min group for monal
+	"Monal Min Group" = 1
+	#Max group for monal
+	"Monal Max Group" = 2
+	#Hatch chance for each monal egg
+	"Monal Hatch Chance" = 0.3
+	#Max egg clutch size for monal
+	"Monal Clutch Size" = 5
+
+[Tanager]
+	#Enable/disable tanager spawns
+	"Tanager Spawns" = true
+	#Spawn weight for tanagers
+	"Tanager Spawn Weight" = 15
+	#Min group for tanager
+	"Tanager Min Group" = 3
+	#Max group for tanager
+	"Tanager Max Group" = 5
+	#Hatch chance for each tanager egg
+	"Tanager Hatch Chance" = 0.4
+	#Max egg clutch size for tanager
+	"Tanager Clutch Size" = 5
+
+[Finch]
+	#Enable/disable finch spawns
+	"Finch Spawns" = true
+	#Spawn weight for finches
+	"Finch Spawn Weight" = 16
+	#Min group for finch
+	"Finch Min Group" = 3
+	#Max group for finch
+	"Finch Max Group" = 5
+	#Hatch chance for each finch egg
+	"Finch Hatch Chance" = 0.4
+	#Max egg clutch size for finch
+	"Finch Clutch Size" = 4
+
+[Tarantula]
+	#Enable/disable tarantula spawns
+	"Tarantula Spawns" = false
+	#Spawn weight for tarantulas
+	"Tarantula Spawn Weight" = 20
+	#Min group for tarantula
+	"Tarantula Min Group" = 1
+	#Max group for tarantula
+	"Tarantula Max Group" = 1
+
+[Capercaillie]
+	#Enable/disable capercaillie spawns
+	"Capercaillie Spawns" = true
+	#Spawn weight for capercaillies
+	"Capercaillie Spawn Weight" = 5
+	#Min group for capercaillie
+	"Capercaillie Min Group" = 1
+	#Max group for capercaillie
+	"Capercaillie Max Group" = 2
+	#Hatch chance for each capercaillie egg
+	"Capercaillie Hatch Chance" = 0.6
+	#Max egg clutch size for capercaillie
+	"Capercaillie Clutch Size" = 7
+
+[Pheasant]
+	#Enable/disable pheasant spawns
+	"Pheasant Spawns" = true
+	#Spawn weight for pheasants
+	"Pheasant Spawn Weight" = 9
+	#Min group for pheasant
+	"Pheasant Min Group" = 2
+	#Max group for pheasant
+	"Pheasant Max Group" = 3
+	#Hatch chance for each pheasant egg
+	"Pheasant Hatch Chance" = 0.5
+	#Max egg clutch size for pheasant
+	"Pheasant Clutch Size" = 8
+
+["Vampire Crab"]
+	#Enable/disable vampire crab spawns
+	"Vampire Crab Spawns" = true
+	#Spawn weight for vampire crab
+	"Vampire Crab Spawn Weight" = 18
+	#Min group for vampire crab
+	"Vampire Crab Min Group" = 3
+	#Max group for vampire crab
+	"Vampire Crab Max Group" = 5
+
+[Arapaima]
+	#Enable/disable arapaima spawns
+	"Arapaima Spawns" = true
+	#Spawn weight for arapaima
+	"Arapaima Spawn Weight" = 5
+	#Min group for arapaima
+	"Arapaima Min Group" = 1
+	#Max group for arapaima
+	"Arapaima Max Group" = 1
+	#Hatch chance for each arapaima roe
+	"Arapaima Hatch Chance" = 0.1
+
+["Tiger Barb"]
+	#Enable/disable tiger barb spawns
+	"Tiger Barb Spawns" = true
+	#Spawn weight for tiger barb
+	"Tiger Barb Spawn Weight" = 19
+	#Min group for tiger barb
+	"Tiger Barb Min Group" = 1
+	#Max group for tiger barb
+	"Tiger Barb Max Group" = 1
+	#Hatch chance for each tiger barb roe
+	"Tiger Barb Hatch Chance" = 0.2
+
+[Piranha]
+	#Enable/disable piranha spawns
+	"Piranha Spawns" = false
+	#Spawn weight for piranha
+	"Piranha Spawn Weight" = 10
+	#Min group for piranha
+	"Piranha Min Group" = 3
+	#Max group for piranha
+	"Piranha Max Group" = 6
+	#Hatch chance for each piranha roe
+	"Piranha Hatch Chance" = 0.4
 

@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(#db0000)$(bold)Fire dragons$() can spawn in the following biomes:$(br2)Desert$(br)Desert Hills$(br)Tall Birch Hills$(br)Tall Birch Forest$(br)Birch Forest$(br)Birch Forest Hills$(br)Desert Lakes$(br)Dark Forest$(br)Dark Forest Hills$(br)Cherry Blossom Grove$(br)Golden Prairie"
+            "text": "$(#db0000)$(bold)Fire dragons$() can spawn in the following biomes:$(br2)Desert$(br)Desert Hills$(br)Birch Forest$(br)Birch Forest Hills$(br)Desert Lakes$(br)Dark Forest$(br)Dark Forest Hills$(br)Cherry Blossom Grove$(br)Golden Prairie$(br)Lavender Forest"
         },
         {
             "type": "text",
-            "text": "$(br)Lavender Forest$(br)Lavender Field$(br)Ominous Mire$(br)Ominous Woods$(br)Dunes$(br)Red Desert$(br)Lush Red Desert$(br)Red Desert Dunes$(br)Sierra Valley$(br)Mojave Desert$(br)Ebony Woods$(br)Ebony Hills$(br)Red Rock Mountains$(br)Wooded Red Rock Mountains$(br)Red Rock Highlands"
+            "text": "Lavender Field$(br)Dunes$(br)Red Desert$(br)Lush Red Desert$(br)Red Desert Dunes$(br)Sierra Valley$(br)Mojave Desert$(br)Red Rock Mountains$(br)Wooded Red Rock Mountains$(br)Red Rock Highlands"
         }
     ]
 }

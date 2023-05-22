@@ -1,0 +1,11 @@
+{
+    "name": "Draggy & Dragons Farmers Market",
+    "icon": "farmersdelight:tomato",
+    "category": "patchouli:shops",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ever been preparing to do a battle and before you leave, you realize you need feathers to make arrows? Maybe an item your crafting needs leather or you simply need food while you explore the world with rtp's? Well, you can come to the farmers market, multiple small booths selling all your necessities.$(br2)$(bold)$(italic)Location:$()$(br)$(italic)-339206, 93195"
+        }
+    ]
+}
