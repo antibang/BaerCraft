@@ -167,10 +167,10 @@
       "species" : {
         "random" : {
           "dtbyg:palm" : 1,
-          "dtbyg:mega_palm" : 3
+          "dtbyg:mega_palm" : 2
         }
       },
-      "density": [ 0.2 ]
+      "density": [ 0.12 ]
     }
   },
   {

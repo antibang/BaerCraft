@@ -70,7 +70,7 @@
 			illagerFortGenerates = true
 			#Maximum separation between Illager Forts (in chunks).
 			#Range: 0 ~ 1000000
-			illagerFortSeparation = 90
+			illagerFortSeparation = 80
 			#Minimum spacing between Illager Forts (in chunks).
 			#Range: 0 ~ 1000000
 			illagerFortSpacing = 30
@@ -378,10 +378,10 @@
 			infestedTempleGenerates = true
 			#Maximum separation between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
-			infestedTempleSeparation = 90
+			infestedTempleSeparation = 80
 			#Minimum spacing between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
-			infestedTempleSpacing = 40
+			infestedTempleSpacing = 30
 			#Number of Jigsaw iterations when generating an Infested Temple.
 			#Range: 0 ~ 1000000
 			infestedTempleSize = 100
@@ -398,10 +398,10 @@
 			plagueAsylumGenerates = true
 			#Maximum separation between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
-			plagueAsylumSeparation = 230
+			plagueAsylumSeparation = 200
 			#Minimum spacing between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
-			plagueAsylumSpacing = 120
+			plagueAsylumSpacing = 70
 			#Number of Jigsaw iterations when generating a Plague Asylum.
 			#Range: 0 ~ 1000000
 			plagueAsylumSize = 35
