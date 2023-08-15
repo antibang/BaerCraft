@@ -200,7 +200,9 @@
     },
     "dynamicIcons": {
       "antibang": "https://mc-heads.net/avatar/724361b703a049c683a04ce46a505812",
-      "default": "https://via.placeholder.com/256.png"
+      "default": "https://via.placeholder.com/256.png",
+      "BaerCraftNovus.net": "https://api.mcsrvstat.us/icon/BaerCraftNovus.net",
+      "135.148.151.225": "https://api.mcsrvstat.us/icon/135.148.151.225"
     },
     "dynamicVariables": {
       "default": "Example Text",

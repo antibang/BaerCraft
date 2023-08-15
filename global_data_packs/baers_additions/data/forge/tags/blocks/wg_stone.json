@@ -5,10 +5,8 @@
     "minecraft:stone",
     "create:limestone",
     "create:dolomite",
-    "create:weathered_limestone",
     "byg:rocky_stone",
     "byg:black_smooth_sandstone",
-    "basaltblocks:basalt_cobblestone",
-    "minecraft:gray_terracotta"
+    "basaltblocks:basalt_cobblestone"
   ]
 }
