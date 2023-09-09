@@ -5,6 +5,11 @@ import crafttweaker.api.SmithingManager;
 
 //
 
+mods.jei.JEI.hideItem(<item:powder_power:token_fire_resistance>);
+mods.jei.JEI.hideItem(<item:powder_power:token_speed>);
+
+//
+
 craftingTable.removeRecipe(<item:powder_power:token_dragon>);
 craftingTable.removeRecipe(<item:powder_power:token_night_vision>);
 craftingTable.removeRecipe(<item:powder_power:token_resistance>);

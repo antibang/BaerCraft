@@ -1,0 +1,20 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.DirtMessageScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/backgrounds/1.16.5_loading_screen.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+

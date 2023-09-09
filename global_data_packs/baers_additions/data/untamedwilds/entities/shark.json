@@ -112,7 +112,7 @@
     {
       "name":"great_white",
       "variant":4,
-      "scale":3.8,
+      "scale":3.3,
       "rarity":2,
       "attack":16,
       "health":50,
@@ -135,7 +135,7 @@
     {
       "name":"greenland",
       "variant":5,
-      "scale":6.95,
+      "scale":2.65,
       "rarity":1,
       "attack":14,
       "health":50,

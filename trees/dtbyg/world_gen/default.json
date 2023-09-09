@@ -707,11 +707,12 @@
     "apply": {
       "species": {
         "random": {
-          "dtbyg:witch_hazel": 3,
-          "dtbyg:sparse_witch_hazel": 1
+          "dtbyg:witch_hazel": 1,
+          "dtbop:mega_dark_oak": 7,
+          "dtbyg:canopy_dark_oak": 14
         }
       },
-      "density": [ 1 ],
+      "density": [ 5 ],
       "chance": 1.0,
       "forestness": 1
     }
@@ -1093,8 +1094,9 @@
     "apply": {
       "species": {
         "random": {
-          "dtbyg:canopy_oak": 5,
-          "dtbyg:canopy_dark_oak": 3,
+          "dtbyg:mega_prairie_oak": 9,
+          "dtbyg:canopy_oak": 11,
+          "dtbyg:canopy_dark_oak": 6,
           "dtbyg:ebony_oak": 1
         }
       },

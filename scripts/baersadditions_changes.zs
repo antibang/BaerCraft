@@ -9,7 +9,7 @@ import crafttweaker.api.BlastFurnaceManager;
 <item:baersadditions:blood_concentrate>.addShiftTooltip("\u00A74\u00A7o Not recommended to ingest.");
 
 <item:baersadditions:experience_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
-<item:baersadditions:experience_concentrate>.addShiftTooltip("\u00A7oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums.");
+<item:baersadditions:experience_concentrate>.addShiftTooltip("\u00A7oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plague asylums.");
 
 <item:baersadditions:nether_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
 <item:baersadditions:nether_concentrate>.addShiftTooltip("\u00A7oNether concentrate is an extremely potent, deadly concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it.\u00A74\u00A7o Not recommended to ingest. Highly toxic.");
@@ -28,7 +28,7 @@ import crafttweaker.api.BlastFurnaceManager;
 
 //Add info in JEI
 
-mods.jei.JEI.addInfo(<item:baersadditions:experience_concentrate>, ["\u00A7eExperience concentrate \u00A7r is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums."]);
+mods.jei.JEI.addInfo(<item:baersadditions:experience_concentrate>, ["\u00A7eExperience concentrate \u00A7r is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plague asylums."]);
 
 mods.jei.JEI.addInfo(<item:baersadditions:nether_concentrate>, ["\u00A78Nether concentrate \u00A7r is an extremely potent, deadly concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it."]);
 
@@ -82,6 +82,8 @@ craftingTable.addShapedMirrored("platinum_block", <item:baersadditions:platinum_
     [<item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>],
     [<item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>]
 ]);
+
+craftingTable.addShapeless("platinum_block_to_platinum_ingot", <item:baersadditions:platinum_ingot> * 9, [<item:baersadditions:platinum_block>]);
 
 //Wyrmroost tools and weapons
 

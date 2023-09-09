@@ -1,0 +1,3 @@
+identifier = bisecthosting_sponsor_menu
+title = 
+allowesc = true

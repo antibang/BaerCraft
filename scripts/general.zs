@@ -3,6 +3,10 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.StoneCutterManager;
 import mods.jei.JEI;
 
+//Tooltips
+
+<item:quark:blank_rune>.addTooltip("\u00a76Combine with dye to craft a colored rune.");
+
 //
 
 <tag:items:minecraft:music_discs>.add(
@@ -19,7 +23,6 @@ import mods.jei.JEI;
 
 //
 
-mods.jei.JEI.hideItem(<item:powder_power:token_fire_resistance>);
 mods.jei.JEI.hideItem(<item:bountifulbaubles:gloves_digging_iron>);
 mods.jei.JEI.hideItem(<item:bountifulbaubles:gloves_digging_diamond>);
 mods.jei.JEI.hideItem(<item:minecraft:spawner>);
@@ -27,15 +30,18 @@ mods.jei.JEI.hideItem(<item:spawnermod:spawner_key>);
 mods.jei.JEI.hideItem(<item:scalinghealth:cursed_heart>);
 mods.jei.JEI.hideItem(<item:scalinghealth:enchanted_heart>);
 mods.jei.JEI.hideItem(<item:scalinghealth:chance_heart>);
-mods.jei.JEI.hideItem(<item:powder_power:token_speed>);
+mods.jei.JEI.hideItem(<item:scalinghealth:bandages>);
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "vanillatweaks:hops"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "vanillatweaks:vigor"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "vanillatweaks:nimble"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "vanillatweaks:blazing"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "charm:tinted"}]}));
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "ma-enchants:soft_fall"}]}));
+mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{id: "corpsecomplex:soulbinding"}]}));
 mods.jei.JEI.hideItem(<item:immersiveengineering:sorter>);
 mods.jei.JEI.hideItem(<item:kubejs:dummy_fluid_item>);
+
+mods.jei.JEI.hideMod("structure_gel");
 
 //
 
@@ -43,6 +49,7 @@ craftingTable.removeRecipe(<item:minecraft:name_tag>);
 craftingTable.removeRecipe(<item:bountifulbaubles:gloves_digging_iron>);
 craftingTable.removeRecipe(<item:bountifulbaubles:gloves_digging_diamond>);
 craftingTable.removeRecipe(<item:spawnermod:spawner_key>);
+craftingTable.removeRecipe(<item:scalinghealth:bandages>);
 craftingTable.removeRecipe(<item:minecraft:crying_obsidian>);
 craftingTable.removeRecipe(<item:bountifulbaubles:broken_heart>);
 craftingTable.removeRecipe(<item:bountifulbaubles:lucky_horseshoe>);

@@ -1,3 +1,0 @@
-identifier = Resources
-title = Resources
-allowesc = true

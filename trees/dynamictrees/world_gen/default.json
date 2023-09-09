@@ -29,13 +29,12 @@
     "apply": {
       "species" : {
         "random" : {
-          "oak" : 2,
+          "oak" : 7,
           "tall_birch" : 1,
-          "dtbyg:tapered_oak" : 2,
-          "dtbyg:mega_prairie_oak" : 13
+          "dtbyg:mega_prairie_oak" : 16
         }
       },
-      "density": 2.0,
+      "density": 3.0,
       "chance": 1.0,
       "forestness" : 2.0
     }

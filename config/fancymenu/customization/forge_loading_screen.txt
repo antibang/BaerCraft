@@ -1,0 +1,108 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/drippyloadingscreen/assets/1.16.5_forge_loading_screen.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1440
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 187
+  width = 480
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 824068fb-910c-463a-8c27-868f262eb8b21693807766961
+  y = 180
+  height = 120
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 10
+  width = 300
+  action = deep_customization_element:drippy_overlay_forge_memory
+  actionid = 2545f909-4ea0-4ae4-a6bb-019090609e701693807766961
+  y = 10
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 10
+  width = 300
+  action = deep_customization_element:drippy_overlay_forge_log
+  actionid = d516a260-d559-47be-b76d-0c8f6d196b2c1693807766961
+  y = 430
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 5b9c290d-f0c3-42b2-8b62-8d43edee89961693807766962
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = d4bea4
+  orientation = bottom-centered
+  hidden = false
+  original_pos_size_calculation = false
+  x = -94
+  width = 188
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = dcf24ebb-7465-401f-9e7a-9a465976edda1693807766962
+  y = -33
+  height = 10
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = &1Memory Heap: &9{"placeholder":"usedram"} / {"placeholder":"maxram"} ({"placeholder":"percentram"}%)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 275
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8dc2f34b-0d24-4a0d-a418-8e4b6b22700b1694153373274
+  y = -471
+  alignment = left
+  height = 14
+}
+

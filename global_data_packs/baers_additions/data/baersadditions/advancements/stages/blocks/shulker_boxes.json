@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_shulker_box"
+    },
+    "title": [
+      {
+        "text": "Unlock shulker boxes",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Cross over into the Nether and the End at least once and kill a shulker."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/misc",
+  "criteria": {
+    "nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    },
+    "end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    },
+    "killed_shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:shulker"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether"
+    ],
+    [
+      "end"
+    ],
+    [
+      "killed_shulker"
+    ]
+  ]
+}

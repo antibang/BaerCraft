@@ -1,23 +1,29 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screen.ConnectingScreen {
-}
-
-net.minecraft.client.gui.screen.DirtMessageScreen {
-}
-
-net.minecraft.client.gui.screen.DownloadTerrainScreen {
-}
-
-net.minecraft.client.gui.screen.WorkingScreen {
+net.minecraft.client.gui.screen.IngameMenuScreen {
 }
 
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
 }
 
-net.minecraft.client.gui.screen.MultiplayerScreen {
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.WorkingScreen {
+}
+
+net.minecraft.client.gui.screen.DownloadTerrainScreen {
+}
+
+net.minecraft.client.gui.screen.ConnectingScreen {
+}
+
+net.minecraft.client.gui.screen.inventory.CreativeScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

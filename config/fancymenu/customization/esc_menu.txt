@@ -1,0 +1,155 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -60
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  action = movebutton
+  y = 81
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  action = movebutton
+  y = 54
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 106
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 106
+  action = movebutton
+  y = 54
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/discord_button_hover.png
+  label = 
+  advanced_width = 20
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = -27
+  width = 20
+  action = addbutton
+  actionid = a20e6133-a925-4dca-80a9-bfdf0d0e72b91693807184340
+  y = 27
+  backgroundnormal = config/fancymenu/assets/discord_button.png
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/github_button_hover.png
+  label = 
+  advanced_width = 20
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = -27
+  width = 20
+  action = addbutton
+  actionid = 1804c4bd-19a6-4af3-b114-e3ceefc041931693807289839
+  y = 54
+  backgroundnormal = config/fancymenu/assets/github_button.png
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/curseforge_button_hover.png
+  label = 
+  advanced_width = 20
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 211
+  width = 20
+  action = addbutton
+  actionid = eeb5d118-77e4-42fc-8ac0-11cc8259215d1693807382553
+  y = 27
+  backgroundnormal = config/fancymenu/assets/curseforge_button.png
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/patreon_button_hover.png
+  label = 
+  advanced_width = 20
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 211
+  width = 20
+  action = addbutton
+  actionid = 82416eac-9399-4423-849c-9e6522b88e951693807442690
+  y = 54
+  backgroundnormal = config/fancymenu/assets/patreon_button.png
+  height = 20
+}
+
+customization {
+  identifier = %id=374306%
+  action = hidebutton
+}
+

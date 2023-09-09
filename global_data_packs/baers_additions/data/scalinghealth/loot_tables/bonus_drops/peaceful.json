@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
@@ -15,7 +14,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 2
               },
               "conditions": [
                 {
@@ -25,15 +24,6 @@
               ]
             }
           ]
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:looting_enchant",
-          "count": {
-            "min": 0,
-            "max": 2
-          }
         }
       ]
     }

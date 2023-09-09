@@ -37,7 +37,7 @@
 		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 50
+		"Generate Dragon Cave Chance" = 60
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
@@ -245,7 +245,7 @@
 		"Cockatrice Health" = 50.0
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
-		"Cockatrice chicken Search Length" = 30
+		"Cockatrice chicken Search Length" = 22
 		#True if chickens lay rotten eggs.
 		"Chickens Lay Rotten Eggs" = true
 		#True if cockatrices are allowed to spawn

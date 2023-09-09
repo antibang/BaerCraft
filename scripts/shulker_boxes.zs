@@ -1,8 +1,6 @@
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 
-//
-
 mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_to_silver_shulker_box_upgrade>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:silver_to_gold_shulker_box_upgrade>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_to_iron_shulker_box_upgrade>);
@@ -12,22 +10,6 @@ mods.jei.JEI.hideItem(<item:ironshulkerbox:gold_to_diamond_shulker_box_upgrade>)
 mods.jei.JEI.hideItem(<item:ironshulkerbox:diamond_to_crystal_shulker_box_upgrade>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:diamond_to_obsidian_shulker_box_upgrade>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:vanilla_to_iron_shulker_box_upgrade>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_white>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_orange>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_magenta>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_light_blue>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_yellow>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_lime>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_pink>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_gray>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_light_gray>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_cyan>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_purple>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_blue>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_brown>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_green>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_red>);
-mods.jei.JEI.hideItem(<item:ironshulkerbox:copper_shulker_box_black>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:silver_shulker_box_white>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:silver_shulker_box_orange>);
 mods.jei.JEI.hideItem(<item:ironshulkerbox:silver_shulker_box_magenta>);
@@ -137,7 +119,7 @@ craftingTable.removeRecipe(<item:ironshulkerbox:silver_shulker_box_green>);
 craftingTable.removeRecipe(<item:ironshulkerbox:silver_shulker_box_red>);
 craftingTable.removeRecipe(<item:ironshulkerbox:silver_shulker_box_black>);
 
-//
+//Iron
 
 craftingTable.addShaped("iron_shulker_box_white", <item:ironshulkerbox:iron_shulker_box_white>, [
     [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>],
@@ -235,6 +217,8 @@ craftingTable.addShaped("iron_shulker_box_black", <item:ironshulkerbox:iron_shul
     [<item:minecraft:iron_block>, <item:minecraft:iron_block>, <item:minecraft:iron_block>]
 ]);
 
+//Gold
+
 craftingTable.addShaped("gold_shulker_box_white", <item:ironshulkerbox:gold_shulker_box_white>, [
     [<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>],
     [<item:minecraft:gold_block>, <item:ironshulkerbox:iron_shulker_box_white>, <item:minecraft:gold_block>],
@@ -331,6 +315,8 @@ craftingTable.addShaped("gold_shulker_box_black", <item:ironshulkerbox:gold_shul
     [<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>]
 ]);
 
+//Diamond
+
 craftingTable.addShaped("diamond_shulker_box_white", <item:ironshulkerbox:diamond_shulker_box_white>, [
     [<item:minecraft:diamond_block>, <item:minecraft:diamond_block>, <item:minecraft:diamond_block>],
     [<item:minecraft:diamond_block>, <item:ironshulkerbox:gold_shulker_box_white>, <item:minecraft:diamond_block>],
@@ -425,4 +411,102 @@ craftingTable.addShaped("diamond_shulker_box_black", <item:ironshulkerbox:diamon
     [<item:minecraft:diamond_block>, <item:minecraft:diamond_block>, <item:minecraft:diamond_block>],
     [<item:minecraft:diamond_block>, <item:ironshulkerbox:gold_shulker_box_black>, <item:minecraft:diamond_block>],
     [<item:minecraft:diamond_block>, <item:minecraft:diamond_block>, <item:minecraft:diamond_block>]
+]);
+
+//Copper
+
+craftingTable.addShaped("copper_shulker_box_white", <item:ironshulkerbox:copper_shulker_box_white>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:white_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_orange", <item:ironshulkerbox:copper_shulker_box_orange>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:orange_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_magenta", <item:ironshulkerbox:copper_shulker_box_magenta>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:magenta_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_light_blue", <item:ironshulkerbox:copper_shulker_box_light_blue>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:light_blue_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_yellow", <item:ironshulkerbox:copper_shulker_box_yellow>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:yellow_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_lime", <item:ironshulkerbox:copper_shulker_box_lime>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:lime_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_pink", <item:ironshulkerbox:copper_shulker_box_pink>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:pink_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_gray", <item:ironshulkerbox:copper_shulker_box_gray>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:gray_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_light_gray", <item:ironshulkerbox:copper_shulker_box_light_gray>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:light_gray_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_cyan", <item:ironshulkerbox:copper_shulker_box_cyan>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:cyan_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_purple", <item:ironshulkerbox:copper_shulker_box_purple>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:purple_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_blue", <item:ironshulkerbox:copper_shulker_box_blue>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:blue_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_brown", <item:ironshulkerbox:copper_shulker_box_brown>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:brown_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_green", <item:ironshulkerbox:copper_shulker_box_green>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:green_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_red", <item:ironshulkerbox:copper_shulker_box_red>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:red_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
+]);
+
+craftingTable.addShaped("copper_shulker_box_black", <item:ironshulkerbox:copper_shulker_box_black>, [
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <item:minecraft:black_shulker_box>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>, <tag:items:forge:storage_blocks/copper>]
 ]);

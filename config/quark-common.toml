@@ -1377,7 +1377,7 @@
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
-			Rarity = 580
+			Rarity = 570
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,255]

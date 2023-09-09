@@ -1,0 +1,451 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = blurred
+  action = setbackgroundpanorama
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  baseheight = 1440
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-centered
+  x = 126
+  action = movebutton
+  y = 49
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 79
+  action = resizebutton
+  height = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-centered
+  x = 122
+  action = movebutton
+  y = 137
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 79
+  action = resizebutton
+  height = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-centered
+  x = 145
+  action = movebutton
+  y = 195
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 79
+  action = resizebutton
+  height = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 374
+  action = movebutton
+  y = 90
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 79
+  action = resizebutton
+  height = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 122
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 068ec793-2dae-4368-be22-3f041b9659a51689209329512
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = a9118a13-c8d5-4f7a-8902-4b7b63d37f1e1689209329518
+  y = 234
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 848932bc-56be-425f-8bcd-b818db060ca31689209329518
+  y = 256
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 359
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a9f8b418-7f92-464a-a75f-a09baaf5089c1689209329518
+  y = 169
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 119
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 280d5cb6-b578-467f-9e6e-a671d0f6444e1689209329518
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 0c2f8e8f-303b-4fd5-b14f-891843ddbe8f1689209329518
+  y = 0
+  height = 30
+}
+
+customization {
+  advanced_height = 28
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/antibang/BaerCraft%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/github_button_hover.png
+  label = 
+  advanced_width = 28
+  loopbackgroundanimations = true
+  hoverlabel = 
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = -64
+  width = 28
+  action = addbutton
+  actionid = e9a3c0c4-8669-491e-880a-89be3eb19e191689389929740
+  y = 137
+  backgroundnormal = config/fancymenu/assets/github_button.png
+  height = 28
+}
+
+customization {
+  advanced_height = 28
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui;bisecthosting_sponsor_menu%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/bisecthosting_button_hover.png
+  label = 
+  advanced_width = 28
+  loopbackgroundanimations = true
+  hoverlabel = Need a server? Proudly sponsored by BisectHosting
+  x = -14
+  width = 28
+  action = addbutton
+  actionid = f30324b4-790f-462f-bcf8-8c1f955536461690634224303
+  y = -50
+  backgroundnormal = config/fancymenu/assets/bisecthosting_button.png
+  height = 28
+}
+
+customization {
+  path = config/fancymenu/assets/logo.png
+  orientation = top-centered
+  x = -62
+  width = 123
+  action = addtexture
+  actionid = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  y = 25
+  height = 202
+}
+
+customization {
+  orientation = element
+  basecolor = ffffff
+  shadow = true
+  splashfilepath = config/fancymenu/assets/splashes.txt
+  rotation = 26.0
+  scale = 0.65
+  refresh = true
+  bouncing = true
+  vanilla-like = false
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = 100
+  actionid = c18c8ec6-c9b0-4278-a12e-815b06c8e0851690637334867
+  action = addsplash
+  y = 63
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_quit_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/quit_button_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = 77
+  width = 79
+  action = addbutton
+  actionid = e8421b46-3b07-4d9f-a1d7-8ffd0b3cf8c51689577352050
+  y = 177
+  backgroundnormal = config/fancymenu/assets/quit_button.png
+  height = 38
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_options_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/options_button_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = -32
+  width = 79
+  action = addbutton
+  actionid = 37c5ddea-6342-42fe-aaa1-aa8618943a121689577305140
+  y = 177
+  backgroundnormal = config/fancymenu/assets/options_button.png
+  height = 38
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_multiplayer_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/multiplayer_button_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = 77
+  width = 79
+  action = addbutton
+  actionid = 3b0515fd-64ee-4c70-96a1-55df41da923f1689576954711
+  y = 132
+  backgroundnormal = config/fancymenu/assets/multiplayer_button.png
+  height = 38
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:mc_titlescreen_singleplayer_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/singleplayer_button_hover.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = -32
+  width = 79
+  action = addbutton
+  actionid = dba6073e-5371-4c90-890b-2d7d6205b91b1689577267244
+  y = 132
+  backgroundnormal = config/fancymenu/assets/singleplayer_button.png
+  height = 38
+}
+
+customization {
+  advanced_height = 28
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.patreon.com/antibang%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/patreon_button_hover.png
+  label = 
+  advanced_width = 28
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = -64
+  width = 28
+  action = addbutton
+  actionid = d55cb8d6-4e6b-4c1d-a2a3-ed545d9bea841693777026224
+  y = 182
+  backgroundnormal = config/fancymenu/assets/patreon_button.png
+  height = 28
+}
+
+customization {
+  advanced_height = 52
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/chained_lanterns_hover.png
+  label = 
+  advanced_width = 121
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = 1
+  width = 121
+  action = addbutton
+  actionid = 380016e8-9699-4db0-a28d-12d47cb352bf1693778052814
+  y = 215
+  backgroundnormal = config/fancymenu/assets/chained_lanterns.png
+  height = 52
+}
+
+customization {
+  advanced_height = 28
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/baercraft%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/discord_button_hover.png
+  label = 
+  advanced_width = 28
+  loopbackgroundanimations = true
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = 160
+  width = 28
+  action = addbutton
+  actionid = 3726021b-3ae0-4a17-9399-04083a8738041693777151013
+  y = 137
+  backgroundnormal = config/fancymenu/assets/discord_button.png
+  height = 28
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 34fbe7ea-3019-4b64-85b5-1762295c57f61693777296572
+  y = 5
+  height = 100
+}
+
+customization {
+  advanced_height = 28
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/baercraft%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/curseforge_button_hover.png
+  label = 
+  advanced_width = 28
+  loopbackgroundanimations = true
+  hoverlabel = 
+  orientation_element = aa674d6b-e431-48d7-9371-b94db5c882f21693773719286
+  x = 160
+  width = 28
+  action = addbutton
+  actionid = d947ad86-6d24-4aee-b9bb-f11c637286951693777298927
+  y = 182
+  backgroundnormal = config/fancymenu/assets/curseforge_button.png
+  height = 28
+}
+

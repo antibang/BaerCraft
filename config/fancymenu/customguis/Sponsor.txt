@@ -1,3 +1,0 @@
-identifier = Sponsor
-title = 
-allowesc = true

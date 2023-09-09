@@ -1,0 +1,13 @@
+{
+    "name": "Shulker Boxes",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/misc/blocks",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/blocks/shulker_boxes",
+            "type": "quest",
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must cross over into the Nether and the End at least once and kill one shulker before you can use any shulker box."
+        }
+    ],
+    "turnin": "baersadditions:stages/blocks/shulker_boxes"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Iced Dragonbone Weapons",
+    "icon": "thermal:iron_coin",
+    "category": "patchouli:stages/legendary_weapons",
+    "pages": [
+        {
+            "trigger": "baersadditions:stages/legendary_weapons/iced_dragonbone_weapons",
+            "type": "quest",
+            "text": "$(bold)$(#3a55de)How to unlock:$() You must defeat one ice dragon, then collect its blood, and craft one dragonbone sword before you can use any iced dragonbone weapon."
+        }
+    ],
+    "turnin": "baersadditions:stages/legendary_weapons/iced_dragonbone_weapons"
+}

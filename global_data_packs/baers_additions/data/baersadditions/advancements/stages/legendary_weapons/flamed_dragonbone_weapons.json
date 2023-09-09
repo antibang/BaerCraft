@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dragonbone_sword_fire"
+    },
+    "title": [
+      {
+        "text": "Unlock the Flamed Dragonbone Legendary Weapons",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": [
+      {
+        "text": "Kill one fire dragon, collect its blood, and craft one dragon bone sword."
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "baersadditions:stages/legendary_weapons",
+  "criteria": {
+    "killed_fire_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "iceandfire:fire_dragon"
+        }
+      }
+    },
+    "crafted_dragonbone_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dragonbone_sword"
+          }
+        ]
+      }
+    },
+    "collected_fire_dragon_blood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:fire_dragon_blood"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_fire_dragon"
+    ],
+    [
+      "crafted_dragonbone_sword"
+    ],
+    [
+      "collected_fire_dragon_blood"
+    ]
+  ]
+}

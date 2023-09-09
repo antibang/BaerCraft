@@ -2,9 +2,30 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "nether"
+        "value": "minecraft:crimson_forest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:warped_forest"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:nether_wastes"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:crimson_gardens"
       }
     ]
   ]

@@ -2,39 +2,37 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
+        "min": 0,
         "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 2,
+          "name": "scalinghealth:power_crystal",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
+                "min": 0,
+                "max": 2
               }
             }
-          ],
-          "name": "scalinghealth:power_crystal"
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 6,
+          "name": "scalinghealth:heart_crystal",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
+                "min": 0,
+                "max": 1
               }
             }
-          ],
-          "name": "scalinghealth:heart_crystal"
+          ]
         }
       ]
     }

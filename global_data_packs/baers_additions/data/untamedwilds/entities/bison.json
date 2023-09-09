@@ -15,16 +15,52 @@
     {
       "name":"plains",
       "variant":0,
-      "scale":1.9,
+      "scale":1.85,
       "rarity":5,
       "activityType":"diurnal",
       "favourite_food":"minecraft:wheat",
       "flags":{
-        "groupCount":12
+        "groupCount":9
       },
       "spawnBiomes":[
         [
-          ["category|plains", "!category|ocean", "!resource|byg:dead_sea"]
+          "resource|biomesoplenty:fir_clearing"
+        ],
+        [
+          "resource|biomesoplenty:golden_prairie"
+        ],
+        [
+          "resource|biomesoplenty:grassland"
+        ],
+        [
+          "resource|biomesoplenty:lavender_field"
+        ],
+        [
+          "resource|biomesoplenty:meadow"
+        ],
+        [
+          "resource|biomesoplenty:scrubland"
+        ],
+        [
+          "resource|biomesoplenty:shrubland"
+        ],
+        [
+          "resource|biomesoplenty:snowy_fir_clearing"
+        ],
+        [
+          "resource|byg:deciduous_clearing"
+        ],
+        [
+          "resource|byg:orchard"
+        ],
+        [
+          "resource|byg:prairie"
+        ],
+        [
+          "resource|byg:prairie_clearing"
+        ],
+        [
+          "resource|minecraft:plains"
         ]
       ]
     },
@@ -40,7 +76,37 @@
       },
       "spawnBiomes":[
         [
-          ["category|forest", "!category|ocean", "!resource|byg:araucaria_forest"]
+          "resource|biomesoplenty:grove"
+        ],
+        [
+          "resource|biomesoplenty:woodland"
+        ],
+        [
+          "resource|biomesoplenty:wooded_scrubland"
+        ],
+        [
+          "resource|byg:araucaria_forest"
+        ],
+        [
+          "resource|byg:araucaria_savanna"
+        ],
+        [
+          "resource|byg:araucaria_forest"
+        ],
+        [
+          "resource|byg:deciduous_forest"
+        ],
+        [
+          "resource|minecraft:flower_forest"
+        ],
+        [
+          "resource|minecraft:forest"
+        ],
+        [
+          "resource|minecraft:tall_birch_forest"
+        ],
+        [
+          "resource|minecraft:wooded_hills"
         ]
       ]
     }

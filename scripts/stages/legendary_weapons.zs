@@ -4,9 +4,9 @@ import crafttweaker.api.item.IItemStack;
 
 //Grant
 
-StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/flamed_dragonbone_sword", "flamed_dragonbone_sword");
-StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/iced_dragonbone_sword", "iced_dragonbone_sword");
-StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/lightning_dragonbone_sword", "lightning_dragonbone_sword");
+StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/flamed_dragonbone_weapons", "flamed_dragonbone_weapons");
+StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/iced_dragonbone_weapons", "iced_dragonbone_weapons");
+StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/lightning_dragonbone_weapons", "lightning_dragonbone_weapons");
 
 StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/amphithere_macuahuitl", "amphithere_macuahuitl");
 StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/cockatrice_scepter", "cockatrice_scepter");
@@ -26,9 +26,9 @@ StageHelper.grantStageOnAdvancement("baersadditions:stages/legendary_weapons/tro
 
 //Stage
 
-ItemStages.restrict(<tag:items:baercraft:flamed_weapons>, "flamed_dragonbone_sword").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat a fire dragon and craft a dragonbone sword before you can use any flamed dragonbone weapon");
-ItemStages.restrict(<tag:items:baercraft:iced_weapons>, "iced_dragonbone_sword").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat an ice dragon and craft a dragonbone sword before you can use any iced dragonbone weapon");
-ItemStages.restrict(<tag:items:baercraft:lightning_weapons>, "lightning_dragonbone_sword").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat a lightning dragon and craft a dragonbone sword before you can use any lightning dragonbone weapon");
+ItemStages.restrict(<tag:items:baercraft:flamed_weapons>, "flamed_dragonbone_weapons").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat a fire dragon, collect its blood, and craft a dragonbone sword before you can use any flamed dragonbone weapon");
+ItemStages.restrict(<tag:items:baercraft:iced_weapons>, "iced_dragonbone_weapons").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat an ice dragon, collect its blood, and craft a dragonbone sword before you can use any iced dragonbone weapon");
+ItemStages.restrict(<tag:items:baercraft:lightning_weapons>, "lightning_dragonbone_weapons").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat a lightning dragon, collect its blood, and craft a dragonbone sword before you can use any lightning dragonbone weapon");
 
 ItemStages.restrict(<item:iceandfire:amphithere_macuahuitl>, "amphithere_macuahuitl").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat at least one amphithere to unlock");
 ItemStages.restrict(<item:iceandfire:cockatrice_scepter>, "cockatrice_scepter").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("§e§lYou must defeat and tame at least one cockatrice to unlock");

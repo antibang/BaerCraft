@@ -1,0 +1,16 @@
+{
+    "name": "Stages Disclaimer",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:general",
+    "pages": [
+        {
+            "type": "text",
+            "text": "PLEASE keep in mind that since I'm in and out of development every week or so as of summer 2023, things may be more unorganized or broken.$(br2)I want to specifically disclaim that stages in particular, still being new to the modpack, may see some bumps here since this is content I want to implement over time."
+        },
+        {
+            "type": "text",
+            "text": "Essentially, what I'm talking about is there are times where I make small mistakes in the stages scripts or advancements that cause stages to not trigger for a certain item or set.$(br2)Additionally, if I have to rewrite a stage into an entirely new stage name and files, you WILL have to repeat the criteria for the stage again. You can request the stage, but staff may not be online at the time.$(br2)$(l:https://github.com/antibang/BaerCraft/wiki/Stage-FAQ)Read our stage FAQ here."
+        }
+    ],
+    "sortnum": 7
+}

@@ -3,7 +3,7 @@
 	#Show empty armor icons?
 	"Show empty icons" = true
 	#Colors must be specified in #RRGGBB format
-	"color values" = ["#FFFFFF", "#343061", "#C27193", "#EE988E", "#F5BB95", "#F5D6A2"]
+	"color values" = ["#FFFFFF", "#FFD200", "#FFA800", "#0AA0ff", "#005CC3", "#FFF09D"]
 	#Always show armor bar even if empty?
 	"Always show bar" = false
 

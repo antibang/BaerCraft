@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = blurred
+  speed = 0.7
+  fov = 90.0
+  angle = -2.0
+}

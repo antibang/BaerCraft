@@ -60,10 +60,20 @@
     },
     {
         "mob": "alexsmobs:bone_serpent",
-        "healthadd": 50,
+        "healthadd": 30,
         "damageadd": 10,
         "onjoin": true,
         "result": "allow"
+    },    
+    {
+        "dimension": "minecraft:the_nether",
+        "mob": "alexsmobs:bone_serpent",
+        "mincount": {
+          "amount": 3,
+          "perplayer": true
+        },
+        "onjoin": true,
+        "result": "deny"
     },
     {
         "mob": "wyrmroost:royal_red",
@@ -81,7 +91,7 @@
     },
     {
         "dimension": "minecraft:overworld",
-        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie", "minecraft:creeper"],
+        "mob": ["dungeons_mobs:armored_skeleton", "dungeons_mobs:armored_zombie", "minecraft:spider", "minecraft:skeleton", "minecraft:zombie", "minecraft:creeper", "minecraft:husk"],
         "block": ["minecraft:grass_block", "minecraft:podzol", "minecraft:coarse_dirt"],
         "mintime": 0,
         "maxtime": 11000,

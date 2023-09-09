@@ -177,7 +177,7 @@
     "stripTranslationColors": false,
     "showLoggingInChat": false,
     "stripExtraGuiElements": false,
-    "configKeyCode": 52
+    "configKeyCode": 39
   },
   "displaySettings": {
     "presenceData": {
