@@ -1,7 +1,7 @@
 {
   "biomeMap": {
-    "biomeSizeLand [default: 256]": 300,
-    "biomeSizeVoid [default: 256]": 256,
+    "biomeSizeLand [default: 256]": 380,
+    "biomeSizeVoid [default: 256]": 350,
     "biomeSizeCaves [default: 32]": 32
   },
   "portal": {
@@ -28,26 +28,26 @@
     "endCityFailChance [default: 5]": 3,
     "layers": {
       "bigIslands": {
-        "distance[1-8192] [default: 300.0]": 340.0,
-        "scale[0.1-1024] [default: 200.0]": 200.0,
-        "averageHeight[0-255] [default: 70]": 70,
-        "heightVariation[0-255] [default: 10]": 44,
+        "distance[1-8192] [default: 300.0]": 350.0,
+        "scale[0.1-1024] [default: 200.0]": 220.0,
+        "averageHeight[0-255] [default: 70]": 74,
+        "heightVariation[0-255] [default: 10]": 48,
         "coverage[0-1] [default: 0.5]": 0.5,
         "hasCentralIsland [default: false]": false
       },
       "mediumIslands": {
         "distance[1-8192] [default: 150.0]": 190.0,
-        "scale[0.1-1024] [default: 100.0]": 100.0,
+        "scale[0.1-1024] [default: 100.0]": 110.0,
         "averageHeight[0-255] [default: 70]": 70,
-        "heightVariation[0-255] [default: 20]": 48,
+        "heightVariation[0-255] [default: 20]": 51,
         "coverage[0-1] [default: 0.5]": 0.5,
         "hasCentralIsland [default: true]": true
       },
       "smallIslands": {
-        "distance[1-8192] [default: 60.0]": 140.0,
-        "scale[0.1-1024] [default: 50.0]": 50.0,
+        "distance[1-8192] [default: 60.0]": 120.0,
+        "scale[0.1-1024] [default: 50.0]": 60.0,
         "averageHeight[0-255] [default: 70]": 70,
-        "heightVariation[0-255] [default: 30]": 58,
+        "heightVariation[0-255] [default: 30]": 64,
         "coverage[0-1] [default: 0.5]": 0.5,
         "hasCentralIsland [default: false]": false
       }

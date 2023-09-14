@@ -6,6 +6,8 @@ import mods.jei.JEI;
 //Tooltips
 
 <item:quark:blank_rune>.addTooltip("\u00a76Combine with dye to craft a colored rune.");
+<item:scalinghealth:heart_crystal>.addTooltip("\u00a76These crystals increase your health by 1 heart per crystal. You can use up to 10.");
+<item:scalinghealth:power_crystal>.addTooltip("\u00a76These crystals increase your base attack by 0.5 damage per crystal. You can use up to 60 for a total of 30 damage.");
 
 //
 

@@ -24,7 +24,7 @@
 	enable = false
 
 [butchering]
-	enable = true
+	enable = false
 
 [true_shot]
 	enable = false

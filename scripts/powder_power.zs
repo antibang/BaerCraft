@@ -166,8 +166,14 @@ craftingTable.addShaped("dolphin_token", <item:powder_power:token_dolphin>, [
 
 craftingTable.addShaped("no_fall_token", <item:powder_power:token_no_fall>, [
     [<item:powder_power:ingot_quadrilium>, <item:powder_power:blend_quadrilium>, <item:powder_power:ingot_quadrilium>],
-    [<item:powder_power:blend_quadrilium>, <item:minecraft:netherite_boots>, <item:powder_power:blend_quadrilium>],
+    [<item:powder_power:blend_quadrilium>, <item:gobber2:gobber2_boots_nether>, <item:powder_power:blend_quadrilium>],
     [<item:powder_power:ingot_quadrilium>, <item:powder_power:blend_quadrilium>, <item:powder_power:ingot_quadrilium>]
+]);
+
+craftingTable.addShaped("haste_token", <item:powder_power:token_haste>, [
+    [<item:iceandfire:amphithere_feather>, <item:powder_power:blend_lapium>, <item:iceandfire:amphithere_feather>],
+    [<item:powder_power:blend_lapium>, <item:powder_power:pickaxe_lapium>, <item:powder_power:blend_lapium>],
+    [<item:iceandfire:amphithere_feather>, <item:powder_power:blend_lapium>, <item:iceandfire:amphithere_feather>]
 ]);
 
 craftingTable.addShaped("supreme_strength_token", <item:powder_power:token_supreme_strength>, [

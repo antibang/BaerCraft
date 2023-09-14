@@ -85,7 +85,7 @@
 		#Range: 0.0 ~ 1.0
 		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
 		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
-		blacklistedBreakBlocks = ["gravestone:gravestone"]
+		blacklistedBreakBlocks = ["gravestone:gravestone", "minecraft:chest"]
 		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 		noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block", "iceandfire:gold_pile", "iceandfire:silver_pile", "iceandfire:copper_pile", "iceandfire:frozen_dirt", "iceandfire:frozen_grass", "iceandfire:frozen_stone", "iceandfire:frozen_cobblestone", "iceandfire:frozen_gravel", "iceandfire:frozen_grass_path", "iceandfire:frozen_splinters", "iceandfire:charred_dirt", "iceandfire:charred_grass", "iceandfire:charred_stone", "iceandfire:charred_cobblestone", "iceandfire:charred_gravel", "iceandfire:charred_grass_path", "iceandfire:charred_splinters", "iceandfire:crackled_dirt", "iceandfire:crackled_grass", "iceandfire:crackled_stone", "iceandfire:crackled_cobblestone", "iceandfire:crackled_gravel", "iceandfire:crackled_grass_path", "iceandfire:crackled_splinters"]
 

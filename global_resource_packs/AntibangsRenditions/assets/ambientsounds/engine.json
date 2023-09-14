@@ -137,6 +137,15 @@
                 "max": 12000
               },
               "volume": 0.4
+            },
+            {
+              "name": "end_ambient_4",
+              "files": [ "baersadditions:end_ambient_4" ],
+              "pause": {
+                "min": 13200,
+                "max": 22800
+              },
+              "volume": 0.4
             }
           ]
         }
