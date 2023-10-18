@@ -22,7 +22,7 @@
 	"Footsteps as Quadruped" = false
 	#Footstep master volume scale
 	#Range: 0 ~ 100
-	"Footstep Volume Scale" = 15
+	"Footstep Volume Scale" = 25
 	#Enable armor rustle accents for footstep acoustics
 	"Enable Armor Accents" = true
 	#Enable rain splash accents for footstep acoustics
@@ -46,5 +46,5 @@
 	"Enable Item Swing Sound Effects" = true
 	#Toolbar master volume scale
 	#Range: 0 ~ 100
-	"Toolbar Volume Scale" = 5
+	"Toolbar Volume Scale" = 15
 

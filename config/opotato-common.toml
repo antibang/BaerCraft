@@ -1,7 +1,7 @@
 
 #Opotato Common Config
 ["Opotato Custom Optimization Settings"]
-	"print mods list when launching game" = true
+	"print mods list when launching game" = false
 	"allow entities spawn limit" = false
 	#Range: 1 ~ 100
 	"max entities spawning number per chunk" = 10

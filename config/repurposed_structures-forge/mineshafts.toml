@@ -41,9 +41,9 @@
 	#Range: 5 ~ 255
 	swampMineshaftMinHeight = 8
 	#Range: 5 ~ 255
-	netherMineshaftMinHeight = 6
+	netherMineshaftMinHeight = 5
 	#Range: 5 ~ 255
-	oceanMineshaftMinHeight = 8
+	oceanMineshaftMinHeight = 6
 	#Range: 5 ~ 255
 	savannaMineshaftMinHeight = 8
 	#Range: 5 ~ 255
@@ -81,7 +81,7 @@
 	#Range: 5 ~ 255
 	icyMineshaftMaxHeight = 45
 	#Range: 5 ~ 255
-	oceanMineshaftMaxHeight = 26
+	oceanMineshaftMaxHeight = 32
 	#Range: 5 ~ 255
 	crimsonMineshaftMaxHeight = 14
 	#Range: 5 ~ 255
@@ -91,7 +91,7 @@
 	#Range: 5 ~ 255
 	birchMineshaftMaxHeight = 45
 	#Range: 5 ~ 255
-	netherMineshaftMaxHeight = 17
+	netherMineshaftMaxHeight = 21
 	#Range: 5 ~ 255
 	jungleMineshaftMaxHeight = 45
 	#Range: 5 ~ 255
