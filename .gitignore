@@ -15,6 +15,7 @@ fancymenu_setups
 jocodes
 imgui.log
 libraries
+lightspeed-cache
 local
 logs
 modernfix
@@ -41,21 +42,6 @@ XaeroWorldMap
 #files
 biomeidfixer.temp
 clientId.txt
-launcher_accounts_microsoft_store.json
-launcher_cef_log.txt
-launcher_custom_skins.json
-launcher_entitlements_microsoft_store.json
-launcher_gamer_pics_microsoft_store.json
-launcher_log.txt
-launcher_log0.txt
-launcher_msa_credentials_microsoft_store.bin
-launcher_product_state_microsoft_store.json
-launcher_profiles.json
-launcher_profiles.json.bak
-launcher_quick_play.json
-launcher_settings.json
-launcher_skins.json
-launcher_ui_state_microsoft_store.json
 NewWorldBiomeIdFixer.json
 oauthprofiles.json
 options.txt
@@ -71,6 +57,7 @@ updateSourceCache.json
 usercache.json
 usernamecache.json
 WailaErrorOutput.txt
+launcher*
 
 #Configs
 config/cherishedworlds
@@ -80,6 +67,7 @@ config/spark
 config/starterkit/starterkit.txt
 config/terraforged
 config/betterpingdisplay-client.toml
+config/bettervillage_1.properties
 config/bettervillage.properties
 config/bettervillage_general_.properties
 config/camera-client.toml
@@ -90,11 +78,14 @@ config/fpsreducer/fpsreducer-client.toml
 config/globalgamerules-common.toml
 config/jeresources.toml
 config/jeresources-common.toml
+config/libraryferret_1.properties
 config/libraryferret.properties
 config/memorysweep-common.toml
 config/mod_checker_list.json
 config/mod_checker.json
 config/PregenConfig.toml
+config/prehistoricfauna-client.toml
+config/prehistoricfauna-common.toml
 config/servertabinfo-client.toml
 config/servertabinfo-server.toml
 config/out_of_sight-client.toml

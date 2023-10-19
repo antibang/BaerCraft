@@ -2,7 +2,7 @@
   "minecraft": {
     "crop_progress": true,
     "comparator": true,
-    "hide_infestations": true,
+    "hide_infestations": false,
     "display_furnace_contents": true,
     "jukebox": true,
     "lever": true,
