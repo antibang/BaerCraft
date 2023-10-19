@@ -783,14 +783,16 @@
       "name": "byg:.*meadow"
     },
     "apply": {
-      "species": {
-        "random": {
-          "dtbyg:oak_twiglet": 5,
-          "dtbyg:dark_oak_twiglet": 1
+      "species" : {
+        "random" : {
+          "dtbop:oak_bush": 30,
+          "dtbyg:oak_twiglet": 16,
+          "mega_spruce": 1,
+          "dtbyg:giga_spruce": 3
         }
       },
-      "density": [ 2 ],
-      "chance": 0.1
+      "density": 0.3,
+      "chance": 1.0
     }
   },
   {
@@ -1251,17 +1253,15 @@
     "apply": {
       "species": {
         "random": {
-          "dtbyg:mahogany": 8,
-          "dtbyg:tall_mahogany": 4,
-          "dtbyg:mega_mahogany": 1,
-          "dtbyg:mahogany_twiglet": 2,
-          "dtbyg:rainbow_eucalyptus": 8,
-          "dtbyg:mega_rainbow_eucalyptus": 1
+          "dtbyg:mega_rainbow_eucalyptus" : 2,
+          "dtbyg:rainbow_eucalyptus" : 6,
+          "dtbyg:mega_mahogany" : 28,
+          "dtbyg:tall_mahogany": 16,
+          "dtbop:oak_bush" : 6,
+          "dtbop:jungle_twiglet" : 4
         }
       },
-      "density": [ 1.5 ],
-      "chance": 1.0,
-      "forestness": 1,
+      "density": [ 15.5 ],
       "multipass" : true
     }
   },
@@ -1300,12 +1300,13 @@
     "apply": {
       "species": {
         "random": {
-          "dtbyg:mahogany": 3,
+          "dtbyg:mahogany": 2,
+          "dtbyg:mega_mahogany": 4,
           "dtbyg:rainbow_eucalyptus": 3,
           "dtbyg:mega_rainbow_eucalyptus": 1
         }
       },
-      "density": [ 0.6 ],
+      "density": [ 0.7 ],
       "chance": 1.0,
       "forestness": 1
     }

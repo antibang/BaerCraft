@@ -16,7 +16,7 @@
 	whale_shark = true
 	#Critters further than this value from any Player will despawn into their Burrow (only if they have a Burrow assigned).
 	#Range: > 0
-	critterSpawnRange = 20
+	critterSpawnRange = 32
 	#Controls whether to add Snakes and their associated items.
 	snake = true
 	#Controls whether to add Catfish and their associated items.
@@ -81,7 +81,7 @@
 	reed_blacklist = []
 	#Frequency of Apex Predators, 1 in N chunks will generate with an Apex Predator (0 to disable)
 	#Range: > 0
-	freqapex = 23
+	freqapex = 30
 	#Frequency of Critters, 1 in N chunks will generate with Critters (0 to disable)
 	#Range: > 0
 	freqcritter = 17
@@ -92,14 +92,14 @@
 	freqsessile = 6
 	#Frequency of Freshwater Mobs, 1 in N chunks will generate with Freshwater Mobs (0 to disable)
 	#Range: > 0
-	freqwater = 14
+	freqwater = 19
 	#Prevent spawns of Flora in these biomes
 	flora_blacklist = []
 	#Controls whether to spawn Reeds in River/Swamp biomes
 	reeds = false
 	#Frequency of Algae, abstract value (0 to disable)
 	#Range: > 0
-	freqalgae = 2
+	freqalgae = 4
 	#Prevent spawns of Algae in these biomes
 	algae_blacklist = []
 	#Probability that an Underground block in a cave will attempt to spawn a mob (0 to disable). If YUNG's Better Caves is installed, this value is further reduced to 0.33x
@@ -107,7 +107,7 @@
 	probunderground = 4.0E-4
 	#Frequency of Ocean Mobs, 1 in N chunks will generate with Ocean Mobs (0 to disable)
 	#Range: > 0
-	freqocean = 28
+	freqocean = 36
 	#Controls whether to use Burrows to spawn Critters, instead of having them clog up the Spawns
 	burrows = true
 	#Controls whether to add Tree Orchids (NOT YET IMPLEMENTED)

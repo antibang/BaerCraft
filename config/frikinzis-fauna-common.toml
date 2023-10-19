@@ -15,11 +15,11 @@
 	#Enable/disable lovebird spawns
 	"Lovebird Spawns" = true
 	#Spawn weight for lovebirds
-	"Lovebird Spawn Weight" = 12
+	"Lovebird Spawn Weight" = 11
 	#Min group for lovebirds
-	"Lovebird Min Group" = 3
+	"Lovebird Min Group" = 2
 	#Max group for lovebirds
-	"Lovebird Max Group" = 5
+	"Lovebird Max Group" = 4
 	#Hatch chance for each lovebird egg
 	"Lovebird Hatch Chance" = 0.5
 	#Max egg clutch size for lovebirds
@@ -29,17 +29,17 @@
 	#Enable/disable dottyback spawns
 	"Dottyback Spawns" = true
 	#Spawn weight for dottybacks
-	"Dottyback Spawn Weight" = 11
+	"Dottyback Spawn Weight" = 9
 	#Min group for dottybacks
-	"Dottyback Min Group" = 2
+	"Dottyback Min Group" = 1
 	#Max group for dottybacks
-	"Dottyback Max Group" = 3
+	"Dottyback Max Group" = 2
 	#Hatch chance for each dottyback roe
 	"Dottyback Hatch Chance" = 0.2
 
 [Pike]
 	#Enable/disable pike spawns
-	"Pike Spawns" = true
+	"Pike Spawns" = false
 	#Spawn weight for pikes
 	"Pike Spawn Weight" = 8
 	#Min group for pikes
@@ -53,11 +53,11 @@
 	#Enable/disable guppy spawns
 	"Guppy Spawns" = true
 	#Spawn weight for guppies
-	"Guppy Spawn Weight" = 8
+	"Guppy Spawn Weight" = 7
 	#Min group for guppies
-	"Guppy Min Group" = 3
+	"Guppy Min Group" = 2
 	#Max group for guppies
-	"Guppy Max Group" = 6
+	"Guppy Max Group" = 5
 	#Hatch chance for each guppy roe
 	"Guppy Hatch Chance" = 0.2
 
@@ -111,11 +111,11 @@
 	#Enable/disable lorikeet spawns
 	"Lorikeet Spawns" = true
 	#Spawn weight for lorikeet
-	"Lorikeet Spawn Weight" = 10
+	"Lorikeet Spawn Weight" = 8
 	#Min group for lorikeet
-	"Lorikeet Min Group" = 2
+	"Lorikeet Min Group" = 1
 	#Max group for lorikeet
-	"Lorikeet Max Group" = 4
+	"Lorikeet Max Group" = 3
 	#Hatch chance for each lorikeet egg
 	"Lorikeet Hatch Chance" = 0.4
 	#Max egg clutch size for lorikeets
@@ -125,11 +125,11 @@
 	#Enable/disable conure spawns
 	"Conure Spawns" = true
 	#Spawn weight for conure
-	"Conure Spawn Weight" = 14
+	"Conure Spawn Weight" = 12
 	#Min group for conure
-	"Conure Min Group" = 3
+	"Conure Min Group" = 1
 	#Max group for conure
-	"Conure Max Group" = 5
+	"Conure Max Group" = 3
 	#Hatch chance for each conure egg
 	"Conure Hatch Chance" = 0.5
 	#Max egg clutch size for conures
@@ -139,7 +139,7 @@
 	#Enable/disable spoonbill spawns
 	"Spoonbill Spawns" = true
 	#Spawn weight for spoonbill
-	"Spoonbill Spawn Weight" = 12
+	"Spoonbill Spawn Weight" = 10
 	#Min group for spoonbill
 	"Spoonbill Min Group" = 1
 	#Max group for spoonbill
@@ -153,9 +153,9 @@
 	#Enable/disable dove spawns
 	"Dove Spawns" = true
 	#Spawn weight for dove
-	"Dove Spawn Weight" = 9
+	"Dove Spawn Weight" = 8
 	#Min group for dove
-	"Dove Min Group" = 2
+	"Dove Min Group" = 1
 	#Max group for dove
 	"Dove Max Group" = 4
 	#Hatch chance for each dove egg
@@ -167,7 +167,7 @@
 	#Enable/disable mandarin duck spawns
 	"Mandarin Duck Spawns" = true
 	#Spawn weight for mandarin duck
-	"Mandarin Duck Spawn Weight" = 14
+	"Mandarin Duck Spawn Weight" = 13
 	#Min group for mandarin duck
 	"Mandarin Duck Min Group" = 2
 	#Max group for mandarin duck
@@ -195,11 +195,11 @@
 	#Enable/disable raven spawns
 	"Raven Spawns" = true
 	#Spawn weight for raven
-	"Raven Spawn Weight" = 16
+	"Raven Spawn Weight" = 8
 	#Min group for raven
 	"Raven Min Group" = 1
 	#Max group for raven
-	"Raven Max Group" = 3
+	"Raven Max Group" = 2
 	#Hatch chance for each raven egg
 	"Raven Hatch Chance" = 0.4
 	#Max egg clutch size for ravens
@@ -209,11 +209,11 @@
 	#Enable/disable fairywren spawns
 	"Fairywren Spawns" = true
 	#Spawn weight for fairywren
-	"Fairywren Spawn Weight" = 17
+	"Fairywren Spawn Weight" = 14
 	#Min group for fairywren
-	"Fairywren Min Group" = 3
+	"Fairywren Min Group" = 1
 	#Max group for fairywren
-	"Fairywren Max Group" = 6
+	"Fairywren Max Group" = 4
 	#Hatch chance for each fairywren egg
 	"Fairywren Hatch Chance" = 0.4
 	#Max egg clutch size for fairywrens
@@ -223,11 +223,11 @@
 	#Enable/disable golden eagle spawns
 	"Golden Eagle Spawns" = true
 	#Spawn weight for golden eagle
-	"Golden Eagle Spawn Weight" = 4
+	"Golden Eagle Spawn Weight" = 3
 	#Min group for golden eagle
 	"Golden Eagle Min Group" = 1
 	#Max group for golden eagle
-	"Golden Eagle Max Group" = 3
+	"Golden Eagle Max Group" = 2
 	#Hatch chance for each golden eagle egg
 	"Golden Eagle Hatch Chance" = 0.4
 	#Max egg clutch size for golden eagles
@@ -307,11 +307,11 @@
 	#Enable/disable goldfish spawns
 	"Goldfish Spawns" = true
 	#Spawn weight for goldfish
-	"Goldfish Spawn Weight" = 3
+	"Goldfish Spawn Weight" = 4
 	#Min group for goldfish
 	"Goldfish Min Group" = 1
 	#Max group for goldfish
-	"Goldfish Max Group" = 3
+	"Goldfish Max Group" = 2
 	#Hatch chance for each goldfish roe
 	"Goldfish Hatch Chance" = 0.2
 
@@ -319,7 +319,7 @@
 	#Enable/disable ranchu spawns
 	"Ranchu Spawns" = true
 	#Spawn weight for ranchu
-	"Ranchu Spawn Weight" = 2
+	"Ranchu Spawn Weight" = 3
 	#Min group for ranchu
 	"Ranchu Min Group" = 1
 	#Max group for ranchu
@@ -331,11 +331,11 @@
 	#Enable/disable wild duck spawns
 	"Wild Duck Spawns" = true
 	#Spawn weight for wild duck
-	"Wild Duck Spawn Weight" = 15
+	"Wild Duck Spawn Weight" = 13
 	#Min group for wild duck
 	"Wild Duck Min Group" = 1
 	#Max group for wild duck
-	"Wild Duck Max Group" = 2
+	"Wild Duck Max Group" = 4
 	#Hatch chance for each wild duck egg
 	"Wild Duck Hatch Chance" = 0.3
 	#Max egg clutch size for wild ducks
@@ -345,7 +345,7 @@
 	#Enable/disable roller spawns
 	"Roller Spawns" = true
 	#Spawn weight for roller
-	"Roller Spawn Weight" = 17
+	"Roller Spawn Weight" = 14
 	#Min group for roller
 	"Roller Min Group" = 1
 	#Max group for roller
@@ -359,9 +359,9 @@
 	#Enable/disable chickadee spawns
 	"Chickadee Spawns" = true
 	#Spawn weight for chickadee
-	"Chickadee Spawn Weight" = 16
+	"Chickadee Spawn Weight" = 13
 	#Min group for chickadee
-	"Chickadee Min Group" = 2
+	"Chickadee Min Group" = 1
 	#Max group for chickadee
 	"Chickadee Max Group" = 3
 	#Hatch chance for each chickadee egg
@@ -373,7 +373,7 @@
 	#Enable/disable pygmy goose spawns
 	"Pygmy Goose Spawns" = true
 	#Spawn weight for pygmy goose
-	"Pygmy Goose Spawn Weight" = 19
+	"Pygmy Goose Spawn Weight" = 16
 	#Min group for pygmy goose
 	"Pygmy Goose Min Group" = 1
 	#Max group for pygmy goose
@@ -387,11 +387,11 @@
 	#Enable/disable swallow spawns
 	"Swallow Spawns" = true
 	#Spawn weight for swallow
-	"Swallow Spawn Weight" = 16
+	"Swallow Spawn Weight" = 13
 	#Min group for swallow
-	"Swallow Min Group" = 3
+	"Swallow Min Group" = 1
 	#Max group for swallow
-	"Swallow Max Group" = 5
+	"Swallow Max Group" = 4
 	#Hatch chance for each swallow egg
 	"Swallow Hatch Chance" = 0.6
 	#Max egg clutch size for swallows
@@ -401,7 +401,7 @@
 	#Enable/disable fire goby spawns
 	"Fire Goby Spawns" = true
 	#Spawn weight for fire goby
-	"Fire Goby Spawn Weight" = 16
+	"Fire Goby Spawn Weight" = 14
 	#Min group for fire goby
 	"Fire Goby Min Group" = 1
 	#Max group for fire goby
@@ -459,7 +459,7 @@
 	#Enable/disable ibis spawns
 	"Ibis Spawns" = true
 	#Spawn weight for ibis
-	"Ibis Spawn Weight" = 18
+	"Ibis Spawn Weight" = 17
 	#Min group for ibis
 	"Ibis Min Group" = 2
 	#Max group for ibis
@@ -471,7 +471,7 @@
 
 ["Red Snapper"]
 	#Enable/disable red snapper spawns
-	"Red Snapper Spawns" = true
+	"Red Snapper Spawns" = false
 	#Spawn weight for red snapper
 	"Red Snapper Spawn Weight" = 3
 	#Min group for red snapper
@@ -485,9 +485,9 @@
 	#Enable/disable wood duck spawns
 	"Wood Duck Spawns" = true
 	#Spawn weight for wood duck
-	"Wood Duck Spawn Weight" = 19
+	"Wood Duck Spawn Weight" = 16
 	#Min group for wood duck
-	"Wood Duck Min Group" = 2
+	"Wood Duck Min Group" = 1
 	#Max group for wood duck
 	"Wood Duck Max Group" = 3
 	#Hatch chance for each wood duck egg
@@ -499,7 +499,7 @@
 	#Enable/disable peafowl spawns
 	"Peafowl Spawns" = true
 	#Spawn weight for peafowl
-	"Peafowl Spawn Weight" = 12
+	"Peafowl Spawn Weight" = 9
 	#Min group for peafowl
 	"Peafowl Min Group" = 1
 	#Max group for peafowl
@@ -513,11 +513,11 @@
 	#Enable/disable sparrow spawns
 	"Sparrow Spawns" = true
 	#Spawn weight for sparrows
-	"Sparrow Spawn Weight" = 18
+	"Sparrow Spawn Weight" = 15
 	#Min group for sparrows
-	"Sparrow Min Group" = 4
+	"Sparrow Min Group" = 1
 	#Max group for sparrows
-	"Sparrow Max Group" = 7
+	"Sparrow Max Group" = 5
 	#Hatch chance for each sparrow egg
 	"Sparrow Hatch Chance" = 0.6
 	#Max egg clutch size for sparrow
@@ -527,11 +527,11 @@
 	#Enable/disable bushtit spawns
 	"Bushtit Spawns" = true
 	#Spawn weight for bushtits
-	"Bushtit Spawn Weight" = 13
+	"Bushtit Spawn Weight" = 10
 	#Min group for bushtits
-	"Bushtit Min Group" = 3
+	"Bushtit Min Group" = 1
 	#Max group for bushtits
-	"Bushtit Max Group" = 5
+	"Bushtit Max Group" = 3
 	#Hatch chance for each bushtit egg
 	"Bushtit Hatch Chance" = 0.4
 	#Max egg clutch size for bushtits
@@ -541,11 +541,11 @@
 	#Enable/disable laughingthrush spawns
 	"Laughingthrush Spawns" = true
 	#Spawn weight for laughingthrushes
-	"Laughingthrush Spawn Weight" = 11
+	"Laughingthrush Spawn Weight" = 7
 	#Min group for laughingthrushes
-	"Laughingthrush Min Group" = 3
+	"Laughingthrush Min Group" = 1
 	#Max group for laughingthrushes
-	"Laughingthrush Max Group" = 5
+	"Laughingthrush Max Group" = 4
 	#Hatch chance for each laughingthrush egg
 	"Laughingthrush Hatch Chance" = 0.5
 	#Max egg clutch size for laughingthrushes
@@ -569,9 +569,9 @@
 	#Enable/disable robin spawns
 	"Robin Spawns" = true
 	#Spawn weight for robins
-	"Robin Spawn Weight" = 14
+	"Robin Spawn Weight" = 12
 	#Min group for robins
-	"Robin Min Group" = 3
+	"Robin Min Group" = 1
 	#Max group for robins
 	"Robin Max Group" = 4
 	#Hatch chance for each robin egg
@@ -583,9 +583,9 @@
 	#Enable/disable magpie spawns
 	"Magpie Spawns" = true
 	#Spawn weight for magpies
-	"Magpie Spawn Weight" = 11
+	"Magpie Spawn Weight" = 9
 	#Min group for magpies
-	"Magpie Min Group" = 3
+	"Magpie Min Group" = 1
 	#Max group for magpies
 	"Magpie Max Group" = 4
 	#Hatch chance for each magpie egg
@@ -597,9 +597,9 @@
 	#Enable/disable goose spawns
 	"Goose Spawns" = true
 	#Spawn weight for goose
-	"Goose Spawn Weight" = 17
+	"Goose Spawn Weight" = 14
 	#Min group for goose
-	"Goose Min Group" = 3
+	"Goose Min Group" = 2
 	#Max group for goose
 	"Goose Max Group" = 5
 	#Hatch chance for each goose egg
@@ -625,11 +625,11 @@
 	#Enable/disable kingfisher spawns
 	"Kingfisher Spawns" = true
 	#Spawn weight for kingfishers
-	"Kingfisher Spawn Weight" = 16
+	"Kingfisher Spawn Weight" = 12
 	#Min group for kingfisher
-	"Kingfisher Min Group" = 3
+	"Kingfisher Min Group" = 1
 	#Max group for kingfisher
-	"Kingfisher Max Group" = 5
+	"Kingfisher Max Group" = 4
 	#Hatch chance for each kingfisher egg
 	"Kingfisher Hatch Chance" = 0.3
 	#Max egg clutch size for kingfisher
@@ -653,11 +653,11 @@
 	#Enable/disable lapwing spawns
 	"Lapwing Spawns" = true
 	#Spawn weight for lapwings
-	"Lapwing Spawn Weight" = 12
+	"Lapwing Spawn Weight" = 10
 	#Min group for lapwing
-	"Lapwing Min Group" = 3
+	"Lapwing Min Group" = 1
 	#Max group for lapwing
-	"Lapwing Max Group" = 6
+	"Lapwing Max Group" = 4
 	#Hatch chance for each lapwing egg
 	"Lapwing Hatch Chance" = 0.3
 	#Max egg clutch size for lapwing
@@ -703,7 +703,7 @@
 	#Base multiplier of height (note: it's recommended to not change this unless you want all entities to be larger/smaller
 	"Height Base Multiplier" = 1.0
 	#Standard deviation of height of entities (higher value = more variation, 0 = turning off basically)
-	"Height Standard Deviation" = 0.14
+	"Height Standard Deviation" = 0.08
 	#Gameplay: Enable/disable height variation
 	"Height Variation" = true
 	#Gameplay: Enable/disable ducks dropping feathers
@@ -715,7 +715,7 @@
 	#Enable/disable bunting spawns
 	"Bunting Spawns" = true
 	#Spawn weight for buntings
-	"Bunting Spawn Weight" = 16
+	"Bunting Spawn Weight" = 13
 	#Min group for bunting
 	"Bunting Min Group" = 1
 	#Max group for bunting
@@ -743,11 +743,11 @@
 	#Enable/disable tanager spawns
 	"Tanager Spawns" = true
 	#Spawn weight for tanagers
-	"Tanager Spawn Weight" = 15
+	"Tanager Spawn Weight" = 13
 	#Min group for tanager
-	"Tanager Min Group" = 3
+	"Tanager Min Group" = 1
 	#Max group for tanager
-	"Tanager Max Group" = 5
+	"Tanager Max Group" = 4
 	#Hatch chance for each tanager egg
 	"Tanager Hatch Chance" = 0.4
 	#Max egg clutch size for tanager
@@ -757,11 +757,11 @@
 	#Enable/disable finch spawns
 	"Finch Spawns" = true
 	#Spawn weight for finches
-	"Finch Spawn Weight" = 16
+	"Finch Spawn Weight" = 14
 	#Min group for finch
-	"Finch Min Group" = 3
+	"Finch Min Group" = 1
 	#Max group for finch
-	"Finch Max Group" = 5
+	"Finch Max Group" = 4
 	#Hatch chance for each finch egg
 	"Finch Hatch Chance" = 0.4
 	#Max egg clutch size for finch
@@ -793,7 +793,7 @@
 
 [Pheasant]
 	#Enable/disable pheasant spawns
-	"Pheasant Spawns" = true
+	"Pheasant Spawns" = false
 	#Spawn weight for pheasants
 	"Pheasant Spawn Weight" = 9
 	#Min group for pheasant

@@ -117,11 +117,13 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtbop:spruce_bush" : 17,
-          "dtbyg:giga_spruce" : 2
+          "dtbop:oak_bush": 28,
+          "dtbyg:oak_twiglet": 12,
+          "dtbyg:mega_pine": 2,
+          "dtbyg:giga_spruce": 7
         }
       },
-      "density": 1.0,
+      "density": 0.3,
       "chance": 1.0
     }
   },
@@ -338,9 +340,16 @@
   {
     "select": { "name": "biomesoplenty:shrubland.*" },
     "apply": {
-      "species" : "dtbop:oak_bush",
-      "density": 0.01,
-      "chance": 0.5
+      "species" : {
+        "random" : {
+          "dtbop:oak_bush" : 18,
+          "dtbop:spruce_twiglet" : 7,
+          "dtbop:jungle_twiglet" : 10,
+          "dtbyg:dark_oak_twiglet" : 3
+        }
+      },
+      "density": 0.05,
+      "chance": 0.8
     }
   },
   {
@@ -546,9 +555,9 @@
     "apply": {
       "species" : {
         "random" : {
-          "dtbop:oak_bush" : 3,
-          "mega_spruce" : 4,
-          "dtbyg:giga_spruce": 1
+          "mega_spruce" : 9,
+          "dtbyg:giga_spruce" : 21,
+          "dtbop:oak_bush" : 14
         }
       },
       "density": 1.0,

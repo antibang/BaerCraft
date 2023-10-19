@@ -9,7 +9,1123 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
+        "value": "biomesoplenty:bamboo_blossom_grove"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:dry_boneyard"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:flower_meadow"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:jade_cliffs"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:lavender_field"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:lush_desert"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:lush_savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:meadow"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:mystic_grove"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:mystic_plains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:rainforest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:rainforest_cliffs"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:rainforest_floodplain"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:redwood_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:redwood_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:scrubland"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:shrubland"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:shrubland_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:snowy_coniferous_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:tropics"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:volcano"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:wetland"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:wetland_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:araucaria_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:araucaria_savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:baobab_savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:bluff_peaks"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:bluff_steeps"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:boreal_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:boreal_forest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:deciduous_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:deciduous_forest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:dover_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:dunes"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:ebony_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:ebony_woods"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:evergreen_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:evergreen_taiga"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:lush_red_desert"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:mojave_desert"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:oasis"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:orchard"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_desert"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_desert_dunes"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_oak_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_oak_forest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_rock_highlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_rock_lowlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_rock_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:sierra_range"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:sierra_valley"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:snowy_deciduous_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:snowy_deciduous_forest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:snowy_evergreen_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:snowy_evergreen_taiga"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:tropical_fungal_rainforest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:tropical_islands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:tropical_rainforest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:tropical_rainforest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:wooded_red_rock_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:badlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:bamboo_jungle"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:bamboo_jungle_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:birch_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:birch_forest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:dark_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:dark_forest_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:desert"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:desert_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:eroded_badlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:flower_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:giant_spruce_taiga"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:giant_spruce_taiga_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:giant_tree_taiga"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:giant_tree_taiga_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:gravelly_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:jungle"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:jungle_edge"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:jungle_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:modified_badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:modified_gravelly_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:modified_jungle"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:modified_jungle_edge"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:modified_wooded_badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:mountain_edge"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:savanna_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:shattered_savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:shattered_savanna_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
         "value": "minecraft:snowy_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:snowy_taiga"
       }
     ],
     [
@@ -43,9 +1159,93 @@
         "value": "overworld"
       },
       {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:taiga"
+      }
+    ],
+    [
+      {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "snowy"
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:taiga_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:taiga_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:tall_birch_forest"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:tall_birch_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:wooded_badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:wooded_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:wooded_mountains"
       }
     ]
   ]

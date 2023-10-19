@@ -29,12 +29,13 @@
     "apply": {
       "species" : {
         "random" : {
-          "oak" : 7,
-          "tall_birch" : 1,
-          "dtbyg:mega_prairie_oak" : 16
+          "oak" : 15,
+          "tall_birch" : 6,
+          "dtbyg:mega_prairie_oak" : 8,
+          "dtbop:oak_bush" : 14
         }
       },
-      "density": 3.0,
+      "density": 4.0,
       "chance": 1.0,
       "forestness" : 2.0
     }
@@ -65,14 +66,14 @@
     "apply": {
       "species" : {
         "random" : {
-          "swamp_oak" : 6,
+          "swamp_oak" : 7,
           "dtbop:cypress_willow" : 3,
-          "dtbyg:mega_willow" : 4,
-          "dtbyg:mega_cypress" : 1
+          "dtbyg:mega_willow" : 16,
+          "dtbyg:willow" : 11
         }
       },
-      "density": [ 0.2 ],
-      "chance": 0.75
+      "density": [ 0.55 ],
+      "chance": 0.85
     }
   },
   {
@@ -80,12 +81,14 @@
     "apply": {
       "species" : {
         "random" : {
-          "acacia" : 8,
-          "dtbyg:araucaria" : 2,
-          "dtbyg:baobab" : 1
+          "acacia" : 18,
+          "dtbyg:araucaria" : 8,
+          "dtbyg:baobab" : 1,
+          "dtbop:oak_bush" : 27,
+          "dtbop:jungle_twiglet": 15
         }
       },
-      "density": [ 0.1 ]
+      "density": [ 0.15 ]
     }
   },
   {
@@ -99,8 +102,8 @@
     "apply": {
       "species" : {
         "random" : {
-          "jungle" : 13,
-          "mega_jungle" : 8,
+          "jungle" : 9,
+          "mega_jungle" : 14,
           "dtbyg:mega_rainbow_eucalyptus" : 2,
           "dtbyg:rainbow_eucalyptus" : 5,
           "dtbyg:mega_mahogany" : 3
@@ -161,29 +164,38 @@
     }
   },
   {
-    "select": { "name": "minecraft:.*beach.*" },
-    "apply": {
-      "species" : {
-        "random" : {
-          "dtbyg:palm" : 1,
-          "dtbyg:mega_palm" : 2
-        }
-      },
-      "density": [ 0.12 ]
-    }
-  },
-  {
     "__comment": "Any biome with 'birch' in the name is 100% birch",
     "select": { "name": "minecraft:.*birch.*" },
     "apply": {
-      "species" : "birch"
+      "species" : {
+        "random" : {
+          "birch" : 11,
+          "tall_birch" : 21,
+          "dtbop:oak_bush" : 9,
+          "dtbop:oak_twiglet": 2,
+          "dtbyg:poplar": 7
+        }
+      },
+      "density": 6.0,
+      "chance": 1.0,
+      "forestness" : 3.0
     }
   },
   {
     "__comment": "Any biome with 'tall_birch' in the name is 100% tall birch",
     "select": { "name": "minecraft:.*tall_birch.*" },
     "apply": {
-      "species" : "tall_birch"
+      "species" : {
+        "random" : {
+          "tall_birch" : 23,
+          "dtbop:oak_bush" : 9,
+          "dtbop:oak_twiglet": 2,
+          "dtbyg:poplar": 7
+        }
+      },
+      "density": 7.0,
+      "chance": 1.0,
+      "forestness" : 3.0
     }
   },
   {
@@ -206,9 +218,11 @@
     "apply": {
       "species" : {
         "random" : {
-          "oak" : 2,
-          "mega_spruce" : 3,
-          "dtbyg:giga_spruce" : 6
+          "oak" : 1,
+          "dtbyg:mega_prairie_oak": 2,
+          "mega_spruce" : 10,
+          "dtbyg:giga_spruce" : 21,
+          "dtbop:oak_bush" : 14
         }
       },
       "density": [ 0.35 ],
@@ -219,8 +233,24 @@
     "_comment": "Wooded Mountains are denser and spawn more trees.",
     "select": "minecraft:wooded_mountains",
     "apply": {
-      "density": [ 0.6 ],
-      "chance": 0.6
+      "density": [ 0.65 ],
+      "chance": 0.85
+    }
+  },
+  {
+    "_comment": "Taiga Mountains are bald, why",
+    "select": "minecraft:taiga_mountains",
+    "apply": {
+      "species" : {
+        "random" : {
+          "spruce" : 4,
+          "mega_spruce" : 10,
+          "dtbyg:giga_spruce" : 21,
+          "dtbop:oak_bush" : 8
+        }
+      },
+      "density": [ 0.35 ],
+      "chance": 0.05
     }
   },
   {
@@ -229,14 +259,14 @@
     "apply": {
       "species" : {
         "random" : {
-          "mega_spruce" : 4,
+          "mega_spruce" : 7,
           "spruce" : 1,
-          "dtbyg:giga_spruce" : 7,
-          "dtbyg:oak_twiglet" : 2
+          "dtbyg:giga_spruce" : 14,
+          "dtbop:oak_bush" : 9
         }
       },
-      "density": [ 1 ],
-      "forestness" : 1.0
+      "density": [ 4.0 ],
+      "forestness" : 2.0
     }
   },
   {
@@ -245,14 +275,14 @@
     "apply": {
       "species" : {
         "random" : {
-          "mega_spruce" : 4,
+          "mega_spruce" : 7,
           "spruce" : 1,
-          "dtbyg:giga_spruce" : 7,
-          "dtbyg:oak_twiglet" : 2
+          "dtbyg:giga_spruce" : 14,
+          "dtbop:oak_bush" : 9
         }
       },
-      "density": [ 1 ],
-      "forestness" : 1.0
+      "density": [ 4.0 ],
+      "forestness" : 2.0
     }
   },
   {

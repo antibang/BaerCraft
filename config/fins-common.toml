@@ -9,7 +9,7 @@
 	pea_wee_spawn_weight = 10
 	#Spawn weight of Vibra Wees
 	#Range: 1 ~ 1000
-	vibra_wee_spawn_weight = 5
+	vibra_wee_spawn_weight = 6
 
 ["Swamp Creature Spawn Weight"]
 	#Spawn weight of Flatback Suckers
@@ -25,12 +25,12 @@
 ["Mountain Creature Spawn Weight"]
 	#Spawn weight of Siderol Whiskered Snails
 	#Range: 1 ~ 1000
-	siderol_whiskered_snail_spawn_weight = 2
+	siderol_whiskered_snail_spawn_weight = 5
 
 ["Beach Creature Spawn Weight"]
 	#Spawn weight of Penglils
 	#Range: 1 ~ 1000
-	penglil_spawn_weight = 2
+	penglil_spawn_weight = 5
 
 ["Forest Creature Spawn Weight"]
 	#Spawn weight of Flatback Leaf Snails
@@ -51,29 +51,29 @@
 ["Warm Ocean Creature Spawn Weight"]
 	#Spawn weight of Ornate Bugfish
 	#Range: 1 ~ 1000
-	orante_bugfish_spawn_weight = 1
+	orante_bugfish_spawn_weight = 2
 	#Spawn weight of Banded Redback Shrimp
 	#Range: 1 ~ 1000
-	banded_redback_shrimp_spawn_weight = 6
+	banded_redback_shrimp_spawn_weight = 10
 	#Spawn weight of Rubber Belly Gliders
 	#Range: 1 ~ 1000
 	rubber_belly_glider_spawn_weight = 3
 	#Spawn weight of Spindly Gem Crabs
 	#Range: 1 ~ 1000
-	spindly_gem_crab_spawn_weight = 7
+	spindly_gem_crab_spawn_weight = 8
 
 ["Ocean Creature Spawn Weight"]
 	#Spawn weight of Gopjets
 	#Range: 1 ~ 1000
-	gopjet_spawn_weight = 1
+	gopjet_spawn_weight = 2
 	#Spawn weight of High-finned Blue
 	#Range: 1 ~ 1000
-	high_finned_blue_spawn_weight = 2
+	high_finned_blue_spawn_weight = 3
 
 ["Lukewarm Ocean Creature Spawn Weight"]
 	#Spawn weight of Red Bull Crabs
 	#Range: 1 ~ 1000
-	red_bull_crabs_spawn_weight = 2
+	red_bull_crabs_spawn_weight = 4
 	#Spawn weight of White Bull Crabs
 	#Range: 1 ~ 1000
 	white_bull_crabs_spawn_weight = 2
@@ -81,7 +81,7 @@
 ["Frozen Ocean Creature Spawn Weight"]
 	#Spawn weight of Night Light Squid
 	#Range: 1 ~ 1000
-	night_light_squids_spawn_weight = 2
+	night_light_squids_spawn_weight = 3
 
 ["River Creature Spawn Weight"]
 	#Spawn weight of Golden River Rays
@@ -89,13 +89,13 @@
 	golden_river_ray_spawn_weight = 2
 	#Spawn weight of Wee Wees
 	#Range: 1 ~ 1000
-	wee_wee_spawn_weight = 2
+	wee_wee_spawn_weight = 4
 	#Spawn weight of River Pebble Snails
 	#Range: 1 ~ 1000
-	river_pebble_snail_spawn_weight = 2
+	river_pebble_snail_spawn_weight = 16
 
 ["Icy Spawn Weight"]
 	#Spawn weight of Wherbles
 	#Range: 1 ~ 1000
-	wherble_spawn_weight = 3
+	wherble_spawn_weight = 4
 

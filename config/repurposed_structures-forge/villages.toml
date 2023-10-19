@@ -10,7 +10,7 @@
 	#Range: 1 ~ 1001
 	darkForestVillageMaxChunkDistance = 52
 	#Range: 1 ~ 1001
-	jungleVillageMaxChunkDistance = 52
+	jungleVillageMaxChunkDistance = 68
 	#Range: 1 ~ 1001
 	swampVillageMaxChunkDistance = 52
 	#Range: 1 ~ 1001

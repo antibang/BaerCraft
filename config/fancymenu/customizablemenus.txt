@@ -27,3 +27,9 @@ net.minecraft.client.gui.screen.inventory.CreativeScreen {
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
+net.minecraft.client.gui.screen.inventory.InventoryScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+

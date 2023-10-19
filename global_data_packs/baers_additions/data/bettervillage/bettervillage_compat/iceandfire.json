@@ -1,0 +1,21 @@
+{
+    "readme_____comment_____readme": "no configuration is needed in this file",
+    "mod_id": "iceandfire",
+    "mod_name": "Ice And Fire",
+    "enabled": true,
+    "replace_structures": true,
+    "pool_plains": [ 
+        "iceandfire:village/plains_scriber_1"
+    ],
+    "pool_desert": [ 
+        "iceandfire:village/desert_scriber_1"
+    ],
+    "pool_snowy": [ 
+        "iceandfire:village/snowy_scriber_1"
+    ],
+    "pool_savanna": [ 
+        "iceandfire:village/savanna_scriber_1"
+    ],
+    "pool_taiga": [  
+    ]
+}

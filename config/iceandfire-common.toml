@@ -83,7 +83,7 @@
 		"Tamed Dragon Griefing" = false
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
-		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
+		"Dragon Block Breaking Drop Chance" = 0.002
 		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
 		blacklistedBreakBlocks = ["gravestone:gravestone", "minecraft:chest"]
 		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
@@ -152,7 +152,7 @@
 		"Dragon Hunger Tick Rate" = 5000
 		#Every interval of this number in ticks, dragon allowed to break blocks.
 		#Range: 0 ~ 10000
-		"Dragon Block Break Cooldown" = 5
+		"Dragon Block Break Cooldown" = 25
 		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Villagers Fear Dragons" = true
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
@@ -170,7 +170,7 @@
 		"Spawn Pixies Chance" = 180
 		#size of pixie villages
 		#Range: 1 ~ 10000
-		"Pixie Village Size" = 7
+		"Pixie Village Size" = 17
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = false
 
@@ -252,7 +252,7 @@
 		"Spawn Cockatrices" = true
 		#Cockatrice spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Cockatrice Spawn Weight" = 4
+		"Cockatrice Spawn Weight" = 6
 		#A double check to see if the game can spawn cockatrices. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
 		"Cockatrice Spawn Check Chance" = 0
@@ -281,7 +281,7 @@
 		"Stymphalian Birds Target Animals" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Stymhphalian Bird Chance" = 320
+		"Spawn Stymhphalian Bird Chance" = 310
 
 	[Mobs.Trolls]
 		#True if trolls are allowed to spawn
@@ -330,7 +330,7 @@
 		"Spawn Amphitheres" = true
 		#Amphithere spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Amphithere Spawn Weight" = 190
+		"Amphithere Spawn Weight" = 180
 		#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Amphithere Villager Search Length" = 64
@@ -339,7 +339,7 @@
 		"Amphithere Tame Time" = 400
 		#How fast amphitheres fly.
 		#Range: 0.0 ~ 3.0
-		"Amphithere Flight Speed" = 3.0
+		"Amphithere Flight Speed" = 2.5
 		#Maximum amphithere health
 		#Range: 1.0 ~ 10000.0
 		"Amphithere Max Health" = 80.0
@@ -408,10 +408,10 @@
 		"Spawn Hippogryphs" = true
 		#Hippogryph spawn weight. Lower = lower chance to spawn.
 		#Range: 1 ~ 10000
-		"Hippogryph Spawn Weight" = 6
+		"Hippogryph Spawn Weight" = 5
 		#Change this to slow down or speed up hippogryph flight.
 		#Range: 0.0 ~ 2.0
-		"Hippogryph Flight Speed Modifier" = 1.0
+		"Hippogryph Flight Speed Modifier" = 1.5
 
 	[Mobs.Gorgons]
 		#True if gorgon temples are allowed to spawn

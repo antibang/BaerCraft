@@ -106,13 +106,85 @@
       "name":"coral_blue",
       "variant":6,
       "scale":1.25,
-      "rarity":1,
+      "rarity":2,
       "flags":{
         "venom":1
       },
       "spawnBiomes":[
         [
-          "category|jungle"
+          "resource|biomesoplenty:fungal_field"
+        ],        
+        [
+          "resource|biomesoplenty:fungal_jungle"
+        ],
+        [
+          "resource|biomesoplenty:rainforest"
+        ],
+        [
+          "resource|biomesoplenty:rainforest_cliffs"
+        ],
+        [
+          "resource|biomesoplenty:rainforest_floodplain"
+        ],
+        [
+          "resource|biomesoplenty:tropics"
+        ],
+        [
+          "resource|byg:bamboo_forest"
+        ],
+        [
+          "resource|byg:crag_gardens"
+        ],
+        [
+          "resource|byg:guiana_clearing"
+        ],
+        [
+          "resource|byg:guiana_shield"
+        ],
+        [
+          "resource|byg:guiana_springs"
+        ],
+        [
+          "resource|byg:tropical_fungal_forest"
+        ],
+        [
+          "resource|byg:tropical_fungal_rainforest_hills"
+        ],
+        [
+          "resource|byg:tropical_rainforest"
+        ],
+        [
+          "resource|byg:tropical_rainforest_hills"
+        ],
+        [
+          "resource|minecraft:bamboo_jungle"
+        ],
+        [
+          "resource|minecraft:bamboo_jungle_hills"
+        ],
+        [
+          "resource|minecraft:jungle"
+        ],
+        [
+          "resource|minecraft:jungle_edge"
+        ],
+        [
+          "resource|minecraft:jungle_hills"
+        ],
+        [
+          "resource|minecraft:modified_jungle"
+        ],
+        [
+          "resource|minecraft:modified_jungle_edge"
+        ],
+        [
+          "resource|minecraft:bamboo_jungle"
+        ],
+        [
+          "resource|minecraft:bamboo_jungle"
+        ],
+        [
+          "resource|minecraft:bamboo_jungle"
         ]
       ]
     },
@@ -196,12 +268,7 @@
         "venom":1
       },
       "spawnBiomes":[
-        [
-          "category|mesa"
-        ],
-        [
-          "category|plains"
-        ]
+
       ]
     },
     {
@@ -265,12 +332,7 @@
         "rattler":1
       },
       "spawnBiomes":[
-        [
-          "category|mesa"
-        ],
-        [
-          "category|desert"
-        ]
+
       ]
     }
   ]

@@ -1,0 +1,21 @@
+{
+    "readme_____comment_____readme": "no configuration is needed in this file",
+    "mod_id": "immersiveengineering",
+    "mod_name": "Immersive Engineering",
+    "enabled": true,
+    "replace_structures": true,
+    "pool_plains": [
+        "immersiveengineering:village/houses/plains_engineer"
+    ],
+    "pool_desert": [
+        "immersiveengineering:village/houses/desert_engineer"
+    ],
+    "pool_snowy": [
+        "immersiveengineering:village/houses/snowy_engineer"
+    ],
+    "pool_savanna": [
+        "immersiveengineering:village/houses/savanna_engineer"
+    ],
+
+    "pool_taiga": []
+}

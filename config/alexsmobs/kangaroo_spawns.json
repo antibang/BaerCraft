@@ -19,9 +19,165 @@
         "value": "overworld"
       },
       {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:scrubland"
+      }
+    ],
+    [
+      {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "savanna"
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:shrubland"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:shrubland_hills"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:wooded_scrubland"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_rock_highlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_rock_lowlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:red_rock_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "byg:wooded_red_rock_mountains"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:badlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:eroded_badlands"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:modified_badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "inecraft:modified_wooded_badlands_plateau"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:wooded_badlands_plateau"
       }
     ]
   ]

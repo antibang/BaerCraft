@@ -9,7 +9,7 @@ import crafttweaker.api.BlastFurnaceManager;
 <item:baersadditions:blood_concentrate>.addShiftTooltip("\u00A74\u00A7o Not recommended to ingest.");
 
 <item:baersadditions:experience_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
-<item:baersadditions:experience_concentrate>.addShiftTooltip("\u00A7oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plague asylums.");
+<item:baersadditions:experience_concentrate>.addShiftTooltip("\u00A7oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known locations, strongholds, plague asylums, infested temples, and illager forts.");
 
 <item:baersadditions:nether_concentrate>.addTooltip("\u00A7l\u00A7n\u00A7ePress Shift For Details");
 <item:baersadditions:nether_concentrate>.addShiftTooltip("\u00A7oNether concentrate is an extremely potent, deadly concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it.\u00A74\u00A7o Not recommended to ingest. Highly toxic.");

@@ -1,0 +1,11 @@
+{
+    "name": "Pam's Harvestcraft Saplings",
+    "icon": "pamhc2trees:cherryitem",
+    "category": "patchouli:smaller_notes_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Since Pam's Harvestcraft's tree generation is disabled, I thought that I should mention where you're able to find the tree saplings or seeds.$(br2)Just like the crop items, tree seeds drop from the gardens as well! They have a lower probability of dropping though at 30%. Additionally, you can only find certain tree seeds in certain biomes just like the crop items!"
+        }
+    ]
+}
