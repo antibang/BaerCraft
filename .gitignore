@@ -1,6 +1,7 @@
 #I should mention that a lot of these files/folders (mainly configs) are from things that I am currently testing, occasionally use for utility, things I forgot about, or I'm too scared to delete because I don't know where they came from.
 
 #Directories
+.vscode
 asset_director
 assets
 backups
@@ -71,7 +72,7 @@ config/bettervillage_1.properties
 config/bettervillage.properties
 config/bettervillage_general_.properties
 config/camera-client.toml
-does_potato_tick-common.toml
+config/doespotatotick-common.toml
 config/forge-client.toml
 config/forge-common.toml
 config/fpsreducer/fpsreducer-client.toml
@@ -79,6 +80,7 @@ config/globalgamerules-common.toml
 config/jeresources.toml
 config/jeresources-common.toml
 config/libraryferret_1.properties
+config/logbegone.toml
 config/libraryferret.properties
 config/memorysweep-common.toml
 config/mod_checker_list.json
