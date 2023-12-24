@@ -1,10 +1,10 @@
 {
   "bootstrapThreads": 2,
   "mainThreads": 8,
-  "gamePriority": 7,
-  "integratedServerPriority": 6,
+  "gamePriority": 5,
+  "integratedServerPriority": 5,
   "bootstrapPriority": 2,
-  "mainPriority": 5,
+  "mainPriority": 4,
   "ioPriority": 2,
-  "modLoadingPriority": 4
+  "modLoadingPriority": 5
 }

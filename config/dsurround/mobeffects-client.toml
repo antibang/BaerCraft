@@ -46,5 +46,5 @@
 	"Enable Item Swing Sound Effects" = true
 	#Toolbar master volume scale
 	#Range: 0 ~ 100
-	"Toolbar Volume Scale" = 15
+	"Toolbar Volume Scale" = 10
 
