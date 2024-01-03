@@ -15,70 +15,34 @@
             {
               "name": "nether",
               "files": [ "ambientsounds:suspense.nether" ],
-              "volume": 0.35
-            },
-            {
-              "name": "nether_ambient_0",
-              "files": [ "baersadditions:nether_ambient_0" ],
-              "pause": {
-                "min": 4800,
-                "max": 13200
-              },
-              "volume": 0.6
-            },
-            {
-              "name": "nether_ambient_1",
-              "files": [ "baersadditions:nether_ambient_1" ],
-              "pause": {
-                "min": 6000,
-                "max": 21600
-              },
-              "volume": 0.68
-            },
-            {
-              "name": "nether_ambient_2",
-              "files": [ "baersadditions:nether_ambient_2" ],
-              "pause": {
-                "min": 8400,
-                "max": 24000
-              },
-              "volume": 0.85
-            },
-            {
-              "name": "nether_ambient_3",
-              "files": [ "baersadditions:nether_ambient_3" ],
-              "pause": {
-                "min": 8400,
-                "max": 22800
-              },
-              "volume": 0.55
-            },
-            {
-              "name": "nether_ambient_4",
-              "files": [ "baersadditions:nether_ambient_4" ],
-              "pause": {
-                "min": 6000,
-                "max": 25200
-              },
-              "volume": 0.65
-            },
-            {
-              "name": "nether_ambient_5",
-              "files": [ "baersadditions:nether_ambient_5" ],
-              "pause": {
-                "min": 9600,
-                "max": 26400
-              },
               "volume": 0.3
             },
             {
-              "name": "nether_ambient_6",
-              "files": [ "baersadditions:nether_ambient_6" ],
+              "name": "nether_ambience_0",
+              "files": [ "baersadditions:nether_ambient_0", "baersadditions:nether_ambient_5" ],
               "pause": {
-                "min": 8600,
-                "max": 28800
+                "min": 8400,
+                "max": 21600
               },
-              "volume": 0.35
+              "volume": 0.0
+            },
+            {
+              "name": "nether_ambience_1",
+              "files": [ "baersadditions:nether_ambient_1", "baersadditions:nether_ambient_3", "baersadditions:nether_ambient_4", "baersadditions:nether_ambient_7" ],
+              "pause": {
+                "min": 10800,
+                "max": 24000
+              },
+              "volume": 0.0
+            },
+            {
+              "name": "nether_ambience_2",
+              "files": [ "baersadditions:nether_ambient_2", "baersadditions:nether_ambient_6" ],
+              "pause": {
+                "min": 13200,
+                "max": 32400
+              },
+              "volume": 0.0
             }
           ]
         }
@@ -99,7 +63,7 @@
           "sounds": [
             {
               "name": "suspense",
-              "volume": 0.2,
+              "volume": 0.15,
               "files": [ "ambientsounds:suspense.end" ]
             },
             {
@@ -109,7 +73,7 @@
                 "min": 4800,
                 "max": 10800
               },
-              "volume": 0.2
+              "volume": 0.0
             },
             {
               "name": "end_ambient_1",
@@ -118,7 +82,7 @@
                 "min": 4200,
                 "max": 8400
               },
-              "volume": 0.25
+              "volume": 0.0
             },
             {
               "name": "end_ambient_2",
@@ -127,7 +91,7 @@
                 "min": 3600,
                 "max": 7600
               },
-              "volume": 0.2
+              "volume": 0.0
             },
             {
               "name": "end_ambient_3",
@@ -136,131 +100,21 @@
                 "min": 5000,
                 "max": 12000
               },
-              "volume": 0.4
+              "volume": 0.0
             },
             {
               "name": "end_ambient_4",
               "files": [ "baersadditions:end_ambient_4" ],
               "pause": {
                 "min": 13200,
-                "max": 22800
+                "max": 26400
               },
-              "volume": 0.4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "abyssalcraft",
-      "dimension-names": [ "The Abyssal Wasteland", "The Dreadlands", "Omothol", "The Dark Realm" ],
-      "biome-selector": {
-        "always": false
-      },
-      "regions": [
-        {
-          "name": "abyssalcraft-dark",
-          "volume": 0.2,
-          "sounds": [
+              "volume": 0.0
+            },
             {
-              "name": "suspense",
-              "files": [ "ambientsounds:suspense.end" ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "void",
-      "dimension-names": [ "The Void", "???" ],
-      "biome-selector": {
-        "always": false
-      },
-      "regions": [
-        {
-          "name": "void-dark",
-          "volume": 0.2,
-          "sounds": [
-            {
-              "name": "suspense",
-              "files": [ "ambientsounds:suspense.end" ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "twilight_forest",
-      "dimension-names": [ "twilightforest" ],
-      "biome-selector": {
-        "regions": [ "surface" ]
-      },
-      "regions": [
-        {
-          "name": "twilight_forest-dark",
-          "volume": 0.2,
-          "sounds": [
-            {
-              "name": "suspense",
-              "files": [ "ambientsounds:suspense.end" ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "betweenlands",
-      "dimension-names": [ "betweenlands" ],
-      "average-height": 0
-    },
-    {
-      "name": "cave-dimensions",
-      "dimension-names": [ "deep_dark", "underground" ],
-      "biome-selector": {
-        "always": false
-      },
-      "regions": [
-        {
-          "name": "deepcave",
-          "sounds": [
-            {
-              "name": "cave",
-              "files": [ "ambientsounds:suspense.cave" ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "midnight-dimension",
-      "dimension-names": [ "midnight" ],
-      "biome-selector": {
-        "always": false
-      }
-    },
-    {
-      "name": "galacticraft",
-      "dimension-names": [ "moon", "space", "asteroids" ],
-      "disable-all": true,
-      "biome-selector": {
-        "always": false
-      }
-    },
-    {
-      "name": "galacticraft.planets",
-      "dimension-names": [ "mars", "venus" ],
-      "biome-selector": {
-        "always": false
-      },
-      "regions": [
-        {
-          "name": "planet-wind",
-          "volume": 0.3,
-          "bad-regions": [ "cave-ambience" ],
-          "sounds": [
-            {
-              "name": "wind",
-              "files": [ "ambientsounds:wind.wind" ]
+              "name": "end_ambient_5",
+              "files": [ "baersadditions:end_ambient_5" ],
+              "volume": 0.0
             }
           ]
         }
@@ -374,7 +228,7 @@
         "fade": 2
       },
       "light": {
-        "max": 8,
+        "max": 7,
         "fade": 2
       },
       "blocks": {
@@ -383,10 +237,19 @@
       "sounds": [
         {
           "name": "suspense",
-          "files": [ "ambientsounds:suspense.cave1", "ambientsounds:suspense.cave2" ],
+          "files": [ "baersadditions:cave_ambience_0" ],
           "length": {
-            "min": 400,
-            "max": 700
+            "min": 300,
+            "max": 3600
+          },
+          "volume": 0.5
+        },
+        {
+          "name": "suspense-1",
+          "files": [ "ambientsounds:suspense.cave1", "baersadditions:cave_ambience_0" ],
+          "length": {
+            "min": 500,
+            "max": 3600
           },
           "volume": 0.3,
           "transition": 200
@@ -449,20 +312,31 @@
         },
         {
           "regions": [ "swamp" ],
-          "volume": 0.3
+          "volume": 0.6
         }
       ],
       "sounds": [
         {
-          "name": "bird-ambience",
-          "files": [ "ambientsounds:animals.bird-ambience1", "ambientsounds:animals.bird-ambience2", "ambientsounds:animals.bird-ambience3", "ambientsounds:animals.bird-ambience4", "ambientsounds:animals.bird-ambience5", "ambientsounds:animals.bird-ambience6", "ambientsounds:animals.bird-ambience7", "ambientsounds:animals.bird-ambience8" ],
+          "name": "bird-ambience-1",
+          "files": [ "baersadditions:forest_birds_ambience_0", "baersadditions:forest_birds_ambience_1" ],
           "length": {
-            "min": 2000,
+            "min": 1000,
             "max": 3000
           },
-          "transition": 400,
-          "day": 0.55,
-          "night": 0.3
+          "transition": 200,
+          "day": 0.65,
+          "night": 0.25
+        },
+        {
+          "name": "bird-ambience-2",
+          "files": [ "ambientsounds:animals.bird-ambience2", "ambientsounds:animals.bird-ambience3", "baersadditions:jungle_birds_ambience_4", "baersadditions:taiga_birds_ambience_0" ],
+          "length": {
+            "min": 1000,
+            "max": 3000
+          },
+          "transition": 200,
+          "day": 0.4,
+          "night": 0.25
         },
         {
           "name": "owl",
@@ -471,8 +345,19 @@
             "min": 10,
             "max": 100
           },
-          "night": 1,
+          "night": 0.65,
           "day": 0
+        },        
+        {
+          "name": "bird-ambience-night",
+          "files": [ "baersadditions:forest_night_ambience_1", "baersadditions:forest_night_ambience_3" ],
+          "length": {
+            "min": 1000,
+            "max": 3000
+          },
+          "transition": 400,
+          "day": 0,
+          "night": 0.35
         }
       ]
     },
@@ -494,8 +379,8 @@
             "min": 100,
             "max": 400
           },
-          "day": 0.7,
-          "night": 0.5
+          "day": 0.5,
+          "night": 0.3
         }
       ]
     },
@@ -506,13 +391,33 @@
           "min": 0.2
         }
       },
-      "biomes": [ "taiga", "grove", "jade cliffs", "shield", "coniferous forest", "land of lakes", "snowy*forest", "temperate rainforest", "seasonal forest", "spruce", "meneglin", "redwood", "dead forest", "ominous woods", "autumnal forest", "boreal forest", "maple wood", "meadow", "thornlands", "twilight highlands" ],
+      "biomes": [ "taiga", "grove", "jade cliffs", "shield", "coniferous forest", "land of lakes", "snowy*forest", "temperate rainforest", "seasonal forest", "spruce", "meneglin", "redwood", "dead forest", "ominous woods", "autumnal forest", "boreal forest", "maple wood", "meadow", "thornlands", "twilight highlands", "evergreen" ],
       "sounds": [
         {
           "name": "bird-ambience-huge",
-          "files": [ "ambientsounds:animals.bird-ambience-huge1", "ambientsounds:animals.bird-ambience-huge2", "ambientsounds:animals.bird-ambience-huge3" ],
-          "day": 0.45,
-          "night": 0.2
+          "files": [ "ambientsounds:animals.bird-ambience-huge2", "ambientsounds:animals.bird-ambience-huge3" ],
+          "day": 0.4,
+          "night": 0
+        },
+        {
+          "name": "bird-ambience",
+          "files": [ "baersadditions:forest_birds_ambience_0", "baersadditions:taiga_birds_ambience_0" ],
+          "transition": 200,
+          "day": 0.65,
+          "night": 0.25
+        },
+        {
+          "name": "night",
+          "files": [ "baersadditions:forest_night_ambience_1", "baersadditions:forest_night_ambience_3"],
+          "transition": 400,
+          "day": 0,
+          "night": 0.5
+        },
+        {
+          "name": "bird-hoot-night",
+          "files": [ "baersadditions:taiga_night_ambience_0" ],
+          "day": 0,
+          "night": 0.4
         }
       ]
     },
@@ -521,10 +426,18 @@
       "biomes": [ "extreme*hills", "alps", "crag", "highland", "mountain", "volcanic island", "mountains", "cliffs", "defiled hills", "volcanic island", "final plateau", "twilight glaciers", "magnetic hills" ],
       "sounds": [
         {
-          "name": "heavy-wind",
-          "files": [ "ambientsounds:wind.heavy-wind" ],
+          "name": "birds",
+          "files": [ "baersadditions:taiga_birds_ambience_0" ],
           "outside": true,
-          "volume": 0.0
+          "day": 0.6,
+          "night": 0.25
+        },
+        {
+          "name": "heavy-wind",
+          "files": [ "baersadditions:mountain_wind_0" ],
+          "outside": true,
+          "day": 0.4,
+          "night": 0.5
         }
       ]
     },
@@ -534,8 +447,15 @@
       "sounds": [
         {
           "name": "wind-mesa",
-          "volume": 0.6,
-          "files": [ "ambientsounds:wind.mesa" ]
+          "volume": 0.5,
+          "files": [ "ambientsounds:wind.mesa" ],
+          "length": {
+            "min": 1500,
+            "max": 3000
+          },
+          "transition": 400,
+          "day": 0.5,
+          "night": 0.3
         }
       ]
     },
@@ -624,15 +544,11 @@
       "sounds": [
         {
           "name": "cricket",
-          "files": [ "ambientsounds:animals.cricket", "ambientsounds:animals.cricket2" ],
+          "files": [ "baersadditions:savanna_plains_birds_ambience_0" ],
           "overall-raining": false,
-          "length": {
-            "min": 1000,
-            "max": 1500
-          },
           "transition": 100,
-          "day": 0,
-          "night": 0
+          "day": 0.5,
+          "night": 0.3
         },
         {
           "name": "cricket-night",
@@ -668,7 +584,7 @@
           },
           "transition": 100,
           "day": 0,
-          "night": 0
+          "night": 0.3
         },
         {
           "name": "cicadas",
@@ -728,10 +644,15 @@
         },
         {
           "name": "bird-warm",
-          "files": [ "ambientsounds:animals.bird-ambience-warm" ],
+          "files": [ "baersadditions:savanna_plains_birds_ambience_0" ],
           "overall-raining": false,
-          "day": 0.8,
-          "night": 0
+          "transition": 500,
+          "length": {
+            "min": 1500,
+            "max": 6000
+          },
+          "day": 0.7,
+          "night": 0.2
         }
       ]
     },
@@ -778,7 +699,7 @@
     },
     {
       "name": "swamp",
-      "biomes": [ "swamp", "bayou", "bog", "marsh", "moor", "fen", "mystic grove", "bamboo marsh", "silkglades", "sludgepit", "wetland", "quagmire", "dead forest", "patchy islands", "deep waters", "coarse islands", "erebus", "fungal forest", "tyros swamp" ],
+      "biomes": [ "swamp", "bayou", "bog", "marsh", "moor", "fen", "mystic grove", "silkglades", "sludgepit", "wetland", "quagmire", "dead forest", "patchy islands", "deep waters", "coarse islands", "erebus", "fungal forest", "tyros swamp", "cypress", "swamplands" ],
       "special-biomes": {
         "temperature": {
           "min": 0.5,
@@ -788,14 +709,21 @@
       "sounds": [
         {
           "name": "cricket-swamp",
-          "files": [ "ambientsounds:animals.cricket-swamp" ],
-          "day": 0.15,
+          "files": [ "baersadditions:swamp_crickets_1" ],
+          "day": 0.3,
+          "night": 0,
+          "overall-raining": false
+        },
+        {
+          "name": "swamp-frogs",
+          "files": [ "baersadditions:swamp_frogs_ambience_0" ],
+          "day": 0.4,
           "night": 0,
           "overall-raining": false
         },
         {
           "name": "cricket-warm-night",
-          "files": [ "ambientsounds:animals.cricket-warm-night", "ambientsounds:animals.cricket-warm-night2" ],
+          "files": [ "baersadditions:swamp_crickets_0", "ambientsounds:animals.cricket-warm-night2" ],
           "overall-raining": false,
           "length": {
             "min": 1000,
@@ -807,13 +735,13 @@
         },
         {
           "name": "frog",
-          "files": [ "ambientsounds:animals.frog1", "ambientsounds:animals.frog2" ],
+          "files": [ "baersadditions:jungle_swamp_night_ambience_3" ],
           "pause": {
             "min": 100,
             "max": 750
           },
-          "day": 0.05,
-          "night": 0.15
+          "day": 0.8,
+          "night": 0.6
         }
       ]
     },
@@ -828,33 +756,38 @@
       },
       "sounds": [
         {
-          "name": "cricket-jungle",
-          "files": [ "ambientsounds:animals.cricket-jungle" ],
-          "day": 0.4,
-          "night": 0
-        },
-        {
-          "name": "cricket-jungle-night",
-          "files": [ "ambientsounds:animals.cricket-jungle-night" ],
-          "day": 0,
-          "night": 0.7
-        },
-        {
-          "name": "bird-ambience-jungle",
-          "files": [ "ambientsounds:animals.bird-ambience-jungle" ],
-          "day": 0.65,
-          "night": 0
-        },
-        {
-          "name": "bird-ambience-jungle-night",
-          "files": [ "ambientsounds:animals.bird-ambience-jungle-night", "ambientsounds:animals.bird-ambience-jungle-night2" ],
+          "name": "jungle",
+          "files": [ "baersadditions:jungle_swamp_night_ambience_0", "baersadditions:jungle_birds_ambience_1", "baersadditions:jungle_birds_ambience_4" ],
           "length": {
             "min": 1500,
             "max": 2000
           },
           "transition": 200,
+          "day": 0.9,
+          "night": 0.55
+        },
+        {
+          "name": "cricket-jungle-night",
+          "files": [ "baersadditions:jungle_swamp_night_ambience_3", "baersadditions:jungle_swamp_night_ambience_4" ],
           "day": 0,
-          "night": 0.6
+          "night": 0.4
+        },
+        {
+          "name": "additional-jungle",
+          "files": [ "baersadditions:jungle_birds_ambience_2", "baersadditions:jungle_birds_ambience_3" ],
+          "day": 0.75,
+          "night": 0.2
+        },
+        {
+          "name": "bird-ambience-jungle-night",
+          "files": [ "baersadditions:jungle_swamp_night_ambience_0", "baersadditions:jungle_swamp_night_ambience_2" ],
+          "length": {
+            "min": 1500,
+            "max": 3600
+          },
+          "transition": 200,
+          "day": 0,
+          "night": 0.4
         }
       ]
     },
@@ -882,13 +815,31 @@
       "sounds": [
         {
           "name": "light-wind",
-          "volume": 0.4,
-          "files": [ "ambientsounds:wind.light-wind", "ambientsounds:wind.wind" ],
+          "volume": 0.3,
+          "files": [ "baersadditions:arctic_wind_0", "baersadditions:generic_wind_0" ],
           "outside": true,
           "transition": 200,
           "length": {
             "min": 1000,
-            "max": 5000
+            "max": 4000
+          }
+        },
+        {
+          "name": "glacier_0",
+          "files": [ "baersadditions:glacier_0" ],
+          "volume": 0.6,
+          "pause": {
+            "min": 4800,
+            "max": 12000
+          }
+        },
+        {
+          "name": "glacier_1",
+          "files": [ "baersadditions:glacier_1" ],
+          "volume": 0.3,
+          "pause": {
+            "min": 7200,
+            "max": 14400
           }
         }
       ]
@@ -905,8 +856,8 @@
       "sounds": [
         {
           "name": "beach",
-          "files": [ "ambientsounds:water.beach" ],
-          "volume": 0.1
+          "files": [ "baersadditions:ocean_waves_0" ],
+          "volume": 0.15
         },
         {
           "name": "seagull",
@@ -933,7 +884,7 @@
     },
     {
       "name": "ocean",
-      "biomes": [ "ocean", "river", "coral reef", "kelp forest", "lake", "stream", "sea" ],
+      "biomes": [ "ocean", "coral reef", "kelp forest", "lake", "stream", "sea" ],
       "special-biomes": {
         "temperature": {
           "min": 0
@@ -942,14 +893,32 @@
       "sounds": [
         {
           "name": "ocean",
-          "files": [ "ambientsounds:water.ocean" ],
+          "files": [ "baersadditions:ocean_waves_1" , "baersadditions:ocean_waves_2" ],
           "volume": 0.1
+        }
+      ]
+    },
+    {
+      "name": "river",
+      "biomes": [ "river" ],
+      "bad-biomes": [ "beach", "ocean" ],
+      "special-biomes": {
+        "temperature": {
+          "min": 0
+        }
+      },
+      "sounds": [
+        {
+          "name": "river",
+          "files": [ "baersadditions:river_1" ],
+          "outside": true,
+          "volume": 0.15
         },
         {
-          "name": "light-wind",
-          "files": [ "ambientsounds:wind.light-wind" ],
+          "name": "river-1",
+          "files": [ "baersadditions:water_stream_0", "baersadditions:water_stream_1" ],
           "outside": true,
-          "volume": 0.4
+          "volume": 0.3
         }
       ]
     }

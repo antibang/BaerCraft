@@ -3,7 +3,13 @@ import crafttweaker.api.item.IIngredient;
 
 //
 
+mods.jei.JEI.hideItem(<item:brazier:ash>);
+mods.jei.JEI.hideItem(<item:brazier:spawn_powder>);
+
+//
+
 craftingTable.removeRecipe(<item:brazier:brazier>);
+craftingTable.removeRecipe(<item:brazier:spawn_powder>);
 
 //
 

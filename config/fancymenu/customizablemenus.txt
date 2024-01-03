@@ -33,3 +33,6 @@ net.minecraft.client.gui.screen.inventory.InventoryScreen {
 net.minecraft.client.gui.screen.OptionsScreen {
 }
 
+net.minecraft.client.gui.screen.VideoSettingsScreen {
+}
+

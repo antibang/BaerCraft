@@ -33,6 +33,10 @@ mods.jei.JEI.hideItem(<item:gobber2:gobber2_ring_blaze>);
 mods.jei.JEI.hideItem(<item:gobber2:block_defender>);
 mods.jei.JEI.hideItem(<item:gobber2:block_protector>);
 mods.jei.JEI.hideItem(<item:gobber2:block_looter>);
+mods.jei.JEI.hideItem(<item:gobber2:gobber2_helmet_dragon>);
+mods.jei.JEI.hideItem(<item:gobber2:gobber2_chestplate_dragon>);
+mods.jei.JEI.hideItem(<item:gobber2:gobber2_leggings_dragon>);
+mods.jei.JEI.hideItem(<item:gobber2:gobber2_boots_dragon>);
 
 //
 

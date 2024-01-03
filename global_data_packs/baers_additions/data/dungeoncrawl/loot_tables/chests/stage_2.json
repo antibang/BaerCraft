@@ -4,26 +4,11 @@
     {
       "name": "stage two chest",
       "rolls": {
-        "min": 9.0,
-        "max": 14.0,
+        "min": 7.0,
+        "max": 12.0,
         "type": "minecraft:uniform"
       },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:apple"
-        },
         {
           "type": "minecraft:item",
           "weight": 6,
@@ -67,52 +52,7 @@
               }
             }
           ],
-          "name": "minecraft:potato"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:baked_potato"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
           "name": "minecraft:carrot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:cooked_beef"
         },
         {
           "type": "minecraft:item",
@@ -146,7 +86,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -423,20 +363,6 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:dead_bush"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {
@@ -675,37 +601,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "frozenup:truffle"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 1.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "pamhc2foodextended:bltitem"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -720,22 +616,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "pamhc2foodextended:powdereddonutitem"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -750,37 +631,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 1.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "pamhc2foodcore:pumpkincheesecakeitem"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 1.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "pamhc2foodcore:sweetberrypieitem"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",

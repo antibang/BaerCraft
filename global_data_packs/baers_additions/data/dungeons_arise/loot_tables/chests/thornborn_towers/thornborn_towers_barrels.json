@@ -135,8 +135,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "pamhc2foodextended:bltitem",
+          "weight": 4,
+          "name": "pamhc2foodextended:frosteddonutitem",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -149,21 +149,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "name": "pamhc2foodextended:frosteddonutitem",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 7,
+          "weight": 3,
           "name": "pamhc2foodcore:cheesecakeitem",
           "functions": [
             {
@@ -177,7 +163,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "name": "pamhc2foodextended:maplesyruppancakesitem",
           "functions": [
             {
@@ -191,28 +177,14 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
-          "name": "pamhc2foodcore:donutitem",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 8,
+          "weight": 5,
           "name": "pamhc2foodextended:blackberryyogurtitem",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]

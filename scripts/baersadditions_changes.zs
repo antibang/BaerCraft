@@ -74,8 +74,6 @@ craftingTable.addShapeless("wyrmroost_platinum_to_baersadditions_platinum", <ite
 //Baer's Additions Blocks
 
 craftingTable.addShapeless("moss_block", <item:baersadditions:moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:vine>]);
-craftingTable.addShapeless("light_moss_block", <item:baersadditions:light_moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:lime_dye>]);
-craftingTable.addShapeless("dark_moss_block", <item:baersadditions:dark_moss_block> * 1, [<item:minecraft:grass_block>, <item:minecraft:green_dye>]);
 
 craftingTable.addShapedMirrored("platinum_block", <item:baersadditions:platinum_block>, [
     [<item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>, <item:baersadditions:platinum_ingot>],

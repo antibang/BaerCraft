@@ -6,19 +6,19 @@ jungleFortressMaxChunkDistance = 54
 #
 # Size of the fortress. This is how many pieces long a branch can be from the start piece.
 #Range: 1 ~ 30
-jungleFortressSize = 16
+jungleFortressSize = 10
 #
 # Min Y height that the starting point can spawn at.
 #Range: 0 ~ 255
-jungleFortressMinHeight = 58
+jungleFortressMinHeight = 62
 #
 # Max Y height that the starting point can spawn at.
 #
 #If below min height, this will be read as min.
 #Range: 0 ~ 255
-jungleFortressMaxHeight = 84
+jungleFortressMaxHeight = 76
 #
 # How far above or below the fortress's pieces can generate away from the center piece.
 #Range: 0 ~ 255
-jungleFortressVerticalRange = 62
+jungleFortressVerticalRange = 16
 
