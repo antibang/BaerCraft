@@ -41,6 +41,7 @@ XaeroWaypoints_BACKUP032021
 XaeroWorldMap
 
 #files
+.favorites.json
 biomeidfixer.temp
 clientId.txt
 NewWorldBiomeIdFixer.json
@@ -85,6 +86,7 @@ config/libraryferret.properties
 config/memorysweep-common.toml
 config/mod_checker_list.json
 config/mod_checker.json
+config/notes-client.toml
 config/PregenConfig.toml
 config/prehistoricfauna-client.toml
 config/prehistoricfauna-common.toml

@@ -49,7 +49,7 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 9
 	#Range: > 0
-	weight = 15
+	weight = 16
 	#Minimum group size
 	#Default: 2
 	#Range: > 0
@@ -69,7 +69,7 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 23
 	#Range: > 0
-	weight = 23
+	weight = 28
 	#Minimum group size
 	#Default: 4
 	#Range: > 0
@@ -77,7 +77,7 @@
 	#Maximum group size
 	#Default: 5
 	#Range: > 0
-	max = 6
+	max = 8
 
 [lesser_desertwyrm]
 	#List of biomes in whitelist/blacklist
@@ -109,7 +109,7 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 8
 	#Range: > 0
-	weight = 5
+	weight = 6
 	#Minimum group size
 	#Default: 1
 	#Range: > 0
@@ -117,7 +117,7 @@
 	#Maximum group size
 	#Default: 3
 	#Range: > 0
-	max = 3
+	max = 5
 
 [roost_stalker]
 	#List of biomes in whitelist/blacklist
@@ -129,15 +129,15 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 7
 	#Range: > 0
-	weight = 7
+	weight = 8
 	#Minimum group size
 	#Default: 2
 	#Range: > 0
-	min = 4
+	min = 3
 	#Maximum group size
 	#Default: 9
 	#Range: > 0
-	max = 9
+	max = 7
 
 [royal_red]
 	#List of biomes in whitelist/blacklist
@@ -169,7 +169,7 @@
 	#Mob spawning weight (higher numbers will spawn more often)
 	#Default: 10
 	#Range: > 0
-	weight = 10
+	weight = 11
 	#Minimum group size
 	#Default: 1
 	#Range: > 0
@@ -177,5 +177,5 @@
 	#Maximum group size
 	#Default: 4
 	#Range: > 0
-	max = 4
+	max = 5
 

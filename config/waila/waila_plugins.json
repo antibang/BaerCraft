@@ -40,6 +40,13 @@
     "harvest_tool_new_line": false,
     "trapped_chest": true
   },
+  "amber": {
+    "create_speed": true,
+    "create_stress": true,
+    "fd_mushroom_colony": true,
+    "ae2_channels": true,
+    "forge_energy": true
+  },
   "waila": {
     "show_registry": true,
     "show_entity_hp": true,

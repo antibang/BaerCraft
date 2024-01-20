@@ -703,7 +703,7 @@
 	#Base multiplier of height (note: it's recommended to not change this unless you want all entities to be larger/smaller
 	"Height Base Multiplier" = 1.0
 	#Standard deviation of height of entities (higher value = more variation, 0 = turning off basically)
-	"Height Standard Deviation" = 0.08
+	"Height Standard Deviation" = 0.09
 	#Gameplay: Enable/disable height variation
 	"Height Variation" = true
 	#Gameplay: Enable/disable ducks dropping feathers
@@ -850,4 +850,126 @@
 	"Piranha Max Group" = 6
 	#Hatch chance for each piranha roe
 	"Piranha Hatch Chance" = 0.4
+
+[Stork]
+	#Enable/disable stork spawns
+	"Stork Spawns" = true
+	#Spawn weight for stork
+	"Stork Spawn Weight" = 10
+	#Min group for stork
+	"Stork Min Group" = 3
+	#Max group for stork
+	"Stork Max Group" = 6
+	#Hatch chance for each stork egg
+	"Stork Hatch Chance" = 0.5
+	#Max egg clutch size for stork
+	"Stork Clutch Size" = 3
+
+["Whistling Duck"]
+	#Enable/disable whistling duck spawns
+	"Whistling Duck Spawns" = true
+	#Spawn weight for whistling duck
+	"Whistling Duck Spawn Weight" = 10
+	#Min group for whistling duck
+	"Whistling Duck Min Group" = 3
+	#Max group for whistling duck
+	"Whistling Duck Max Group" = 6
+	#Hatch chance for each whistling duck egg
+	"Whistling Duck Hatch Chance" = 0.2
+	#Max egg clutch size for whistling duck
+	"Whistling Duck Clutch Size" = 9
+
+["Ground Hornbill"]
+	#Enable/disable ground hornbill spawns
+	"Ground Hornbill Spawns" = true
+	#Spawn weight for ground hornbill
+	"Ground Hornbill Spawn Weight" = 8
+	#Min group for ground hornbill
+	"Ground Hornbill Min Group" = 2
+	#Max group for ground hornbill
+	"Ground Hornbill Max Group" = 6
+	#Hatch chance for each ground hornbill egg
+	"Ground Hornbill Hatch Chance" = 0.5
+	#Max egg clutch size for ground hornbill
+	"Ground Hornbill Clutch Size" = 2
+
+[Secretarybird]
+	#Enable/disable secretarybird spawns
+	"Secretarybird Spawns" = true
+	#Spawn weight for secretarybirds
+	"Secretarybird Spawn Weight" = 20
+	#Min group for secretarybird
+	"Secretarybird Min Group" = 1
+	#Max group for secretarybird
+	"Secretarybird Max Group" = 2
+	#Hatch chance for each secretarybird egg
+	"Secretarybird Hatch Chance" = 0.2
+	#Max egg clutch size for secretarybirds
+	"Secretarybird Clutch Size" = 3
+
+[Shoebill]
+	#Enable/disable shoebill spawns
+	"Shoebill Spawns" = true
+	#Spawn weight for shoebills
+	"Shoebill Spawn Weight" = 10
+	#Min group for shoebills
+	"Shoebill Min Group" = 1
+	#Max group for shoebills
+	"Shoebill Max Group" = 2
+	#Hatch chance for each shoebill egg
+	"Shoebill Hatch Chance" = 0.3
+	#Max egg clutch size for shoebill
+	"Shoebill Clutch Size" = 3
+
+[Starling]
+	#Enable/disable starling spawns
+	"Starling Spawns" = true
+	#Spawn weight for starlings
+	"Starling Spawn Weight" = 10
+	#Min group for starlings
+	"Starling Min Group" = 3
+	#Max group for starlings
+	"Starling Max Group" = 5
+	#Hatch chance for each starling egg
+	"Starling Hatch Chance" = 0.7
+	#Max egg clutch size for starling
+	"Starling Clutch Size" = 6
+
+[Tambaqui]
+	#Enable/disable tambaqui spawns
+	"Tambaqui Spawns" = true
+	#Spawn weight for tambaqui
+	"Tambaqui Spawn Weight" = 10
+	#Min group for tambaqui
+	"Tambaqui Min Group" = 1
+	#Max group for tambaqui
+	"Tambaqui Max Group" = 1
+	#Hatch chance for each tambaqui egg
+	"Tambaqui Hatch Chance" = 0.3
+
+[Elephantnose]
+	#Enable/disable elephantnose fish spawns
+	"Elephantnose Spawns" = true
+	#Spawn weight for elephantnose fish
+	"Elephantnose Spawn Weight" = 10
+	#Min group for elephantnose fish
+	"Elephantnose Min Group" = 3
+	#Max group for elephantnose fish
+	"Elephantnose Max Group" = 5
+	#Hatch chance for each elephantnose fish egg
+	"Elephantnose Hatch Chance" = 0.3
+
+[Cormorant]
+	#Enable/disable cormorant spawns
+	"Cormorant Spawns" = true
+	#Spawn weight for cormorants
+	"Cormorant Spawn Weight" = 10
+	#Min group for cormorant
+	"Cormorant Min Group" = 3
+	#Max group for cormorant
+	"Cormorant Max Group" = 5
+	#Hatch chance for each cormorant egg
+	"Cormorant Hatch Chance" = 0.7
+	#Max egg clutch size for cormorant
+	"Cormorant Clutch Size" = 6
 
