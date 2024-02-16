@@ -3,11 +3,11 @@
 	#Enable/disable koi spawns
 	"Koi Spawns" = true
 	#Spawn weight for koi
-	"Koi Spawn Weight" = 5
+	"Koi Spawn Weight" = 4
 	#Min group for koi
 	"Koi Min Group" = 1
 	#Max group for koi
-	"Koi Max Group" = 2
+	"Koi Max Group" = 1
 	#Hatch chance for each koi roe
 	"Koi Hatch Chance" = 0.2
 
@@ -67,9 +67,9 @@
 	#Spawn weight for shrimp
 	"Shrimp Spawn Weight" = 4
 	#Min group for shrimp
-	"Shrimp Min Group" = 2
+	"Shrimp Min Group" = 1
 	#Max group for shrimp
-	"Shrimp Max Group" = 4
+	"Shrimp Max Group" = 3
 	#Hatch chance for each shrimp roe
 	"Shrimp Hatch Chance" = 0.3
 
@@ -101,7 +101,7 @@
 	#Enable/disable ghost crab spawns
 	"Ghost Crab Spawns" = true
 	#Spawn weight for ghost crab
-	"Ghost Crab Spawn Weight" = 8
+	"Ghost Crab Spawn Weight" = 6
 	#Min group for ghost crab
 	"Ghost Crab Min Group" = 2
 	#Max group for ghost crab
@@ -307,11 +307,11 @@
 	#Enable/disable goldfish spawns
 	"Goldfish Spawns" = true
 	#Spawn weight for goldfish
-	"Goldfish Spawn Weight" = 4
+	"Goldfish Spawn Weight" = 3
 	#Min group for goldfish
 	"Goldfish Min Group" = 1
 	#Max group for goldfish
-	"Goldfish Max Group" = 2
+	"Goldfish Max Group" = 1
 	#Hatch chance for each goldfish roe
 	"Goldfish Hatch Chance" = 0.2
 
@@ -319,11 +319,11 @@
 	#Enable/disable ranchu spawns
 	"Ranchu Spawns" = true
 	#Spawn weight for ranchu
-	"Ranchu Spawn Weight" = 3
+	"Ranchu Spawn Weight" = 2
 	#Min group for ranchu
 	"Ranchu Min Group" = 1
 	#Max group for ranchu
-	"Ranchu Max Group" = 2
+	"Ranchu Max Group" = 1
 	#Hatch chance for each ranchu roe
 	"Ranchu Hatch Chance" = 0.2
 
@@ -435,7 +435,7 @@
 
 [Trout]
 	#Enable/disable trout spawns
-	"Trout Spawns" = true
+	"Trout Spawns" = false
 	#Spawn weight for trout
 	"Trout Spawn Weight" = 8
 	#Min group for trout
@@ -449,9 +449,9 @@
 	#Enable/disable fiddler crab spawns
 	"Fiddler Crab Spawns" = true
 	#Spawn weight for fiddler crab
-	"Fiddler Crab Spawn Weight" = 12
+	"Fiddler Crab Spawn Weight" = 11
 	#Min group for fiddler crab
-	"Fiddler Crab Min Group" = 2
+	"Fiddler Crab Min Group" = 1
 	#Max group for fiddler crab
 	"Fiddler Crab Max Group" = 4
 
@@ -513,7 +513,7 @@
 	#Enable/disable sparrow spawns
 	"Sparrow Spawns" = true
 	#Spawn weight for sparrows
-	"Sparrow Spawn Weight" = 15
+	"Sparrow Spawn Weight" = 13
 	#Min group for sparrows
 	"Sparrow Min Group" = 1
 	#Max group for sparrows
@@ -527,7 +527,7 @@
 	#Enable/disable bushtit spawns
 	"Bushtit Spawns" = true
 	#Spawn weight for bushtits
-	"Bushtit Spawn Weight" = 10
+	"Bushtit Spawn Weight" = 9
 	#Min group for bushtits
 	"Bushtit Min Group" = 1
 	#Max group for bushtits
@@ -541,7 +541,7 @@
 	#Enable/disable laughingthrush spawns
 	"Laughingthrush Spawns" = true
 	#Spawn weight for laughingthrushes
-	"Laughingthrush Spawn Weight" = 7
+	"Laughingthrush Spawn Weight" = 6
 	#Min group for laughingthrushes
 	"Laughingthrush Min Group" = 1
 	#Max group for laughingthrushes
@@ -625,7 +625,7 @@
 	#Enable/disable kingfisher spawns
 	"Kingfisher Spawns" = true
 	#Spawn weight for kingfishers
-	"Kingfisher Spawn Weight" = 12
+	"Kingfisher Spawn Weight" = 10
 	#Min group for kingfisher
 	"Kingfisher Min Group" = 1
 	#Max group for kingfisher
@@ -715,7 +715,7 @@
 	#Enable/disable bunting spawns
 	"Bunting Spawns" = true
 	#Spawn weight for buntings
-	"Bunting Spawn Weight" = 13
+	"Bunting Spawn Weight" = 12
 	#Min group for bunting
 	"Bunting Min Group" = 1
 	#Max group for bunting
@@ -809,7 +809,7 @@
 	#Enable/disable vampire crab spawns
 	"Vampire Crab Spawns" = true
 	#Spawn weight for vampire crab
-	"Vampire Crab Spawn Weight" = 18
+	"Vampire Crab Spawn Weight" = 16
 	#Min group for vampire crab
 	"Vampire Crab Min Group" = 3
 	#Max group for vampire crab
@@ -817,7 +817,7 @@
 
 [Arapaima]
 	#Enable/disable arapaima spawns
-	"Arapaima Spawns" = true
+	"Arapaima Spawns" = false
 	#Spawn weight for arapaima
 	"Arapaima Spawn Weight" = 5
 	#Min group for arapaima
@@ -909,7 +909,7 @@
 
 [Shoebill]
 	#Enable/disable shoebill spawns
-	"Shoebill Spawns" = true
+	"Shoebill Spawns" = false
 	#Spawn weight for shoebills
 	"Shoebill Spawn Weight" = 10
 	#Min group for shoebills

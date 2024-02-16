@@ -11,7 +11,7 @@
         "italic": true
       }
     ],
-    "description": "Aquire one of each type of fire, ice and lightning dragon egg.",
+    "description": "Acquire one of each type of fire, ice and lightning dragon egg.",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

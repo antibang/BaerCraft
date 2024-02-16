@@ -9,7 +9,11 @@
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
     "fluldMode": "NONE",
-    "reachDistance": 0.2965353
+    "reachDistance": 0.2965353,
+    "blockBlacklist": [],
+    "entityBlacklist": [],
+    "onlyShowSmartNodes": false,
+    "gogglesRequired": false
   },
   "overlay": {
     "overlayPosX": 0.5,

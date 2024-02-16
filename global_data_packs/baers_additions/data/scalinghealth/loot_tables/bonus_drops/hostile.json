@@ -20,7 +20,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.025
+                  "chance": 0.02
                 }
               ]
             },
@@ -28,12 +28,12 @@
               "function": "minecraft:looting_enchant",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 2
               },
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.4
+                  "chance": 0.28
                 }
               ]
             }

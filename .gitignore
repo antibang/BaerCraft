@@ -63,6 +63,7 @@ launcher*
 
 #Configs
 config/cherishedworlds
+config/ItemLocks
 config/fancymenu/locals
 config/QualityEquipment
 config/spark

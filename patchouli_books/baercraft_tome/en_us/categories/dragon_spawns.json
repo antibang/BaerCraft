@@ -2,5 +2,5 @@
     "name": "Dragon Spawn Biomes",
     "description": "This is the list of all the biomes you can find fire, ice and lightning dragons. Separated by the dragon type for your convenience.$(br2)If a biome or biome type is not listed under a specific dragon type, then it will not spawn there.",
     "icon": "iceandfire:fire_dragon_heart",
-    "sortnum": 9
+    "sortnum": 7
 }

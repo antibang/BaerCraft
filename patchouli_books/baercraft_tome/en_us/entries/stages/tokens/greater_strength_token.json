@@ -6,7 +6,7 @@
       {
           "trigger": "baersadditions:stages/tokens/greater_strength_token",
           "type": "quest",
-          "text": "$(bold)$(#3a55de)How to unlock:$() Before using this token, you must aquire every ingredient needed to craft it."
+          "text": "$(bold)$(#3a55de)How to unlock:$() Before using this token, you must acquire every ingredient needed to craft it."
       },
       {
           "type": "crafting",

@@ -30,54 +30,7 @@
         "groupCount":3
       },
       "spawnBiomes":[
-        [
-          "resource|minecraft:snowy_mountains"
-        ],
-        [
-          "resource|minecraft:giant_tree_taiga"
-        ],
-        [
-          "resource|minecraft:giant_tree_taiga_hills"
-        ],
-        [
-          "resource|minecraft:giant_spruce_taiga"
-        ],
-        [
-          "resource|minecraft:giant_spruce_taiga_hills"
-        ],
-        [
-          "resource|terraforged:cold_steppe"
-        ],
-        [
-          "resource|biomesoplenty:snowy_fir_clearing"
-        ],
-        [
-          "resource|biomesoplenty:orchard"
-        ],
-        [
-          "resource|biomesoplenty:seasonal_forest"
-        ],
-        [
-          "resource|byg:bluff_steeps"
-        ],
-        [
-          "resource|byg:dover_mountains"
-        ],
-        [
-          "resource|byg:orchard"
-        ],
-        [
-          "resource|byg:seasonal_deciduous_forest"
-        ],
-        [
-          "resource|byg:snowy_deciduous_clearing"
-        ],
-        [
-          "resource|byg:seasonal_deciduous_forest_hills"
-        ],
-        [
-          "resource|byg:snowy_deciduous_forest_hills"
-        ]
+
       ]
     },
     {
@@ -231,19 +184,31 @@
       },
       "spawnBiomes":[
         [
-          "category|jungle"
+          "resource|biomesoplenty:lush_savanna"
         ],
         [
-          "resource|biomesoplenty:grove"
+          "resource|biomesoplenty:rainforest_cliffs"
         ],
         [
-          "resource|biomesoplenty:grassland"
+          "resource|biomesoplenty:rainforest"
         ],
         [
-          "resource|biomesoplenty:orchard"
+          "resource|biomesoplenty:wooded_scrubland"
         ],
         [
-          "resource|biomesoplenty:seasonal_forest"
+          "resource|biomesoplenty:woodland"
+        ],
+        [
+          "resource|byg:tropical_rainforest"
+        ],
+        [
+          "resource|byg:tropical_rainforest_hills"
+        ],
+        [
+          "resource|minecraft:jungle_hills"
+        ],
+        [
+          "resource|minecraft:modified_jungle"
         ]
       ]
     },
@@ -332,12 +297,6 @@
           "resource|biomesoplenty:grove"
         ],
         [
-          "resource|biomesoplenty:lavender_field"
-        ],
-        [
-          "resource|biomesoplenty:redwood_forest"
-        ],
-        [
           "resource|biomesoplenty:redwood_forest_edge"
         ],
         [
@@ -347,43 +306,7 @@
           "resource|biomesoplenty:tundra_bog"
         ],
         [
-          "resource|biomesoplenty:orchard"
-        ],
-        [
-          "resource|biomesoplenty:seasonal_forest"
-        ],
-        [
-          "resource|byg:bluff_steeps"
-        ],
-        [
-          "resource|byg:dover_mountains"
-        ],
-        [
-          "resource|byg:orchard"
-        ],
-        [
-          "resource|byg:seasonal_deciduous_forest"
-        ],
-        [
-          "resource|byg:seasonal_forest"
-        ],
-        [
-          "resource|byg:snowy_deciduous_forest"
-        ],
-        [
           "resource|byg:snowy_deciduous_clearing"
-        ],
-        [
-          "resource|byg:bluff_peaks"
-        ],
-        [
-          "resource|byg:seasonal_deciduous_forest_hills"
-        ],
-        [
-          "resource|byg:seasonal_forest_hills"
-        ],
-        [
-          "resource|byg:snowy_deciduous_forest_hills"
         ]
       ]
     },

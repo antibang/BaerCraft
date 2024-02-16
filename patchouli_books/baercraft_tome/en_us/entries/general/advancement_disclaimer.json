@@ -1,11 +1,15 @@
 {
-    "name": "Important Quest Info!",
+    "name": "BaerCraft Quests Notice!",
     "icon": "minecraft:enchanted_golden_apple",
     "category": "patchouli:important_category",
     "pages": [
         {
             "type": "text",
-            "text": "The BaerCraft quest book and BaerCraft advancements are currently undergoing a lot of changes.$(br2)While not affecting gameplay, you may lose some of your completed advancements/quests during this time."
+            "text": "Until further notice, the BaerCraft quest book will no longer be worked on and most likely won't be until we update to 1.20+.$(br2)This has nothing to do with stages or advancements, only the book itself. That being said, I do plan on adding more advancements (some with rewards) and stages. So, I apologize for those who have been waiting on quests."
+        },
+        {
+            "type": "text",
+            "text": "They're planned, but not for a while."
         }
     ],
     "priority": true

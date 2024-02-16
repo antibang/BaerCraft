@@ -1097,7 +1097,7 @@
 
 		[entities.piranha.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 4

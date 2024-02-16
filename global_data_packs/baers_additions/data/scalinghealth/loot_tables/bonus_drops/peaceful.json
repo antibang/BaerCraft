@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "scalinghealth:heart_crystal_shard",
+          "name": "scalinghealth:power_crystal_shard",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -33,7 +33,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.3
+                  "chance": 0.28
                 }
               ]
             }

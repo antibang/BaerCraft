@@ -11,7 +11,7 @@
         "italic": true
       }
     ],
-    "description": "Aquire each type of fire, ice and lightning dragon scale. Collect all the skins!",
+    "description": "Acquire each type of fire, ice and lightning dragon scale. Collect all the skins!",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

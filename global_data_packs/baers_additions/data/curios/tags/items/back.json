@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:elytra"
+  ],
+  "optional": [
+    "alexsmobs:tarantula_hawk_elytra"
+  ]
+}

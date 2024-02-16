@@ -11,7 +11,7 @@
         "italic": true
       }
     ],
-    "description": "Aquire a scale of each type of sea serpent.",
+    "description": "Acquire a scale of each type of sea serpent.",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

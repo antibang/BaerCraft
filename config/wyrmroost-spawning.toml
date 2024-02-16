@@ -2,7 +2,7 @@
 [alpine]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
-	biomes = ["byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:snowy_maple_forest", "biomesoplenty:tundra_bog", "biomesoplenty:coniferous_forest", "biomesoplenty:lavender_field", "biomesoplenty:grassland", "biomesoplenty:mystic_grove", "biomesoplenty:redwood_forest", "biomesoplenty:flower_meadow", "biomesoplenty:golden_prairie", "biomesoplenty:mystic_plains", "biomesoplenty:ominous_mire", "biomesoplenty:grove", "biomesoplenty:jade_cliffs", "biomesoplenty:flower_meadow", "byg:orchard"]
+	biomes = ["biomesoplenty:flower_meadow", "biomesoplenty:grove", "biomesoplenty:grove_clearing", "biomesoplenty:jade_cliffs", "biomesoplenty:lavender_field", "biomesoplenty:meadow", "biomesoplenty:mystic_grove", "biomesoplenty:mystic_plains", "biomesoplenty:orchard", "byg:bluff_peaks", "byg:bluff_steeps", "byg:dover_mountains", "byg:evergreen_clearing", "minecraft:flower_forest", "minecraft:modified_gravelly_mountains", "minecraft:mountain_edge", "minecraft:mountains", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:snowy_mountains", "minecraft:snowy_taiga_mountains", "minecraft:wooded_mountains"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -13,7 +13,7 @@
 	#Minimum group size
 	#Default: 1
 	#Range: > 0
-	min = 1
+	min = 2
 	#Maximum group size
 	#Default: 4
 	#Range: > 0
@@ -22,7 +22,7 @@
 [butterfly_leviathan]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
-	biomes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+	biomes = ["minecraft:deep_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_warm_ocean"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -42,7 +42,7 @@
 [canari_wyvern]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:swamp", "minecraft:swamp_hills"]
-	biomes = ["byg:glowshroom_bayou", "byg:mangrove_marshes", "byg:bluff_steeps", "byg:bluff_peaks", "minecraft:swamp", "minecraft:swamp_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "biomesoplenty:bayou", "biomesoplenty:fungal_jungle", "biomesoplenty:grove", "biomesoplenty:mystic_grove", "biomesoplenty:ominous_woods", "biomesoplenty:fungal_field", "biomesoplenty:ominous_mire", "biomesoplenty:tropics", "biomesoplenty:grassland_clover_patch", "biomesoplenty:meadow_forest", "biomesoplenty:redwood_forest", "biomesoplenty:redwood_hills"]
+	biomes = ["biomesoplenty:bayou", "biomesoplenty:bayou_mangrove", "biomesoplenty:deep_bayou", "biomesoplenty:dense_marsh", "biomesoplenty:fungal_field", "biomesoplenty:fungal_jungle", "biomesoplenty:jade_cliffs", "biomesoplenty:marsh", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:rainforest_floodplain", "biomesoplenty:shroomy_wetland", "biomesoplenty:tropic_beach", "biomesoplenty:tropics", "biomesoplenty:wetland", "biomesoplenty:wetland_forest", "byg:bamboo_forest", "byg:bog", "byg:cold_swamplands", "byg:cypress_swamplands", "byg:glowshroom_bayou", "byg:guiana_clearing", "byg:guiana_shield", "byg:guiana_springs", "byg:marshlands", "byg:tropical_fungal_forest", "byg:tropical_fungal_rainforest_hills", "byg:tropical_islands", "byg:tropical_rainforest", "byg:tropical_rainforest_hills", "byg:vibrant_swamplands", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:jungle", "minecraft:jungle_edge", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "minecraft:swamp", "minecraft:swamp_hills"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -62,7 +62,7 @@
 [dragonfruit_drake]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:jungle", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:jungle_edge", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills"]
-	biomes = ["minecraft:jungle_edge", "minecraft:jungle", "minecraft:jungle_hills", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:modified_jungle", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:rainforest_floodplain", "biomesoplenty:tropics", "biomesoplenty:fungal_field", "biomesoplenty:fungal_jungle", "byg:orchard", "byg:guiana_shield", "byg:tropical_rainforest"]
+	biomes = ["biomesoplenty:bamboo_blossom_grove", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:fungal_field", "biomesoplenty:fungal_jungle", "biomesoplenty:lavender_field", "biomesoplenty:orchard", "biomesoplenty:rainforest", "biomesoplenty:rainforest_cliffs", "biomesoplenty:rainforest_floodplain", "biomesoplenty:tropics", "byg:bamboo_forest", "byg:fungal_patch", "byg:guiana_clearing", "byg:guiana_shield", "byg:guiana_springs", "byg:tropical_fungal_forest", "byg:tropical_fungal_rainforest_hills", "byg:tropical_islands", "byg:tropical_rainforest", "byg:tropical_rainforest_hills", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "minecraft:flower_forest", "minecraft:jungle", "minecraft:jungle_edge", "minecraft:jungle_hills", "minecraft:modified_jungle", "minecraft:modified_jungle_edge"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -73,11 +73,11 @@
 	#Minimum group size
 	#Default: 4
 	#Range: > 0
-	min = 4
+	min = 5
 	#Maximum group size
 	#Default: 5
 	#Range: > 0
-	max = 8
+	max = 10
 
 [lesser_desertwyrm]
 	#List of biomes in whitelist/blacklist
@@ -102,7 +102,7 @@
 [overworld_drake]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:plains", "minecraft:flower_plains", "minecraft:savanna", "minecraft:savanna_plateau"]
-	biomes = ["byg:araucaria_savanna", "byg:araucaria_forest", "byg:baobab_savanna", "minecraft:plains", "minecraft:flower_plains", "minecraft:savanna", "minecraft:savanna_plateau", "biomesoplenty:prairie", "biomesoplenty:scrubland", "biomesoplenty:shrubland", "biomesoplenty:lush_savanna"]
+	biomes = ["biomesoplenty:dry_boneyard", "biomesoplenty:golden_prairie", "biomesoplenty:grove", "biomesoplenty:grove_clearing", "biomesoplenty:lush_desert", "biomesoplenty:lush_savanna", "biomesoplenty:orchard", "biomesoplenty:scrubland", "biomesoplenty:shrubland", "biomesoplenty:shrubland_hills", "biomesoplenty:wooded_scrubland", "biomesoplenty:woodland", "byg:araucaria_forest", "byg:araucaria_savanna", "byg:baobab_savanna", "byg:lush_red_desert", "byg:mojave_desert", "byg:oasis", "byg:orchard", "byg:prairie", "byg:prairie_clearing", "byg:red_desert", "byg:red_desert_dunes", "byg:red_rock_highlands", "byg:red_rock_lowlands", "byg:red_rock_mountains", "byg:shrublands", "byg:sierra_range", "byg:sierra_valley", "byg:wooded_red_rock_mountains", "minecraft:badlands", "minecraft:badlands_plateau", "minecraft:desert", "minecraft:desert_hills", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:wooded_badlands_plateau"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -122,7 +122,7 @@
 [roost_stalker]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:plains", "minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
-	biomes = ["byg:seasonal_forest", "byg:ebony_woods", "byg:ebony_hills", "byg:red_oak_forest", "byg:red_oak_forest_hills", "byg:boreal_forest", "byg:deciduous_forest", "byg:deciduous_forest_hills", "byg:cika_woods", "byg:cika_mountains", "byg:orchard", "byg:seasonal_deciduous_forest", "byg:seasonal_deciduous_forest_hills", "byg:the_black_forest", "byg:black_forest_hills", "byg:bluff_steeps", "byg:bluff_peaks", "minecraft:plains", "minecraft:forest", "minecraft:wooded_hills", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:grove", "biomesoplenty:lavender_field", "biomesoplenty:meadow", "biomesoplenty:ominous_woods", "biomesoplenty:prairie", "biomesoplenty:seasonal_forest", "biomesoplenty:dry_boneyard", "biomesoplenty:flower_meadow", "biomesoplenty:lush_savanna", "biomesoplenty:lavender_forest", "biomesoplenty:meadow_forest", "biomesoplenty:golden_prairie", "biomesoplenty:tropics"]
+	biomes = ["biomesoplenty:bamboo_blossom_grove", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:dense_woodland", "biomesoplenty:dry_boneyard", "biomesoplenty:flower_meadow", "biomesoplenty:golden_prairie", "biomesoplenty:grove", "biomesoplenty:grove_clearing", "biomesoplenty:jade_cliffs", "biomesoplenty:lavender_field", "biomesoplenty:lavender_forest", "biomesoplenty:lush_desert", "biomesoplenty:lush_savanna", "biomesoplenty:meadow", "biomesoplenty:meadow_forest", "biomesoplenty:mystic_grove", "biomesoplenty:mystic_plains", "biomesoplenty:ominous_mire", "biomesoplenty:ominous_woods", "biomesoplenty:orchard", "biomesoplenty:redwood_forest", "biomesoplenty:redwood_hills", "biomesoplenty:scrubland", "biomesoplenty:seasonal_forest", "biomesoplenty:seasonal_orchard", "biomesoplenty:seasonal_pumpkin_patch", "biomesoplenty:shroomy_wetland", "biomesoplenty:shrubland", "biomesoplenty:shrubland_hills", "biomesoplenty:tropic_beach", "biomesoplenty:tropics", "biomesoplenty:volcanic_plains", "biomesoplenty:volcano", "biomesoplenty:wooded_scrubland", "biomesoplenty:woodland", "byg:araucaria_forest", "byg:araucaria_savanna", "byg:baobab_savanna", "byg:black_forest_clearing", "byg:black_forest_hills", "byg:bluff_peaks", "byg:bluff_steeps", "byg:boreal_clearing", "byg:boreal_forest", "byg:boreal_forest_hills", "byg:deciduous_clearing", "byg:deciduous_forest", "byg:deciduous_forest_hills", "byg:dover_mountains", "byg:ebony_hills", "byg:ebony_woods", "byg:evergreen_clearing", "byg:evergreen_hills", "byg:evergreen_taiga", "byg:mojave_desert", "byg:oasis", "byg:orchard", "byg:prairie", "byg:prairie_clearing", "minecraft:birch_forest", "minecraft:birch_forest_hills", "minecraft:dark_forest", "minecraft:dark_forest_hills", "minecraft:flower_forest", "minecraft:forest", "minecraft:giant_spruce_taiga", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:gravelly_mountains", "minecraft:mountain_edge", "minecraft:mountains", "minecraft:mushroom_field_shore", "minecraft:mushroom_fields", "minecraft:plains", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:sunflower_plains", "minecraft:taiga", "minecraft:taiga_hills", "minecraft:taiga_mountains", "minecraft:tall_birch_forest", "minecraft:tall_birch_hills", "minecraft:wooded_hills", "minecraft:wooded_mountains"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -142,7 +142,7 @@
 [royal_red]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:mountains", "minecraft:wooded_mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains"]
-	biomes = ["minecraft:mountains", "minecraft:gravelley_mountains", "minecraft:modified_gravelley_mountains", "minecraft:snowy_mountains", "minecraft:taiga_mountains", "minecraft:snowy_taiga_mountains", "byg:snowy_deciduous_forest", "byg:snowy_deciduous_forest_hills", "biomesoplenty:snowy_coniferous_forest", "byg:orchard"]
+	biomes = ["biomesoplenty:jade_cliffs", "biomesoplenty:orchard", "biomesoplenty:volcanic_plains", "biomesoplenty:volcano", "byg:dunes", "byg:red_desert", "byg:red_desert_dunes", "byg:red_rock_mountains", "byg:wooded_red_rock_mountains", "minecraft:eroded_badlands", "minecraft:gravelly_mountains", "minecraft:mountains", "minecraft:wooded_mountains"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -162,7 +162,7 @@
 [silver_glider]
 	#List of biomes in whitelist/blacklist
 	#Default: ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:beach", "minecraft:snowy_beach"]
-	biomes = ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:beach", "minecraft:snowy_beach", "biomesoplenty:tropics"]
+	biomes = ["biomesoplenty:gravel_beach", "biomesoplenty:tropic_beach", "byg:rainbow_beach", "byg:coral_mangroves", "byg:dead_sea", "byg:rocky_beach", "byg:tropical_islands", "byg:white_beach", "minecraft:beach", "minecraft:stone_shore"]
 	#Set this to true to make the biomes list act as a blacklist
 	#Default: false
 	blacklist = false
@@ -173,9 +173,9 @@
 	#Minimum group size
 	#Default: 1
 	#Range: > 0
-	min = 1
+	min = 3
 	#Maximum group size
 	#Default: 4
 	#Range: > 0
-	max = 5
+	max = 7
 

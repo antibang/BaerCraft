@@ -155,11 +155,12 @@
     "apply": {
       "species" : {
         "random" : {
-          "dark_oak" : 3,
-          "dtbop:mega_dark_oak" : 6
+          "dark_oak" : 4,
+          "dtbop:mega_dark_oak" : 19,
+          "dtbop:oak_bush" : 4
         }
       },
-      "density" : { "math": { "div" : [ "noise", 3.0 ] } },
+      "density" : { "math": { "div" : [ "noise", 7.4, 15.0, 2.2 ] } },
       "multipass" : true
     }
   },
@@ -169,8 +170,8 @@
     "apply": {
       "species" : {
         "random" : {
-          "birch" : 11,
-          "tall_birch" : 21,
+          "birch" : 12,
+          "tall_birch" : 23,
           "dtbop:oak_bush" : 9,
           "dtbop:oak_twiglet": 2,
           "dtbyg:poplar": 7
@@ -259,14 +260,13 @@
     "apply": {
       "species" : {
         "random" : {
-          "mega_spruce" : 7,
-          "spruce" : 1,
-          "dtbyg:giga_spruce" : 14,
-          "dtbop:oak_bush" : 9
+          "mega_spruce" : 11,
+          "dtbyg:giga_spruce" : 26,
+          "dtbop:oak_bush" : 12
         }
       },
-      "density": [ 4.0 ],
-      "forestness" : 2.0
+      "density" : { "math": { "div" : [ "noise",  8.0, 20.0, 1.6 ] } },
+      "multipass" : true
     }
   },
   {
@@ -275,14 +275,13 @@
     "apply": {
       "species" : {
         "random" : {
-          "mega_spruce" : 7,
-          "spruce" : 1,
-          "dtbyg:giga_spruce" : 14,
-          "dtbop:oak_bush" : 9
+          "mega_spruce" : 11,
+          "dtbyg:giga_spruce" : 21,
+          "dtbop:oak_bush" : 7
         }
       },
-      "density": [ 4.0 ],
-      "forestness" : 2.0
+      "density" : { "math": { "div" : [ "noise",  8.0, 20.0, 2.2 ] } },
+      "multipass" : true
     }
   },
   {

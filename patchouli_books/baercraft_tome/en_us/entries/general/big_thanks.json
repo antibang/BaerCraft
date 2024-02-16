@@ -1,0 +1,11 @@
+{
+    "name": "Credits",
+    "icon": "supplementaries:candy",
+    "category": "patchouli:important_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Soon, BaerCraft's credits list will be added for those who've supported us.$(br2)Before that, I wanted to go ahead and give an absolute major thanks to $(bold)baermey$(), also known as $(bold)BärMae$(), for gifting the domain $(l:https://www.baercraft.net)BaerCraft.net$() over to us! This domain will eventually be the home of all of our current and future project's wikis and a lot more."
+        }
+    ]
+}

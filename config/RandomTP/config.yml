@@ -3,14 +3,14 @@ distance:
   default_world: playerworld
   # Max distance that you want to a person be teleported. (0 = world border size / 2) [default: auto]
   # Range: > 0
-  max_distance: 1000000
+  max_distance: 45000
   # Minimum distance that you want to a person be teleported. [default: 1]
   # Range: > 1
-  min_distance: 1
+  min_distance: 100
 
 inter-dimensions-command:
   # Do you want to the command /rtpd be allowed? (This commands adds a inter-dimension RTP) [default: true]
-  inter-dim: true
+  inter-dim: false
   # Do you want to use the whitelist or blacklist dimension?  [default: false]
   use-whitelist: false
   # The dimensions whitelist (Works with namespaces:paths only, use-whitelist:true=whitelist use-whitelist:true=blacklist)
@@ -30,13 +30,18 @@ inter-biomes-command:
 
 others:
   # The amount of tries to find a safe location (original system) [-1: infinite, default: -1]
-  max-tries: -1
+  max-tries: 150
   # If you want to use the original RTP system or the /spreadplayers system. [default: true]
   use-original: true
   # Do you want to use the whitelist or blacklist biomes?  [default: false]
   use-biome-whitelist: false
   # The biome whitelist (Works with namespaces:paths only, use-biome-whitelist:true=whitelist use-biome-whitelist:true=blacklist)
   biome-whitelist:
+    - 'minecraft:mountain_edge'
+    - 'minecraft:ice_spikes'
+    - 'minecraft:beach'
+    - 'minecraft:snowy_beach'
+    - 'minecraft:river'
     - 'minecraft:ocean'
     - 'minecraft:deep_ocean'
     - 'minecraft:cold_ocean'
@@ -46,10 +51,11 @@ others:
     - 'minecraft:deep_warm_ocean'
     - 'minecraft:frozen_ocean'
     - 'minecraft:lukewarm_ocean'
-    - 'byg:dead_sea'
-    - 'minecraft:beach'
+    - 'minecraft:mushroom_field_shore'
+    - 'minecraft:mushroom_fields'
     - 'biomesoplenty:gravel_beach'
-    - 'biomesoplentytropic_beach'
+    - 'biomesoplenty:tropic_beach'
+    - 'byg:dead_sea'
     - 'byg:rainbow_beach'
     - 'byg:rocky_beach'
     - 'byg:snowy_black_beach'
@@ -58,4 +64,4 @@ others:
 
   # How much cooldown do you want for the command [range: 0 ~ 1000, default: 0]
   # Range: > 0
-  cooldown: 30
+  cooldown: 480

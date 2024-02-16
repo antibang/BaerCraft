@@ -14,16 +14,39 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 0
+  action = movebutton
+  y = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 106
+  action = movebutton
+  y = 54
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
   orientation = mid-centered
   x = -102
   action = movebutton
   y = -60
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
 }
 
 customization {
@@ -38,15 +61,6 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 0
-  action = movebutton
-  y = 27
 }
 
 customization {
@@ -68,18 +82,10 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 106
-  action = movebutton
-  y = 54
-}
-
-customization {
   advanced_height = 20
   orientation = element
   restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/baercraft%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/discord_button_hover.png
   label = 
   advanced_width = 20
@@ -98,6 +104,7 @@ customization {
   advanced_height = 20
   orientation = element
   restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/antibang/BaerCraft%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/github_button_hover.png
   label = 
   advanced_width = 20
@@ -116,6 +123,7 @@ customization {
   advanced_height = 20
   orientation = element
   restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/baercraft%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/curseforge_button_hover.png
   label = 
   advanced_width = 20
@@ -134,6 +142,7 @@ customization {
   advanced_height = 20
   orientation = element
   restartbackgroundanimations = true
+  buttonaction = openlink;https://www.patreon.com/antibang%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/patreon_button_hover.png
   label = 
   advanced_width = 20
@@ -146,10 +155,5 @@ customization {
   y = 54
   backgroundnormal = config/fancymenu/assets/patreon_button.png
   height = 20
-}
-
-customization {
-  identifier = %id=374306%
-  action = hidebutton
 }
 

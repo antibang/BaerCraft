@@ -8,10 +8,152 @@ import crafttweaker.api.item.IItemStack;
         <item:thermal:machine_pulverizer>
     );
 
+    //Shulker Boxes
+    <tag:items:baercraft:shulker_boxes>.add(
+        <item:ironshulkerbox:copper_shulker_box_black>,
+        <item:ironshulkerbox:copper_shulker_box_blue>,
+        <item:ironshulkerbox:copper_shulker_box_brown>,
+        <item:ironshulkerbox:copper_shulker_box_cyan>,
+        <item:ironshulkerbox:copper_shulker_box_gray>,
+        <item:ironshulkerbox:copper_shulker_box_green>,
+        <item:ironshulkerbox:copper_shulker_box_light_blue>,
+        <item:ironshulkerbox:copper_shulker_box_light_gray>,
+        <item:ironshulkerbox:copper_shulker_box_lime>,
+        <item:ironshulkerbox:copper_shulker_box_magenta>,
+        <item:ironshulkerbox:copper_shulker_box_orange>,
+        <item:ironshulkerbox:copper_shulker_box_pink>,
+        <item:ironshulkerbox:copper_shulker_box_purple>,
+        <item:ironshulkerbox:copper_shulker_box_red>,
+        <item:ironshulkerbox:copper_shulker_box_white>,
+        <item:ironshulkerbox:copper_shulker_box_yellow>,
+        <item:ironshulkerbox:copper_to_iron_shulker_box_upgrade>,
+        <item:ironshulkerbox:copper_to_silver_shulker_box_upgrade>,
+        <item:ironshulkerbox:crystal_shulker_box_black>,
+        <item:ironshulkerbox:crystal_shulker_box_blue>,
+        <item:ironshulkerbox:crystal_shulker_box_brown>,
+        <item:ironshulkerbox:crystal_shulker_box_cyan>,
+        <item:ironshulkerbox:crystal_shulker_box_gray>,
+        <item:ironshulkerbox:crystal_shulker_box_green>,
+        <item:ironshulkerbox:crystal_shulker_box_light_blue>,
+        <item:ironshulkerbox:crystal_shulker_box_light_gray>,
+        <item:ironshulkerbox:crystal_shulker_box_lime>,
+        <item:ironshulkerbox:crystal_shulker_box_magenta>,
+        <item:ironshulkerbox:crystal_shulker_box_orange>,
+        <item:ironshulkerbox:crystal_shulker_box_pink>,
+        <item:ironshulkerbox:crystal_shulker_box_purple>,
+        <item:ironshulkerbox:crystal_shulker_box_red>,
+        <item:ironshulkerbox:crystal_shulker_box_white>,
+        <item:ironshulkerbox:crystal_shulker_box_yellow>,
+        <item:ironshulkerbox:diamond_shulker_box_black>,
+        <item:ironshulkerbox:diamond_shulker_box_blue>,
+        <item:ironshulkerbox:diamond_shulker_box_brown>,
+        <item:ironshulkerbox:diamond_shulker_box_cyan>,
+        <item:ironshulkerbox:diamond_shulker_box_gray>,
+        <item:ironshulkerbox:diamond_shulker_box_green>,
+        <item:ironshulkerbox:diamond_shulker_box_light_blue>,
+        <item:ironshulkerbox:diamond_shulker_box_light_gray>,
+        <item:ironshulkerbox:diamond_shulker_box_lime>,
+        <item:ironshulkerbox:diamond_shulker_box_magenta>,
+        <item:ironshulkerbox:diamond_shulker_box_orange>,
+        <item:ironshulkerbox:diamond_shulker_box_pink>,
+        <item:ironshulkerbox:diamond_shulker_box_purple>,
+        <item:ironshulkerbox:diamond_shulker_box_red>,
+        <item:ironshulkerbox:diamond_shulker_box_white>,
+        <item:ironshulkerbox:diamond_shulker_box_yellow>,
+        <item:ironshulkerbox:diamond_to_crystal_shulker_box_upgrade>,
+        <item:ironshulkerbox:diamond_to_obsidian_shulker_box_upgrade>,
+        <item:ironshulkerbox:gold_shulker_box_black>,
+        <item:ironshulkerbox:gold_shulker_box_blue>,
+        <item:ironshulkerbox:gold_shulker_box_brown>,
+        <item:ironshulkerbox:gold_shulker_box_cyan>,
+        <item:ironshulkerbox:gold_shulker_box_gray>,
+        <item:ironshulkerbox:gold_shulker_box_green>,
+        <item:ironshulkerbox:gold_shulker_box_light_blue>,
+        <item:ironshulkerbox:gold_shulker_box_light_gray>,
+        <item:ironshulkerbox:gold_shulker_box_lime>,
+        <item:ironshulkerbox:gold_shulker_box_magenta>,
+        <item:ironshulkerbox:gold_shulker_box_orange>,
+        <item:ironshulkerbox:gold_shulker_box_pink>,
+        <item:ironshulkerbox:gold_shulker_box_purple>,
+        <item:ironshulkerbox:gold_shulker_box_red>,
+        <item:ironshulkerbox:gold_shulker_box_white>,
+        <item:ironshulkerbox:gold_shulker_box_yellow>,
+        <item:ironshulkerbox:gold_to_diamond_shulker_box_upgrade>,
+        <item:ironshulkerbox:iron_shulker_box_black>,
+        <item:ironshulkerbox:iron_shulker_box_blue>,
+        <item:ironshulkerbox:iron_shulker_box_brown>,
+        <item:ironshulkerbox:iron_shulker_box_cyan>,
+        <item:ironshulkerbox:iron_shulker_box_gray>,
+        <item:ironshulkerbox:iron_shulker_box_green>,
+        <item:ironshulkerbox:iron_shulker_box_light_blue>,
+        <item:ironshulkerbox:iron_shulker_box_light_gray>,
+        <item:ironshulkerbox:iron_shulker_box_lime>,
+        <item:ironshulkerbox:iron_shulker_box_magenta>,
+        <item:ironshulkerbox:iron_shulker_box_orange>,
+        <item:ironshulkerbox:iron_shulker_box_pink>,
+        <item:ironshulkerbox:iron_shulker_box_purple>,
+        <item:ironshulkerbox:iron_shulker_box_red>,
+        <item:ironshulkerbox:iron_shulker_box_white>,
+        <item:ironshulkerbox:iron_shulker_box_yellow>,
+        <item:ironshulkerbox:iron_to_gold_shulker_box_upgrade>,
+        <item:ironshulkerbox:obsidian_shulker_box_black>,
+        <item:ironshulkerbox:obsidian_shulker_box_blue>,
+        <item:ironshulkerbox:obsidian_shulker_box_brown>,
+        <item:ironshulkerbox:obsidian_shulker_box_cyan>,
+        <item:ironshulkerbox:obsidian_shulker_box_gray>,
+        <item:ironshulkerbox:obsidian_shulker_box_green>,
+        <item:ironshulkerbox:obsidian_shulker_box_light_blue>,
+        <item:ironshulkerbox:obsidian_shulker_box_light_gray>,
+        <item:ironshulkerbox:obsidian_shulker_box_lime>,
+        <item:ironshulkerbox:obsidian_shulker_box_magenta>,
+        <item:ironshulkerbox:obsidian_shulker_box_orange>,
+        <item:ironshulkerbox:obsidian_shulker_box_pink>,
+        <item:ironshulkerbox:obsidian_shulker_box_purple>,
+        <item:ironshulkerbox:obsidian_shulker_box_red>,
+        <item:ironshulkerbox:obsidian_shulker_box_white>,
+        <item:ironshulkerbox:obsidian_shulker_box_yellow>,
+        <item:ironshulkerbox:silver_shulker_box_black>,
+        <item:ironshulkerbox:silver_shulker_box_blue>,
+        <item:ironshulkerbox:silver_shulker_box_brown>,
+        <item:ironshulkerbox:silver_shulker_box_cyan>,
+        <item:ironshulkerbox:silver_shulker_box_gray>,
+        <item:ironshulkerbox:silver_shulker_box_green>,
+        <item:ironshulkerbox:silver_shulker_box_light_blue>,
+        <item:ironshulkerbox:silver_shulker_box_light_gray>,
+        <item:ironshulkerbox:silver_shulker_box_lime>,
+        <item:ironshulkerbox:silver_shulker_box_magenta>,
+        <item:ironshulkerbox:silver_shulker_box_orange>,
+        <item:ironshulkerbox:silver_shulker_box_pink>,
+        <item:ironshulkerbox:silver_shulker_box_purple>,
+        <item:ironshulkerbox:silver_shulker_box_red>,
+        <item:ironshulkerbox:silver_shulker_box_white>,
+        <item:ironshulkerbox:silver_shulker_box_yellow>,
+        <item:ironshulkerbox:silver_to_gold_shulker_box_upgrade>,
+        <item:ironshulkerbox:vanilla_to_copper_shulker_box_upgrade>,
+        <item:ironshulkerbox:vanilla_to_iron_shulker_box_upgrade>,
+        <item:minecraft:black_shulker_box>,
+        <item:minecraft:blue_shulker_box>,
+        <item:minecraft:brown_shulker_box>,
+        <item:minecraft:cyan_shulker_box>,
+        <item:minecraft:gray_shulker_box>,
+        <item:minecraft:green_shulker_box>,
+        <item:minecraft:light_blue_shulker_box>,
+        <item:minecraft:light_gray_shulker_box>,
+        <item:minecraft:lime_shulker_box>,
+        <item:minecraft:magenta_shulker_box>,
+        <item:minecraft:orange_shulker_box>,
+        <item:minecraft:pink_shulker_box>,
+        <item:minecraft:purple_shulker_box>,
+        <item:minecraft:red_shulker_box>,
+        <item:minecraft:shulker_box>,
+        <item:minecraft:white_shulker_box>,
+        <item:minecraft:yellow_shulker_box>
+    );
+
 //Sets
 
     //Dreadsteel Set
-        <tag:items:baercraft:dreadsteel_set>.add(
+    <tag:items:baercraft:dreadsteel_set>.add(
         <item:dreadsteel:dreadsteel_helmet>,
         <item:dreadsteel:dreadsteel_chestplate>,
         <item:dreadsteel:dreadsteel_leggings>,
@@ -21,7 +163,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //End Gobber Set
-        <tag:items:baercraft:end_gobber_set>.add(
+    <tag:items:baercraft:end_gobber_set>.add(
         <item:gobber2:gobber2_helmet_end>,
         <item:gobber2:gobber2_chestplate_end>,
         <item:gobber2:gobber2_leggings_end>,
@@ -42,7 +184,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Nether Gobber Set
-        <tag:items:baercraft:nether_gobber_set>.add(
+    <tag:items:baercraft:nether_gobber_set>.add(
         <item:gobber2:gobber2_helmet_nether>,
         <item:gobber2:gobber2_chestplate_nether>,
         <item:gobber2:gobber2_leggings_nether>,
@@ -60,7 +202,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Gobber Set
-        <tag:items:baercraft:gobber_set>.add(
+    <tag:items:baercraft:gobber_set>.add(
         <item:gobber2:gobber2_helmet>,
         <item:gobber2:gobber2_chestplate>,
         <item:gobber2:gobber2_leggings>,
@@ -78,7 +220,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Quadrilium Set 
-        <tag:items:baercraft:quadrilium_set>.add(
+    <tag:items:baercraft:quadrilium_set>.add(
         <item:powder_power:armor_quadrilium_head>,
         <item:powder_power:armor_quadrilium_body>,
         <item:powder_power:armor_quadrilium_leggings>,
@@ -96,7 +238,7 @@ import crafttweaker.api.item.IItemStack;
     );
         
     //Trilium Set
-        <tag:items:baercraft:trilium_set>.add(
+    <tag:items:baercraft:trilium_set>.add(
         <item:powder_power:armor_trilium_head>,
         <item:powder_power:armor_trilium_body>,
         <item:powder_power:armor_trilium_leggings>,
@@ -114,7 +256,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Gemium Set
-        <tag:items:baercraft:gemium_set>.add(
+    <tag:items:baercraft:gemium_set>.add(
         <item:powder_power:armor_gemium_head>,
         <item:powder_power:armor_gemium_body>,
         <item:powder_power:armor_gemium_leggings>,
@@ -131,7 +273,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Dragonsteel Set
-        <tag:items:baercraft:dragonsteel_set>.add(
+    <tag:items:baercraft:dragonsteel_set>.add(
         <item:iceandfire:dragonsteel_fire_helmet>,
         <item:iceandfire:dragonsteel_fire_chestplate>,
         <item:iceandfire:dragonsteel_fire_leggings>,
@@ -234,7 +376,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Fire Dragonsteel Set
-        <tag:items:baercraft:fire_dragonsteel_set>.add(
+    <tag:items:baercraft:fire_dragonsteel_set>.add(
         <item:iceandfire:dragonsteel_fire_helmet>,
         <item:iceandfire:dragonsteel_fire_chestplate>,
         <item:iceandfire:dragonsteel_fire_leggings>,
@@ -271,7 +413,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Ice Dragonsteel Set
-        <tag:items:baercraft:ice_dragonsteel_set>.add(
+    <tag:items:baercraft:ice_dragonsteel_set>.add(
         <item:iceandfire:dragonsteel_ice_helmet>,
         <item:iceandfire:dragonsteel_ice_chestplate>,
         <item:iceandfire:dragonsteel_ice_leggings>,
@@ -308,7 +450,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Lightning Dragonsteel Set
-        <tag:items:baercraft:lightning_dragonsteel_set>.add(
+    <tag:items:baercraft:lightning_dragonsteel_set>.add(
         <item:iceandfire:dragonsteel_lightning_helmet>,
         <item:iceandfire:dragonsteel_lightning_chestplate>,
         <item:iceandfire:dragonsteel_lightning_leggings>,
@@ -345,7 +487,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Dragonscale Set
-        <tag:items:baercraft:dragonscale_set>.add(
+    <tag:items:baercraft:dragonscale_set>.add(
         <item:iceandfire:armor_red_helmet>,
         <item:iceandfire:armor_red_chestplate>,
         <item:iceandfire:armor_red_leggings>,
@@ -423,7 +565,7 @@ import crafttweaker.api.item.IItemStack;
     );
 
     //Tide Set
-        <tag:items:baercraft:tide_set>.add(
+    <tag:items:baercraft:tide_set>.add(
         <item:iceandfire:tide_blue_helmet>,
         <item:iceandfire:tide_blue_chestplate>,
         <item:iceandfire:tide_blue_leggings>,
@@ -606,146 +748,4 @@ import crafttweaker.api.item.IItemStack;
         <item:swiaf:lance_lightning_dragonbone>,
         <item:swiaf:pike_lightning_dragonbone>,
         <item:swiaf:halberd_lightning_dragonbone>
-    );
-
-    //Shulker Boxes
-    <tag:items:baercraft:shulker_boxes>.add(
-        <item:ironshulkerbox:copper_shulker_box_black>,
-        <item:ironshulkerbox:copper_shulker_box_blue>,
-        <item:ironshulkerbox:copper_shulker_box_brown>,
-        <item:ironshulkerbox:copper_shulker_box_cyan>,
-        <item:ironshulkerbox:copper_shulker_box_gray>,
-        <item:ironshulkerbox:copper_shulker_box_green>,
-        <item:ironshulkerbox:copper_shulker_box_light_blue>,
-        <item:ironshulkerbox:copper_shulker_box_light_gray>,
-        <item:ironshulkerbox:copper_shulker_box_lime>,
-        <item:ironshulkerbox:copper_shulker_box_magenta>,
-        <item:ironshulkerbox:copper_shulker_box_orange>,
-        <item:ironshulkerbox:copper_shulker_box_pink>,
-        <item:ironshulkerbox:copper_shulker_box_purple>,
-        <item:ironshulkerbox:copper_shulker_box_red>,
-        <item:ironshulkerbox:copper_shulker_box_white>,
-        <item:ironshulkerbox:copper_shulker_box_yellow>,
-        <item:ironshulkerbox:copper_to_iron_shulker_box_upgrade>,
-        <item:ironshulkerbox:copper_to_silver_shulker_box_upgrade>,
-        <item:ironshulkerbox:crystal_shulker_box_black>,
-        <item:ironshulkerbox:crystal_shulker_box_blue>,
-        <item:ironshulkerbox:crystal_shulker_box_brown>,
-        <item:ironshulkerbox:crystal_shulker_box_cyan>,
-        <item:ironshulkerbox:crystal_shulker_box_gray>,
-        <item:ironshulkerbox:crystal_shulker_box_green>,
-        <item:ironshulkerbox:crystal_shulker_box_light_blue>,
-        <item:ironshulkerbox:crystal_shulker_box_light_gray>,
-        <item:ironshulkerbox:crystal_shulker_box_lime>,
-        <item:ironshulkerbox:crystal_shulker_box_magenta>,
-        <item:ironshulkerbox:crystal_shulker_box_orange>,
-        <item:ironshulkerbox:crystal_shulker_box_pink>,
-        <item:ironshulkerbox:crystal_shulker_box_purple>,
-        <item:ironshulkerbox:crystal_shulker_box_red>,
-        <item:ironshulkerbox:crystal_shulker_box_white>,
-        <item:ironshulkerbox:crystal_shulker_box_yellow>,
-        <item:ironshulkerbox:diamond_shulker_box_black>,
-        <item:ironshulkerbox:diamond_shulker_box_blue>,
-        <item:ironshulkerbox:diamond_shulker_box_brown>,
-        <item:ironshulkerbox:diamond_shulker_box_cyan>,
-        <item:ironshulkerbox:diamond_shulker_box_gray>,
-        <item:ironshulkerbox:diamond_shulker_box_green>,
-        <item:ironshulkerbox:diamond_shulker_box_light_blue>,
-        <item:ironshulkerbox:diamond_shulker_box_light_gray>,
-        <item:ironshulkerbox:diamond_shulker_box_lime>,
-        <item:ironshulkerbox:diamond_shulker_box_magenta>,
-        <item:ironshulkerbox:diamond_shulker_box_orange>,
-        <item:ironshulkerbox:diamond_shulker_box_pink>,
-        <item:ironshulkerbox:diamond_shulker_box_purple>,
-        <item:ironshulkerbox:diamond_shulker_box_red>,
-        <item:ironshulkerbox:diamond_shulker_box_white>,
-        <item:ironshulkerbox:diamond_shulker_box_yellow>,
-        <item:ironshulkerbox:diamond_to_crystal_shulker_box_upgrade>,
-        <item:ironshulkerbox:diamond_to_obsidian_shulker_box_upgrade>,
-        <item:ironshulkerbox:gold_shulker_box_black>,
-        <item:ironshulkerbox:gold_shulker_box_blue>,
-        <item:ironshulkerbox:gold_shulker_box_brown>,
-        <item:ironshulkerbox:gold_shulker_box_cyan>,
-        <item:ironshulkerbox:gold_shulker_box_gray>,
-        <item:ironshulkerbox:gold_shulker_box_green>,
-        <item:ironshulkerbox:gold_shulker_box_light_blue>,
-        <item:ironshulkerbox:gold_shulker_box_light_gray>,
-        <item:ironshulkerbox:gold_shulker_box_lime>,
-        <item:ironshulkerbox:gold_shulker_box_magenta>,
-        <item:ironshulkerbox:gold_shulker_box_orange>,
-        <item:ironshulkerbox:gold_shulker_box_pink>,
-        <item:ironshulkerbox:gold_shulker_box_purple>,
-        <item:ironshulkerbox:gold_shulker_box_red>,
-        <item:ironshulkerbox:gold_shulker_box_white>,
-        <item:ironshulkerbox:gold_shulker_box_yellow>,
-        <item:ironshulkerbox:gold_to_diamond_shulker_box_upgrade>,
-        <item:ironshulkerbox:iron_shulker_box_black>,
-        <item:ironshulkerbox:iron_shulker_box_blue>,
-        <item:ironshulkerbox:iron_shulker_box_brown>,
-        <item:ironshulkerbox:iron_shulker_box_cyan>,
-        <item:ironshulkerbox:iron_shulker_box_gray>,
-        <item:ironshulkerbox:iron_shulker_box_green>,
-        <item:ironshulkerbox:iron_shulker_box_light_blue>,
-        <item:ironshulkerbox:iron_shulker_box_light_gray>,
-        <item:ironshulkerbox:iron_shulker_box_lime>,
-        <item:ironshulkerbox:iron_shulker_box_magenta>,
-        <item:ironshulkerbox:iron_shulker_box_orange>,
-        <item:ironshulkerbox:iron_shulker_box_pink>,
-        <item:ironshulkerbox:iron_shulker_box_purple>,
-        <item:ironshulkerbox:iron_shulker_box_red>,
-        <item:ironshulkerbox:iron_shulker_box_white>,
-        <item:ironshulkerbox:iron_shulker_box_yellow>,
-        <item:ironshulkerbox:iron_to_gold_shulker_box_upgrade>,
-        <item:ironshulkerbox:obsidian_shulker_box_black>,
-        <item:ironshulkerbox:obsidian_shulker_box_blue>,
-        <item:ironshulkerbox:obsidian_shulker_box_brown>,
-        <item:ironshulkerbox:obsidian_shulker_box_cyan>,
-        <item:ironshulkerbox:obsidian_shulker_box_gray>,
-        <item:ironshulkerbox:obsidian_shulker_box_green>,
-        <item:ironshulkerbox:obsidian_shulker_box_light_blue>,
-        <item:ironshulkerbox:obsidian_shulker_box_light_gray>,
-        <item:ironshulkerbox:obsidian_shulker_box_lime>,
-        <item:ironshulkerbox:obsidian_shulker_box_magenta>,
-        <item:ironshulkerbox:obsidian_shulker_box_orange>,
-        <item:ironshulkerbox:obsidian_shulker_box_pink>,
-        <item:ironshulkerbox:obsidian_shulker_box_purple>,
-        <item:ironshulkerbox:obsidian_shulker_box_red>,
-        <item:ironshulkerbox:obsidian_shulker_box_white>,
-        <item:ironshulkerbox:obsidian_shulker_box_yellow>,
-        <item:ironshulkerbox:silver_shulker_box_black>,
-        <item:ironshulkerbox:silver_shulker_box_blue>,
-        <item:ironshulkerbox:silver_shulker_box_brown>,
-        <item:ironshulkerbox:silver_shulker_box_cyan>,
-        <item:ironshulkerbox:silver_shulker_box_gray>,
-        <item:ironshulkerbox:silver_shulker_box_green>,
-        <item:ironshulkerbox:silver_shulker_box_light_blue>,
-        <item:ironshulkerbox:silver_shulker_box_light_gray>,
-        <item:ironshulkerbox:silver_shulker_box_lime>,
-        <item:ironshulkerbox:silver_shulker_box_magenta>,
-        <item:ironshulkerbox:silver_shulker_box_orange>,
-        <item:ironshulkerbox:silver_shulker_box_pink>,
-        <item:ironshulkerbox:silver_shulker_box_purple>,
-        <item:ironshulkerbox:silver_shulker_box_red>,
-        <item:ironshulkerbox:silver_shulker_box_white>,
-        <item:ironshulkerbox:silver_shulker_box_yellow>,
-        <item:ironshulkerbox:silver_to_gold_shulker_box_upgrade>,
-        <item:ironshulkerbox:vanilla_to_copper_shulker_box_upgrade>,
-        <item:ironshulkerbox:vanilla_to_iron_shulker_box_upgrade>,
-        <item:minecraft:black_shulker_box>,
-        <item:minecraft:blue_shulker_box>,
-        <item:minecraft:brown_shulker_box>,
-        <item:minecraft:cyan_shulker_box>,
-        <item:minecraft:gray_shulker_box>,
-        <item:minecraft:green_shulker_box>,
-        <item:minecraft:light_blue_shulker_box>,
-        <item:minecraft:light_gray_shulker_box>,
-        <item:minecraft:lime_shulker_box>,
-        <item:minecraft:magenta_shulker_box>,
-        <item:minecraft:orange_shulker_box>,
-        <item:minecraft:pink_shulker_box>,
-        <item:minecraft:purple_shulker_box>,
-        <item:minecraft:red_shulker_box>,
-        <item:minecraft:shulker_box>,
-        <item:minecraft:white_shulker_box>,
-        <item:minecraft:yellow_shulker_box>
     );

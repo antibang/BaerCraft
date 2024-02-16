@@ -5,8 +5,10 @@
     "minecraft:stone",
     "create:limestone",
     "create:dolomite",
+    "create:andesite_cobblestone",
     "byg:rocky_stone",
     "byg:black_smooth_sandstone",
-    "basaltblocks:basalt_cobblestone"
+    "basaltblocks:basalt_cobblestone",
+    "subwild:mossy_andesite"
   ]
 }
