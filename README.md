@@ -4,8 +4,8 @@ If you're looking for a mod list, it is located on the modpack's project page at
 
 Please be aware that all of the information on this GitHub is subject to change. Now that the GitHub is synced with Antibang's personal Minecraft directory instead of the BaerCraft profile on CurseForge, some of the files (mainly the config files) might be slightly different than what is released for the public. This is the easiest way for Anti to remember to update the files here :)
 
-The modpack is also accessable on [CurseForge](https://www.curseforge.com/minecraft/modpacks/baercraft) and you are able to find it on [Discord](https://discord.gg/CKbbFyzrd9)!
+The modpack is  accessable on [CurseForge](https://www.curseforge.com/minecraft/modpacks/baercraft) and our community is located on [Discord](https://discord.gg/CKbbFyzrd9).
 
-> Be sure to check the Wiki!!
+### Be sure to check the Wiki!
 
-![baercraft-server-banner_v2](https://github.com/antibang/BaerCraft/assets/79492924/77763e22-2095-4132-85de-01372e8c8495)
+![baercraft_branding](https://github.com/antibang/BaerCraft/assets/79492924/330254cd-b687-42de-87d2-83e79692d43e)
