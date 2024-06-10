@@ -8,4 +8,4 @@ The modpack is  accessable on [CurseForge](https://www.curseforge.com/minecraft/
 
 ### Be sure to check the Wiki!
 
-![baercraft_branding](https://github.com/antibang/BaerCraft/assets/79492924/330254cd-b687-42de-87d2-83e79692d43e)
+![team_baercraft_branding](https://github.com/antibang/BaerCraft/assets/79492924/53213c07-e6b4-4648-808b-e233e20b87bb)
