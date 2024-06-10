@@ -1,0 +1,123 @@
+{
+  "display": {
+    "icon": {
+      "item": "mutantmore:mutant_blaze_core"
+    },
+    "title": [
+      {
+        "text": "Mutant Destroyer",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": "Defeat at least one of every mutant in BaerCraft.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "baersadditions:other/mobs",
+  "criteria": {
+    "mutant_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantbeasts:mutant_creeper"
+        }
+      }
+    },
+    "mutant_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantbeasts:mutant_enderman"
+        }
+      }
+    },
+    "mutant_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantbeasts:mutant_skeleton"
+        }
+      }
+    },
+    "mutant_snow_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantbeasts:mutant_snow_golem"
+        }
+      }
+    }, 
+    "mutant_blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantmore:mutant_blaze"
+        }
+      }
+    }, 
+    "mutant_hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantmore:mutant_hoglin"
+        }
+      }
+    },
+    "mutant_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantmore:mutant_husk"
+        }
+      }
+    },
+    "mutant_shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantmore:mutant_shulker"
+        }
+      }
+    },
+    "mutant_wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mutantmore:mutant_wither_skeleton"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mutant_creeper"
+    ],
+    [
+      "mutant_enderman"
+    ],
+    [
+      "mutant_skeleton"
+    ],
+    [
+      "mutant_snow_golem"
+    ],
+    [
+      "mutant_blaze"
+    ],
+    [
+      "mutant_hoglin"
+    ],
+    [
+      "mutant_husk"
+    ],
+    [
+      "mutant_shulker"
+    ],
+    [
+      "mutant_wither_skeleton"
+    ]
+  ]
+}

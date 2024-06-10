@@ -1,0 +1,36 @@
+{
+  "name": {
+    "text": "Void Worm",
+    "color": "#D6A01E",
+    "bold": false
+  },
+  "tooltip": [
+    {
+    "text": "§oRewarded for defeating the Void Worm"
+    }
+  ],
+  "entity": {
+    "type": "alexsmobs:void_worm"
+  },
+  "display": {
+    "offset": {
+      "x": 0,
+      "y": 6,
+      "z": 0
+    },
+    "rotation": {
+      "x": 60,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.4
+  },
+  "animation": {
+    "type": "fixed",
+    "speed": 0.1
+  },
+  "colors": {
+    "base": "#e7e9f0",
+    "accent": "#d6dadf"
+  }
+}

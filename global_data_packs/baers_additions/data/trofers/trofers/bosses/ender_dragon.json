@@ -1,0 +1,36 @@
+{
+  "name": {
+    "text": "Ender Dragon",
+    "color": "#D6A01E",
+    "bold": false
+  },
+  "tooltip": [
+    {
+    "text": "§oRewarded for defeating the Ender Dragon"
+    }
+  ],
+  "entity": {
+    "type": "minecraft:ender_dragon"
+  },
+  "display": {
+    "offset": {
+      "x": 0,
+      "y": 6,
+      "z": 0
+    },
+    "rotation":{
+      "x": 0,
+      "y": 180,
+      "z": 0
+    },
+    "scale": 0.19
+  },
+  "animation": {
+    "type": "fixed",
+    "speed": 0.03
+  },
+  "colors": {
+    "base": "#e7e9f0",
+    "accent": "#d6dadf"
+  }
+}

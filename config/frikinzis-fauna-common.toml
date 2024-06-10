@@ -331,11 +331,11 @@
 	#Enable/disable wild duck spawns
 	"Wild Duck Spawns" = true
 	#Spawn weight for wild duck
-	"Wild Duck Spawn Weight" = 13
+	"Wild Duck Spawn Weight" = 16
 	#Min group for wild duck
-	"Wild Duck Min Group" = 1
+	"Wild Duck Min Group" = 2
 	#Max group for wild duck
-	"Wild Duck Max Group" = 4
+	"Wild Duck Max Group" = 7
 	#Hatch chance for each wild duck egg
 	"Wild Duck Hatch Chance" = 0.3
 	#Max egg clutch size for wild ducks

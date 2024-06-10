@@ -3,7 +3,7 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.client.gui.screen.IngameMenuScreen {
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
@@ -21,18 +21,6 @@ net.minecraft.client.gui.screen.DownloadTerrainScreen {
 net.minecraft.client.gui.screen.ConnectingScreen {
 }
 
-net.minecraft.client.gui.screen.inventory.CreativeScreen {
-}
-
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
-net.minecraft.client.gui.screen.inventory.InventoryScreen {
-}
-
-net.minecraft.client.gui.screen.OptionsScreen {
-}
-
-net.minecraft.client.gui.screen.VideoSettingsScreen {
+net.minecraft.client.gui.screen.IngameMenuScreen {
 }
 

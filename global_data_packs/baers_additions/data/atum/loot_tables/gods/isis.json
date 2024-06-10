@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "atum:isis_healing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "atum:isis_division",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trofers:large_pillar",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Trophy:\"trofers:bosses/pharaoh_isis\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

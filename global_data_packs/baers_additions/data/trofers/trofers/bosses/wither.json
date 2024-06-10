@@ -1,0 +1,31 @@
+{
+  "name": {
+    "text": "Wither",
+    "color": "#D6A01E",
+    "bold": false
+  },
+  "tooltip": [
+    {
+    "text": "§oRewarded for defeating the Wither"
+    }
+  ],
+  "entity": {
+    "type": "minecraft:wither"
+  },
+  "display": {
+    "offset": {
+      "x": 0,
+      "y": 1.4,
+      "z": 0
+    },
+    "scale": 0.4
+  },
+  "animation": {
+    "type": "fixed",
+    "speed": 0.1
+  },
+  "colors": {
+    "base": "#e7e9f0",
+    "accent": "#d6dadf"
+  }
+}

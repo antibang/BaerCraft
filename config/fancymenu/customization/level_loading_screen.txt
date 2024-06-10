@@ -14,7 +14,7 @@ customization {
 }
 
 customization {
-  keepaspectratio = true
+  keepaspectratio = false
   action = backgroundoptions
 }
 

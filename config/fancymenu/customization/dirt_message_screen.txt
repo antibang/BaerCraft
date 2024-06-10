@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screen.ConnectingScreen
+  identifier = net.minecraft.client.gui.screen.DirtMessageScreen
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -14,7 +14,7 @@ customization {
 }
 
 customization {
-  keepaspectratio = true
+  keepaspectratio = false
   action = backgroundoptions
 }
 

@@ -9,12 +9,38 @@ customization-meta {
 }
 
 customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 1440
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
   action = hidebutton
 }
 
@@ -25,135 +51,280 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 0
-  action = movebutton
-  y = 27
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 106
-  action = movebutton
-  y = 54
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
-  orientation = mid-centered
-  x = -102
-  action = movebutton
-  y = -60
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 0
-  action = movebutton
-  y = 81
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
   action = hidebutton
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 0
-  action = movebutton
-  y = 54
+  action = hidebutton
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 106
-  action = movebutton
-  y = 27
+  action = hidebutton
 }
 
 customization {
-  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = hidebutton
+}
+
+customization {
+  advanced_height = 50
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screen.IngameMenuScreen:button_compatibility_id:mc_pausescreen_advancements_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/advancements_hover_button.png
+  label = 
+  advanced_width = 182
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 0
+  width = 182
+  action = addbutton
+  actionid = abd052f1-e206-471c-bec5-bb0707fdc9be1717566587421
+  y = 55
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/advancements_button.png
+  height = 50
+}
+
+customization {
+  advanced_height = 50
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screen.IngameMenuScreen:button_compatibility_id:mc_pausescreen_return_to_game_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/back_to_game_hover_button.png
+  label = 
+  advanced_width = 369
+  loopbackgroundanimations = true
+  x = -184
+  width = 369
+  action = addbutton
+  actionid = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  y = -120
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/back_to_game_button.png
+  height = 50
+}
+
+customization {
+  advanced_height = 50
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screen.IngameMenuScreen:button_compatibility_id:mc_pausescreen_stats_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/statistics_hover_button.png
+  label = 
+  advanced_width = 182
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 187
+  width = 182
+  action = addbutton
+  actionid = 4b09dfd6-4c8e-47e0-a01e-aa4093ad1c481717567101269
+  y = 55
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/statistics_button.png
+  height = 50
+}
+
+customization {
+  advanced_height = 50
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screen.IngameMenuScreen:button_compatibility_id:mc_pausescreen_options_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/options_hover_button.png
+  label = 
+  advanced_width = 182
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 0
+  width = 182
+  action = addbutton
+  actionid = 91402610-68c7-4276-b57e-a8d66c6458f61717569121008
+  y = 110
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/options_button.png
+  height = 50
+}
+
+customization {
+  advanced_height = 50
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screen.IngameMenuScreen:button_compatibility_id:mc_pausescreen_lan_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/open_to_lan_hover_button.png
+  label = 
+  advanced_width = 182
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 187
+  width = 182
+  action = addbutton
+  actionid = 1677d46f-d695-4d25-a78e-486e6278c82a1717569230963
+  y = 110
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/open_to_lan_button.png
+  height = 50
+}
+
+customization {
+  advanced_height = 50
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screen.IngameMenuScreen:button_compatibility_id:mc_pausescreen_disconnect_button%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/save_and_quit_hover_button.png
+  label = 
+  advanced_width = 369
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 0
+  width = 369
+  action = addbutton
+  actionid = c000c451-2f88-49f1-aaa6-9fb8f1a768d61717569291862
+  y = 164
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/save_and_quit_button.png
+  height = 50
+}
+
+customization {
+  advanced_height = 50
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/baercraft%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/assets/discord_button_hover.png
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/discord_hover_button.png
   label = 
-  advanced_width = 20
+  advanced_width = 50
   loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = -27
-  width = 20
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = -55
+  width = 50
   action = addbutton
-  actionid = a20e6133-a925-4dca-80a9-bfdf0d0e72b91693807184340
-  y = 27
-  backgroundnormal = config/fancymenu/assets/discord_button.png
-  height = 20
+  actionid = a04d665f-b63c-48e0-a4f4-e08f0b7046361717569844565
+  y = 55
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/discord_button.png
+  height = 50
 }
 
 customization {
-  advanced_height = 20
+  advanced_height = 50
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/antibang/BaerCraft%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/assets/github_button_hover.png
+  buttonaction = openlink;https://github.com/antibang/BaerCraft/wiki%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/github_hover_button.png
   label = 
-  advanced_width = 20
+  advanced_width = 50
   loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = -27
-  width = 20
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = -55
+  width = 50
   action = addbutton
-  actionid = 1804c4bd-19a6-4af3-b114-e3ceefc041931693807289839
-  y = 54
-  backgroundnormal = config/fancymenu/assets/github_button.png
-  height = 20
+  actionid = e5dc14be-4ba5-4c32-b147-33b64196be041717569964087
+  y = 110
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/github_button.png
+  height = 50
 }
 
 customization {
-  advanced_height = 20
+  advanced_height = 50
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/baercraft%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/assets/curseforge_button_hover.png
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/curseforge_hover_button.png
   label = 
-  advanced_width = 20
+  advanced_width = 50
   loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 211
-  width = 20
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 374
+  width = 50
   action = addbutton
-  actionid = eeb5d118-77e4-42fc-8ac0-11cc8259215d1693807382553
-  y = 27
-  backgroundnormal = config/fancymenu/assets/curseforge_button.png
-  height = 20
+  actionid = c4f34578-97b8-4d6b-b472-6940d85d1faa1717570036652
+  y = 55
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/curseforge_button.png
+  height = 50
 }
 
 customization {
-  advanced_height = 20
+  advanced_height = 50
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink;https://www.patreon.com/antibang%btnaction_splitter_fm%
-  backgroundhovered = config/fancymenu/assets/patreon_button_hover.png
+  backgroundhovered = config/fancymenu/assets/esc_menu/hover_buttons/patreon_hover_button.png
   label = 
-  advanced_width = 20
+  advanced_width = 50
   loopbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
-  x = 211
-  width = 20
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 374
+  width = 50
   action = addbutton
-  actionid = 82416eac-9399-4423-849c-9e6522b88e951693807442690
-  y = 54
-  backgroundnormal = config/fancymenu/assets/patreon_button.png
-  height = 20
+  actionid = 7799a9ea-c200-40ac-ac89-ba993a519cfb1717570103984
+  y = 110
+  backgroundnormal = config/fancymenu/assets/esc_menu/buttons/patreon_button.png
+  height = 50
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = 5022378f-18f5-4f37-ba94-365922d1544d1717570301371
+  y = 10
+  height = 100
+}
+
+customization {
+  advanced_height = 89
+  orientation = element
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][group:group_1717841596561][req_id:500a4013-4456-4906-8039-cd173dce63811717841619914] = extended.baercraft.net
+  [loading_requirement_group:group_1717841596561] = [group_mode:or]
+  advanced_width = 369
+  path = config/fancymenu/assets/esc_menu_baercraft_servers/donating.png
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 0
+  width = 369
+  action = addtexture
+  actionid = a5b95dd9-0396-4f46-8a0c-4426bf545b961717719011632
+  y = 228
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][group:group_1717841596561][req_id:d8b11a87-13a8-4034-be9a-da1ea29fb22b1717841600519] = BaerCraftNovus.net
+  height = 89
+}
+
+customization {
+  advanced_height = 34
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/esc_menu_baercraft_servers/hover_buttons/patreon_text_hover_button.png
+  label = 
+  advanced_width = 80
+  [loading_requirement_group:group_1717841657306] = [group_mode:or]
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 97
+  width = 80
+  action = addbutton
+  actionid = 5b17f912-70ff-4308-819e-b70cba23851f1717719818270
+  y = 321
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][group:group_1717841657306][req_id:249652f3-1111-4dd3-9f38-0af34e9695481717841682612] = extended.baercraft.net
+  backgroundnormal = config/fancymenu/assets/esc_menu_baercraft_servers/buttons/patreon_text_button.png
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][group:group_1717841657306][req_id:5229812d-01b4-47f7-bf3e-ef9bb7b9c8aa1717841658861] = BaerCraftNovus.net
+  height = 34
+}
+
+customization {
+  advanced_height = 34
+  orientation = element
+  restartbackgroundanimations = true
+  backgroundhovered = config/fancymenu/assets/esc_menu_baercraft_servers/hover_buttons/paypal_text_hover_button.png
+  label = 
+  advanced_width = 80
+  loopbackgroundanimations = true
+  orientation_element = 39c924f2-da67-40a7-bc0d-18ba313959231717566953551
+  x = 192
+  width = 80
+  action = addbutton
+  actionid = e3fe9374-6624-4d3b-9bd6-412a6d16fc861717719923041
+  y = 321
+  [loading_requirement_group:group_1717841710265] = [group_mode:or]
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][group:group_1717841710265][req_id:8b1dc453-43f3-42b6-b276-fcce3a06e7ad1717841711984] = BaerCraftNovus.net
+  backgroundnormal = config/fancymenu/assets/esc_menu_baercraft_servers/buttons/paypal_text_button.png
+  height = 34
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][group:group_1717841710265][req_id:bf268a6d-278b-4597-ad9f-c6cc78783f6d1717841724842] = extended.baercraft.net
 }
 

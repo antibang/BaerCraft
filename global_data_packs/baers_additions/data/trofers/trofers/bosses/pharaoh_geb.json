@@ -1,0 +1,34 @@
+{
+  "name": {
+    "text": "Pharaoh Geb",
+    "color": "#D6A01E",
+    "bold": false
+  },
+  "tooltip": [
+    {
+    "text": "§oRewarded for defeating the Pharaoh Geb (Variant 4/15)"
+    }
+  ],
+  "entity": {
+    "type": "atum:pharaoh",
+    "nbt": {
+      "Variant": 3
+    }
+  },
+  "display": {
+    "offset": {
+      "x": 0,
+      "y": 3,
+      "z": 0
+    },
+    "scale": 0.85
+  },
+  "animation": {
+    "type": "fixed",
+    "speed": 0.1
+  },
+  "colors": {
+    "base": "#e7e9f0",
+    "accent": "#d6dadf"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "conditions": [ ],
+  "trophyBase": "trofers:small_plate",
+  "trophies": [ ],
+  "type": "trofers:add_entity_trophy"
+}

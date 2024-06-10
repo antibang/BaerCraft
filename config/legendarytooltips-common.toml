@@ -90,7 +90,7 @@
 	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
 	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
 	[client.colors]
-		level0_colors = ["#FF110F0D", "#FF110F0D", "#CA232226", "#CA232226"]
+		level0_colors = ["#A4876C", "#A4876C", "#614B38", "#614B38"]
 		level1_colors = ["auto", "auto", "auto", "auto"]
 		level2_colors = ["auto", "auto", "auto", "auto"]
 		level3_colors = ["auto", "auto", "auto", "auto"]
